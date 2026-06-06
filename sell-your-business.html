@@ -239,7 +239,185 @@ https://youtu.be/eMABDW72aJs
 <!-- wp:generateblocks/text {"uniqueId":"test005","tagName":"p","styles":{"color":"var(\u002d\u002dbase-3)","marginBottom":"3rem"},"css":".gb-text-test005{color:var(\u002d\u002dbase-3);margin-bottom:3rem}"} -->
 <p class="gb-text gb-text-test005">Real results. Real exits. Hear how our clients turned uncertainty into confident, profitable sales.</p>
 <!-- /wp:generateblocks/text -->
-<!-- wp:shortcode -->[trustindex no-registration=google]<!-- /wp:shortcode -->
+<!-- wp:html -->
+<style>
+.gbp-testimonials-slider{position:relative;overflow:hidden;width:100%}
+.gbp-testimonials-track{display:flex;transition:transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94);will-change:transform}
+.gbp-testimonial-card{flex:0 0 calc(33.333% - 1.33rem);min-width:calc(33.333% - 1.33rem);background:var(--base-2);border-radius:0.75rem;padding:2rem 2rem 1.75rem;display:flex;flex-direction:column;gap:1rem;margin:0 0.667rem}
+@media(max-width:1024px){.gbp-testimonial-card{flex:0 0 calc(50% - 1rem);min-width:calc(50% - 1rem)}}
+@media(max-width:640px){.gbp-testimonial-card{flex:0 0 calc(100% - 1.5rem);min-width:calc(100% - 1.5rem);margin:0 0.75rem}}
+.gbp-testimonial-card__quote{color:var(--accent);font-size:2.5rem;line-height:1;font-family:Georgia,serif}
+.gbp-testimonial-card__text{color:var(--contrast-2);font-size:1.0625rem;line-height:1.65;flex:1;font-style:italic}
+.gbp-testimonial-card__source{color:var(--accent);font-size:0.875rem;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;border-top:1px solid var(--base);padding-top:0.875rem;margin-top:auto}
+.gbp-testimonials-nav{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:2rem}
+.gbp-testimonials-btn{width:2.5rem;height:2.5rem;border-radius:50%;border:2px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s,color 0.2s;flex-shrink:0}
+.gbp-testimonials-btn:hover{background:var(--accent);color:var(--base-2)}
+.gbp-testimonials-btn svg{width:1rem;height:1rem;fill:currentColor;pointer-events:none}
+.gbp-testimonials-dots{display:flex;gap:0.5rem}
+.gbp-testimonials-dot{width:0.5rem;height:0.5rem;border-radius:50%;background:var(--base);border:none;padding:0;cursor:pointer;transition:background 0.2s,transform 0.2s}
+.gbp-testimonials-dot.is-active{background:var(--accent);transform:scale(1.4)}
+</style>
+
+<div class="gbp-testimonials-slider" id="gbpTestimonials" aria-label="Client testimonials">
+  <div class="gbp-testimonials-track" id="gbpTestimonialsTrack">
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We saved 24% off our Tech &amp; Telecommunications expenses, amounting to $600,000 savings per annum.</p>
+      <div class="gbp-testimonial-card__source">National Sporting Goods Chain</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">Our merchant credit card fees were reduced by $200,000 per year.</p>
+      <div class="gbp-testimonial-card__source">California Restaurant Chain</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">Our firm created $600,000 in additional employer tax credits.</p>
+      <div class="gbp-testimonial-card__source">Large Apparel Firm</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">Saved $300,000 per annum on insurance by switching to another carrier.</p>
+      <div class="gbp-testimonial-card__source">Large Italian Fashion House</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We saved $1.7 million annually by reducing our telecommunications, insurance, and logistics expenses.</p>
+      <div class="gbp-testimonial-card__source">National Discount Chain</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We saved over $2.6 million annually on our redesigned medical insurance program.</p>
+      <div class="gbp-testimonial-card__source">National Sporting Goods Chain</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">Saved 39% off our credit card processing fees and expenses.</p>
+      <div class="gbp-testimonial-card__source">NY and NJ Dental Practice (Multi-Site)</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We saved 57% annually on our Tech &amp; Telecommunications.</p>
+      <div class="gbp-testimonial-card__source">Private Business Club in Manhattan</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We reduced our express mailing logistics by $200,000 per year.</p>
+      <div class="gbp-testimonial-card__source">Regional Law Firm (300 Professionals)</div>
+    </div>
+
+    <div class="gbp-testimonial-card">
+      <div class="gbp-testimonial-card__quote">&ldquo;</div>
+      <p class="gbp-testimonial-card__text">We saved 41% annually off our merchant card processing fees.</p>
+      <div class="gbp-testimonial-card__source">Seattle Based National Tax Resolution Service</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="gbp-testimonials-nav" aria-label="Testimonials navigation">
+  <button class="gbp-testimonials-btn" id="gbpTestimonialsPrev" aria-label="Previous">
+    <svg viewBox="0 0 16 16"><path d="M10 3L5 8l5 5"/></svg>
+  </button>
+  <div class="gbp-testimonials-dots" id="gbpTestimonialsDots" role="tablist"></div>
+  <button class="gbp-testimonials-btn" id="gbpTestimonialsNext" aria-label="Next">
+    <svg viewBox="0 0 16 16"><path d="M6 3l5 5-5 5"/></svg>
+  </button>
+</div>
+
+<script>
+(function(){
+  var slider = document.getElementById('gbpTestimonials');
+  var track  = document.getElementById('gbpTestimonialsTrack');
+  var dotsEl = document.getElementById('gbpTestimonialsDots');
+  var prevBtn = document.getElementById('gbpTestimonialsPrev');
+  var nextBtn = document.getElementById('gbpTestimonialsNext');
+  if(!slider) return;
+
+  var cards = track.querySelectorAll('.gbp-testimonial-card');
+  var total = cards.length;
+  var perView = 3;
+  var current = 0;
+  var autoId;
+
+  function getPerView(){
+    var w = slider.offsetWidth;
+    if(w <= 640) return 1;
+    if(w <= 1024) return 2;
+    return 3;
+  }
+
+  function maxIndex(){return Math.max(0, total - perView);}
+
+  function buildDots(){
+    dotsEl.innerHTML = '';
+    var pages = maxIndex() + 1;
+    for(var i=0;i<pages;i++){
+      var d = document.createElement('button');
+      d.className = 'gbp-testimonials-dot' + (i===current?' is-active':'');
+      d.setAttribute('role','tab');
+      d.setAttribute('aria-label','Slide '+(i+1));
+      d.dataset.idx = i;
+      d.addEventListener('click', function(e){goTo(+e.target.dataset.idx);});
+      dotsEl.appendChild(d);
+    }
+  }
+
+  function updateDots(){
+    var dots = dotsEl.querySelectorAll('.gbp-testimonials-dot');
+    dots.forEach(function(d,i){d.classList.toggle('is-active', i===current);});
+  }
+
+  function getCardWidth(){
+    return cards[0] ? cards[0].offsetWidth + parseFloat(getComputedStyle(cards[0]).marginLeft) + parseFloat(getComputedStyle(cards[0]).marginRight) : 0;
+  }
+
+  function goTo(idx){
+    perView = getPerView();
+    current = Math.min(Math.max(0,idx), maxIndex());
+    track.style.transform = 'translateX(-'+(current * getCardWidth())+'px)';
+    updateDots();
+  }
+
+  function next(){goTo(current >= maxIndex() ? 0 : current + 1);}
+  function prev(){goTo(current <= 0 ? maxIndex() : current - 1);}
+
+  function startAuto(){autoId = setInterval(next, 5000);}
+  function stopAuto(){clearInterval(autoId);}
+
+  prevBtn.addEventListener('click', function(){stopAuto();prev();startAuto();});
+  nextBtn.addEventListener('click', function(){stopAuto();next();startAuto();});
+
+  slider.addEventListener('mouseenter', stopAuto);
+  slider.addEventListener('mouseleave', startAuto);
+
+  /* touch/swipe */
+  var touchX = 0;
+  slider.addEventListener('touchstart', function(e){touchX = e.touches[0].clientX; stopAuto();}, {passive:true});
+  slider.addEventListener('touchend', function(e){
+    var dx = touchX - e.changedTouches[0].clientX;
+    if(Math.abs(dx)>40){dx>0?next():prev();}
+    startAuto();
+  }, {passive:true});
+
+  window.addEventListener('resize', function(){goTo(current);buildDots();});
+
+  perView = getPerView();
+  buildDots();
+  goTo(0);
+  startAuto();
+})();
+</script>
+<!-- /wp:html -->
 </div>
 <!-- /wp:generateblocks/element -->
 </section>
