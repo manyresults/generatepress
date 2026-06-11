@@ -196,7 +196,6 @@
   }
   .fup-lease-compare.fup-on { display: block; }
 
-  .fup-reassure { text-align: center; font-size: 13px; color: var(--fup-steel); margin-top: 12px; }
   .fup-hidden { display: none !important; }
 </style>
 
@@ -293,15 +292,8 @@
         }
       },
 
-      leaseComparePlaceholder: "Lease rate comparison coming soon.",
-      cta: "Join the Waitlist",
-      reassure: "No commitment required. We'll reach out when availability matches your needs."
-    },
-
-    // Where the CTA button sends people (e.g. your waitlist or booking page).
-    // Leave empty to make the button confirm in place.
-    ctaUrl: "",
-    ctaConfirmText: "You're on the list. We'll be in touch."
+      leaseComparePlaceholder: "Lease rate comparison coming soon."
+    }
   };
 
   /* ================================================================
@@ -533,10 +525,6 @@
         '</div>'
       : '';
 
-    var ctaAttrs = FUP_CONFIG.ctaUrl
-      ? 'onclick="window.location.href=\'' + esc(FUP_CONFIG.ctaUrl) + '\'"'
-      : 'onclick="this.textContent=\'' + esc(FUP_CONFIG.ctaConfirmText) + '\';this.disabled=true"';
-
     document.getElementById('fup-results').innerHTML =
       '<h3 class="fup-results-head">' + esc(C.resultsHeadline) + '</h3>' +
       '<p class="fup-total-label">' + esc(C.totalLabel) + '</p>' +
@@ -551,9 +539,7 @@
         '<div class="fup-bucket"><span class="fup-bucket-name">' + esc(C.bucketB) + '</span><span class="fup-bucket-amt">' + money(r.bucketB) + '</span></div>' +
         '<div class="fup-bucket"><span class="fup-bucket-name">' + esc(C.bucketC) + '</span><span class="fup-bucket-amt">' + money(r.bucketC) + '</span></div>' +
       '</div>' +
-      leaseHtml +
-      '<button type="button" class="fup-btn" ' + ctaAttrs + '>' + esc(C.cta) + '</button>' +
-      '<p class="fup-reassure">' + esc(C.reassure) + '</p>';
+      leaseHtml;
   }
 
   render();
