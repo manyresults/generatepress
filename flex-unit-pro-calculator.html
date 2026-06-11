@@ -1,6 +1,7 @@
 <!--
   Flex Unit Pro — REAL Monthly Cost Calculator
-  Standalone embeddable widget. No build step, no dependencies.
+  Standalone embeddable widget. No build step, no dependencies, no integrations.
+  Intended for post-opt-in pages — results show immediately, no contact gate.
 
   HOW TO EMBED IN WORDPRESS:
   Add a "Custom HTML" block to any page and paste this entire file into it.
@@ -8,9 +9,9 @@
 
   HOW TO CONFIGURE:
   All copy, labels, trade averages, stage thresholds, calculation constants,
-  the GoHighLevel webhook URL, and the Stage 3 lease-rate comparison toggle
-  live in the FUP_CONFIG object at the top of the <script> below. Edit that
-  object — nothing else needs to change.
+  and the Stage 3 lease-rate comparison toggle live in the FUP_CONFIG object
+  at the top of the <script> below. Edit that object — nothing else needs
+  to change.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,8 +91,6 @@
   }
   #fup-calculator input[type="text"],
   #fup-calculator input[type="number"],
-  #fup-calculator input[type="email"],
-  #fup-calculator input[type="tel"],
   #fup-calculator select {
     width: 100%;
     padding: 11px 12px;
@@ -149,8 +148,6 @@
     font-family: 'Barlow', Arial, sans-serif; font-size: 14px; color: var(--fup-steel);
     text-decoration: underline; padding: 0;
   }
-
-  .fup-consent { font-size: 12px; color: var(--fup-steel); line-height: 1.5; margin-top: 12px; }
 
   /* Results */
   .fup-results-head {
@@ -212,15 +209,6 @@
      ================================================================ */
   var FUP_CONFIG = {
 
-    // GoHighLevel inbound webhook URL. Create one in GHL under
-    // Automations > Workflows > trigger: "Inbound Webhook", then paste
-    // its URL here. Leave empty ("") to skip submission while testing.
-    ghlWebhookUrl: "",
-
-    // Tags applied to every contact, plus the stage tag added at runtime.
-    baseTags: ["source-calculator", "newsletter"],
-    stageTags: { 1: "stage-1-growing", 2: "stage-2-hitting-wall", 3: "stage-3-operating-red" },
-
     // Industry-average revenue per job, used when the user leaves
     // "average revenue per job" blank and picks a trade.
     tradeAverages: {
@@ -260,8 +248,6 @@
 
       section1Title: "Your Business",
       section2Title: "Your Current Setup",
-      section3Title: "Almost There",
-      section3Sub: "Tell us where to send your results.",
 
       labels: {
         monthlyRevenue: "Average monthly revenue",
@@ -277,18 +263,12 @@
         vehicles: "Vehicles or trailers that need secure parking",
         payingStorage: "Currently paying for storage or workspace?",
         storageCost: "Current monthly cost of storage or workspace fees",
-        residential: "Operating from a residential address?",
-        firstName: "First name",
-        lastName: "Last name",
-        email: "Email address",
-        phone: "Phone number"
+        residential: "Operating from a residential address?"
       },
 
       next1: "Next: Your Current Setup",
-      next2: "Next: See My Number",
       submit: "Show My Results",
       back: "← Back",
-      consent: "By submitting your information you agree to receive communications from Flex Unit Pro. Reply STOP to opt out of text messages at any time.",
 
       resultsHeadline: "Here's What Your Current Setup Is Really Costing You",
       totalLabel: "The REAL Monthly Cost of Your Current Setup",
@@ -376,7 +356,7 @@
 
   function progressHtml(step) {
     var bars = '';
-    for (var i = 1; i <= 3; i++) bars += '<span class="' + (i <= step ? 'fup-on' : '') + '"></span>';
+    for (var i = 1; i <= 2; i++) bars += '<span class="' + (i <= step ? 'fup-on' : '') + '"></span>';
     return '<div class="fup-progress">' + bars + '</div>';
   }
 
@@ -423,27 +403,12 @@
             fieldHtml('fup-storage-cost', C.labels.storageCost, { dollar: true, placeholder: '250' }) +
           '</div>' +
           toggleHtml('fup-residential', C.labels.residential) +
-          '<button type="button" class="fup-btn" data-next="3">' + esc(C.next2) + '</button>' +
+          '<button type="button" class="fup-btn" id="fup-submit">' + esc(C.submit) + '</button>' +
           '<button type="button" class="fup-btn-back" data-back="1">' + esc(C.back) + '</button>' +
         '</div>' +
 
-        // ---- Step 3: Contact ----
-        '<div data-step="3" class="fup-hidden">' +
-          '<h3 class="fup-section-title">' + esc(C.section3Title) + '</h3>' +
-          '<p class="fup-sub">' + esc(C.section3Sub) + '</p>' +
-          '<div class="fup-2col">' +
-            fieldHtml('fup-first-name', C.labels.firstName, { type: 'text', inputmode: 'text', required: true }) +
-            fieldHtml('fup-last-name', C.labels.lastName, { type: 'text', inputmode: 'text', required: true }) +
-          '</div>' +
-          fieldHtml('fup-email', C.labels.email, { type: 'email', inputmode: 'email', required: true }) +
-          fieldHtml('fup-phone', C.labels.phone, { type: 'tel', inputmode: 'tel', required: true }) +
-          '<button type="button" class="fup-btn" id="fup-submit">' + esc(C.submit) + '</button>' +
-          '<p class="fup-consent">' + esc(C.consent) + '</p>' +
-          '<button type="button" class="fup-btn-back" data-back="2">' + esc(C.back) + '</button>' +
-        '</div>' +
-
         // ---- Results ----
-        '<div data-step="4" class="fup-hidden" id="fup-results"></div>' +
+        '<div data-step="3" class="fup-hidden" id="fup-results"></div>' +
       '</div>';
 
     wire();
@@ -455,7 +420,7 @@
       el.classList.toggle('fup-hidden', el.getAttribute('data-step') !== String(n));
     });
     var prog = root.querySelector('.fup-progress');
-    if (prog) prog.outerHTML = progressHtml(Math.min(n, 3));
+    if (prog) prog.outerHTML = progressHtml(Math.min(n, 2));
     root.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -463,7 +428,6 @@
     var ok = true;
     root.querySelectorAll('[data-step="' + n + '"] input[data-required]').forEach(function (input) {
       var bad = input.value.trim() === '';
-      if (!bad && input.type === 'email') bad = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim());
       input.classList.toggle('fup-error', bad);
       var msg = input.closest('.fup-field').querySelector('.fup-error-msg');
       if (msg) msg.style.display = bad ? 'block' : 'none';
@@ -546,51 +510,16 @@
       stage = 2;
     }
 
-    return {
-      total: total, bucketA: bucketA, bucketB: bucketB, bucketC: bucketC, stage: stage,
-      inputs: {
-        monthlyRevenue: monthlyRevenue, jobsCompleted: jobsCompleted, jobsTurnedDown: jobsTurnedDown,
-        trade: trade, revenuePerJob: revPerJob, crew: crew,
-        squareFootage: num('fup-sqft'), hoursLostPerDay: hoursLost, toolLoss12mo: toolLoss,
-        vehicles: num('fup-vehicles'), payingStorage: state.payingStorage,
-        storageCostMonthly: storageCost, residentialAddress: state.residential
-      }
-    };
-  }
-
-  function submitToGhl(result) {
-    if (!FUP_CONFIG.ghlWebhookUrl) return;
-    var payload = {
-      first_name: document.getElementById('fup-first-name').value.trim(),
-      last_name: document.getElementById('fup-last-name').value.trim(),
-      email: document.getElementById('fup-email').value.trim(),
-      phone: document.getElementById('fup-phone').value.trim(),
-      tags: FUP_CONFIG.baseTags.concat([FUP_CONFIG.stageTags[result.stage]]),
-      real_monthly_cost: Math.round(result.total),
-      stage: result.stage,
-      bucket_lost_revenue: Math.round(result.bucketA),
-      bucket_operational_waste: Math.round(result.bucketB),
-      bucket_direct_costs: Math.round(result.bucketC),
-      calculator_inputs: result.inputs
-    };
-    fetch(FUP_CONFIG.ghlWebhookUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    }).catch(function () { /* never block results on a network error */ });
+    return { total: total, bucketA: bucketA, bucketB: bucketB, bucketC: bucketC, stage: stage };
   }
 
   function onSubmit() {
-    if (!validateStep(1) || !validateStep(2)) { showStep(!validateStep(1) ? 1 : 2); return; }
-    if (!validateStep(3)) return;
-
-    var btn = document.getElementById('fup-submit');
-    btn.disabled = true;
+    if (!validateStep(1)) { showStep(1); return; }
+    if (!validateStep(2)) return;
 
     var result = calculate();
-    submitToGhl(result);
     renderResults(result);
-    showStep(4);
+    showStep(3);
   }
 
   function renderResults(r) {
