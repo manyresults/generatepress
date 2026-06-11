@@ -1,0 +1,632 @@
+<!--
+  Flex Unit Pro — REAL Monthly Cost Calculator
+  Standalone embeddable widget. No build step, no dependencies.
+
+  HOW TO EMBED IN WORDPRESS:
+  Add a "Custom HTML" block to any page and paste this entire file into it.
+  (Or host this file on its own URL — it works as a full standalone page too.)
+
+  HOW TO CONFIGURE:
+  All copy, labels, trade averages, stage thresholds, calculation constants,
+  the GoHighLevel webhook URL, and the Stage 3 lease-rate comparison toggle
+  live in the FUP_CONFIG object at the top of the <script> below. Edit that
+  object — nothing else needs to change.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<div id="fup-calculator"></div>
+
+<style>
+  #fup-calculator {
+    --fup-blue: #0059B8;
+    --fup-navy: #001933;
+    --fup-steel: #767C81;
+    --fup-gray: #D5D4D4;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--fup-navy);
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid var(--fup-gray);
+    border-top: 6px solid var(--fup-blue);
+    box-sizing: border-box;
+  }
+  #fup-calculator *, #fup-calculator *::before, #fup-calculator *::after { box-sizing: border-box; }
+
+  .fup-inner { padding: 28px 24px 32px; }
+  @media (max-width: 480px) { .fup-inner { padding: 20px 14px 24px; } }
+
+  .fup-kicker {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--fup-steel);
+    margin: 0 0 4px;
+  }
+  .fup-h1 {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+    color: var(--fup-navy);
+  }
+  .fup-sub { font-size: 15px; color: var(--fup-steel); margin: 0 0 22px; line-height: 1.5; }
+
+  .fup-progress { display: flex; gap: 6px; margin-bottom: 24px; }
+  .fup-progress span { flex: 1; height: 4px; background: var(--fup-gray); }
+  .fup-progress span.fup-on { background: var(--fup-blue); }
+
+  .fup-section-title {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--fup-blue);
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--fup-gray);
+  }
+
+  .fup-field { margin-bottom: 18px; }
+  .fup-label {
+    display: block;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .fup-hint { font-size: 12.5px; color: var(--fup-steel); margin-top: 4px; }
+
+  .fup-input-wrap { position: relative; }
+  .fup-prefix {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    color: var(--fup-steel); font-size: 15px; pointer-events: none;
+  }
+  #fup-calculator input[type="text"],
+  #fup-calculator input[type="number"],
+  #fup-calculator input[type="email"],
+  #fup-calculator input[type="tel"],
+  #fup-calculator select {
+    width: 100%;
+    padding: 11px 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--fup-navy);
+    background: #fff;
+    border: 1px solid var(--fup-steel);
+    border-radius: 0;
+    appearance: auto;
+  }
+  #fup-calculator input.fup-has-prefix { padding-left: 26px; }
+  #fup-calculator input:focus, #fup-calculator select:focus {
+    outline: 2px solid var(--fup-blue);
+    outline-offset: -1px;
+    border-color: var(--fup-blue);
+  }
+  #fup-calculator input.fup-error, #fup-calculator select.fup-error { border-color: #C0392B; outline-color: #C0392B; }
+  .fup-error-msg { color: #C0392B; font-size: 12.5px; margin-top: 4px; display: none; }
+
+  .fup-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 480px) { .fup-2col { grid-template-columns: 1fr; } }
+
+  .fup-slider-row { display: flex; align-items: center; gap: 14px; }
+  #fup-calculator input[type="range"] { flex: 1; accent-color: var(--fup-blue); margin: 0; }
+  .fup-slider-val {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 22px; color: var(--fup-blue);
+    min-width: 64px; text-align: right; white-space: nowrap;
+  }
+
+  .fup-toggle-row { display: flex; gap: 0; }
+  .fup-toggle-row button {
+    flex: 1; padding: 11px 0; font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600; font-size: 15px; cursor: pointer;
+    background: #fff; color: var(--fup-steel);
+    border: 1px solid var(--fup-steel);
+  }
+  .fup-toggle-row button + button { border-left: none; }
+  .fup-toggle-row button.fup-active { background: var(--fup-blue); border-color: var(--fup-blue); color: #fff; }
+
+  .fup-reveal { display: none; margin-top: 14px; }
+  .fup-reveal.fup-open { display: block; }
+
+  .fup-btn {
+    display: block; width: 100%; padding: 15px 20px; margin-top: 8px;
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 20px; letter-spacing: 1px; text-transform: uppercase;
+    color: #fff; background: var(--fup-blue); border: none; cursor: pointer;
+  }
+  .fup-btn:hover { background: #00489a; }
+  .fup-btn:disabled { background: var(--fup-steel); cursor: wait; }
+  .fup-btn-back {
+    display: inline-block; margin-top: 14px; background: none; border: none; cursor: pointer;
+    font-family: 'Barlow', Arial, sans-serif; font-size: 14px; color: var(--fup-steel);
+    text-decoration: underline; padding: 0;
+  }
+
+  .fup-consent { font-size: 12px; color: var(--fup-steel); line-height: 1.5; margin-top: 12px; }
+
+  /* Results */
+  .fup-results-head {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 26px; line-height: 1.15; text-transform: uppercase;
+    margin: 0 0 18px;
+  }
+  .fup-total-label {
+    font-family: 'Barlow', Arial, sans-serif; font-weight: 600; font-size: 14px;
+    letter-spacing: 1.5px; text-transform: uppercase; color: var(--fup-steel); margin: 0 0 4px;
+  }
+  .fup-total {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 60px; line-height: 1; color: var(--fup-blue); margin: 0 0 4px;
+  }
+  .fup-total-per { font-size: 14px; color: var(--fup-steel); margin: 0 0 22px; }
+
+  .fup-stage {
+    border-left: 4px solid var(--fup-blue);
+    background: #F4F6F8;
+    padding: 14px 16px; margin-bottom: 22px;
+  }
+  .fup-stage-name {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 20px; text-transform: uppercase; margin: 0 0 6px;
+  }
+  .fup-stage p { margin: 0; font-size: 15px; line-height: 1.55; }
+
+  .fup-buckets { border-top: 2px solid var(--fup-gray); margin-bottom: 22px; }
+  .fup-bucket {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 12px 2px; border-bottom: 1px solid var(--fup-gray);
+  }
+  .fup-bucket-name { font-family: 'Barlow', Arial, sans-serif; font-weight: 600; font-size: 15px; }
+  .fup-bucket-amt {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700; font-size: 22px; color: var(--fup-navy); white-space: nowrap;
+  }
+
+  /* LEASE RATE COMPARISON — PENDING ACTIVATION (Stage 3 placeholder) */
+  .fup-lease-compare {
+    display: none;
+    border: 1px dashed var(--fup-steel);
+    padding: 12px 16px; margin-bottom: 22px;
+    font-size: 14px; color: var(--fup-steel);
+  }
+  .fup-lease-compare.fup-on { display: block; }
+
+  .fup-reassure { text-align: center; font-size: 13px; color: var(--fup-steel); margin-top: 12px; }
+  .fup-hidden { display: none !important; }
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ================================================================
+     CONFIG — edit everything below without touching the logic.
+     ================================================================ */
+  var FUP_CONFIG = {
+
+    // GoHighLevel inbound webhook URL. Create one in GHL under
+    // Automations > Workflows > trigger: "Inbound Webhook", then paste
+    // its URL here. Leave empty ("") to skip submission while testing.
+    ghlWebhookUrl: "",
+
+    // Tags applied to every contact, plus the stage tag added at runtime.
+    baseTags: ["source-calculator", "newsletter"],
+    stageTags: { 1: "stage-1-growing", 2: "stage-2-hitting-wall", 3: "stage-3-operating-red" },
+
+    // Industry-average revenue per job, used when the user leaves
+    // "average revenue per job" blank and picks a trade.
+    tradeAverages: {
+      "General Contractor": 8500,
+      "Plumber/Electrician/HVAC": 650,
+      "Landscaper/Outdoor Services": 450,
+      "Auto Detailer/Mechanic": 275,
+      "E-commerce/Reseller": 85,
+      "Fabricator/Specialty Trade": 2400,
+      "Other": 0
+    },
+
+    // Calculation constants.
+    calc: {
+      workingDaysPerMonth: 22,
+      workingHoursPerMonth: 176,
+      toolLossMonths: 12
+    },
+
+    // Stage thresholds.
+    thresholds: {
+      stage2: { jobsTurnedDown: 2, hoursLostPerDay: 2 },
+      stage3: { jobsTurnedDown: 3, hoursLostPerDay: 2 }
+    },
+
+    // Stage 3 lease rate comparison. Toggle on when pricing is confirmed.
+    leaseComparison: {
+      enabled: false,
+      text: "" // e.g. "A dedicated Flex Unit Pro bay starts at $X,XXX/mo — less than what your current setup is costing you."
+    },
+
+    // All user-facing copy.
+    copy: {
+      kicker: "Flex Unit Pro",
+      headline: "What Is Your Current Setup Really Costing You?",
+      sub: "Answer a few quick questions about your business and workspace. Takes about two minutes. We'll show you the real monthly number.",
+
+      section1Title: "Your Business",
+      section2Title: "Your Current Setup",
+      section3Title: "Almost There",
+      section3Sub: "Tell us where to send your results.",
+
+      labels: {
+        monthlyRevenue: "Average monthly revenue",
+        jobsCompleted: "Jobs completed per month",
+        jobsTurnedDown: "Jobs turned down per month due to space or capacity",
+        trade: "Your trade",
+        revenuePerJob: "Average revenue per job (optional)",
+        revenuePerJobHint: "Leave blank and we'll use the average for your trade, or your revenue divided by jobs completed.",
+        crew: "Crew members or employees",
+        squareFootage: "Square footage of current workspace (garage, driveway, or home setup)",
+        hoursLost: "Hours lost per day to loading, unloading, and disorganization",
+        toolLoss: "Tools or equipment lost or damaged in the past 12 months",
+        vehicles: "Vehicles or trailers that need secure parking",
+        payingStorage: "Currently paying for storage or workspace?",
+        storageCost: "Current monthly cost of storage or workspace fees",
+        residential: "Operating from a residential address?",
+        firstName: "First name",
+        lastName: "Last name",
+        email: "Email address",
+        phone: "Phone number"
+      },
+
+      next1: "Next: Your Current Setup",
+      next2: "Next: See My Number",
+      submit: "Show My Results",
+      back: "← Back",
+      consent: "By submitting your information you agree to receive communications from Flex Unit Pro. Reply STOP to opt out of text messages at any time.",
+
+      resultsHeadline: "Here's What Your Current Setup Is Really Costing You",
+      totalLabel: "The REAL Monthly Cost of Your Current Setup",
+      perMonth: "per month, every month",
+
+      bucketA: "Revenue You're Leaving Behind",
+      bucketB: "Time You're Losing",
+      bucketC: "What You're Already Spending",
+
+      stages: {
+        1: {
+          name: "Stage 1 — Growing Fast",
+          body: "Your setup is holding for now. But growth has a way of eating space faster than you expect. Operators who plan ahead secure their unit before they hit a ceiling — not after. Get on the list now and you'll have first shot at a bay when you need it."
+        },
+        2: {
+          name: "Stage 2 — Hitting the Wall",
+          body: "Your current setup is actively limiting revenue. Turned-down jobs, lost hours, and damaged gear add up to the number above — every month. A dedicated unit removes the bottleneck. Join the waitlist and we'll reach out when a bay that fits your operation opens up."
+        },
+        3: {
+          name: "Stage 3 — Operating in the Red",
+          body: "The numbers don't lie. Between turned-down work, lost hours, and damaged equipment, your workspace is costing you more than it saves you. Every month you stay in this setup, that figure repeats. Join the waitlist now — operators in your position get priority contact."
+        }
+      },
+
+      leaseComparePlaceholder: "Lease rate comparison coming soon.",
+      cta: "Join the Waitlist",
+      reassure: "No commitment required. We'll reach out when availability matches your needs."
+    },
+
+    // Where the CTA button sends people (e.g. your waitlist or booking page).
+    // Leave empty to make the button confirm in place.
+    ctaUrl: "",
+    ctaConfirmText: "You're on the list. We'll be in touch."
+  };
+
+  /* ================================================================
+     WIDGET LOGIC — no edits needed below this line.
+     ================================================================ */
+  var C = FUP_CONFIG.copy;
+  var root = document.getElementById('fup-calculator');
+  var state = { step: 1, payingStorage: false, residential: false };
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (ch) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
+    });
+  }
+  function money(n) {
+    return '$' + Math.round(n).toLocaleString('en-US');
+  }
+  function num(id) {
+    var el = document.getElementById(id);
+    var v = parseFloat(el && el.value !== '' ? el.value : 'NaN');
+    return isNaN(v) || v < 0 ? 0 : v;
+  }
+
+  function tradeOptions() {
+    return Object.keys(FUP_CONFIG.tradeAverages).map(function (t) {
+      return '<option value="' + esc(t) + '">' + esc(t) + '</option>';
+    }).join('');
+  }
+
+  function fieldHtml(id, label, opts) {
+    opts = opts || {};
+    var prefix = opts.dollar ? '<span class="fup-prefix">$</span>' : '';
+    var cls = opts.dollar ? ' class="fup-has-prefix"' : '';
+    return '<div class="fup-field">' +
+      '<label class="fup-label" for="' + id + '">' + esc(label) + '</label>' +
+      '<div class="fup-input-wrap">' + prefix +
+      '<input' + cls + ' type="' + (opts.type || 'number') + '" id="' + id + '" inputmode="' + (opts.inputmode || 'numeric') + '" min="0" placeholder="' + esc(opts.placeholder || '') + '"' + (opts.required ? ' data-required="1"' : '') + '>' +
+      '</div>' +
+      (opts.hint ? '<div class="fup-hint">' + esc(opts.hint) + '</div>' : '') +
+      '<div class="fup-error-msg">Required</div>' +
+      '</div>';
+  }
+
+  function toggleHtml(id, label) {
+    return '<div class="fup-field">' +
+      '<span class="fup-label">' + esc(label) + '</span>' +
+      '<div class="fup-toggle-row" id="' + id + '">' +
+      '<button type="button" data-val="no" class="fup-active">No</button>' +
+      '<button type="button" data-val="yes">Yes</button>' +
+      '</div></div>';
+  }
+
+  function progressHtml(step) {
+    var bars = '';
+    for (var i = 1; i <= 3; i++) bars += '<span class="' + (i <= step ? 'fup-on' : '') + '"></span>';
+    return '<div class="fup-progress">' + bars + '</div>';
+  }
+
+  function render() {
+    root.innerHTML =
+      '<div class="fup-inner">' +
+        '<p class="fup-kicker">' + esc(C.kicker) + '</p>' +
+        '<h2 class="fup-h1">' + esc(C.headline) + '</h2>' +
+        '<p class="fup-sub">' + esc(C.sub) + '</p>' +
+        progressHtml(1) +
+
+        // ---- Step 1: Your Business ----
+        '<div data-step="1">' +
+          '<h3 class="fup-section-title">' + esc(C.section1Title) + '</h3>' +
+          fieldHtml('fup-monthly-revenue', C.labels.monthlyRevenue, { dollar: true, placeholder: '25,000'.replace(',', ''), required: true }) +
+          '<div class="fup-2col">' +
+            fieldHtml('fup-jobs-completed', C.labels.jobsCompleted, { placeholder: '20', required: true }) +
+            fieldHtml('fup-jobs-turned-down', C.labels.jobsTurnedDown, { placeholder: '2', required: true }) +
+          '</div>' +
+          '<div class="fup-field">' +
+            '<label class="fup-label" for="fup-trade">' + esc(C.labels.trade) + '</label>' +
+            '<select id="fup-trade">' + tradeOptions() + '</select>' +
+          '</div>' +
+          fieldHtml('fup-revenue-per-job', C.labels.revenuePerJob, { dollar: true, hint: C.labels.revenuePerJobHint }) +
+          fieldHtml('fup-crew', C.labels.crew, { placeholder: '3', required: true }) +
+          '<button type="button" class="fup-btn" data-next="2">' + esc(C.next1) + '</button>' +
+        '</div>' +
+
+        // ---- Step 2: Your Current Setup ----
+        '<div data-step="2" class="fup-hidden">' +
+          '<h3 class="fup-section-title">' + esc(C.section2Title) + '</h3>' +
+          fieldHtml('fup-sqft', C.labels.squareFootage, { placeholder: '400', required: true }) +
+          '<div class="fup-field">' +
+            '<label class="fup-label" for="fup-hours-lost">' + esc(C.labels.hoursLost) + '</label>' +
+            '<div class="fup-slider-row">' +
+              '<input type="range" id="fup-hours-lost" min="0" max="4" step="0.5" value="1">' +
+              '<span class="fup-slider-val" id="fup-hours-lost-val">1 hr</span>' +
+            '</div>' +
+          '</div>' +
+          fieldHtml('fup-tool-loss', C.labels.toolLoss, { dollar: true, placeholder: '0', required: true }) +
+          fieldHtml('fup-vehicles', C.labels.vehicles, { placeholder: '1', required: true }) +
+          toggleHtml('fup-paying-storage', C.labels.payingStorage) +
+          '<div class="fup-reveal" id="fup-storage-reveal">' +
+            fieldHtml('fup-storage-cost', C.labels.storageCost, { dollar: true, placeholder: '250' }) +
+          '</div>' +
+          toggleHtml('fup-residential', C.labels.residential) +
+          '<button type="button" class="fup-btn" data-next="3">' + esc(C.next2) + '</button>' +
+          '<button type="button" class="fup-btn-back" data-back="1">' + esc(C.back) + '</button>' +
+        '</div>' +
+
+        // ---- Step 3: Contact ----
+        '<div data-step="3" class="fup-hidden">' +
+          '<h3 class="fup-section-title">' + esc(C.section3Title) + '</h3>' +
+          '<p class="fup-sub">' + esc(C.section3Sub) + '</p>' +
+          '<div class="fup-2col">' +
+            fieldHtml('fup-first-name', C.labels.firstName, { type: 'text', inputmode: 'text', required: true }) +
+            fieldHtml('fup-last-name', C.labels.lastName, { type: 'text', inputmode: 'text', required: true }) +
+          '</div>' +
+          fieldHtml('fup-email', C.labels.email, { type: 'email', inputmode: 'email', required: true }) +
+          fieldHtml('fup-phone', C.labels.phone, { type: 'tel', inputmode: 'tel', required: true }) +
+          '<button type="button" class="fup-btn" id="fup-submit">' + esc(C.submit) + '</button>' +
+          '<p class="fup-consent">' + esc(C.consent) + '</p>' +
+          '<button type="button" class="fup-btn-back" data-back="2">' + esc(C.back) + '</button>' +
+        '</div>' +
+
+        // ---- Results ----
+        '<div data-step="4" class="fup-hidden" id="fup-results"></div>' +
+      '</div>';
+
+    wire();
+  }
+
+  function showStep(n) {
+    state.step = n;
+    root.querySelectorAll('[data-step]').forEach(function (el) {
+      el.classList.toggle('fup-hidden', el.getAttribute('data-step') !== String(n));
+    });
+    var prog = root.querySelector('.fup-progress');
+    if (prog) prog.outerHTML = progressHtml(Math.min(n, 3));
+    root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function validateStep(n) {
+    var ok = true;
+    root.querySelectorAll('[data-step="' + n + '"] input[data-required]').forEach(function (input) {
+      var bad = input.value.trim() === '';
+      if (!bad && input.type === 'email') bad = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim());
+      input.classList.toggle('fup-error', bad);
+      var msg = input.closest('.fup-field').querySelector('.fup-error-msg');
+      if (msg) msg.style.display = bad ? 'block' : 'none';
+      if (bad) ok = false;
+    });
+    return ok;
+  }
+
+  function wire() {
+    root.querySelectorAll('[data-next]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (validateStep(state.step)) showStep(parseInt(btn.getAttribute('data-next'), 10));
+      });
+    });
+    root.querySelectorAll('[data-back]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        showStep(parseInt(btn.getAttribute('data-back'), 10));
+      });
+    });
+
+    var slider = document.getElementById('fup-hours-lost');
+    var sliderVal = document.getElementById('fup-hours-lost-val');
+    slider.addEventListener('input', function () {
+      var v = parseFloat(slider.value);
+      sliderVal.textContent = v + (v === 1 ? ' hr' : ' hrs');
+    });
+
+    [['fup-paying-storage', function (yes) {
+      state.payingStorage = yes;
+      document.getElementById('fup-storage-reveal').classList.toggle('fup-open', yes);
+    }], ['fup-residential', function (yes) {
+      state.residential = yes;
+    }]].forEach(function (pair) {
+      var row = document.getElementById(pair[0]);
+      row.querySelectorAll('button').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          row.querySelectorAll('button').forEach(function (b) { b.classList.remove('fup-active'); });
+          btn.classList.add('fup-active');
+          pair[1](btn.getAttribute('data-val') === 'yes');
+        });
+      });
+    });
+
+    document.getElementById('fup-submit').addEventListener('click', onSubmit);
+  }
+
+  function calculate() {
+    var monthlyRevenue = num('fup-monthly-revenue');
+    var jobsCompleted = num('fup-jobs-completed');
+    var jobsTurnedDown = num('fup-jobs-turned-down');
+    var crew = num('fup-crew');
+    var hoursLost = parseFloat(document.getElementById('fup-hours-lost').value) || 0;
+    var toolLoss = num('fup-tool-loss');
+    var storageCost = state.payingStorage ? num('fup-storage-cost') : 0;
+    var trade = document.getElementById('fup-trade').value;
+
+    // Revenue per job: direct input → trade average → monthly revenue / jobs.
+    var revPerJob = num('fup-revenue-per-job');
+    if (!revPerJob) revPerJob = FUP_CONFIG.tradeAverages[trade] || 0;
+    if (!revPerJob && jobsCompleted > 0) revPerJob = monthlyRevenue / jobsCompleted;
+
+    var k = FUP_CONFIG.calc;
+    var bucketA = jobsTurnedDown * revPerJob;
+    var hourlyRate = monthlyRevenue / k.workingHoursPerMonth;
+    var bucketB = hoursLost * k.workingDaysPerMonth * hourlyRate;
+    var bucketC = toolLoss / k.toolLossMonths + storageCost;
+    var total = bucketA + bucketB + bucketC;
+
+    // Stage assignment.
+    var t = FUP_CONFIG.thresholds;
+    var stage = 1;
+    if (jobsTurnedDown >= t.stage3.jobsTurnedDown && hoursLost >= t.stage3.hoursLostPerDay && toolLoss > 0) {
+      stage = 3;
+    } else if (
+      jobsTurnedDown >= t.stage2.jobsTurnedDown ||
+      hoursLost >= t.stage2.hoursLostPerDay ||
+      toolLoss > 0 ||
+      (state.residential && crew >= 1)
+    ) {
+      stage = 2;
+    }
+
+    return {
+      total: total, bucketA: bucketA, bucketB: bucketB, bucketC: bucketC, stage: stage,
+      inputs: {
+        monthlyRevenue: monthlyRevenue, jobsCompleted: jobsCompleted, jobsTurnedDown: jobsTurnedDown,
+        trade: trade, revenuePerJob: revPerJob, crew: crew,
+        squareFootage: num('fup-sqft'), hoursLostPerDay: hoursLost, toolLoss12mo: toolLoss,
+        vehicles: num('fup-vehicles'), payingStorage: state.payingStorage,
+        storageCostMonthly: storageCost, residentialAddress: state.residential
+      }
+    };
+  }
+
+  function submitToGhl(result) {
+    if (!FUP_CONFIG.ghlWebhookUrl) return;
+    var payload = {
+      first_name: document.getElementById('fup-first-name').value.trim(),
+      last_name: document.getElementById('fup-last-name').value.trim(),
+      email: document.getElementById('fup-email').value.trim(),
+      phone: document.getElementById('fup-phone').value.trim(),
+      tags: FUP_CONFIG.baseTags.concat([FUP_CONFIG.stageTags[result.stage]]),
+      real_monthly_cost: Math.round(result.total),
+      stage: result.stage,
+      bucket_lost_revenue: Math.round(result.bucketA),
+      bucket_operational_waste: Math.round(result.bucketB),
+      bucket_direct_costs: Math.round(result.bucketC),
+      calculator_inputs: result.inputs
+    };
+    fetch(FUP_CONFIG.ghlWebhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function () { /* never block results on a network error */ });
+  }
+
+  function onSubmit() {
+    if (!validateStep(1) || !validateStep(2)) { showStep(!validateStep(1) ? 1 : 2); return; }
+    if (!validateStep(3)) return;
+
+    var btn = document.getElementById('fup-submit');
+    btn.disabled = true;
+
+    var result = calculate();
+    submitToGhl(result);
+    renderResults(result);
+    showStep(4);
+  }
+
+  function renderResults(r) {
+    var stage = C.stages[r.stage];
+    var lease = FUP_CONFIG.leaseComparison;
+    // LEASE RATE COMPARISON — PENDING ACTIVATION: rendered for Stage 3 only,
+    // hidden until FUP_CONFIG.leaseComparison.enabled is set to true.
+    var leaseHtml = r.stage === 3
+      ? '<div class="fup-lease-compare' + (lease.enabled ? ' fup-on' : '') + '" id="fup-lease-compare">' +
+          esc(lease.enabled && lease.text ? lease.text : C.leaseComparePlaceholder) +
+        '</div>'
+      : '';
+
+    var ctaAttrs = FUP_CONFIG.ctaUrl
+      ? 'onclick="window.location.href=\'' + esc(FUP_CONFIG.ctaUrl) + '\'"'
+      : 'onclick="this.textContent=\'' + esc(FUP_CONFIG.ctaConfirmText) + '\';this.disabled=true"';
+
+    document.getElementById('fup-results').innerHTML =
+      '<h3 class="fup-results-head">' + esc(C.resultsHeadline) + '</h3>' +
+      '<p class="fup-total-label">' + esc(C.totalLabel) + '</p>' +
+      '<p class="fup-total">' + money(r.total) + '</p>' +
+      '<p class="fup-total-per">' + esc(C.perMonth) + '</p>' +
+      '<div class="fup-stage">' +
+        '<p class="fup-stage-name">' + esc(stage.name) + '</p>' +
+        '<p>' + esc(stage.body) + '</p>' +
+      '</div>' +
+      '<div class="fup-buckets">' +
+        '<div class="fup-bucket"><span class="fup-bucket-name">' + esc(C.bucketA) + '</span><span class="fup-bucket-amt">' + money(r.bucketA) + '</span></div>' +
+        '<div class="fup-bucket"><span class="fup-bucket-name">' + esc(C.bucketB) + '</span><span class="fup-bucket-amt">' + money(r.bucketB) + '</span></div>' +
+        '<div class="fup-bucket"><span class="fup-bucket-name">' + esc(C.bucketC) + '</span><span class="fup-bucket-amt">' + money(r.bucketC) + '</span></div>' +
+      '</div>' +
+      leaseHtml +
+      '<button type="button" class="fup-btn" ' + ctaAttrs + '>' + esc(C.cta) + '</button>' +
+      '<p class="fup-reassure">' + esc(C.reassure) + '</p>';
+  }
+
+  render();
+})();
+</script>
