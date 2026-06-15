@@ -1,0 +1,99 @@
+<!-- ============================================================
+     LEGACY BUILDER — VIDEO TESTIMONIALS SLIDER
+     Paste into the WordPress block editor in CODE EDITOR mode.
+     Dark section + dependency-free scroll-snap carousel.
+     Shows 3 at a time (desktop), 5 total. Arrows + swipe.
+     ============================================================ -->
+
+<!-- wp:generateblocks/element {"uniqueId":"vt01a000","tagName":"div","styles":{"paddingTop":"4rem","paddingBottom":"4rem","paddingLeft":"40px","paddingRight":"40px","@media (max-width:767px)":{"paddingLeft":"30px","paddingRight":"30px"},"backgroundColor":"var(--contrast-2)","backgroundImage":"radial-gradient(rgba(0, 0, 0, 1) 0%, #002938 100%)","backgroundSize":"cover","backgroundRepeat":"no-repeat","backgroundPosition":"center"},"css":".gb-element-vt01a000{background-color:var(--contrast-2);background-image:radial-gradient(rgba(0,0,0,1) 0%,#002938 100%);background-position:center;background-repeat:no-repeat;background-size:cover;padding:4rem 40px 4rem 40px}@media (max-width:767px){.gb-element-vt01a000{padding-left:30px;padding-right:30px}}","globalClasses":["gbp-section"],"metadata":{"name":"Video testimonials"}} -->
+<div class="gbp-section gb-element-vt01a000"><!-- wp:generateblocks/element {"uniqueId":"vt01a001","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","display":"flex","flexDirection":"column"},"css":".gb-element-vt01a001{display:flex;flex-direction:column;margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"metadata":{"name":"Inner container max-width"}} -->
+<div class="gbp-section__inner gb-element-vt01a001"><!-- wp:generateblocks/text {"uniqueId":"vt01a002","tagName":"h2","styles":{"textAlign":"center","color":"var(--base)","marginTop":"0px","marginBottom":"1rem","@media (min-width:1025px)":{"textWrap":"balance"}},"css":".gb-text-vt01a002{color:var(--base);margin-bottom:1rem;margin-top:0px;text-align:center}@media (min-width:1025px){.gb-text-vt01a002{text-wrap:balance}}"} -->
+<h2 class="gb-text gb-text-vt01a002"><strong>Clarity. Strategy. Execution.</strong></h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"vt01a003","tagName":"p","styles":{"textAlign":"center","color":"var(--base-3)","fontSize":"1.15rem","marginBottom":"2.5rem","@media (min-width:1025px)":{"textWrap":"balance"}},"css":".gb-text-vt01a003{color:var(--base-3);font-size:1.15rem;margin-bottom:2.5rem;text-align:center}@media (min-width:1025px){.gb-text-vt01a003{text-wrap:balance}}"} -->
+<p class="gb-text gb-text-vt01a003">Testimonials from people who used Joe's process to simplify the numbers, make confident decisions, and follow through.</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:html -->
+<div class="lbvs">
+  <button class="lbvs__nav lbvs__nav--prev" type="button" aria-label="Previous testimonials">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+  </button>
+
+  <div class="lbvs__track" tabindex="0" aria-label="Video testimonials carousel">
+    <div class="lbvs__slide">
+      <div class="lbvs__frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/W0F99PR5cUE" title="Testimonial 1" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="lbvs__slide">
+      <div class="lbvs__frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/cLw8Ry8ddOw" title="Testimonial 2" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="lbvs__slide">
+      <div class="lbvs__frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/5v-kTl0sM4A" title="Testimonial 3" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="lbvs__slide">
+      <div class="lbvs__frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/WFjQE2IfJM8" title="Testimonial 4" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="lbvs__slide">
+      <div class="lbvs__frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/Q4TjCa3aQ3M" title="Testimonial 5" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <button class="lbvs__nav lbvs__nav--next" type="button" aria-label="Next testimonials">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  </button>
+</div>
+
+<style>
+  .lbvs{position:relative;display:flex;align-items:center;gap:.5rem}
+  .lbvs__track{display:flex;gap:1.25rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:.25rem;flex:1 1 auto}
+  .lbvs__track::-webkit-scrollbar{display:none}
+  .lbvs__slide{flex:0 0 calc((100% - 2.5rem) / 3);scroll-snap-align:start}
+  .lbvs__frame{position:relative;width:100%;padding-bottom:56.25%;height:0;border-radius:10px;overflow:hidden;background:#000;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+  .lbvs__frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .lbvs__nav{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:999px;border:0;cursor:pointer;color:var(--base,#fff);background:var(--accent,#0d6efd);transition:transform .15s ease,opacity .15s ease}
+  .lbvs__nav:hover{transform:scale(1.06)}
+  .lbvs__nav:disabled{opacity:.35;cursor:default;transform:none}
+  @media (max-width:1024px){.lbvs__slide{flex:0 0 calc((100% - 1.25rem) / 2)}}
+  @media (max-width:767px){.lbvs__slide{flex:0 0 100%}.lbvs__nav{width:38px;height:38px}}
+</style>
+
+<script>
+(function(){
+  var root = document.currentScript.closest('.lbvs') || document.querySelector('.lbvs');
+  if(!root) return;
+  var track = root.querySelector('.lbvs__track');
+  var prev  = root.querySelector('.lbvs__nav--prev');
+  var next  = root.querySelector('.lbvs__nav--next');
+
+  function step(){
+    var slide = track.querySelector('.lbvs__slide');
+    if(!slide) return track.clientWidth;
+    var gap = parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 0;
+    return slide.getBoundingClientRect().width + gap;
+  }
+  function update(){
+    var maxScroll = track.scrollWidth - track.clientWidth - 2;
+    prev.disabled = track.scrollLeft <= 2;
+    next.disabled = track.scrollLeft >= maxScroll;
+  }
+  prev.addEventListener('click', function(){ track.scrollBy({left: -step(), behavior:'smooth'}); });
+  next.addEventListener('click', function(){ track.scrollBy({left:  step(), behavior:'smooth'}); });
+  track.addEventListener('scroll', update, {passive:true});
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
+<!-- /wp:html --></div>
+<!-- /wp:generateblocks/element --></div>
+<!-- /wp:generateblocks/element -->
