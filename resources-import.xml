@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS (WXR) import file for Resources CPT -->
+<!-- Generated: 2026-06-23 01:56:33 -->
+
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Way Out Now Solutions</title>
+	<link>https://wayoutnow.com</link>
+	<description></description>
+	<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://wayoutnow.com</wp:base_site_url>
+	<wp:base_blog_url>https://wayoutnow.com</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[info@tbonejones.com]]></wp:author_login>
+		<wp:author_email><![CDATA[info@tbonejones.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[info@tbonejones.com]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[]]></wp:author_last_name>
+	</wp:author>
+
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[bankruptcy-debt]]></wp:term_slug>
+		<wp:term_name><![CDATA[Bankruptcy / Debt]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[emotional-family-stress]]></wp:term_slug>
+		<wp:term_name><![CDATA[Emotional / Family Stress]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[income-loss-hardship]]></wp:term_slug>
+		<wp:term_name><![CDATA[Income Loss / Hardship]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[inherited-vacant-property]]></wp:term_slug>
+		<wp:term_name><![CDATA[Inherited / Vacant Property]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[internal-resource]]></wp:term_slug>
+		<wp:term_name><![CDATA[Internal Resource]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[legal-foreclosure]]></wp:term_slug>
+		<wp:term_name><![CDATA[Legal / Foreclosure]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[missed-payments-early-distress]]></wp:term_slug>
+		<wp:term_name><![CDATA[Missed Payments / Early Distress]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[special-loans-fha-usda]]></wp:term_slug>
+		<wp:term_name><![CDATA[Special Loans (FHA / USDA)]]></wp:term_name>
+	</wp:term>
+
+	<generator>https://wordpress.org/?v=7.0</generator>
+
+	<item>
+		<title><![CDATA[Pennsylvania Housing Finance Agency (PHFA)]]></title>
+		<link>https://wayoutnow.com/resources/pennsylvania-housing-finance-agency-phfa/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60001</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60001</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pennsylvania-housing-finance-agency-phfa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="missed-payments-early-distress"><![CDATA[Missed Payments / Early Distress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[State-backed housing agency offering repayment help and program info.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit PHFA]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.phfa.org/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners in early-stage financial distress:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners 1–2 Months Behind: Individuals who have missed a payment or two and believe they can catch up with the right guidance and support programs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[First-Time Borrowers Unsure of Options: People who don't know what resources exist at the state level for mortgage relief, refinancing, or forbearance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting to Act Before Foreclosure: Homeowners who want to take proactive steps now, before their situation escalates to legal proceedings.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Pennsylvania Housing Finance Agency (PHFA) is a state-backed organization that connects homeowners with repayment assistance programs, refinancing options, and forbearance plans.
+
+Program Review: PHFA reviews your current mortgage situation and identifies which state-level programs you may qualify for, including loan modifications and temporary payment relief.
+
+Counselor Connection: They can connect you directly with HUD-approved housing counselors in your area who specialize in negotiating with lenders on your behalf.
+
+Application Guidance: PHFA walks you through the application process for programs like HEMAP, ensuring your paperwork is complete and submitted correctly.
+
+Ongoing Support: Even after enrollment, PHFA provides follow-up resources to help you stay on track with your mortgage payments and avoid future distress.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Take the First Step Toward Stability]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PHFA can review your options — including refinancing and forbearance — before foreclosure starts. There is no cost to explore what's available to you.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Pennsylvania Legal Aid Network (PLAN)]]></title>
+		<link>https://wayoutnow.com/resources/pennsylvania-legal-aid-network-plan/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60002</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60002</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pennsylvania-legal-aid-network-plan]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="legal-foreclosure"><![CDATA[Legal / Foreclosure]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Free legal help for foreclosure defense and consumer rights.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find Legal Help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://palegalaid.net/find-legal-help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners facing legal action:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Who Received a Court Letter: Individuals who have been served with a foreclosure notice or summons and need to understand their legal rights.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Who Can't Afford an Attorney: Low-to-moderate income homeowners who need professional legal representation but cannot pay for private counsel.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Unsure How to Respond: Homeowners who received legal paperwork and don't know what steps to take or what deadlines they're facing.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Pennsylvania Legal Aid Network (PLAN) provides free legal assistance to homeowners dealing with foreclosure proceedings and consumer rights issues.
+
+Case Review: A legal aid attorney reviews your foreclosure documents, court filings, and mortgage history to identify potential defenses or violations by the lender.
+
+Court Representation: In qualifying cases, PLAN can represent you in court, file responses on your behalf, and negotiate directly with the lender's legal team.
+
+Rights Education: PLAN explains your rights under Pennsylvania foreclosure law, including mandatory mediation requirements and notice periods that lenders must follow.
+
+Referral Network: If your case requires specialized assistance beyond PLAN's scope, they connect you with other legal organizations and housing resources in your area.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Protect Your Rights — Get Free Legal Help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PLAN can review your paperwork and explain your legal rights at no cost. Don't face foreclosure proceedings alone.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[HUD-Approved Housing Counselors]]></title>
+		<link>https://wayoutnow.com/resources/hud-approved-housing-counselors/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60003</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60003</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hud-approved-housing-counselors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="missed-payments-early-distress"><![CDATA[Missed Payments / Early Distress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Certified advisors who help negotiate with lenders.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find a Counselor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.hud.gov/program_offices/housing/sfh/hcc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners who need help communicating with their lender:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners in Early-Stage Distress: Individuals who have fallen behind on payments and need someone experienced to help negotiate a solution with their mortgage company.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Intimidated by the Process: People who feel overwhelmed by lender phone calls, paperwork, and confusing modification applications.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Borrowers Seeking Loan Modifications: Homeowners who want to explore options like interest rate reductions, term extensions, or partial claim agreements.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[HUD-Approved Housing Counselors are certified professionals trained to help homeowners navigate mortgage distress and communicate effectively with lenders.
+
+Lender Negotiation: A HUD counselor can join your calls with the lender, present your financial situation clearly, and advocate for modification options you may not know about.
+
+Budget Analysis: Counselors review your full financial picture — income, expenses, debts — to build a realistic repayment proposal that lenders are more likely to accept.
+
+Program Matching: They identify federal, state, and local assistance programs you qualify for and help you apply, ensuring nothing falls through the cracks.
+
+Free and Confidential: All HUD-approved counseling services are provided at no cost to you. Your financial information is kept strictly confidential.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Get Expert Help With Your Lender]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[A HUD counselor can help you call your lender and explore modification programs — completely free of charge.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[NeighborWorks / Clarifi (PA/NJ)]]></title>
+		<link>https://wayoutnow.com/resources/neighborworks-clarifi-pa-nj/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60004</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60004</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[neighborworks-clarifi-pa-nj]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="missed-payments-early-distress"><![CDATA[Missed Payments / Early Distress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Nonprofit credit and housing support.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit Clarifi]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://clarifi.org]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for families needing financial stabilization:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Families Needing Budget Help: Households where monthly expenses have exceeded income, making it difficult to keep up with mortgage payments alongside other bills.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Seeking Mortgage Relief Guidance: Individuals who know help exists but need a trusted nonprofit to walk them through the options step by step.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting Long-Term Financial Health: People who want more than a quick fix — they want to build a sustainable budget and avoid future financial crises.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[NeighborWorks / Clarifi is a nonprofit organization serving Pennsylvania and New Jersey that provides comprehensive credit counseling and housing support services.
+
+Budget Stabilization: Clarifi counselors work with you to create a realistic monthly budget that prioritizes your mortgage while addressing other essential expenses.
+
+Mortgage Relief Navigation: They guide you through available relief programs, help you prepare applications, and follow up with servicers to ensure your case progresses.
+
+Credit Counseling: Beyond immediate mortgage help, Clarifi offers credit counseling to help you understand your credit report, dispute errors, and build a path toward financial recovery.
+
+Community Resources: As part of the NeighborWorks network, Clarifi connects you with additional community resources including utility assistance, food programs, and employment services.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Start Stabilizing Your Finances Today]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Clarifi helps families stabilize budgets and manage mortgage relief programs. All services are provided by trained nonprofit counselors.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Neighborhood Legal Services (Western PA)]]></title>
+		<link>https://wayoutnow.com/resources/neighborhood-legal-services-western-pa/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60005</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60005</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[neighborhood-legal-services-western-pa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="legal-foreclosure"><![CDATA[Legal / Foreclosure]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Foreclosure and consumer defense legal aid.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Get Legal Aid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://nlsa.us/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for Western PA homeowners in legal jeopardy:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Western PA Homeowners Facing Foreclosure: Individuals in the western part of the state who have received foreclosure notices and need immediate legal guidance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Dealing with Predatory Lending: Homeowners who suspect they were victims of unfair lending practices, deceptive terms, or illegal fees.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Needing Help Responding to Court Filings: Anyone who has received legal documents related to their property and doesn't know how to respond within required timelines.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Neighborhood Legal Services (NLS) provides free legal assistance to low-income residents of Western Pennsylvania facing foreclosure and consumer protection issues.
+
+Foreclosure Defense: NLS attorneys review your case, identify potential defenses, and represent you in court proceedings to protect your home and your rights.
+
+Consumer Protection: If your lender has engaged in predatory practices — such as hidden fees, misleading terms, or improper notice — NLS can pursue legal remedies on your behalf.
+
+Document Review: NLS reviews all foreclosure-related documents, including the original mortgage, modification denials, and court filings, to find errors or violations.
+
+Community Outreach: NLS holds regular clinics and workshops in Western PA communities, making it easier to access legal help close to home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Know Your Rights — Get Free Legal Help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[NLS can walk you through your rights and help you respond to foreclosure notices at no cost.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Legal Aid of Southeastern PA (LASP)]]></title>
+		<link>https://wayoutnow.com/resources/legal-aid-of-southeastern-pa-lasp/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60006</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60006</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[legal-aid-of-southeastern-pa-lasp]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="legal-foreclosure"><![CDATA[Legal / Foreclosure]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Civil legal help for Bucks, Montgomery, Chester, and Delaware Counties.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact LASP]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://lasp.org]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for Southeastern PA homeowners needing legal support:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Bucks, Montgomery, Chester, and Delaware County Residents: Homeowners in these four counties who are facing foreclosure or housing-related legal issues.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Needing Free Legal Representation: Low-income individuals who qualify for free legal counsel and may need an attorney to represent them in court.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Facing Eviction After Foreclosure: People who have lost their home to foreclosure and need help understanding their remaining rights and timelines.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Legal Aid of Southeastern PA (LASP) provides free civil legal assistance to residents of Bucks, Montgomery, Chester, and Delaware Counties in Pennsylvania.
+
+Free Legal Advice: LASP attorneys provide confidential consultations to help you understand your legal situation, your rights, and your options moving forward.
+
+Court Representation: In qualifying cases, LASP will represent you in court — filing motions, attending hearings, and negotiating with opposing counsel on your behalf.
+
+Foreclosure Mediation Support: LASP can accompany you through Pennsylvania's mandatory foreclosure mediation process, ensuring your interests are properly represented.
+
+Housing Rights Advocacy: Beyond foreclosure, LASP handles cases involving landlord-tenant disputes, housing discrimination, and other civil legal matters affecting your home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Get Free Legal Advice in Your County]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[LASP offers free legal advice and may even represent you in court if needed. Services cover Bucks, Montgomery, Chester, and Delaware Counties.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Homeowners Emergency Mortgage Assistance Program (HEMAP)]]></title>
+		<link>https://wayoutnow.com/resources/homeowners-emergency-mortgage-assistance-program-hemap/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60007</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60007</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[homeowners-emergency-mortgage-assistance-program-hemap]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="income-loss-hardship"><![CDATA[Income Loss / Hardship]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[State loan program to catch up on mortgage payments (up to $60K / 24 months).]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn About HEMAP]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://phfa.org/counseling/hemap.aspx]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners with temporary financial hardship:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Who Lost Income Temporarily: Individuals who experienced a job loss, medical emergency, or other hardship that caused them to fall behind on mortgage payments.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Who Can Resume Payments Soon: Borrowers whose financial situation is stabilizing and who can resume regular mortgage payments once their arrears are caught up.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Needing Help Paying Back Mortgage Arrears: Homeowners who owe several months of back payments and need direct financial assistance to bring their mortgage current.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Homeowners Emergency Mortgage Assistance Program (HEMAP) is a Pennsylvania state loan program that helps homeowners catch up on delinquent mortgage payments — providing up to $60,000 over 24 months.
+
+Direct Arrears Payment: HEMAP pays your past-due mortgage payments directly to your lender, bringing your account current so you can avoid foreclosure.
+
+State-Backed Loan: The assistance is structured as a no-interest loan from the state. Repayment terms are manageable and designed around your financial recovery.
+
+Counselor-Assisted Application: You apply through a HUD-approved housing counselor who helps you gather documentation, complete forms, and submit everything correctly.
+
+Eligibility Review: HEMAP evaluates your situation to confirm that your hardship is temporary and that you have a reasonable ability to resume payments. This protects both you and the program.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Apply Through a Housing Counselor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[HEMAP can step in to help pay arrears directly to your lender. Apply through a counselor to get started.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[PA Homeowner Assistance Fund (PAHAF)]]></title>
+		<link>https://wayoutnow.com/resources/pa-homeowner-assistance-fund-pahaf/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60008</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60008</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pa-homeowner-assistance-fund-pahaf]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="income-loss-hardship"><![CDATA[Income Loss / Hardship]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[COVID-related grant (up to $30K) for mortgage, taxes, or utilities.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Apply at PAHAF]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://pahaf.org/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners needing one-time financial relief:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[COVID-Impacted Homeowners: Individuals whose income was reduced or disrupted due to the pandemic and who are still catching up on housing-related expenses.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Behind on Property Taxes or Utilities: Homeowners who owe back taxes, water/sewer bills, or utility payments that threaten their housing stability.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Seeking Grant Assistance (Not a Loan): Homeowners who need financial help but want relief that does not need to be repaid.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The PA Homeowner Assistance Fund (PAHAF) provides grants of up to $30,000 to eligible Pennsylvania homeowners for mortgage payments, property taxes, and utility costs.
+
+Grant — Not a Loan: Unlike many assistance programs, PAHAF provides grant funding. If approved, the money does not need to be repaid.
+
+Broad Coverage: Funds can be applied to past-due mortgage payments, delinquent property taxes, water and sewer bills, and other housing-related costs that jeopardize your home.
+
+Online Application: The application process is handled online through the PAHAF portal. You'll need to provide income documentation, proof of hardship, and details about your delinquent accounts.
+
+Direct Payment to Servicers: Approved funds are sent directly to your mortgage servicer, tax authority, or utility company — ensuring the money goes exactly where it's needed.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[See If You Qualify for Grant Relief]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PAHAF can provide a one-time grant to help you stabilize housing costs. Funds do not need to be repaid.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Catholic Social Services / United Way 211]]></title>
+		<link>https://wayoutnow.com/resources/catholic-social-services-united-way-211/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60009</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60009</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[catholic-social-services-united-way-211]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="income-loss-hardship"><![CDATA[Income Loss / Hardship]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Emergency assistance for utilities, rent, mortgage, and essential bills.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Call 211]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://uwp.org/211]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for anyone needing immediate relief for basic expenses:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Behind on Essential Bills: Individuals who can't cover utilities, rent, or mortgage this month and need emergency funding to stay afloat.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Families in Crisis: Households dealing with sudden income loss, medical emergencies, or other crises that have disrupted their ability to pay for basic needs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Who Don't Know Where to Start: Anyone feeling overwhelmed by their situation who needs a single point of contact to find local funding and support programs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Catholic Social Services and United Way 211 provide emergency assistance and connect individuals with local funding sources for utilities, rent, mortgage, and other essential expenses.
+
+211 Helpline: By dialing 2-1-1, you're connected to a trained specialist who assesses your needs and matches you with local programs that can help — from utility shutoff prevention to emergency rent assistance.
+
+Emergency Funding: Catholic Social Services and partner agencies offer direct financial assistance for qualifying households, covering immediate needs like past-due utility bills and mortgage payments.
+
+Comprehensive Referrals: Beyond financial help, 211 connects you with food banks, healthcare services, mental health support, and other community resources.
+
+No Wrong Door: You don't need to know the right program name or agency. 211 serves as a single entry point that routes you to the help you need based on your situation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Get Connected to Emergency Help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[If you need quick relief for essential bills, start with 211 for local funding sources. Help is available now.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[PA Law Help: A Guide to Bankruptcy]]></title>
+		<link>https://wayoutnow.com/resources/pa-law-help-a-guide-to-bankruptcy/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60010</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60010</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pa-law-help-a-guide-to-bankruptcy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="bankruptcy-debt"><![CDATA[Bankruptcy / Debt]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Educational guide on Chapter 7 and Chapter 13 bankruptcy options.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Read the Guide]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.palawhelp.org/resource/a-guide-to-bankruptcy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners exploring bankruptcy as an option:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Considering Bankruptcy: Individuals who are overwhelmed by debt and want to understand whether Chapter 7 or Chapter 13 might provide relief.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Who Want to Understand the Process: People who have heard about bankruptcy but don't know what it involves, what it protects, or how it affects their home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anyone Wanting to Make an Informed Decision: Homeowners who want to weigh all options — including bankruptcy — before committing to a path forward.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PA Law Help's Guide to Bankruptcy is a free educational resource that explains Chapter 7 and Chapter 13 bankruptcy options in plain language for Pennsylvania residents.
+
+Chapter 7 vs. Chapter 13: The guide breaks down the key differences — Chapter 7 liquidates certain assets to discharge debts, while Chapter 13 creates a repayment plan that can help you keep your home.
+
+Homestead Protections: Learn how Pennsylvania's exemption laws protect certain property and equity during bankruptcy proceedings, so you understand what's at risk and what's protected.
+
+The Filing Process: Step-by-step explanation of what happens when you file, from the automatic stay that halts foreclosure to the discharge of qualifying debts.
+
+When to Seek Legal Help: The guide helps you identify when it's time to consult with a bankruptcy attorney and how to find free legal assistance if you can't afford one.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn How Bankruptcy Could Help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This guide helps you understand how bankruptcy might reset your financial situation. Knowledge is the first step.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Consumer Credit Counseling Service (CCCS)]]></title>
+		<link>https://wayoutnow.com/resources/consumer-credit-counseling-service-cccs/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60011</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60011</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[consumer-credit-counseling-service-cccs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="bankruptcy-debt"><![CDATA[Bankruptcy / Debt]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Nonprofit debt management counseling.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact CCCS]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.cccspa.org/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners dealing with overwhelming debt:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Drowning in Debt: Individuals whose total debt obligations have become unmanageable, making it impossible to keep up with mortgage payments.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting to Negotiate Before Legal Action: People who want to work out a debt management plan with creditors before the situation escalates to court.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anyone Seeking Professional Budget Guidance: Homeowners who need expert help creating a realistic repayment strategy that prioritizes keeping their home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Consumer Credit Counseling Service (CCCS) is a nonprofit organization that provides professional debt management counseling to help homeowners regain control of their finances.
+
+Debt Management Plans: CCCS negotiates directly with your creditors to reduce interest rates, waive fees, and create a single consolidated monthly payment you can afford.
+
+Budget Counseling: Certified counselors analyze your income, expenses, and debts to build a personalized budget that prioritizes your mortgage and essential bills.
+
+Creditor Communication: CCCS handles communication with creditors on your behalf, reducing the stress of collection calls and helping you avoid further legal action.
+
+Long-Term Financial Education: Beyond immediate debt relief, CCCS provides workshops and resources to help you build lasting financial habits and avoid future crises.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Start Managing Your Debt Today]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[CCCS helps homeowners negotiate debt plans before legal action starts. All counseling is confidential and nonprofit.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Legal Aid Bankruptcy Clinics]]></title>
+		<link>https://wayoutnow.com/resources/legal-aid-bankruptcy-clinics/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60012</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60012</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[legal-aid-bankruptcy-clinics]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="bankruptcy-debt"><![CDATA[Bankruptcy / Debt]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Free consultations for low-income residents.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Find a Clinic]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://palegalaid.net/find-legal-help]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for low-income homeowners weighing bankruptcy:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Low-Income Homeowners: Individuals who meet income eligibility guidelines and need professional bankruptcy advice they cannot afford on their own.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Unsure If Bankruptcy Is Right: People who want to sit down with an attorney to discuss whether filing makes sense for their specific situation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Needing Help With Paperwork: Individuals who have decided to file but need assistance completing the complex bankruptcy petition and schedules.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Legal Aid Bankruptcy Clinics offer free one-on-one consultations with attorneys who specialize in bankruptcy law, specifically serving low-income Pennsylvania residents.
+
+Free Attorney Consultation: You'll meet with a qualified bankruptcy attorney who reviews your financial situation and explains whether Chapter 7 or Chapter 13 is appropriate for your case.
+
+Eligibility Screening: Clinic staff help determine if you meet income and asset thresholds for bankruptcy filing, and which chapter provides the best outcome for your home.
+
+Filing Assistance: For those who decide to proceed, clinic attorneys can help prepare and file the necessary paperwork, including schedules, means tests, and creditor matrices.
+
+Ongoing Support: Many clinics provide follow-up appointments to help you navigate the bankruptcy process from filing through discharge, including attending the 341 meeting of creditors.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Schedule a Free Bankruptcy Consultation]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[You can meet with a legal aid attorney to discuss whether bankruptcy fits your case — completely free.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[County Register of Wills / Estate Services]]></title>
+		<link>https://wayoutnow.com/resources/county-register-of-wills-estate-services/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60013</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60013</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[county-register-of-wills-estate-services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="inherited-vacant-property"><![CDATA[Inherited / Vacant Property]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Handles probate or estate transfer of title.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit Register of Wills]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://buckscounty.gov/166/Register-of-Wills]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for heirs and beneficiaries of inherited property:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Heirs of an Inherited Home: Individuals who have inherited a property and need to transfer the title into their name through the probate process.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Family Members Handling an Estate: People responsible for settling a deceased family member's estate, including real property and outstanding debts.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting to Sell an Inherited Property: Heirs who want to sell the property but first need to establish clear legal ownership through probate court.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The County Register of Wills handles probate proceedings and estate transfers, helping heirs establish legal ownership of inherited property.
+
+Probate Filing: The Register of Wills guides you through filing the necessary probate documents to legally transfer property title from a deceased owner to their heirs.
+
+Estate Administration: For estates with a will, the office helps appoint an executor and oversee the distribution of assets according to the deceased's wishes.
+
+Intestacy Process: If there is no will, the Register of Wills handles the intestacy process, determining who inherits the property under Pennsylvania law.
+
+Title Clearance: Once probate is complete, the office issues the documentation needed to clear title on the property, allowing you to sell, refinance, or manage it freely.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Start the Probate Process]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[They can guide you through transferring or selling an inherited home legally. Start with your county's Register of Wills.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Local Code Enforcement / Land Bank]]></title>
+		<link>https://wayoutnow.com/resources/local-code-enforcement-land-bank/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60014</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60014</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[local-code-enforcement-land-bank]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="inherited-vacant-property"><![CDATA[Inherited / Vacant Property]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Handles vacant property issues and lien relief.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Contact Planning Commission]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://buckscounty.gov/272/Planning-Commission]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for owners of vacant or distressed properties:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Owners Facing Blight Violations: Individuals who have received code enforcement notices for property maintenance issues, overgrown lots, or structural problems.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting to Sell Vacant Property As-Is: Homeowners who want to dispose of a vacant or distressed property without investing in costly repairs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Dealing with Municipal Liens: Property owners with accumulated liens from unpaid fines, utilities, or taxes who need help resolving them before a sale.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Local Code Enforcement and Land Bank programs help property owners address vacant property issues, resolve blight violations, and navigate lien relief options.
+
+Code Violation Resolution: Code enforcement can work with you to create a compliance plan for addressing property violations, often with reasonable timelines rather than immediate penalties.
+
+Land Bank Programs: Some municipalities operate land banks that can acquire distressed properties, clear liens, and return them to productive use — providing owners with a clean exit.
+
+Lien Negotiation: In many cases, accumulated municipal liens can be negotiated down or structured into payment plans, making it feasible to sell or transfer the property.
+
+As-Is Sale Options: If the property is beyond repair, code enforcement and the land bank can guide you through options for selling the property in its current condition.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Address Your Property Issues]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The land bank can help if you're facing blight violations or want to sell as-is. Start by contacting your local planning commission.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Way Out Now Partner Path]]></title>
+		<link>https://wayoutnow.com/resources/way-out-now-partner-path/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60015</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60015</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[way-out-now-partner-path]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="internal-resource"><![CDATA[Internal Resource]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Internal referral to Offer to Buy, Subject-To, or Sell-For-You team.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sell Now]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://wayoutnow.com/sell-now]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners ready to explore selling options:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Who'd Rather Not Handle Repairs Alone: Individuals who don't have the time, money, or energy to fix up a property before selling it on the open market.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Navigating Probate or Complex Title Issues: People dealing with inherited properties, liens, or title complications who need an experienced team to handle the details.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anyone Ready for a Fresh Start: Homeowners who have decided that selling — quickly and with minimal hassle — is the best path forward for their situation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Way Out Now Partner Path is our internal referral program that connects homeowners with our team for direct purchase offers, subject-to arrangements, or full-service sell-for-you solutions.
+
+Direct Offer to Buy: We evaluate your property and present a fair cash offer, allowing you to sell quickly without listing, showings, or real estate commissions.
+
+Subject-To Solutions: In some cases, we can take over your existing mortgage payments through a subject-to arrangement, relieving you of the financial burden while protecting your credit.
+
+Sell-For-You Service: If your property has market value that would benefit from a traditional sale, our team handles everything — repairs, listing, showings, and closing — on your behalf.
+
+Personalized Consultation: Every situation is different. We start with a no-pressure consultation to understand your goals and recommend the option that best fits your needs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Explore Your Selling Options]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[If you'd rather not handle repairs or probate alone, we can help you transition smoothly. Start with a free consultation.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[County Family Services (e.g., Bucks County MH/DS)]]></title>
+		<link>https://wayoutnow.com/resources/county-family-services-bucks-county-mh-ds/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60016</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60016</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[county-family-services-bucks-county-mh-ds]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="emotional-family-stress"><![CDATA[Emotional / Family Stress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Counseling and mediation for family transitions.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit Bucks County Services]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://buckscounty.gov/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners navigating personal and family challenges:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Going Through Divorce: Individuals whose marriage is ending and who need support navigating the emotional and financial impact on their housing situation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Dealing with Loss or Grief: People who have lost a family member and are struggling with both the emotional weight and the practical decisions around the family home.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Families in Transition: Households experiencing major life changes — relocation, caregiving responsibilities, or blended family dynamics — that affect their housing stability.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[County Family Services provides counseling, mediation, and support resources for individuals and families navigating difficult personal transitions that affect their housing situation.
+
+Individual Counseling: Licensed counselors provide confidential sessions to help you process grief, stress, anxiety, and other emotions that can accompany housing instability.
+
+Family Mediation: When family disagreements complicate housing decisions — such as what to do with a shared or inherited property — trained mediators help facilitate productive conversations.
+
+Crisis Intervention: For families in acute crisis, county services can connect you with emergency mental health support, temporary housing, and safety planning resources.
+
+Referral Coordination: Family Services works with housing counselors, legal aid, and financial assistance programs to ensure you're getting comprehensive support — not just emotional care.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Get Support for Your Family's Transition]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Family Services can connect you with counselors and resources for stability during difficult times.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[United Way 211 (Family Support)]]></title>
+		<link>https://wayoutnow.com/resources/united-way-211-family-support/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60017</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60017</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[united-way-211-family-support]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="emotional-family-stress"><![CDATA[Emotional / Family Stress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Statewide human services directory.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Call 211]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://uwp.org/211]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for anyone managing more than just a financial crisis:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Managing Emotional and Financial Stress: Individuals whose housing problems are compounded by anxiety, depression, or emotional exhaustion.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Needing Family or Relationship Help: People dealing with family conflict, domestic issues, or relationship strain alongside their housing situation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Anyone Unsure Where to Turn: Individuals who feel lost in the system and need a single phone call to connect with the right combination of services.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[United Way 211 is a free, confidential helpline that connects individuals and families with local human services — from mental health support to housing assistance.
+
+24/7 Helpline: Dial 2-1-1 any time, day or night, to speak with a trained specialist who can assess your needs and connect you with appropriate local services.
+
+Comprehensive Service Directory: 211 maintains a database of thousands of local programs covering mental health, substance abuse, domestic violence, food assistance, housing, and more.
+
+Personalized Referrals: Specialists don't just read from a list — they listen to your situation and make targeted referrals to programs that match your specific needs and location.
+
+Follow-Up Support: Many 211 centers offer follow-up calls to make sure you were able to connect with the referred services and to provide additional referrals if needed.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Connect With Help Beyond Housing]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[If you're managing more than just finances, 211 can link you to emotional, family, and practical support.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Way Out Now Rent-Back / Lease Transition]]></title>
+		<link>https://wayoutnow.com/resources/way-out-now-rent-back-lease-transition/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60018</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60018</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[way-out-now-rent-back-lease-transition]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="internal-resource"><![CDATA[Internal Resource]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Internal partner solution for homeowners needing time to move.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Schedule a Consultation]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://wayoutnow.com/consultation]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners who need to sell but aren't ready to move:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners Needing Time to Relocate: Individuals who want to sell their property but need additional weeks or months to find new housing and coordinate their move.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Families with School-Age Children: Parents who want to sell but need to time the transition around the school year to minimize disruption for their kids.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Seeking Financial Relief Without Displacement: Homeowners who want the financial burden of ownership lifted but need the stability of staying in their home temporarily.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Way Out Now's Rent-Back / Lease Transition program allows homeowners to sell their property and remain in the home as a renter during their transition period.
+
+Sell and Stay: After closing, you can continue living in the home under a short-term lease agreement, giving you time to plan your next move without the pressure of an immediate vacancy.
+
+Flexible Terms: Lease-back periods are negotiated based on your needs — whether you need 30 days, 90 days, or longer to find your next home.
+
+Reduced Financial Pressure: By selling, you eliminate mortgage payments, property taxes, insurance, and maintenance costs. Your rent-back payment is typically lower than your previous total housing expense.
+
+Smooth Transition Support: Our team helps coordinate the transition, connecting you with moving resources, new housing options, and any other support you need during the process.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sell Your Home and Stay While You Transition]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[We can help you sell and stay temporarily to create a smooth transition. Schedule a free consultation to learn more.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[FHA Loss Mitigation Program]]></title>
+		<link>https://wayoutnow.com/resources/fha-loss-mitigation-program/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60019</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60019</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[fha-loss-mitigation-program]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="special-loans-fha-usda"><![CDATA[Special Loans (FHA / USDA)]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Assistance for FHA-backed mortgages.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Learn About FHA Options]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.hud.gov/program_offices/housing/sfh/nsc/lossmit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners with FHA-insured mortgages:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FHA Borrowers Facing Hardship: Individuals with Federal Housing Administration-backed mortgages who have experienced income loss, medical expenses, or other financial setbacks.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Behind on FHA Loan Payments: Homeowners who have missed payments on their FHA mortgage and want to explore alternatives to foreclosure.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[People Unaware of FHA-Specific Programs: Borrowers who don't realize that FHA loans come with built-in loss mitigation options that conventional loans may not offer.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The FHA Loss Mitigation Program provides specialized assistance options for homeowners with FHA-insured mortgages who are struggling to make their payments.
+
+Special Forbearance: FHA may approve a temporary reduction or suspension of your mortgage payments while you recover from a financial hardship, with a structured plan to catch up afterward.
+
+Loan Modification: Your lender can modify your FHA loan terms — extending the repayment period, reducing the interest rate, or adding missed payments to the loan balance — to create a more affordable monthly payment.
+
+Partial Claim: FHA's partial claim option allows HUD to provide a one-time payment to your lender to bring your mortgage current. This creates a second, interest-free lien that isn't due until you sell or refinance.
+
+Pre-Foreclosure Sale: If keeping the home isn't viable, FHA allows a pre-foreclosure sale (similar to a short sale) that lets you sell the property for less than the mortgage balance without owing the difference.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Explore Your FHA Relief Options]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[FHA may allow repayment plans or modifications before foreclosure. Contact your servicer or a HUD counselor to get started.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Rural Housing Service (USDA)]]></title>
+		<link>https://wayoutnow.com/resources/rural-housing-service-usda/</link>
+		<pubDate>Tue, 23 Jun 2026 01:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=60020</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60020</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 01:56:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 01:56:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 01:56:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[rural-housing-service-usda]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="special-loans-fha-usda"><![CDATA[Special Loans (FHA / USDA)]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Help for USDA or RHS loans in rural PA.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit USDA Rural Development]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.rd.usda.gov/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for rural Pennsylvania homeowners with USDA loans:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Rural PA Homeowners with USDA/RHS Loans: Individuals in rural areas who financed their home through the USDA Rural Housing Service and are now facing financial difficulty.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Borrowers Experiencing Agricultural or Seasonal Income Loss: Homeowners whose income fluctuates with farming seasons or rural employment cycles and who have fallen behind.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Unaware of USDA-Specific Hardship Options: Borrowers who don't know that USDA loans include unique loss mitigation programs tailored to rural communities.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Rural Housing Service (USDA) provides specialized assistance for homeowners in rural Pennsylvania who have USDA-backed mortgages and are experiencing financial hardship.
+
+Payment Moratorium: USDA can approve a temporary suspension of mortgage payments for borrowers facing circumstances beyond their control, such as job loss or natural disaster.
+
+Loan Reamortization: Your USDA loan can be reamortized to extend the repayment term, reducing your monthly payment to a more affordable level based on your current income.
+
+Interest Rate Reduction: In some cases, USDA can reduce the interest rate on your loan to lower your payment, particularly if market rates have dropped since your original financing.
+
+Protective Advances: USDA may make protective advance payments for property taxes or insurance on your behalf to prevent tax sales or lapsed coverage while you recover financially.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Check Your USDA Loan Options]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[If your loan is rural-based, USDA can review special hardship options designed specifically for rural communities.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
