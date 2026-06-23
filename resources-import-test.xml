@@ -81,11 +81,11 @@
 	<generator>https://wordpress.org/?v=7.0</generator>
 
 	<item>
-		<title><![CDATA[Pennsylvania Housing Finance Agency (PHFA)]]></title>
-		<link>https://wayoutnow.com/resources/pennsylvania-housing-finance-agency-phfa/</link>
+		<title><![CDATA[Catholic Social Services / United Way 211]]></title>
+		<link>https://wayoutnow.com/resources/catholic-social-services-united-way-211/</link>
 		<pubDate>Tue, 23 Jun 2026 02:07:00 +0000</pubDate>
 		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
-		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=70001</guid>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=70009</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId":"rs1a0001","tagName":"section","styles":{"paddingTop":"1rem","paddingBottom":"2rem","@media (max-width:767px)":{"paddingTop":"2rem","paddingBottom":"2rem"}},"css":".gb-element-rs1a0001{padding-bottom:2rem;padding-top:1rem}@media (max-width:767px){.gb-element-rs1a0001{padding-bottom:2rem;padding-top:2rem}}","globalClasses":["gbp-section"],"metadata":{"name":"Resource Hero"}} -->
 <section class="gbp-section gb-element-rs1a0001"><!-- wp:generateblocks/element {"uniqueId":"rs1a0002","tagName":"div","styles":{"maxWidth":"720px","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-rs1a0002{margin-left:auto;margin-right:auto;max-width:720px}","globalClasses":["gbp-section__inner"],"metadata":{"name":"inner container max-width"}} -->
@@ -175,21 +175,21 @@
 <!-- /wp:generateblocks/element --></section>
 <!-- /wp:generateblocks/element -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>70001</wp:post_id>
+		<wp:post_id>70009</wp:post_id>
 		<wp:post_date><![CDATA[2026-06-23 02:07:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-06-23 02:07:00]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2026-06-23 02:07:00]]></wp:post_modified>
 		<wp:post_modified_gmt><![CDATA[2026-06-23 02:07:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[pennsylvania-housing-finance-agency-phfa]]></wp:post_name>
+		<wp:post_name><![CDATA[catholic-social-services-united-way-211]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[resources]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="resource-types" nicename="missed-payments-early-distress"><![CDATA[Missed Payments / Early Distress]]></category>
+		<category domain="resource-types" nicename="income-loss-hardship"><![CDATA[Income Loss / Hardship]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -208,43 +208,43 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[State-backed housing agency offering repayment help and program info.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Emergency assistance for utilities, rent, mortgage, and essential bills.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Visit PHFA]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Call 211]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[https://www.phfa.org/]]></wp:meta_value>
+			<wp:meta_value><![CDATA[https://uwp.org/211]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
-			<wp:meta_value><![CDATA[This resource is designed for homeowners in early-stage financial distress:]]></wp:meta_value>
+			<wp:meta_value><![CDATA[This resource is designed for anyone needing immediate relief for basic expenses:]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Homeowners 1–2 Months Behind: Individuals who have missed a payment or two and believe they can catch up with the right guidance and support programs.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Homeowners Behind on Essential Bills: Individuals who can't cover utilities, rent, or mortgage this month and need emergency funding to stay afloat.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[First-Time Borrowers Unsure of Options: People who don't know what resources exist at the state level for mortgage relief, refinancing, or forbearance.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Families in Crisis: Households dealing with sudden income loss, medical emergencies, or other crises that have disrupted their ability to pay for basic needs.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Those Wanting to Act Before Foreclosure: Homeowners who want to take proactive steps now, before their situation escalates to legal proceedings.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[People Who Don't Know Where to Start: Anyone feeling overwhelmed by their situation who needs a single point of contact to find local funding and support programs.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
-			<wp:meta_value><![CDATA[The Pennsylvania Housing Finance Agency (PHFA) is a state-backed organization that connects homeowners with repayment assistance programs, refinancing options, and forbearance plans.
+			<wp:meta_value><![CDATA[Catholic Social Services and United Way 211 provide emergency assistance and connect individuals with local funding sources for utilities, rent, mortgage, and other essential expenses.
 
-Program Review: PHFA reviews your current mortgage situation and identifies which state-level programs you may qualify for, including loan modifications and temporary payment relief.
+211 Helpline: By dialing 2-1-1, you're connected to a trained specialist who assesses your needs and matches you with local programs that can help — from utility shutoff prevention to emergency rent assistance.
 
-Counselor Connection: They can connect you directly with HUD-approved housing counselors in your area who specialize in negotiating with lenders on your behalf.
+Emergency Funding: Catholic Social Services and partner agencies offer direct financial assistance for qualifying households, covering immediate needs like past-due utility bills and mortgage payments.
 
-Application Guidance: PHFA walks you through the application process for programs like HEMAP, ensuring your paperwork is complete and submitted correctly.
+Comprehensive Referrals: Beyond financial help, 211 connects you with food banks, healthcare services, mental health support, and other community resources.
 
-Ongoing Support: Even after enrollment, PHFA provides follow-up resources to help you stay on track with your mortgage payments and avoid future distress.]]></wp:meta_value>
+No Wrong Door: You don't need to know the right program name or agency. 211 serves as a single entry point that routes you to the help you need based on your situation.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
@@ -252,11 +252,11 @@ Ongoing Support: Even after enrollment, PHFA provides follow-up resources to hel
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Take the First Step Toward Stability]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Get Connected to Emergency Help]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
-			<wp:meta_value><![CDATA[PHFA can review your options — including refinancing and forbearance — before foreclosure starts. There is no cost to explore what's available to you.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[If you need quick relief for essential bills, start with 211 for local funding sources. Help is available now.]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
