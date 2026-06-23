@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS (WXR) import file for Resources CPT -->
+<!-- Generated: 2026-06-23 02:07:00 -->
+
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Way Out Now Solutions</title>
+	<link>https://wayoutnow.com</link>
+	<description></description>
+	<pubDate>Tue, 23 Jun 2026 02:07:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://wayoutnow.com</wp:base_site_url>
+	<wp:base_blog_url>https://wayoutnow.com</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[info@tbonejones.com]]></wp:author_login>
+		<wp:author_email><![CDATA[info@tbonejones.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[info@tbonejones.com]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[]]></wp:author_last_name>
+	</wp:author>
+
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[bankruptcy-debt]]></wp:term_slug>
+		<wp:term_name><![CDATA[Bankruptcy / Debt]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[emotional-family-stress]]></wp:term_slug>
+		<wp:term_name><![CDATA[Emotional / Family Stress]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[income-loss-hardship]]></wp:term_slug>
+		<wp:term_name><![CDATA[Income Loss / Hardship]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[inherited-vacant-property]]></wp:term_slug>
+		<wp:term_name><![CDATA[Inherited / Vacant Property]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[internal-resource]]></wp:term_slug>
+		<wp:term_name><![CDATA[Internal Resource]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[legal-foreclosure]]></wp:term_slug>
+		<wp:term_name><![CDATA[Legal / Foreclosure]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[missed-payments-early-distress]]></wp:term_slug>
+		<wp:term_name><![CDATA[Missed Payments / Early Distress]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>0</wp:term_id>
+		<wp:term_taxonomy><![CDATA[resource-types]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[special-loans-fha-usda]]></wp:term_slug>
+		<wp:term_name><![CDATA[Special Loans (FHA / USDA)]]></wp:term_name>
+	</wp:term>
+
+	<generator>https://wordpress.org/?v=7.0</generator>
+
+	<item>
+		<title><![CDATA[Pennsylvania Housing Finance Agency (PHFA)]]></title>
+		<link>https://wayoutnow.com/resources/pennsylvania-housing-finance-agency-phfa/</link>
+		<pubDate>Tue, 23 Jun 2026 02:07:00 +0000</pubDate>
+		<dc:creator><![CDATA[info@tbonejones.com]]></dc:creator>
+		<guid isPermaLink="false">https://wayoutnow.com/?post_type=resources&amp;p=70001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId":"rs1a0001","tagName":"section","styles":{"paddingTop":"1rem","paddingBottom":"2rem","@media (max-width:767px)":{"paddingTop":"2rem","paddingBottom":"2rem"}},"css":".gb-element-rs1a0001{padding-bottom:2rem;padding-top:1rem}@media (max-width:767px){.gb-element-rs1a0001{padding-bottom:2rem;padding-top:2rem}}","globalClasses":["gbp-section"],"metadata":{"name":"Resource Hero"}} -->
+<section class="gbp-section gb-element-rs1a0001"><!-- wp:generateblocks/element {"uniqueId":"rs1a0002","tagName":"div","styles":{"maxWidth":"720px","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-rs1a0002{margin-left:auto;margin-right:auto;max-width:720px}","globalClasses":["gbp-section__inner"],"metadata":{"name":"inner container max-width"}} -->
+<div class="gbp-section__inner gb-element-rs1a0002"><!-- wp:generateblocks/text {"uniqueId":"rs1a0003","tagName":"p","globalClasses":["gbp-section__tagline","gbp\u002d\u002dborder"]} -->
+<p class="gb-text gbp-section__tagline gbp--border">Resource</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"rs1a0004","tagName":"h1","styles":{"marginBottom":"1.5rem","@media (max-width:767px)":{"fontSize":"28px"}},"css":".gb-text-rs1a0004{margin-bottom:1.5rem}@media (max-width:767px){.gb-text-rs1a0004{font-size:28px}}","globalClasses":["gbp-section__headline"]} -->
+<h1 class="gb-text gbp-section__headline gb-text-rs1a0004">{{post_title}}</h1>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"rs1a0005","tagName":"p","styles":{"borderLeftWidth":"4px","borderLeftStyle":"solid","borderLeftColor":"var(\u002d\u002daccent)","paddingLeft":"1.25rem","fontStyle":"italic","fontWeight":"600","marginBottom":"0"},"css":".gb-text-rs1a0005{font-style:italic;font-weight:600;margin-bottom:0;padding-left:1.25rem;border-left:4px solid var(\u002d\u002daccent)}","globalClasses":["gbp-section__text"]} -->
+<p class="gb-text gbp-section__text gb-text-rs1a0005">{{post_meta key:short_description}}</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:generateblocks/element {"uniqueId":"8b13181b","tagName":"div","styles":{"paddingBottom":"10px","marginBottom":"20px"},"css":".gb-element-8b13181b{margin-bottom:20px;padding-bottom:10px}"} -->
+<div class="gb-element-8b13181b"><!-- wp:generateblocks/text {"uniqueId":"b5c86db5","tagName":"a","styles":{"marginTop":"0"},"css":".gb-text-b5c86db5{margin-top:0}","globalClasses":["gbp-button\u002d\u002dsecondary"],"htmlAttributes":{"target":"_blank","rel":"noopener noreferrer","href":"{{post_meta key:button_url}}"}} -->
+<a class="gb-text gbp-button--secondary gb-text-b5c86db5" target="_blank" rel="noopener noreferrer" href="{{post_meta key:button_url}}">{{post_meta key:cta_button_text}}</a>
+<!-- /wp:generateblocks/text --></div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:post-featured-image /--></div>
+<!-- /wp:generateblocks/element --></section>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"rs2b0001","tagName":"section","styles":{"backgroundColor":"var(\u002d\u002daccent)","paddingTop":"3rem","paddingBottom":"3rem","borderTopLeftRadius":"20px","borderTopRightRadius":"20px","borderBottomRightRadius":"20px","borderBottomLeftRadius":"20px"},"css":".gb-element-rs2b0001{background-color:var(\u002d\u002daccent);padding-bottom:3rem;padding-top:3rem;border-radius:20px}","globalClasses":["gbp-section"],"metadata":{"name":"Who Is This For"}} -->
+<section class="gbp-section gb-element-rs2b0001"><!-- wp:generateblocks/element {"uniqueId":"rs2b0002","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"720px"},"css":".gb-element-rs2b0002{margin-left:auto;margin-right:auto;max-width:720px}","globalClasses":["gbp-section__inner"],"metadata":{"name":"inner container max-width"}} -->
+<div class="gbp-section__inner gb-element-rs2b0002"><!-- wp:generateblocks/text {"uniqueId":"rs2b0003","tagName":"p","styles":{"display":"inline-flex","alignItems":"center","columnGap":"0.5em"},"css":".gb-text-rs2b0003{align-items:center;column-gap:0.5em;display:inline-flex}","globalClasses":["gbp-section__tagline"]} -->
+<p class="gb-text gbp-section__tagline gb-text-rs2b0003">Who is this for?</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"rs2b0004","tagName":"h2","styles":{"color":"var(\u002d\u002dglobal-color-10)","marginBottom":"1.5rem"},"css":".gb-text-rs2b0004{color:var(\u002d\u002dglobal-color-10);margin-bottom:1.5rem}","globalClasses":["gbp-section__headline"]} -->
+<h2 class="gb-text gbp-section__headline gb-text-rs2b0004">{{post_meta key:who_is_this_for_headline}}</h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/element {"uniqueId":"rs2b0005","tagName":"div","styles":{"display":"flex","flexDirection":"column","rowGap":"1rem"},"css":".gb-element-rs2b0005{display:flex;flex-direction:column;row-gap:1rem}"} -->
+<div class="gb-element-rs2b0005"><!-- wp:generateblocks/text {"uniqueId":"44ec5faa","tagName":"p","styles":{"marginBottom":"1.5rem","color":"var(\u002d\u002dbase-3)","display":"inline-flex","alignItems":"center","columnGap":"0.5em",".gb-shape svg":{"width":"1em","height":"1em","fill":"currentColor","color":"var(\u002d\u002dglobal-color-10)"}},"css":".gb-text-44ec5faa{align-items:center;color:var(\u002d\u002dbase-3);column-gap:0.5em;display:inline-flex;margin-bottom:1.5rem}.gb-text-44ec5faa .gb-shape svg{width:1em;height:1em;fill:currentColor;color:var(\u002d\u002dglobal-color-10)}","globalClasses":["gbp-section__text"]} -->
+<p class="gbp-section__text gb-text-44ec5faa"><span class="gb-shape"><svg aria-hidden="true" role="img" height="1em" width="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span><span class="gb-text">{{post_meta key:bullet_1}}</span></p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"f88046c1","tagName":"p","styles":{"marginBottom":"1.5rem","color":"var(\u002d\u002dbase-3)","display":"inline-flex","alignItems":"center","columnGap":"0.5em",".gb-shape svg":{"width":"1em","height":"1em","fill":"currentColor","color":"var(\u002d\u002dglobal-color-10)"}},"css":".gb-text-f88046c1{align-items:center;color:var(\u002d\u002dbase-3);column-gap:0.5em;display:inline-flex;margin-bottom:1.5rem}.gb-text-f88046c1 .gb-shape svg{width:1em;height:1em;fill:currentColor;color:var(\u002d\u002dglobal-color-10)}","globalClasses":["gbp-section__text"]} -->
+<p class="gbp-section__text gb-text-f88046c1"><span class="gb-shape"><svg aria-hidden="true" role="img" height="1em" width="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span><span class="gb-text">{{post_meta key:bullet_2}}</span></p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"273defc0","tagName":"p","styles":{"marginBottom":"1.5rem","color":"var(\u002d\u002dbase-3)","display":"inline-flex","alignItems":"center","columnGap":"0.5em",".gb-shape svg":{"width":"1em","height":"1em","fill":"currentColor","color":"var(\u002d\u002dglobal-color-10)"}},"css":".gb-text-273defc0{align-items:center;color:var(\u002d\u002dbase-3);column-gap:0.5em;display:inline-flex;margin-bottom:1.5rem}.gb-text-273defc0 .gb-shape svg{width:1em;height:1em;fill:currentColor;color:var(\u002d\u002dglobal-color-10)}","globalClasses":["gbp-section__text"]} -->
+<p class="gbp-section__text gb-text-273defc0"><span class="gb-shape"><svg aria-hidden="true" role="img" height="1em" width="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></span><span class="gb-text">{{post_meta key:bullet_3}}</span></p>
+<!-- /wp:generateblocks/text --></div>
+<!-- /wp:generateblocks/element --></div>
+<!-- /wp:generateblocks/element --></section>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"rs3c0001","tagName":"section","styles":{"paddingTop":"2rem","paddingBottom":"2rem","@media (max-width:767px)":{"paddingLeft":"1rem","paddingRight":"1rem"}},"css":".gb-element-rs3c0001{padding-bottom:2rem;padding-top:2rem}@media (max-width:767px){.gb-element-rs3c0001{padding-left:1rem;padding-right:1rem}}","globalClasses":["gbp-section"],"metadata":{"name":"Main Description"}} -->
+<section class="gbp-section gb-element-rs3c0001"><!-- wp:generateblocks/element {"uniqueId":"rs3c0002","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"720px"},"css":".gb-element-rs3c0002{margin-left:auto;margin-right:auto;max-width:720px}","globalClasses":["gbp-section__inner"],"metadata":{"name":"inner container max-width"}} -->
+<div class="gbp-section__inner gb-element-rs3c0002"><!-- wp:generateblocks/text {"uniqueId":"rs3c0003","tagName":"h2","globalClasses":["gbp-section__headline"]} -->
+<h2 class="gb-text gbp-section__headline"><strong>How This Resource Works</strong></h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"rs3c0004","tagName":"p","styles":{"marginBottom":"1.5rem","borderBottomWidth":"1px","borderBottomStyle":"solid","borderBottomColor":"var(\u002d\u002dbase)","paddingBottom":"1.5rem"},"css":".gb-text-rs3c0004{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(\u002d\u002dbase)}","globalClasses":["gbp-section__text"]} -->
+<p class="gb-text gbp-section__text gb-text-rs3c0004">{{post_meta key:long_description}}</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"c8056e4e","tagName":"p","styles":{"marginBottom":"1.5rem","borderBottomWidth":"1px","borderBottomStyle":"solid","borderBottomColor":"var(\u002d\u002dbase)","paddingBottom":"1.5rem"},"css":".gb-text-c8056e4e{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(\u002d\u002dbase)}","globalClasses":["gbp-section__text"]} -->
+<p class="gb-text gbp-section__text gb-text-c8056e4e">{{post_meta key:embed}}</p>
+<!-- /wp:generateblocks/text --></div>
+<!-- /wp:generateblocks/element --></section>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"rs4d0001","tagName":"section","styles":{"backgroundColor":"var(\u002d\u002daccent)","paddingTop":"3rem","paddingBottom":"3rem","borderTopLeftRadius":"20px","borderTopRightRadius":"20px","borderBottomRightRadius":"20px","borderBottomLeftRadius":"20px"},"css":".gb-element-rs4d0001{background-color:var(\u002d\u002daccent);padding-bottom:3rem;padding-top:3rem;border-radius:20px}","globalClasses":["gbp-section"],"metadata":{"name":"CTA External Link"}} -->
+<section class="gbp-section gb-element-rs4d0001"><!-- wp:generateblocks/element {"uniqueId":"rs4d0002","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"720px"},"css":".gb-element-rs4d0002{margin-left:auto;margin-right:auto;max-width:720px}","globalClasses":["gbp-section__inner"],"metadata":{"name":"inner container max-width"}} -->
+<div class="gbp-section__inner gb-element-rs4d0002"><!-- wp:generateblocks/text {"uniqueId":"rs4d0003","tagName":"h2","styles":{"color":"var(\u002d\u002dglobal-color-10)","marginBottom":"1rem"},"css":".gb-text-rs4d0003{color:var(\u002d\u002dglobal-color-10);margin-bottom:1rem}","globalClasses":["gbp-section__headline"]} -->
+<h2 class="gb-text gbp-section__headline gb-text-rs4d0003">{{post_meta key:call_to_action}}</h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"rs4d0004","tagName":"p","styles":{"marginBottom":"2.6rem","borderBottomWidth":"1px","borderBottomStyle":"solid","borderBottomColor":"var(\u002d\u002dbase)","paddingBottom":"2.6rem","color":"var(\u002d\u002dbase-3)"},"css":".gb-text-rs4d0004{color:var(\u002d\u002dbase-3);margin-bottom:2.6rem;padding-bottom:2.6rem;border-bottom:1px solid var(\u002d\u002dbase)}","globalClasses":["gbp-section__text"]} -->
+<p class="gb-text gbp-section__text gb-text-rs4d0004"></p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/element {"uniqueId":"a0561fd9","tagName":"div","styles":{"paddingBottom":"10px","marginBottom":"20px"},"css":".gb-element-a0561fd9{margin-bottom:20px;padding-bottom:10px}"} -->
+<div class="gb-element-a0561fd9"><!-- wp:generateblocks/text {"uniqueId":"9a2cbf9c","tagName":"a","styles":{"marginTop":"0"},"css":".gb-text-9a2cbf9c{margin-top:0}","globalClasses":["gbp-button\u002d\u002dsecondary"],"htmlAttributes":{"href":"https://www.phila.gov/services/property-lots-housing/foreclosure-sheriff-sales/save-your-property-from-foreclosure/","target":"_blank","rel":"noopener noreferrer"}} -->
+<a class="gb-text gbp-button--secondary gb-text-9a2cbf9c" href="https://www.phila.gov/services/property-lots-housing/foreclosure-sheriff-sales/save-your-property-from-foreclosure/" target="_blank" rel="noopener noreferrer">{{post_meta key:cta_button_text}}</a>
+<!-- /wp:generateblocks/text --></div>
+<!-- /wp:generateblocks/element --></div>
+<!-- /wp:generateblocks/element --></section>
+<!-- /wp:generateblocks/element -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>70001</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-23 02:07:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-23 02:07:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-23 02:07:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-23 02:07:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pennsylvania-housing-finance-agency-phfa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[resources]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="resource-types" nicename="missed-payments-early-distress"><![CDATA[Missed Payments / Early Distress]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_generate-sidebar-layout-meta]]></wp:meta_key>
+			<wp:meta_value><![CDATA[right-sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[short_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[State-backed housing agency offering repayment help and program info.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_button_text]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Visit PHFA]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[button_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://www.phfa.org/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[who_is_this_for_headline]]></wp:meta_key>
+			<wp:meta_value><![CDATA[This resource is designed for homeowners in early-stage financial distress:]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_1]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Homeowners 1–2 Months Behind: Individuals who have missed a payment or two and believe they can catch up with the right guidance and support programs.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[First-Time Borrowers Unsure of Options: People who don't know what resources exist at the state level for mortgage relief, refinancing, or forbearance.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[bullet_3]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Those Wanting to Act Before Foreclosure: Homeowners who want to take proactive steps now, before their situation escalates to legal proceedings.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[long_description]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Pennsylvania Housing Finance Agency (PHFA) is a state-backed organization that connects homeowners with repayment assistance programs, refinancing options, and forbearance plans.
+
+Program Review: PHFA reviews your current mortgage situation and identifies which state-level programs you may qualify for, including loan modifications and temporary payment relief.
+
+Counselor Connection: They can connect you directly with HUD-approved housing counselors in your area who specialize in negotiating with lenders on your behalf.
+
+Application Guidance: PHFA walks you through the application process for programs like HEMAP, ensuring your paperwork is complete and submitted correctly.
+
+Ongoing Support: Even after enrollment, PHFA provides follow-up resources to help you stay on track with your mortgage payments and avoid future distress.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[embed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[call_to_action]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Take the First Step Toward Stability]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[cta_subheading]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PHFA can review your options — including refinancing and forbearance — before foreclosure starts. There is no cost to explore what's available to you.]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
