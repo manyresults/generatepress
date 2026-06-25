@@ -4,6 +4,27 @@ Reusable GenerateBlocks patterns from the 3P Allies / ManyResults sites. Copy-pa
 
 ---
 
+## How This Works
+
+WordPress stores page content as HTML comments containing block markup. Each block is wrapped in a comment tag like `<!-- wp:generateblocks/container {...} -->` that holds its settings as JSON, followed by the rendered HTML, and closed with `<!-- /wp:generateblocks/container -->`. Blocks nest inside each other to create layouts — a section container holds a content container, which holds headlines, buttons, images, etc.
+
+**GenerateBlocks** is the block toolkit used across these sites. It provides a small set of flexible primitives — `container`, `headline`, `button`, `image`, `grid`, and `shape` — that you style through JSON attributes (spacing, typography, borders, colors, responsive breakpoints) rather than separate CSS files. The theme's CSS custom properties (`--accent`, `--base-2`, `--contrast`, etc.) keep colors consistent site-wide.
+
+**To build a new page:**
+1. Pick the patterns you need from this library (hero, cards, CTA, etc.)
+2. Paste them in order into an `.html` file
+3. Replace `YOUR-*` placeholders with real content, images, and links
+4. Give every block a unique `uniqueId` — this generates the CSS class names so styles don't collide
+5. Paste the final markup into the WordPress block editor (Code Editor view) or import via a custom block template
+
+**Key rules:**
+- Every `uniqueId` must be unique across the page — duplicate IDs cause style conflicts
+- The JSON in the comment and the rendered HTML must stay in sync — if you change a class name in the HTML, update the `uniqueId` in the JSON comment too
+- Responsive styles are set via `@media` keys in the JSON: `widthMobile`, `paddingTopTablet`, `fontSizeMobile`, etc.
+- The `<!-- wp:block {"ref":43859} /-->` shorthand inserts a reusable block (like the site divider) by its WordPress post ID
+
+---
+
 ## Table of Contents
 
 1. [Hero – Gradient Background with Split Layout](#hero--gradient-background-with-split-layout)
