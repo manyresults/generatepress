@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPARQ Energy Market Map — Standalone Demo</title>
+
+  <!-- Vendored jsVectorMap styles (self-hosted, no CDN required) -->
+  <link rel="stylesheet" href="assets/vendor/jsvectormap/jsvectormap.min.css">
+  <!-- SPARQ section styles -->
+  <link rel="stylesheet" href="assets/css/sparq-energy-market-map.css">
+
+  <style>
+    /* Demo page chrome only — not part of the component. */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #263241;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="sparq-energy-market-map" class="sparq-energy-section">
+    <div class="sparq-energy-inner">
+      <div class="sparq-eyebrow">Energy Market Eligibility</div>
+
+      <h2>Energy Opportunities Vary by Market</h2>
+
+      <p class="sparq-lead">
+        In deregulated or retail choice markets, businesses may have the ability to review competitive supply options while the local utility continues to deliver service. Availability can vary by state, utility territory, account type, and market rules, which is why SPARQ reviews each energy account individually.
+      </p>
+
+      <div class="sparq-map-card">
+        <div class="sparq-map-panel">
+          <div class="sparq-map-controls" aria-label="Energy market map controls">
+            <button class="sparq-toggle active" type="button" data-market="electricity">Electricity</button>
+            <button class="sparq-toggle" type="button" data-market="gas">Natural Gas</button>
+          </div>
+
+          <div id="sparq-us-energy-map"></div>
+
+          <p class="sparq-map-note">
+            This map is for general education only. Energy choice, supplier availability, and potential savings may vary by utility territory, customer type, and current market conditions.
+          </p>
+        </div>
+
+        <aside class="sparq-side-panel">
+          <div>
+            <h3 id="sparq-market-title">Electricity Retail Choice</h3>
+            <p id="sparq-market-description" class="sparq-market-description">
+              Some states allow electricity customers to choose a competitive supplier, while the local utility continues to deliver power and maintain the infrastructure.
+            </p>
+
+            <div class="sparq-legend">
+              <div class="sparq-legend-item">
+                <span class="sparq-dot sparq-dot-full"></span>
+                <span id="sparq-full-label">Deregulated / retail choice</span>
+              </div>
+              <div class="sparq-legend-item">
+                <span class="sparq-dot sparq-dot-limited"></span>
+                <span id="sparq-limited-label">Limited or utility-specific choice</span>
+              </div>
+              <div class="sparq-legend-item">
+                <span class="sparq-dot sparq-dot-regulated"></span>
+                <span>Regulated / no broad retail choice</span>
+              </div>
+            </div>
+
+            <div id="sparq-state-list" class="sparq-state-list"></div>
+          </div>
+
+          <div class="sparq-energy-cta">
+            <a class="sparq-btn-primary" href="/start-review/">Start Review</a>
+            <a class="sparq-btn-secondary" href="/contact/">Contact Us</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vendored jsVectorMap library + US map (self-hosted, no CDN required) -->
+  <script src="assets/vendor/jsvectormap/jsvectormap.min.js"></script>
+  <script src="assets/vendor/jsvectormap/us-aea.js"></script>
+  <!-- SPARQ section behaviour -->
+  <script src="assets/js/sparq-energy-market-map.js"></script>
+
+</body>
+</html>

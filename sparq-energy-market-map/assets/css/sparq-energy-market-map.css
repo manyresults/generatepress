@@ -1,0 +1,268 @@
+/*
+ * SPARQ Energy Market Map — styles
+ * Everything is namespaced under #sparq-energy-market-map so it can be dropped
+ * into any theme (WordPress, GeneratePress, etc.) without leaking styles.
+ */
+
+#sparq-energy-market-map {
+  --sparq-navy: #0b1f3a;
+  --sparq-blue: #143b63;
+  --sparq-gold: #c9a227;
+  --sparq-light-blue: #6f8faa;
+  --sparq-gray: #d9dee7;
+  --sparq-text: #263241;
+  --sparq-muted: #687383;
+  --sparq-white: #ffffff;
+  --sparq-border: #e7ebf0;
+  background: #ffffff;
+  padding: 72px 20px;
+  font-family: inherit;
+}
+
+#sparq-energy-market-map .sparq-energy-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+#sparq-energy-market-map .sparq-eyebrow {
+  color: var(--sparq-gold);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+#sparq-energy-market-map h2 {
+  color: var(--sparq-navy);
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.05;
+  margin: 0 0 18px;
+  max-width: 820px;
+}
+
+#sparq-energy-market-map .sparq-lead {
+  color: var(--sparq-text);
+  font-size: 18px;
+  line-height: 1.65;
+  max-width: 900px;
+  margin: 0 0 34px;
+}
+
+#sparq-energy-market-map .sparq-map-card {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 28px;
+  align-items: stretch;
+  background: #f8fafc;
+  border: 1px solid var(--sparq-border);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 18px 50px rgba(11, 31, 58, 0.08);
+}
+
+#sparq-energy-market-map .sparq-map-panel {
+  background: var(--sparq-white);
+  border: 1px solid var(--sparq-border);
+  border-radius: 18px;
+  padding: 20px;
+  min-height: 460px;
+}
+
+#sparq-energy-market-map #sparq-us-energy-map {
+  width: 100%;
+  height: 420px;
+}
+
+#sparq-energy-market-map .sparq-map-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+#sparq-energy-market-map .sparq-toggle {
+  border: 1px solid var(--sparq-border);
+  background: var(--sparq-white);
+  color: var(--sparq-blue);
+  padding: 11px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#sparq-energy-market-map .sparq-toggle.active,
+#sparq-energy-market-map .sparq-toggle:hover {
+  background: var(--sparq-navy);
+  color: var(--sparq-white);
+  border-color: var(--sparq-navy);
+}
+
+#sparq-energy-market-map .sparq-side-panel {
+  background: var(--sparq-navy);
+  color: var(--sparq-white);
+  border-radius: 18px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#sparq-energy-market-map .sparq-side-panel h3 {
+  color: var(--sparq-white);
+  font-size: 25px;
+  line-height: 1.2;
+  margin: 0 0 14px;
+}
+
+#sparq-energy-market-map .sparq-market-description {
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+#sparq-energy-market-map .sparq-legend {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+#sparq-energy-market-map .sparq-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+#sparq-energy-market-map .sparq-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+#sparq-energy-market-map .sparq-dot-full {
+  background: var(--sparq-gold);
+}
+
+#sparq-energy-market-map .sparq-dot-limited {
+  background: var(--sparq-light-blue);
+}
+
+#sparq-energy-market-map .sparq-dot-regulated {
+  background: var(--sparq-gray);
+}
+
+#sparq-energy-market-map .sparq-state-list {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 18px;
+}
+
+#sparq-energy-market-map .sparq-state-list strong {
+  color: var(--sparq-white);
+}
+
+#sparq-energy-market-map .sparq-map-note {
+  color: var(--sparq-muted);
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 18px 0 0;
+}
+
+#sparq-energy-market-map .sparq-energy-cta {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#sparq-energy-market-map .sparq-btn-primary,
+#sparq-energy-market-map .sparq-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 800;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+}
+
+#sparq-energy-market-map .sparq-btn-primary {
+  background: var(--sparq-gold);
+  color: var(--sparq-navy);
+}
+
+#sparq-energy-market-map .sparq-btn-primary:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+#sparq-energy-market-map .sparq-btn-secondary {
+  background: transparent;
+  color: var(--sparq-white);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+#sparq-energy-market-map .sparq-btn-secondary:hover {
+  border-color: var(--sparq-white);
+}
+
+/* jsVectorMap tooltip (rendered at <body> level, so it is not namespaced). */
+.jvm-tooltip {
+  background-color: #0b1f3a !important;
+  border-radius: 10px !important;
+  padding: 8px 10px !important;
+  font-family: inherit !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+@media (max-width: 900px) {
+  #sparq-energy-market-map {
+    padding: 54px 18px;
+  }
+
+  #sparq-energy-market-map .sparq-map-card {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  #sparq-energy-market-map .sparq-map-panel {
+    min-height: auto;
+  }
+
+  #sparq-energy-market-map #sparq-us-energy-map {
+    height: 360px;
+  }
+}
+
+@media (max-width: 520px) {
+  #sparq-energy-market-map h2 {
+    font-size: 34px;
+  }
+
+  #sparq-energy-market-map .sparq-lead {
+    font-size: 16px;
+  }
+
+  #sparq-energy-market-map #sparq-us-energy-map {
+    height: 300px;
+  }
+
+  #sparq-energy-market-map .sparq-map-controls {
+    flex-direction: column;
+  }
+
+  #sparq-energy-market-map .sparq-toggle {
+    width: 100%;
+  }
+
+  #sparq-energy-market-map .sparq-energy-cta a {
+    width: 100%;
+  }
+}

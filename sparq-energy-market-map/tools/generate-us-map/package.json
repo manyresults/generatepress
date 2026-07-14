@@ -1,0 +1,15 @@
+{
+  "name": "sparq-us-aea-map-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Regenerates the us_aea jsVectorMap file from authoritative US geometry.",
+  "scripts": {
+    "build": "node generate-us-aea.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "topojson-client": "^3.1.0",
+    "us-atlas": "^3.0.1"
+  }
+}
