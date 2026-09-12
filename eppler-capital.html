@@ -1,172 +1,99 @@
 <!--
-  Eppler Capital Funds — homepage (redesign)
+  Eppler Capital Funds — homepage (redesign, revision 2)
   Same information as the original page, restaged in the vocabulary of a
-  private-markets firm: hairline rules, roman-numeral sections, an offering
-  specimen card in the hero, a founder pull-quote (replaces the headshot
-  block), a bordered dossier for values, and index-card investor profiles.
+  private-markets firm: hairline rules, numbered principles, a photo-led
+  founder card, and index-card investor profiles. All original photos
+  from the source page are preserved at their original positions.
 
   Depends on the theme's existing globals:
-    Colors  — var(--accent)  = forest green  (#082e1f)
-              var(--base-2)  = paper         (near-white)
-              var(--base-3)  = surface       (#ffffff)
-              var(--contrast), --contrast-2, --contrast-3 = ink text
-    Global classes — gbp-section, gbp-section__inner,
-                     gbp-section__tagline, gbp-section__h1--xl,
-                     gbp-section__text--lg, gbp-button--secondary
-    Fonts   — Libre Baskerville (headlines) must be enabled in
-              GeneratePress > Customize > Typography (or via
-              wp_enqueue_style). Inter for body copy uses the theme's
-              existing --gp-font--inter var.
+    Colors  — var(--accent) forest green   (#082e1f)
+              var(--base) / --base-2 / --base-3   paper tones
+              var(--contrast-2), --contrast-3     ink text
+    Global classes — gbp-section, gbp-section__inner, gbp-section__tagline
+    Fonts   — Libre Baskerville (headlines): enable in Customize > Typography
+              Inter (body): the theme's existing --gp-font--inter
+
+  Trailing HTML comment has the CSS to paste into Customize > Additional CSS
+  (styles the FAQ accordion, which uses core wp:details blocks).
 -->
 
 <!-- ============================================================ HERO -->
-<!-- wp:generateblocks/element {"uniqueId":"epph001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","paddingTop":"clamp(72px, 9vw, 128px)","paddingBottom":"clamp(72px, 9vw, 128px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)","position":"relative","overflow":"hidden"},"css":".gb-element-epph001{background-color:var(--base-2);overflow:hidden;padding:clamp(72px, 9vw, 128px) clamp(20px, 4vw, 56px);position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<!-- wp:generateblocks/element {"uniqueId":"epph001","tagName":"section","styles":{"backgroundColor":"var(--accent)","backgroundImage":"linear-gradient(180deg, rgba(8, 46, 31, 0.82) 0%, rgba(8, 46, 31, 0.90) 100%), url(http://epplercapital.com/wp-content/uploads/2026/01/giant-tree-closeup-sequoia-national-park.jpg)","backgroundSize":"cover","backgroundPosition":"center","backgroundRepeat":"no-repeat","paddingTop":"clamp(88px, 11vw, 168px)","paddingBottom":"clamp(88px, 11vw, 168px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)","position":"relative","overflow":"hidden","color":"#f2ede0"},"css":".gb-element-epph001{background-color:var(--accent);background-image:linear-gradient(180deg, rgba(8, 46, 31, 0.82) 0%, rgba(8, 46, 31, 0.90) 100%), url(http://epplercapital.com/wp-content/uploads/2026/01/giant-tree-closeup-sequoia-national-park.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;color:#f2ede0;overflow:hidden;padding:clamp(88px, 11vw, 168px) clamp(20px, 4vw, 56px);position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-epph001 gb-element alignfull gbp-section">
 
   <!-- inner -->
-  <!-- wp:generateblocks/element {"uniqueId":"epph002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-epph002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
+  <!-- wp:generateblocks/element {"uniqueId":"epph002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","position":"relative"},"css":".gb-element-epph002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width);position:relative}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-epph002 gb-element gbp-section__inner">
 
-    <!-- Running head: No. MMXXVI · I  ·  A Private Investment Firm  ·  Income & Real Assets -->
-    <!-- wp:generateblocks/element {"uniqueId":"epph003","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","alignItems":"center","gap":"1rem","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"40px","flexWrap":"wrap"},"css":".gb-element-epph003{align-items:center;border-bottom:1px solid #dedee3;display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;margin-bottom:40px;padding-bottom:20px}","className":"gb-element"} -->
+    <!-- Top rule strip -->
+    <!-- wp:generateblocks/element {"uniqueId":"epph003","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","alignItems":"center","gap":"1rem","paddingBottom":"24px","borderBottom":"1px solid rgba(242, 237, 224, 0.18)","marginBottom":"clamp(56px, 7vw, 88px)","flexWrap":"wrap","color":"rgba(242, 237, 224, 0.72)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"500"},"css":".gb-element-epph003{align-items:center;border-bottom:1px solid rgba(242, 237, 224, 0.18);color:rgba(242, 237, 224, 0.72);display:flex;flex-wrap:wrap;font-size:11px;font-weight:500;gap:1rem;justify-content:space-between;letter-spacing:0.18em;margin-bottom:clamp(56px, 7vw, 88px);padding-bottom:24px;text-transform:uppercase}","className":"gb-element"} -->
     <div class="gb-element-epph003 gb-element">
-      <!-- wp:generateblocks/text {"uniqueId":"epph004","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500","color":"var(--contrast-2)","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epph004{color:var(--contrast-2);font-size:11px;font-variant-numeric:tabular-nums;font-weight:500;letter-spacing:0.16em;text-transform:uppercase}"} -->
-      <span class="gb-text gb-text-epph004">No. MMXXVI · I</span>
+      <!-- wp:generateblocks/text {"uniqueId":"epph004","tagName":"span","styles":{},"css":""} --><span class="gb-text gb-text-epph004">Private Investment Firm · Est. MMXX</span><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"epph005","tagName":"span","styles":{"color":"#f2ede0","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"15px","letterSpacing":"0","textTransform":"none","fontWeight":"400"},"css":".gb-text-epph005{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-weight:400;letter-spacing:0;text-transform:none}"} --><span class="gb-text gb-text-epph005">Eppler &amp; Co.</span><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"epph006","tagName":"span","styles":{},"css":""} --><span class="gb-text gb-text-epph006">Income &amp; Real Assets</span><!-- /wp:generateblocks/text -->
+    </div>
+    <!-- /wp:generateblocks/element -->
+
+    <!-- Eyebrow -->
+    <!-- wp:generateblocks/text {"uniqueId":"epph010","tagName":"p","styles":{"color":"#f2ede0","fontFamily":"var(--gp-font--inter)","fontWeight":"600","fontSize":"12px","letterSpacing":"0.22em","textTransform":"uppercase","display":"inline-flex","alignItems":"center","gap":"14px","marginBottom":"36px","marginTop":"0"},"css":".gb-text-epph010{align-items:center;color:#f2ede0;display:inline-flex;font-family:var(--gp-font--inter);font-size:12px;font-weight:600;gap:14px;letter-spacing:0.22em;margin-bottom:36px;margin-top:0;text-transform:uppercase}.gb-text-epph010::before{content:'';width:32px;height:1px;background:#f2ede0;display:inline-block}"} -->
+    <p class="gb-text gb-text-epph010">Private Markets — Income Strategies</p>
+    <!-- /wp:generateblocks/text -->
+
+    <!-- Headline -->
+    <!-- wp:generateblocks/text {"uniqueId":"epph020","tagName":"h1","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(44px, 6vw, 82px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"#f2ede0","maxWidth":"18ch","margin":"0","textWrap":"balance"},"css":".gb-text-epph020{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(44px, 6vw, 82px);font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin:0;max-width:18ch;text-wrap:balance}"} -->
+    <h1 class="gb-text gb-text-epph020">Secure <span style="color:#b6d2c3;">&amp;</span> consistent returns, through innovative investment solutions.</h1>
+    <!-- /wp:generateblocks/text -->
+
+    <!-- Sub / lede -->
+    <!-- wp:generateblocks/text {"uniqueId":"epph021","tagName":"p","styles":{"color":"rgba(242, 237, 224, 0.72)","fontSize":"clamp(18px, 1.6vw, 21px)","lineHeight":"1.55","maxWidth":"56ch","marginTop":"36px","marginBottom":"0"},"css":".gb-text-epph021{color:rgba(242, 237, 224, 0.72);font-size:clamp(18px, 1.6vw, 21px);line-height:1.55;margin-bottom:0;margin-top:36px;max-width:56ch}"} -->
+    <p class="gb-text gb-text-epph021">Discover unique opportunities designed to deliver dependable income and diversify your portfolio with confidence — sourced from top-tier operators of real assets and recession-resistant businesses across the United States.</p>
+    <!-- /wp:generateblocks/text -->
+
+    <!-- CTAs -->
+    <!-- wp:generateblocks/element {"uniqueId":"epph025","tagName":"div","styles":{"marginTop":"48px","display":"flex","gap":"16px","flexWrap":"wrap","alignItems":"center"},"css":".gb-element-epph025{align-items:center;display:flex;flex-wrap:wrap;gap:16px;margin-top:48px}","className":"gb-element"} -->
+    <div class="gb-element-epph025 gb-element">
+      <!-- wp:generateblocks/text {"uniqueId":"epph026","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"16px 26px","fontSize":"12px","fontWeight":"600","letterSpacing":"0.14em","textTransform":"uppercase","backgroundColor":"#f2ede0","color":"var(--accent)","border":"1px solid #f2ede0","&:hover":{"backgroundColor":"var(--base-3)","borderColor":"var(--base-3)"}},"css":".gb-text-epph026{align-items:center;background-color:#f2ede0;border:1px solid #f2ede0;color:var(--accent);display:inline-flex;font-size:12px;font-weight:600;gap:12px;letter-spacing:0.14em;padding:16px 26px;text-transform:uppercase}.gb-text-epph026:hover{background-color:var(--base-3);border-color:var(--base-3)}","htmlAttributes":{"href":"https://epplercapital.com/offerings/"}} -->
+      <a class="gb-text gb-text-epph026" href="https://epplercapital.com/offerings/">Explore Investments →</a>
       <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"epph005","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"var(--accent)","fontSize":"14px"},"css":".gb-text-epph005{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic}"} -->
-      <span class="gb-text gb-text-epph005">A Private Investment Firm</span>
-      <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"epph006","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500","color":"var(--contrast-2)"},"css":".gb-text-epph006{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase}"} -->
-      <span class="gb-text gb-text-epph006">Income &amp; Real Assets</span>
+      <!-- wp:generateblocks/text {"uniqueId":"epph027","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"16px 26px","fontSize":"12px","fontWeight":"600","letterSpacing":"0.14em","textTransform":"uppercase","backgroundColor":"transparent","color":"#f2ede0","border":"1px solid #f2ede0","&:hover":{"backgroundColor":"#f2ede0","color":"var(--accent)"}},"css":".gb-text-epph027{align-items:center;background-color:transparent;border:1px solid #f2ede0;color:#f2ede0;display:inline-flex;font-size:12px;font-weight:600;gap:12px;letter-spacing:0.14em;padding:16px 26px;text-transform:uppercase}.gb-text-epph027:hover{background-color:#f2ede0;color:var(--accent)}","htmlAttributes":{"href":"https://epplercapital.com/contact/"}} -->
+      <a class="gb-text gb-text-epph027" href="https://epplercapital.com/contact/">Speak with Our Team</a>
       <!-- /wp:generateblocks/text -->
     </div>
     <!-- /wp:generateblocks/element -->
 
-    <!-- Two-column hero grid -->
-    <!-- wp:generateblocks/element {"uniqueId":"epph010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1.35fr 1fr","gap":"clamp(32px, 5vw, 88px)","alignItems":"end","@media (max-width:900px)":{"gridTemplateColumns":"1fr","alignItems":"start"}},"css":".gb-element-epph010{align-items:end;display:grid;gap:clamp(32px, 5vw, 88px);grid-template-columns:1.35fr 1fr}@media (max-width:900px){.gb-element-epph010{align-items:start;grid-template-columns:1fr}}","className":"gb-element"} -->
-    <div class="gb-element-epph010 gb-element">
+    <!-- Hero tail — 3-item stat row -->
+    <!-- wp:generateblocks/element {"uniqueId":"epph030","tagName":"div","styles":{"marginTop":"clamp(64px, 8vw, 96px)","paddingTop":"28px","borderTop":"1px solid rgba(242, 237, 224, 0.18)","display":"grid","gridTemplateColumns":"repeat(3, 1fr)","gap":"40px","@media (max-width:800px)":{"gridTemplateColumns":"1fr","gap":"24px"}},"css":".gb-element-epph030{border-top:1px solid rgba(242, 237, 224, 0.18);display:grid;gap:40px;grid-template-columns:repeat(3, 1fr);margin-top:clamp(64px, 8vw, 96px);padding-top:28px}@media (max-width:800px){.gb-element-epph030{gap:24px;grid-template-columns:1fr}}","className":"gb-element"} -->
+    <div class="gb-element-epph030 gb-element">
 
-      <!-- LEFT COLUMN: eyebrow row + headline + lede + CTAs -->
-      <!-- wp:generateblocks/element {"uniqueId":"epph011","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-      <div class="gb-element-epph011 gb-element">
-
-        <!-- eyebrow row: PRIVATE MARKETS ——— INCOME STRATEGIES -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph012","tagName":"div","styles":{"display":"flex","alignItems":"center","gap":"16px","marginBottom":"40px","flexWrap":"wrap"},"css":".gb-element-epph012{align-items:center;display:flex;flex-wrap:wrap;gap:16px;margin-bottom:40px}","className":"gb-element"} -->
-        <div class="gb-element-epph012 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph013","tagName":"span","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1"},"css":".gb-text-epph013{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;text-transform:uppercase}"} -->
-          <span class="gb-text gb-text-epph013">Private Markets</span>
-          <!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/element {"uniqueId":"epph014","tagName":"span","styles":{"flex":"1","height":"1px","backgroundColor":"#b8b8b3","maxWidth":"120px","display":"inline-block"},"css":".gb-element-epph014{background-color:#b8b8b3;display:inline-block;flex:1;height:1px;max-width:120px}","className":"gb-element"} -->
-          <span class="gb-element-epph014 gb-element"></span>
-          <!-- /wp:generateblocks/element -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph015","tagName":"span","styles":{"color":"var(--contrast-2)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1"},"css":".gb-text-epph015{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;text-transform:uppercase}"} -->
-          <span class="gb-text gb-text-epph015">Income Strategies</span>
-          <!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- H1 -->
-        <!-- wp:generateblocks/text {"uniqueId":"epph020","tagName":"h1","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(48px, 7vw, 92px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","maxWidth":"14ch","margin":"0","textWrap":"balance"},"css":".gb-text-epph020{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(48px, 7vw, 92px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin:0;max-width:14ch;text-wrap:balance}"} -->
-        <h1 class="gb-text gb-text-epph020">Secure <span style="color:var(--accent);">&amp;</span> consistent returns, through <span style="font-style:normal;">innovative investment solutions.</span></h1>
-        <!-- /wp:generateblocks/text -->
-
-        <!-- Lede -->
-        <!-- wp:generateblocks/text {"uniqueId":"epph021","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","maxWidth":"52ch","marginTop":"32px","marginBottom":"0"},"css":".gb-text-epph021{color:var(--contrast-2);font-size:18px;line-height:1.6;margin-bottom:0;margin-top:32px;max-width:52ch}"} -->
-        <p class="gb-text gb-text-epph021">Discover unique opportunities designed to deliver dependable income and diversify your portfolio with confidence — sourced from top-tier operators of real assets and recession-resistant businesses across the United States.</p>
-        <!-- /wp:generateblocks/text -->
-
-        <!-- CTAs -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph025","tagName":"div","styles":{"marginTop":"40px","display":"flex","gap":"16px","flexWrap":"wrap","alignItems":"center"},"css":".gb-element-epph025{align-items:center;display:flex;flex-wrap:wrap;gap:16px;margin-top:40px}","className":"gb-element"} -->
-        <div class="gb-element-epph025 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph026","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"14px 22px","fontSize":"13px","fontWeight":"500","letterSpacing":"0.12em","textTransform":"uppercase","backgroundColor":"var(--accent)","color":"var(--base-3)","border":"1px solid var(--accent)","&:hover":{"backgroundColor":"var(--accent-2)","borderColor":"var(--accent-2)"}},"css":".gb-text-epph026{align-items:center;background-color:var(--accent);border:1px solid var(--accent);color:var(--base-3);display:inline-flex;font-size:13px;font-weight:500;gap:12px;letter-spacing:0.12em;padding:14px 22px;text-transform:uppercase}.gb-text-epph026:hover{background-color:var(--accent-2);border-color:var(--accent-2)}","htmlAttributes":{"href":"https://epplercapital.com/offerings/"}} -->
-          <a class="gb-text gb-text-epph026" href="https://epplercapital.com/offerings/">Explore Investments →</a>
-          <!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph027","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"14px 22px","fontSize":"13px","fontWeight":"500","letterSpacing":"0.12em","textTransform":"uppercase","backgroundColor":"transparent","color":"var(--contrast-3)","border":"1px solid var(--contrast-3)","&:hover":{"backgroundColor":"var(--contrast-3)","color":"var(--base-3)"}},"css":".gb-text-epph027{align-items:center;background-color:transparent;border:1px solid var(--contrast-3);color:var(--contrast-3);display:inline-flex;font-size:13px;font-weight:500;gap:12px;letter-spacing:0.12em;padding:14px 22px;text-transform:uppercase}.gb-text-epph027:hover{background-color:var(--contrast-3);color:var(--base-3)}","htmlAttributes":{"href":"https://epplercapital.com/contact/"}} -->
-          <a class="gb-text gb-text-epph027" href="https://epplercapital.com/contact/">Speak with Our Team</a>
-          <!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
+      <!-- Stat 1 -->
+      <!-- wp:generateblocks/element {"uniqueId":"epph031","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+      <div class="gb-element-epph031 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"epph032","tagName":"p","styles":{"color":"rgba(242,237,224,0.45)","fontFamily":"var(--gp-font--inter)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"500","margin":"0 0 8px"},"css":".gb-text-epph032{color:rgba(242,237,224,0.45);font-family:var(--gp-font--inter);font-size:11px;font-weight:500;letter-spacing:0.18em;margin:0 0 8px;text-transform:uppercase}"} --><p class="gb-text gb-text-epph032">Distributions</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epph033","tagName":"p","styles":{"color":"#f2ede0","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"22px","lineHeight":"1.25","fontVariantNumeric":"tabular-nums","margin":"0"},"css":".gb-text-epph033{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-variant-numeric:tabular-nums;line-height:1.25;margin:0}"} --><p class="gb-text gb-text-epph033">Paid Monthly</p><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
-      <!-- END LEFT COLUMN -->
 
-      <!-- RIGHT COLUMN: Specimen card -->
-      <!-- wp:generateblocks/element {"uniqueId":"epph050","tagName":"aside","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"32px","position":"relative"},"css":".gb-element-epph050{background-color:var(--base-3);border:1px solid #dedee3;padding:32px;position:relative}","className":"gb-element"} -->
-      <aside class="gb-element-epph050 gb-element">
-
-        <!-- head -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph051","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","alignItems":"baseline","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"24px"},"css":".gb-element-epph051{align-items:baseline;border-bottom:1px solid #dedee3;display:flex;justify-content:space-between;margin-bottom:24px;padding-bottom:20px}","className":"gb-element"} -->
-        <div class="gb-element-epph051 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph052","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"20px","fontWeight":"700","color":"var(--contrast-3)"},"css":".gb-text-epph052{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700}"} -->
-          <span class="gb-text gb-text-epph052">The Income Fund</span>
-          <!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph053","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.14em","color":"var(--contrast-2)","textTransform":"uppercase"},"css":".gb-text-epph053{color:var(--contrast-2);font-size:11px;letter-spacing:0.14em;text-transform:uppercase}"} -->
-          <span class="gb-text gb-text-epph053">Series I</span>
-          <!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- rows -->
-        <!-- Row 1 -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph060","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","fontSize":"13px","alignItems":"center","gap":"16px"},"css":".gb-element-epph060{align-items:center;border-bottom:1px dotted #dedee3;display:grid;font-size:13px;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
-        <div class="gb-element-epph060 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph061","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.04em","fontWeight":"500","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-epph061{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph061">Strategy</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph062","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epph062{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-epph062">Private, Income-Focused</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- Row 2 -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph063","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","fontSize":"13px","alignItems":"center","gap":"16px"},"css":".gb-element-epph063{align-items:center;border-bottom:1px dotted #dedee3;display:grid;font-size:13px;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
-        <div class="gb-element-epph063 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph064","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.04em","fontWeight":"500","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-epph064{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph064">Distribution</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph065","tagName":"span","styles":{"color":"var(--accent)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"16px"},"css":".gb-text-epph065{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-style:italic}"} --><span class="gb-text gb-text-epph065">Monthly</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- Row 3 -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph066","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","fontSize":"13px","alignItems":"center","gap":"16px"},"css":".gb-element-epph066{align-items:center;border-bottom:1px dotted #dedee3;display:grid;font-size:13px;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
-        <div class="gb-element-epph066 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph067","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.04em","fontWeight":"500","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-epph067{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph067">Target Yield</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph068","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epph068{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-epph068">8 – 10<span style="font-size:.7em;">%</span></span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- Row 4 -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph069","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","fontSize":"13px","alignItems":"center","gap":"16px"},"css":".gb-element-epph069{align-items:center;border-bottom:1px dotted #dedee3;display:grid;font-size:13px;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
-        <div class="gb-element-epph069 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph070","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.04em","fontWeight":"500","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-epph070{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph070">Hold Period</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph071","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epph071{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-epph071">5 – 7 yrs</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- Row 5 (no bottom border) -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph072","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","fontSize":"13px","alignItems":"center","gap":"16px"},"css":".gb-element-epph072{align-items:center;display:grid;font-size:13px;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
-        <div class="gb-element-epph072 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph073","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.04em","fontWeight":"500","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-epph073{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph073">Asset Classes</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph074","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","textAlign":"right"},"css":".gb-text-epph074{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;text-align:right}"} --><span class="gb-text gb-text-epph074">Real Assets · Operating Businesses</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- foot -->
-        <!-- wp:generateblocks/element {"uniqueId":"epph080","tagName":"div","styles":{"marginTop":"24px","paddingTop":"20px","borderTop":"1px solid #dedee3","display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"16px","flexWrap":"wrap"},"css":".gb-element-epph080{align-items:baseline;border-top:1px solid #dedee3;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;margin-top:24px;padding-top:20px}","className":"gb-element"} -->
-        <div class="gb-element-epph080 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"epph081","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)"},"css":".gb-text-epph081{color:var(--contrast-2);font-size:11px;letter-spacing:0.14em;text-transform:uppercase}"} --><span class="gb-text gb-text-epph081">For Accredited Investors</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"epph082","tagName":"span","styles":{"color":"var(--accent)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"15px"},"css":".gb-text-epph082{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-style:italic}"} --><span class="gb-text gb-text-epph082">Eppler &amp; Co.</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-
-      </aside>
+      <!-- Stat 2 -->
+      <!-- wp:generateblocks/element {"uniqueId":"epph034","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+      <div class="gb-element-epph034 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"epph035","tagName":"p","styles":{"color":"rgba(242,237,224,0.45)","fontFamily":"var(--gp-font--inter)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"500","margin":"0 0 8px"},"css":".gb-text-epph035{color:rgba(242,237,224,0.45);font-family:var(--gp-font--inter);font-size:11px;font-weight:500;letter-spacing:0.18em;margin:0 0 8px;text-transform:uppercase}"} --><p class="gb-text gb-text-epph035">Target Yield</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epph036","tagName":"p","styles":{"color":"#f2ede0","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"22px","lineHeight":"1.25","fontVariantNumeric":"tabular-nums","margin":"0"},"css":".gb-text-epph036{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-variant-numeric:tabular-nums;line-height:1.25;margin:0}"} --><p class="gb-text gb-text-epph036">8 – 10<span style="font-size:.7em;">%</span></p><!-- /wp:generateblocks/text -->
+      </div>
       <!-- /wp:generateblocks/element -->
-      <!-- END RIGHT COLUMN -->
+
+      <!-- Stat 3 -->
+      <!-- wp:generateblocks/element {"uniqueId":"epph037","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+      <div class="gb-element-epph037 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"epph038","tagName":"p","styles":{"color":"rgba(242,237,224,0.45)","fontFamily":"var(--gp-font--inter)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"500","margin":"0 0 8px"},"css":".gb-text-epph038{color:rgba(242,237,224,0.45);font-family:var(--gp-font--inter);font-size:11px;font-weight:500;letter-spacing:0.18em;margin:0 0 8px;text-transform:uppercase}"} --><p class="gb-text gb-text-epph038">Focus</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epph039","tagName":"p","styles":{"color":"#f2ede0","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"22px","lineHeight":"1.25","margin":"0"},"css":".gb-text-epph039{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;line-height:1.25;margin:0}"} --><p class="gb-text gb-text-epph039">Real Assets · Cash-Flowing Businesses</p><!-- /wp:generateblocks/text -->
+      </div>
+      <!-- /wp:generateblocks/element -->
 
     </div>
     <!-- /wp:generateblocks/element -->
-    <!-- END hero grid -->
 
   </div>
   <!-- /wp:generateblocks/element -->
-  <!-- END inner -->
 
 </section>
 <!-- /wp:generateblocks/element -->
@@ -174,31 +101,21 @@
 
 
 <!-- ============================================================ STRATEGY -->
-<!-- wp:generateblocks/element {"uniqueId":"epps001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","borderTop":"1px solid #dedee3","borderBottom":"1px solid #dedee3","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-epps001{background-color:var(--base-2);border-bottom:1px solid #dedee3;border-top:1px solid #dedee3;padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<!-- wp:generateblocks/element {"uniqueId":"epps001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","borderBottom":"1px solid #dedee3","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-epps001{background-color:var(--base-2);border-bottom:1px solid #dedee3;padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-epps001 gb-element alignfull gbp-section" id="strategy">
-
   <!-- wp:generateblocks/element {"uniqueId":"epps002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-epps002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-epps002 gb-element gbp-section__inner">
 
-    <!-- Section header: eyebrow + h2 (left) + lede (right) -->
+    <!-- Header -->
     <!-- wp:generateblocks/element {"uniqueId":"epps010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 2fr","gap":"clamp(24px, 5vw, 88px)","marginBottom":"72px","alignItems":"start","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-epps010{align-items:start;display:grid;gap:clamp(24px, 5vw, 88px);grid-template-columns:1fr 2fr;margin-bottom:72px}@media (max-width:900px){.gb-element-epps010{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-epps010 gb-element">
-      <!-- eye-col -->
       <!-- wp:generateblocks/element {"uniqueId":"epps011","tagName":"div","styles":{"display":"flex","flexDirection":"column","gap":"20px"},"css":".gb-element-epps011{display:flex;flex-direction:column;gap:20px}","className":"gb-element"} -->
       <div class="gb-element-epps011 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"epps012","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-epps012{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-        <p class="gb-text gb-text-epps012 gbp-section__tagline">§ I. Investment Approach</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps013","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","maxWidth":"16ch","margin":"0"},"css":".gb-text-epps013{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin:0;max-width:16ch}"} -->
-        <h2 class="gb-text gb-text-epps013">The Strategy.</h2>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps012","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-epps012{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-epps012 gbp-section__tagline">Investment Approach</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps013","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","maxWidth":"18ch","margin":"0"},"css":".gb-text-epps013{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin:0;max-width:18ch}"} --><h2 class="gb-text gb-text-epps013">The Strategy.</h2><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
-
-      <!-- lede -->
-      <!-- wp:generateblocks/text {"uniqueId":"epps014","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","maxWidth":"60ch","margin":"0"},"css":".gb-text-epps014{color:var(--contrast-2);font-size:18px;line-height:1.6;margin:0;max-width:60ch}"} -->
-      <p class="gb-text gb-text-epps014">At Eppler Capital Funds, we focus on partnering with top-tier operators of real assets and recession-resistant, cash-flowing businesses through exclusive private offerings across the United States. Our disciplined methodology emphasizes three governing principles.</p>
-      <!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"epps014","tagName":"p","styles":{"fontSize":"17px","lineHeight":"1.65","color":"var(--contrast-2)","maxWidth":"60ch","margin":"0"},"css":".gb-text-epps014{color:var(--contrast-2);font-size:17px;line-height:1.65;margin:0;max-width:60ch}"} --><p class="gb-text gb-text-epps014">At Eppler Capital Funds, we focus on partnering with top-tier operators of real assets and recession-resistant, cash-flowing businesses through exclusive private offerings across the United States. Our disciplined methodology emphasizes three governing principles.</p><!-- /wp:generateblocks/text -->
     </div>
     <!-- /wp:generateblocks/element -->
 
@@ -206,48 +123,30 @@
     <!-- wp:generateblocks/element {"uniqueId":"epps020","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"repeat(3, 1fr)","borderTop":"1px solid var(--contrast-3)","borderBottom":"1px solid #dedee3","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-epps020{border-bottom:1px solid #dedee3;border-top:1px solid var(--contrast-3);display:grid;grid-template-columns:repeat(3, 1fr)}@media (max-width:900px){.gb-element-epps020{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-epps020 gb-element">
 
-      <!-- Principle I -->
+      <!-- Principle 01 -->
       <!-- wp:generateblocks/element {"uniqueId":"epps021","tagName":"article","styles":{"padding":"40px 32px 40px 0","borderRight":"1px solid #dedee3","@media (max-width:900px)":{"borderRight":"0","borderBottom":"1px solid #dedee3","padding":"32px 0"}},"css":".gb-element-epps021{border-right:1px solid #dedee3;padding:40px 32px 40px 0}@media (max-width:900px){.gb-element-epps021{border-bottom:1px solid #dedee3;border-right:0;padding:32px 0}}","className":"gb-element"} -->
       <article class="gb-element-epps021 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"epps022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"32px","letterSpacing":"0.02em"},"css":".gb-text-epps022{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-style:italic;letter-spacing:0.02em;margin-bottom:32px}"} -->
-        <span class="gb-text gb-text-epps022">I.</span>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps023","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"24px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 16px","maxWidth":"12ch","textWrap":"balance"},"css":".gb-text-epps023{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:24px;font-weight:700;line-height:1.2;margin:0 0 16px;max-width:12ch;text-wrap:balance}"} -->
-        <h3 class="gb-text gb-text-epps023">Rigorous Due Diligence</h3>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps024","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps024{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} -->
-        <p class="gb-text gb-text-epps024">We conduct a comprehensive analysis of every investment and operator to ensure alignment with our standards of excellence and long-term sustainability.</p>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"28px","letterSpacing":"0.02em","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epps022{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-variant-numeric:tabular-nums;letter-spacing:0.02em;margin-bottom:28px}"} --><span class="gb-text gb-text-epps022">01</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps023","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"23px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 14px","maxWidth":"14ch","textWrap":"balance"},"css":".gb-text-epps023{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:23px;font-weight:700;line-height:1.2;margin:0 0 14px;max-width:14ch;text-wrap:balance}"} --><h3 class="gb-text gb-text-epps023">Rigorous Due Diligence</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps024","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps024{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-epps024">We conduct a comprehensive analysis of every investment and operator to ensure alignment with our standards of excellence and long-term sustainability.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
-      <!-- Principle II -->
+      <!-- Principle 02 -->
       <!-- wp:generateblocks/element {"uniqueId":"epps031","tagName":"article","styles":{"padding":"40px 32px","borderRight":"1px solid #dedee3","@media (max-width:900px)":{"borderRight":"0","borderBottom":"1px solid #dedee3","padding":"32px 0"}},"css":".gb-element-epps031{border-right:1px solid #dedee3;padding:40px 32px}@media (max-width:900px){.gb-element-epps031{border-bottom:1px solid #dedee3;border-right:0;padding:32px 0}}","className":"gb-element"} -->
       <article class="gb-element-epps031 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"epps032","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"32px","letterSpacing":"0.02em"},"css":".gb-text-epps032{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-style:italic;letter-spacing:0.02em;margin-bottom:32px}"} -->
-        <span class="gb-text gb-text-epps032">II.</span>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps033","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"24px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 16px","maxWidth":"12ch","textWrap":"balance"},"css":".gb-text-epps033{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:24px;font-weight:700;line-height:1.2;margin:0 0 16px;max-width:12ch;text-wrap:balance}"} -->
-        <h3 class="gb-text gb-text-epps033">Strategic Diversification</h3>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps034","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps034{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} -->
-        <p class="gb-text gb-text-epps034">By spreading investments across sectors and geographies, we create a resilient portfolio designed to weather economic cycles and mitigate risk.</p>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps032","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"28px","letterSpacing":"0.02em","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epps032{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-variant-numeric:tabular-nums;letter-spacing:0.02em;margin-bottom:28px}"} --><span class="gb-text gb-text-epps032">02</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps033","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"23px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 14px","maxWidth":"14ch","textWrap":"balance"},"css":".gb-text-epps033{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:23px;font-weight:700;line-height:1.2;margin:0 0 14px;max-width:14ch;text-wrap:balance}"} --><h3 class="gb-text gb-text-epps033">Strategic Diversification</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps034","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps034{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-epps034">By spreading investments across sectors and geographies, we create a resilient portfolio designed to weather economic cycles and mitigate risk.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
-      <!-- Principle III -->
+      <!-- Principle 03 -->
       <!-- wp:generateblocks/element {"uniqueId":"epps041","tagName":"article","styles":{"padding":"40px 0 40px 32px","@media (max-width:900px)":{"padding":"32px 0"}},"css":".gb-element-epps041{padding:40px 0 40px 32px}@media (max-width:900px){.gb-element-epps041{padding:32px 0}}","className":"gb-element"} -->
       <article class="gb-element-epps041 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"epps042","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"32px","letterSpacing":"0.02em"},"css":".gb-text-epps042{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-style:italic;letter-spacing:0.02em;margin-bottom:32px}"} -->
-        <span class="gb-text gb-text-epps042">III.</span>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps043","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"24px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 16px","maxWidth":"12ch","textWrap":"balance"},"css":".gb-text-epps043{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:24px;font-weight:700;line-height:1.2;margin:0 0 16px;max-width:12ch;text-wrap:balance}"} -->
-        <h3 class="gb-text gb-text-epps043">Conservative Principles</h3>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"epps044","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps044{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} -->
-        <p class="gb-text gb-text-epps044">We focus on capital preservation through prudent investment strategies, ensuring security and reliability for our investors.</p>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps042","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"15px","color":"var(--accent)","display":"block","marginBottom":"28px","letterSpacing":"0.02em","fontVariantNumeric":"tabular-nums"},"css":".gb-text-epps042{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-variant-numeric:tabular-nums;letter-spacing:0.02em;margin-bottom:28px}"} --><span class="gb-text gb-text-epps042">03</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps043","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"23px","lineHeight":"1.2","color":"var(--contrast-3)","margin":"0 0 14px","maxWidth":"14ch","textWrap":"balance"},"css":".gb-text-epps043{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:23px;font-weight:700;line-height:1.2;margin:0 0 14px;max-width:14ch;text-wrap:balance}"} --><h3 class="gb-text gb-text-epps043">Conservative Principles</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"epps044","tagName":"p","styles":{"fontSize":"15.5px","lineHeight":"1.65","color":"var(--contrast-2)","margin":"0"},"css":".gb-text-epps044{color:var(--contrast-2);font-size:15.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-epps044">We focus on capital preservation through prudent investment strategies, ensuring security and reliability for our investors.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
@@ -261,37 +160,26 @@
 <!-- ============================================================ END STRATEGY -->
 
 
-<!-- ============================================================ ABOUT -->
+<!-- ============================================================ ABOUT — with founder headshot -->
 <!-- wp:generateblocks/element {"uniqueId":"eppa001","tagName":"section","styles":{"backgroundColor":"var(--base)","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppa001{background-color:var(--base);padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppa001 gb-element alignfull gbp-section" id="about">
-
   <!-- wp:generateblocks/element {"uniqueId":"eppa002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-eppa002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppa002 gb-element gbp-section__inner">
 
-    <!-- Two-column grid: copy | founder pull quote card -->
+    <!-- Two-col: copy | founder photo card -->
     <!-- wp:generateblocks/element {"uniqueId":"eppa010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1fr","gap":"clamp(32px, 6vw, 96px)","alignItems":"center","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppa010{align-items:center;display:grid;gap:clamp(32px, 6vw, 96px);grid-template-columns:1fr 1fr}@media (max-width:900px){.gb-element-eppa010{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-eppa010 gb-element">
 
-      <!-- LEFT: copy -->
+      <!-- LEFT copy -->
       <!-- wp:generateblocks/element {"uniqueId":"eppa011","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
       <div class="gb-element-eppa011 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppa012","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppa012{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-        <p class="gb-text gb-text-eppa012 gbp-section__tagline">§ II. About the Firm</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppa013","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","maxWidth":"16ch","marginTop":"24px","marginBottom":"0"},"css":".gb-text-eppa013{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:24px;max-width:16ch}"} -->
-        <h2 class="gb-text gb-text-eppa013">About Eppler Capital Funds.</h2>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppa014","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"clamp(20px, 2vw, 24px)","fontWeight":"400","color":"var(--contrast-3)","maxWidth":"34ch","lineHeight":"1.35","marginTop":"24px","marginBottom":"0","textWrap":"balance"},"css":".gb-text-eppa014{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(20px, 2vw, 24px);font-style:italic;font-weight:400;line-height:1.35;margin-bottom:0;margin-top:24px;max-width:34ch;text-wrap:balance}"} -->
-        <p class="gb-text gb-text-eppa014">Disciplined income solutions built on trust and consistency.</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppa015","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","maxWidth":"52ch","marginTop":"32px","marginBottom":"0"},"css":".gb-text-eppa015{color:var(--contrast-2);font-size:18px;line-height:1.6;margin-bottom:0;margin-top:32px;max-width:52ch}"} -->
-        <p class="gb-text gb-text-eppa015">An income-focused alternative investment firm designed to support investors seeking predictable monthly distributions and capital preservation. We emphasize consistency over volatility, discipline over speculation, and transparency in every investor relationship.</p>
-        <!-- /wp:generateblocks/text -->
-
-        <!-- CTA -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppa012","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppa012{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppa012 gbp-section__tagline">About the Firm</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppa013","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","maxWidth":"16ch","marginTop":"20px","marginBottom":"0"},"css":".gb-text-eppa013{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:20px;max-width:16ch}"} --><h2 class="gb-text gb-text-eppa013">About Eppler Capital Funds.</h2><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppa014","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"clamp(20px, 2vw, 24px)","fontWeight":"700","color":"var(--contrast-3)","maxWidth":"34ch","lineHeight":"1.35","marginTop":"24px","marginBottom":"0","textWrap":"balance"},"css":".gb-text-eppa014{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(20px, 2vw, 24px);font-weight:700;line-height:1.35;margin-bottom:0;margin-top:24px;max-width:34ch;text-wrap:balance}"} --><p class="gb-text gb-text-eppa014">Disciplined income solutions built on trust and consistency.</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppa015","tagName":"p","styles":{"fontSize":"17px","lineHeight":"1.65","color":"var(--contrast-2)","maxWidth":"52ch","marginTop":"24px","marginBottom":"0"},"css":".gb-text-eppa015{color:var(--contrast-2);font-size:17px;line-height:1.65;margin-bottom:0;margin-top:24px;max-width:52ch}"} --><p class="gb-text gb-text-eppa015">An income-focused alternative investment firm designed to support investors seeking predictable monthly distributions and capital preservation. We emphasize consistency over volatility, discipline over speculation, and transparency in every investor relationship.</p><!-- /wp:generateblocks/text -->
         <!-- wp:generateblocks/element {"uniqueId":"eppa016","tagName":"div","styles":{"marginTop":"40px"},"css":".gb-element-eppa016{margin-top:40px}","className":"gb-element"} -->
         <div class="gb-element-eppa016 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppa017","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"14px 22px","fontSize":"13px","fontWeight":"500","letterSpacing":"0.12em","textTransform":"uppercase","backgroundColor":"var(--accent)","color":"var(--base-3)","border":"1px solid var(--accent)","&:hover":{"backgroundColor":"var(--accent-2)","borderColor":"var(--accent-2)"}},"css":".gb-text-eppa017{align-items:center;background-color:var(--accent);border:1px solid var(--accent);color:var(--base-3);display:inline-flex;font-size:13px;font-weight:500;gap:12px;letter-spacing:0.12em;padding:14px 22px;text-transform:uppercase}.gb-text-eppa017:hover{background-color:var(--accent-2);border-color:var(--accent-2)}","htmlAttributes":{"href":"https://epplercapital.com/about/"}} -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppa017","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"15px 24px","fontSize":"12px","fontWeight":"600","letterSpacing":"0.14em","textTransform":"uppercase","backgroundColor":"var(--accent)","color":"#f2ede0","border":"1px solid var(--accent)","&:hover":{"backgroundColor":"var(--accent-2)","borderColor":"var(--accent-2)"}},"css":".gb-text-eppa017{align-items:center;background-color:var(--accent);border:1px solid var(--accent);color:#f2ede0;display:inline-flex;font-size:12px;font-weight:600;gap:12px;letter-spacing:0.14em;padding:15px 24px;text-transform:uppercase}.gb-text-eppa017:hover{background-color:var(--accent-2);border-color:var(--accent-2)}","htmlAttributes":{"href":"https://epplercapital.com/about/"}} -->
           <a class="gb-text gb-text-eppa017" href="https://epplercapital.com/about/">Learn More →</a>
           <!-- /wp:generateblocks/text -->
         </div>
@@ -299,36 +187,22 @@
       </div>
       <!-- /wp:generateblocks/element -->
 
-      <!-- RIGHT: Founder pull-quote card (replaces the founder photo) -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppa020","tagName":"div","styles":{"border":"1px solid #dedee3","backgroundColor":"var(--base-3)","padding":"40px","position":"relative","boxShadow":"inset 0 0 0 8px var(--base-3), inset 0 0 0 9px #dedee3"},"css":".gb-element-eppa020{background-color:var(--base-3);border:1px solid #dedee3;box-shadow:inset 0 0 0 8px var(--base-3), inset 0 0 0 9px #dedee3;padding:40px;position:relative}","className":"gb-element"} -->
+      <!-- RIGHT: Founder headshot card -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppa020","tagName":"div","styles":{"border":"1px solid #dedee3","backgroundColor":"var(--base-3)","padding":"12px"},"css":".gb-element-eppa020{background-color:var(--base-3);border:1px solid #dedee3;padding:12px}","className":"gb-element"} -->
       <div class="gb-element-eppa020 gb-element">
+        <!-- wp:image {"id":50557,"sizeSlug":"large","linkDestination":"none"} -->
+        <figure class="wp-block-image size-large"><img src="https://epplercapital.com/wp-content/uploads/2026/06/Screenshot-2026-04-09-at-10.09.29-AM-edited.png" alt="Founder Craig Eppler" class="wp-image-50557" style="display:block;width:100%;height:auto;"/></figure>
+        <!-- /wp:image -->
 
-        <!-- monogram, top-right -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppa021","tagName":"div","styles":{"position":"absolute","top":"24px","right":"24px","width":"56px","height":"56px","display":"grid","placeItems":"center","border":"1px solid #dedee3","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"22px","color":"var(--accent)","backgroundColor":"var(--base-3)","zIndex":"1"},"css":".gb-element-eppa021{background-color:var(--base-3);border:1px solid #dedee3;color:var(--accent);display:grid;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-style:italic;height:56px;place-items:center;position:absolute;right:24px;top:24px;width:56px;z-index:1}","className":"gb-element"} -->
-        <div class="gb-element-eppa021 gb-element">CE</div>
-        <!-- /wp:generateblocks/element -->
-
-        <!-- Big opening quote mark -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppa022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"96px","lineHeight":"0","color":"var(--accent)","display":"block","marginTop":"42px","marginBottom":"24px","marginLeft":"-4px"},"css":".gb-text-eppa022{color:var(--accent);display:block;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:96px;line-height:0;margin-bottom:24px;margin-left:-4px;margin-top:42px}"} -->
-        <span class="gb-text gb-text-eppa022">“</span>
-        <!-- /wp:generateblocks/text -->
-
-        <!-- Pull quote -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppa023","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"clamp(20px, 2vw, 26px)","lineHeight":"1.35","color":"var(--contrast-3)","margin":"0","textWrap":"balance","position":"relative","zIndex":"1"},"css":".gb-text-eppa023{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(20px, 2vw, 26px);font-style:italic;line-height:1.35;margin:0;position:relative;text-wrap:balance;z-index:1}"} -->
-        <p class="gb-text gb-text-eppa023">We built Eppler Capital to answer a question the traditional market has quietly ignored — how do investors secure income they can actually count on?</p>
-        <!-- /wp:generateblocks/text -->
-
-        <!-- Attribution row -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppa024","tagName":"div","styles":{"marginTop":"40px","display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"16px","flexWrap":"wrap"},"css":".gb-element-eppa024{align-items:baseline;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;margin-top:40px}","className":"gb-element"} -->
-        <div class="gb-element-eppa024 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppa025","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"18px","fontWeight":"700","color":"var(--contrast-3)"},"css":".gb-text-eppa025{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:18px;font-weight:700}"} --><span class="gb-text gb-text-eppa025">Craig Eppler</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppa026","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)"},"css":".gb-text-eppa026{color:var(--contrast-2);font-size:11px;letter-spacing:0.14em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppa026">Founder &amp; Principal</span><!-- /wp:generateblocks/text -->
+        <!-- Caption strip -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppa021","tagName":"div","styles":{"padding":"24px 20px 12px","display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"16px","borderTop":"1px solid #dedee3","marginTop":"12px","flexWrap":"wrap"},"css":".gb-element-eppa021{align-items:baseline;border-top:1px solid #dedee3;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;margin-top:12px;padding:24px 20px 12px}","className":"gb-element"} -->
+        <div class="gb-element-eppa021 gb-element">
+          <!-- wp:generateblocks/text {"uniqueId":"eppa022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"17px","fontWeight":"700","color":"var(--contrast-3)"},"css":".gb-text-eppa022{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:17px;font-weight:700}"} --><span class="gb-text gb-text-eppa022">Craig Eppler</span><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppa023","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500"},"css":".gb-text-eppa023{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppa023">Founder &amp; Principal</span><!-- /wp:generateblocks/text -->
         </div>
         <!-- /wp:generateblocks/element -->
-
       </div>
       <!-- /wp:generateblocks/element -->
-      <!-- END founder card -->
 
     </div>
     <!-- /wp:generateblocks/element -->
@@ -340,33 +214,14 @@
 <!-- ============================================================ END ABOUT -->
 
 
-<!-- ============================================================ MISSION -->
-<!-- wp:generateblocks/element {"uniqueId":"eppm001","tagName":"section","styles":{"backgroundColor":"var(--accent)","color":"#eee9d9","position":"relative","overflow":"hidden","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppm001{background-color:var(--accent);color:#eee9d9;overflow:hidden;padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px);position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<!-- ============================================================ MISSION — with landscape bg -->
+<!-- wp:generateblocks/element {"uniqueId":"eppm001","tagName":"section","styles":{"backgroundColor":"var(--accent)","backgroundImage":"linear-gradient(to left, rgba(8, 46, 31, 0.86) 0%, rgba(8, 46, 31, 0.86) 100%), url(http://epplercapital.com/wp-content/uploads/2025/01/carrie-allen-www-carrieallen-com-IXbUjYOjtf8-unsplash.jpg)","backgroundSize":"cover","backgroundPosition":"center","backgroundRepeat":"no-repeat","backgroundAttachment":"fixed","color":"#f2ede0","position":"relative","paddingTop":"clamp(80px, 9vw, 128px)","paddingBottom":"clamp(80px, 9vw, 128px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppm001{background-attachment:fixed;background-color:var(--accent);background-image:linear-gradient(to left, rgba(8, 46, 31, 0.86) 0%, rgba(8, 46, 31, 0.86) 100%), url(http://epplercapital.com/wp-content/uploads/2025/01/carrie-allen-www-carrieallen-com-IXbUjYOjtf8-unsplash.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;color:#f2ede0;padding:clamp(80px, 9vw, 128px) clamp(20px, 4vw, 56px);position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppm001 gb-element alignfull gbp-section">
-
-  <!-- wp:generateblocks/element {"uniqueId":"eppm002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","display":"flex","flexDirection":"column","alignItems":"center","gap":"40px","textAlign":"center","borderTop":"1px solid rgba(238,233,217,0.18)","borderBottom":"1px solid rgba(238,233,217,0.18)","paddingTop":"48px","paddingBottom":"48px"},"css":".gb-element-eppm002{align-items:center;border-bottom:1px solid rgba(238,233,217,0.18);border-top:1px solid rgba(238,233,217,0.18);display:flex;flex-direction:column;gap:40px;margin-left:auto;margin-right:auto;max-width:var(--gb-container-width);padding-bottom:48px;padding-top:48px;text-align:center}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
+  <!-- wp:generateblocks/element {"uniqueId":"eppm002","tagName":"div","styles":{"maxWidth":"780px","marginLeft":"auto","marginRight":"auto","display":"flex","flexDirection":"column","alignItems":"center","gap":"32px","textAlign":"center"},"css":".gb-element-eppm002{align-items:center;display:flex;flex-direction:column;gap:32px;margin-left:auto;margin-right:auto;max-width:780px;text-align:center}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppm002 gb-element gbp-section__inner">
-
-    <!-- eyebrow -->
-    <!-- wp:generateblocks/text {"uniqueId":"eppm003","tagName":"p","styles":{"color":"rgba(238,233,217,0.6)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppm003{color:rgba(238,233,217,0.6);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}"} -->
-    <p class="gb-text gb-text-eppm003">§ III. Statement of Purpose</p>
-    <!-- /wp:generateblocks/text -->
-
-    <!-- Headline -->
-    <!-- wp:generateblocks/text {"uniqueId":"eppm004","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"#f2ede0","maxWidth":"22ch","margin":"0","textWrap":"balance"},"css":".gb-text-eppm004{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin:0;max-width:22ch;text-wrap:balance}"} -->
-    <h2 class="gb-text gb-text-eppm004">Our Mission.</h2>
-    <!-- /wp:generateblocks/text -->
-
-    <!-- Mission body -->
-    <!-- wp:generateblocks/text {"uniqueId":"eppm005","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(18px, 1.6vw, 22px)","lineHeight":"1.5","maxWidth":"62ch","color":"rgba(242,237,224,0.92)","margin":"0","textWrap":"balance"},"css":".gb-text-eppm005{color:rgba(242,237,224,0.92);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(18px, 1.6vw, 22px);font-weight:400;line-height:1.5;margin:0;max-width:62ch;text-wrap:balance}"} -->
-    <p class="gb-text gb-text-eppm005">Eppler Capital Funds' mission is to provide secure and consistent income through innovative investment solutions. By offering unique opportunities for dependable returns, we aim to be a trusted partner in building resilience and growth across your portfolio.</p>
-    <!-- /wp:generateblocks/text -->
-
-    <!-- Crest -->
-    <!-- wp:generateblocks/text {"uniqueId":"eppm006","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"rgba(242,237,224,0.55)","letterSpacing":"0.02em","margin":"0","fontSize":"15px"},"css":".gb-text-eppm006{color:rgba(242,237,224,0.55);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-style:italic;letter-spacing:0.02em;margin:0}"} -->
-    <p class="gb-text gb-text-eppm006">◇ &nbsp; Eppler &amp; Co. &nbsp; ◇</p>
-    <!-- /wp:generateblocks/text -->
-
+    <!-- wp:generateblocks/text {"uniqueId":"eppm003","tagName":"p","styles":{"color":"rgba(242,237,224,0.72)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppm003{color:rgba(242,237,224,0.72);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppm003">Statement of Purpose</p><!-- /wp:generateblocks/text -->
+    <!-- wp:generateblocks/text {"uniqueId":"eppm004","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"#f2ede0","maxWidth":"22ch","margin":"0","textWrap":"balance"},"css":".gb-text-eppm004{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin:0;max-width:22ch;text-wrap:balance}"} --><h2 class="gb-text gb-text-eppm004">Our Mission.</h2><!-- /wp:generateblocks/text -->
+    <!-- wp:generateblocks/text {"uniqueId":"eppm005","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(18px, 1.6vw, 22px)","lineHeight":"1.55","color":"rgba(242,237,224,0.9)","margin":"0","textWrap":"balance"},"css":".gb-text-eppm005{color:rgba(242,237,224,0.9);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(18px, 1.6vw, 22px);font-weight:400;line-height:1.55;margin:0;text-wrap:balance}"} --><p class="gb-text gb-text-eppm005">Eppler Capital Funds' mission is to provide secure and consistent income through innovative investment solutions. By offering unique opportunities for dependable returns, we aim to be a trusted partner in building resilience and growth across your portfolio.</p><!-- /wp:generateblocks/text -->
   </div>
   <!-- /wp:generateblocks/element -->
 </section>
@@ -374,75 +229,58 @@
 <!-- ============================================================ END MISSION -->
 
 
-<!-- ============================================================ VALUES -->
+<!-- ============================================================ VALUES — with photo -->
 <!-- wp:generateblocks/element {"uniqueId":"eppv001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppv001{background-color:var(--base-2);padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppv001 gb-element alignfull gbp-section">
-
   <!-- wp:generateblocks/element {"uniqueId":"eppv002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-eppv002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppv002 gb-element gbp-section__inner">
 
-    <!-- Two columns: eyebrow/h2 (left)   values list (right) -->
+    <!-- Two columns: header + photo | values dossier -->
     <!-- wp:generateblocks/element {"uniqueId":"eppv010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1.5fr","gap":"clamp(32px, 5vw, 88px)","alignItems":"start","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppv010{align-items:start;display:grid;gap:clamp(32px, 5vw, 88px);grid-template-columns:1fr 1.5fr}@media (max-width:900px){.gb-element-eppv010{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-eppv010 gb-element">
 
-      <!-- LEFT -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppv011","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+      <!-- LEFT: header + photo stacked -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppv011","tagName":"div","styles":{"display":"flex","flexDirection":"column","gap":"32px"},"css":".gb-element-eppv011{display:flex;flex-direction:column;gap:32px}","className":"gb-element"} -->
       <div class="gb-element-eppv011 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppv012","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppv012{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-        <p class="gb-text gb-text-eppv012 gbp-section__tagline">§ IV. Guiding Values</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppv013","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","maxWidth":"12ch","marginTop":"20px","marginBottom":"0"},"css":".gb-text-eppv013{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:20px;max-width:12ch}"} -->
-        <h2 class="gb-text gb-text-eppv013">Our Values.</h2>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppv014","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","maxWidth":"38ch","marginTop":"24px","marginBottom":"0"},"css":".gb-text-eppv014{color:var(--contrast-2);font-size:18px;line-height:1.6;margin-bottom:0;margin-top:24px;max-width:38ch}"} -->
-        <p class="gb-text gb-text-eppv014">The convictions that govern how we operate — with our investors, our operators, and one another.</p>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppv012","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+        <div class="gb-element-eppv012 gb-element">
+          <!-- wp:generateblocks/text {"uniqueId":"eppv013","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppv013{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppv013 gbp-section__tagline">Guiding Values</p><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv014","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","maxWidth":"12ch","marginTop":"20px","marginBottom":"0"},"css":".gb-text-eppv014{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:20px;max-width:12ch}"} --><h2 class="gb-text gb-text-eppv014">Our Values.</h2><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv015","tagName":"p","styles":{"fontSize":"17px","lineHeight":"1.65","color":"var(--contrast-2)","maxWidth":"38ch","marginTop":"24px","marginBottom":"0"},"css":".gb-text-eppv015{color:var(--contrast-2);font-size:17px;line-height:1.65;margin-bottom:0;margin-top:24px;max-width:38ch}"} --><p class="gb-text gb-text-eppv015">The convictions that govern how we operate — with our investors, our operators, and one another.</p><!-- /wp:generateblocks/text -->
+        </div>
+        <!-- /wp:generateblocks/element -->
+
+        <!-- Values photo (was in right column of original) -->
+        <!-- wp:image {"id":49768,"sizeSlug":"large","linkDestination":"none"} -->
+        <figure class="wp-block-image size-large"><img src="http://epplercapital.com/wp-content/uploads/2025/01/mediensturmer-aWf7mjwwJJo-unsplash.jpg" alt="" style="display:block;width:100%;height:auto;object-fit:cover;aspect-ratio:4/3;"/></figure>
+        <!-- /wp:image -->
       </div>
       <!-- /wp:generateblocks/element -->
 
-      <!-- RIGHT: dossier list -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppv020","tagName":"div","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"8px 40px","@media (max-width:900px)":{"padding":"8px 24px"}},"css":".gb-element-eppv020{background-color:var(--base-3);border:1px solid #dedee3;padding:8px 40px}@media (max-width:900px){.gb-element-eppv020{padding:8px 24px}}","className":"gb-element"} -->
+      <!-- RIGHT: dossier -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppv020","tagName":"div","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"12px 40px","@media (max-width:900px)":{"padding":"12px 24px"}},"css":".gb-element-eppv020{background-color:var(--base-3);border:1px solid #dedee3;padding:12px 40px}@media (max-width:900px){.gb-element-eppv020{padding:12px 24px}}","className":"gb-element"} -->
       <div class="gb-element-eppv020 gb-element">
-
-        <!-- Value i -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppv021","tagName":"div","styles":{"padding":"32px 0","borderBottom":"1px solid #dedee3","display":"grid","gridTemplateColumns":"40px 1fr","gap":"24px"},"css":".gb-element-eppv021{border-bottom:1px solid #dedee3;display:grid;gap:24px;grid-template-columns:40px 1fr;padding:32px 0}","className":"gb-element"} -->
+        <!-- Value 1 -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppv021","tagName":"div","styles":{"padding":"28px 0","borderBottom":"1px solid #dedee3"},"css":".gb-element-eppv021{border-bottom:1px solid #dedee3;padding:28px 0}","className":"gb-element"} -->
         <div class="gb-element-eppv021 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppv022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"14px","color":"var(--accent)","paddingTop":"4px","letterSpacing":"0.04em"},"css":".gb-text-eppv022{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;letter-spacing:0.04em;padding-top:4px}"} --><span class="gb-text gb-text-eppv022">i.</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppv023","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppv023 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppv024","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.2","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv024{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.2;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv024">Client First</h3><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppv025","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppv025{color:var(--contrast-2);font-size:15px;line-height:1.6;margin:0}"} --><p class="gb-text gb-text-eppv025">Eppler Capital Funds was founded to address a need we saw in the traditional investment marketplace: the need for predictable, consistent returns. Our client-first mentality prioritizes our clients' needs and objectives above all else.</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv022","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.25","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv022{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.25;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv022">Client First</h3><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv023","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppv023{color:var(--contrast-2);font-size:15px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppv023">Eppler Capital Funds was founded to address a need we saw in the traditional investment marketplace: the need for predictable, consistent returns. Our client-first mentality prioritizes our clients' needs and objectives above all else.</p><!-- /wp:generateblocks/text -->
         </div>
         <!-- /wp:generateblocks/element -->
-
-        <!-- Value ii -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppv031","tagName":"div","styles":{"padding":"32px 0","borderBottom":"1px solid #dedee3","display":"grid","gridTemplateColumns":"40px 1fr","gap":"24px"},"css":".gb-element-eppv031{border-bottom:1px solid #dedee3;display:grid;gap:24px;grid-template-columns:40px 1fr;padding:32px 0}","className":"gb-element"} -->
+        <!-- Value 2 -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppv031","tagName":"div","styles":{"padding":"28px 0","borderBottom":"1px solid #dedee3"},"css":".gb-element-eppv031{border-bottom:1px solid #dedee3;padding:28px 0}","className":"gb-element"} -->
         <div class="gb-element-eppv031 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppv032","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"14px","color":"var(--accent)","paddingTop":"4px","letterSpacing":"0.04em"},"css":".gb-text-eppv032{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;letter-spacing:0.04em;padding-top:4px}"} --><span class="gb-text gb-text-eppv032">ii.</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppv033","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppv033 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppv034","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.2","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv034{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.2;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv034">Long-Term Relationships</h3><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppv035","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppv035{color:var(--contrast-2);font-size:15px;line-height:1.6;margin:0}"} --><p class="gb-text gb-text-eppv035">We prioritize building trust and communicating with our clients through a collaborative relationship. We inform proactively and respond quickly because we want you to be informed and feel confident about your investment.</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv032","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.25","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv032{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.25;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv032">Long-Term Relationships</h3><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv033","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppv033{color:var(--contrast-2);font-size:15px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppv033">We prioritize building trust and communicating with our clients through a collaborative relationship. We inform proactively and respond quickly because we want you to be informed and feel confident about your investment.</p><!-- /wp:generateblocks/text -->
         </div>
         <!-- /wp:generateblocks/element -->
-
-        <!-- Value iii -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppv041","tagName":"div","styles":{"padding":"32px 0","display":"grid","gridTemplateColumns":"40px 1fr","gap":"24px"},"css":".gb-element-eppv041{display:grid;gap:24px;grid-template-columns:40px 1fr;padding:32px 0}","className":"gb-element"} -->
+        <!-- Value 3 -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppv041","tagName":"div","styles":{"padding":"28px 0"},"css":".gb-element-eppv041{padding:28px 0}","className":"gb-element"} -->
         <div class="gb-element-eppv041 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppv042","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"14px","color":"var(--accent)","paddingTop":"4px","letterSpacing":"0.04em"},"css":".gb-text-eppv042{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;letter-spacing:0.04em;padding-top:4px}"} --><span class="gb-text gb-text-eppv042">iii.</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppv043","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppv043 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppv044","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.2","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv044{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.2;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv044">Integrity</h3><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppv045","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppv045{color:var(--contrast-2);font-size:15px;line-height:1.6;margin:0}"} --><p class="gb-text gb-text-eppv045">We conduct our business dealings honestly, transparently, and ethically, and our investments are made with the utmost care and diligence. If a problem arises, we work to address it — directly and without delay.</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv042","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"20px","lineHeight":"1.25","margin":"0 0 10px","color":"var(--contrast-3)"},"css":".gb-text-eppv042{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:20px;font-weight:700;line-height:1.25;margin:0 0 10px}"} --><h3 class="gb-text gb-text-eppv042">Integrity</h3><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppv043","tagName":"p","styles":{"margin":"0","fontSize":"15px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppv043{color:var(--contrast-2);font-size:15px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppv043">We conduct our business dealings honestly, transparently, and ethically, and our investments are made with the utmost care and diligence. If a problem arises, we work to address it — directly and without delay.</p><!-- /wp:generateblocks/text -->
         </div>
         <!-- /wp:generateblocks/element -->
-
       </div>
       <!-- /wp:generateblocks/element -->
 
@@ -456,123 +294,55 @@
 <!-- ============================================================ END VALUES -->
 
 
-<!-- ============================================================ INVESTOR PROFILES -->
+<!-- ============================================================ INVESTOR PROFILES — with icons -->
 <!-- wp:generateblocks/element {"uniqueId":"eppp001","tagName":"section","styles":{"backgroundColor":"var(--base)","borderTop":"1px solid #dedee3","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppp001{background-color:var(--base);border-top:1px solid #dedee3;padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppp001 gb-element alignfull gbp-section">
-
   <!-- wp:generateblocks/element {"uniqueId":"eppp002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-eppp002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppp002 gb-element gbp-section__inner">
 
     <!-- Header -->
     <!-- wp:generateblocks/element {"uniqueId":"eppp003","tagName":"div","styles":{"textAlign":"center","maxWidth":"60ch","marginLeft":"auto","marginRight":"auto","marginBottom":"72px"},"css":".gb-element-eppp003{margin-bottom:72px;margin-left:auto;margin-right:auto;max-width:60ch;text-align:center}","className":"gb-element"} -->
     <div class="gb-element-eppp003 gb-element">
-      <!-- wp:generateblocks/text {"uniqueId":"eppp004","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppp004{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-      <p class="gb-text gb-text-eppp004 gbp-section__tagline">§ V. Investor Profiles</p>
-      <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppp005","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","marginTop":"20px","marginBottom":"0","textWrap":"balance"},"css":".gb-text-eppp005{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:20px;text-wrap:balance}"} -->
-      <h2 class="gb-text gb-text-eppp005">Investors we commonly support.</h2>
-      <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppp006","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","marginTop":"24px","marginBottom":"0","marginLeft":"auto","marginRight":"auto","maxWidth":"58ch"},"css":".gb-text-eppp006{color:var(--contrast-2);font-size:18px;line-height:1.6;margin-bottom:0;margin-left:auto;margin-right:auto;margin-top:24px;max-width:58ch}"} -->
-      <p class="gb-text gb-text-eppp006">We understand that every portfolio — and every reason for building one — is different. Our goal is to meet you where you are, provide clarity, and create a solution that fits your life and goals.</p>
-      <!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppp004","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppp004{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppp004 gbp-section__tagline">Investor Profiles</p><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppp005","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","marginTop":"18px","marginBottom":"0","textWrap":"balance"},"css":".gb-text-eppp005{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:18px;text-wrap:balance}"} --><h2 class="gb-text gb-text-eppp005">Investors we commonly support.</h2><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppp006","tagName":"p","styles":{"fontSize":"17px","lineHeight":"1.65","color":"var(--contrast-2)","marginTop":"24px","marginBottom":"0","marginLeft":"auto","marginRight":"auto","maxWidth":"58ch"},"css":".gb-text-eppp006{color:var(--contrast-2);font-size:17px;line-height:1.65;margin-bottom:0;margin-left:auto;margin-right:auto;margin-top:24px;max-width:58ch}"} --><p class="gb-text gb-text-eppp006">We understand that every portfolio — and every reason for building one — is different. Our goal is to meet you where you are, provide clarity, and create a solution that fits your life and goals.</p><!-- /wp:generateblocks/text -->
     </div>
     <!-- /wp:generateblocks/element -->
 
     <!-- Profile grid -->
-    <!-- wp:generateblocks/element {"uniqueId":"eppp010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"repeat(3, 1fr)","gap":"32px","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppp010{display:grid;gap:32px;grid-template-columns:repeat(3, 1fr)}@media (max-width:900px){.gb-element-eppp010{grid-template-columns:1fr}}","className":"gb-element"} -->
+    <!-- wp:generateblocks/element {"uniqueId":"eppp010","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"repeat(3, 1fr)","gap":"24px","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppp010{display:grid;gap:24px;grid-template-columns:repeat(3, 1fr)}@media (max-width:900px){.gb-element-eppp010{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-eppp010 gb-element">
 
       <!-- Profile A -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppp020","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px"},"css":".gb-element-eppp020{background-color:var(--base-3);border:1px solid #dedee3;padding:36px 32px}","className":"gb-element"} -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppp020","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px","display":"flex","flexDirection":"column"},"css":".gb-element-eppp020{background-color:var(--base-3);border:1px solid #dedee3;display:flex;flex-direction:column;padding:36px 32px}","className":"gb-element"} -->
       <article class="gb-element-eppp020 gb-element">
-        <!-- card-head -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppp021","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"28px","alignItems":"baseline"},"css":".gb-element-eppp021{align-items:baseline;border-bottom:1px solid #dedee3;display:flex;justify-content:space-between;margin-bottom:28px;padding-bottom:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp021 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppp022","tagName":"span","styles":{"fontSize":"10px","letterSpacing":"0.2em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"600"},"css":".gb-text-eppp022{color:var(--contrast-2);font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppp022">Profile · A</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppp023","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"var(--accent)","fontSize":"14px"},"css":".gb-text-eppp023{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic}"} --><span class="gb-text gb-text-eppp023">I.</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-        <!-- title -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp024","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 20px","textWrap":"balance"},"css":".gb-text-eppp024{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp024">Pre-Retirees Planning Income Transition</h3><!-- /wp:generateblocks/text -->
-        <!-- body -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp025","tagName":"p","styles":{"margin":"0 0 32px","fontSize":"14.5px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppp025{color:var(--contrast-2);font-size:14.5px;line-height:1.6;margin:0 0 32px}"} --><p class="gb-text gb-text-eppp025">For those preparing to replace earned income with reliable monthly distributions from private-market strategies.</p><!-- /wp:generateblocks/text -->
-        <!-- meta row -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppp026","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1fr","paddingTop":"20px","borderTop":"1px dotted #dedee3","gap":"16px"},"css":".gb-element-eppp026{border-top:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr 1fr;padding-top:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp026 gb-element">
-          <!-- wp:generateblocks/element {"uniqueId":"eppp027","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp027 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp028","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp028{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp028">Objective</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp029","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","color":"var(--contrast-3)","marginTop":"6px","marginBottom":"0"},"css":".gb-text-eppp029{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp029">Income Bridge</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppp02a","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp02a gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp02b","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp02b{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp02b">Horizon</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp02c","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","color":"var(--contrast-3)","marginTop":"6px","marginBottom":"0","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppp02c{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp02c">5 – 10 yrs</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-        </div>
-        <!-- /wp:generateblocks/element -->
+        <!-- wp:generateblocks/media {"uniqueId":"eppp021","tagName":"img","styles":{"width":"56px","height":"56px","padding":"12px","backgroundColor":"var(--base)","border":"1px solid #dedee3","marginBottom":"24px","objectFit":"contain"},"css":".gb-media-eppp021{background-color:var(--base);border:1px solid #dedee3;height:56px;margin-bottom:24px;object-fit:contain;padding:12px;width:56px}","htmlAttributes":{"src":"https://patriotpropertybuyer.com/wp-content/uploads/2025/12/price.png","alt":"","title":"price"},"mediaId":49967} -->
+        <img class="gb-media gb-media-eppp021" src="https://patriotpropertybuyer.com/wp-content/uploads/2025/12/price.png" alt="" title="price"/>
+        <!-- /wp:generateblocks/media -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp022","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 16px","textWrap":"balance","paddingBottom":"20px","borderBottom":"1px solid #dedee3"},"css":".gb-text-eppp022{border-bottom:1px solid #dedee3;color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 16px;padding-bottom:20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp022">Pre-Retirees Planning Income Transition</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp023","tagName":"p","styles":{"margin":"0","fontSize":"14.5px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppp023{color:var(--contrast-2);font-size:14.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppp023">For those preparing to replace earned income with reliable monthly distributions from private-market strategies.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
       <!-- Profile B -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppp030","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px"},"css":".gb-element-eppp030{background-color:var(--base-3);border:1px solid #dedee3;padding:36px 32px}","className":"gb-element"} -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppp030","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px","display":"flex","flexDirection":"column"},"css":".gb-element-eppp030{background-color:var(--base-3);border:1px solid #dedee3;display:flex;flex-direction:column;padding:36px 32px}","className":"gb-element"} -->
       <article class="gb-element-eppp030 gb-element">
-        <!-- wp:generateblocks/element {"uniqueId":"eppp031","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"28px","alignItems":"baseline"},"css":".gb-element-eppp031{align-items:baseline;border-bottom:1px solid #dedee3;display:flex;justify-content:space-between;margin-bottom:28px;padding-bottom:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp031 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppp032","tagName":"span","styles":{"fontSize":"10px","letterSpacing":"0.2em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"600"},"css":".gb-text-eppp032{color:var(--contrast-2);font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppp032">Profile · B</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppp033","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"var(--accent)","fontSize":"14px"},"css":".gb-text-eppp033{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic}"} --><span class="gb-text gb-text-eppp033">II.</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp034","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 20px","textWrap":"balance"},"css":".gb-text-eppp034{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp034">Retirees Focused on Income Stability</h3><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp035","tagName":"p","styles":{"margin":"0 0 32px","fontSize":"14.5px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppp035{color:var(--contrast-2);font-size:14.5px;line-height:1.6;margin:0 0 32px}"} --><p class="gb-text gb-text-eppp035">Support for maintaining consistent distributions while protecting principal against inflation and market volatility.</p><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppp036","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1fr","paddingTop":"20px","borderTop":"1px dotted #dedee3","gap":"16px"},"css":".gb-element-eppp036{border-top:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr 1fr;padding-top:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp036 gb-element">
-          <!-- wp:generateblocks/element {"uniqueId":"eppp037","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp037 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp038","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp038{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp038">Objective</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp039","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"16px","color":"var(--accent)","marginTop":"6px","marginBottom":"0"},"css":".gb-text-eppp039{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-style:italic;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp039">Preservation</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppp03a","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp03a gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp03b","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp03b{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp03b">Cadence</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp03c","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","color":"var(--contrast-3)","marginTop":"6px","marginBottom":"0"},"css":".gb-text-eppp03c{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp03c">Monthly</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-        </div>
-        <!-- /wp:generateblocks/element -->
+        <!-- wp:generateblocks/media {"uniqueId":"eppp031","tagName":"img","styles":{"width":"56px","height":"56px","padding":"12px","backgroundColor":"var(--base)","border":"1px solid #dedee3","marginBottom":"24px","objectFit":"contain"},"css":".gb-media-eppp031{background-color:var(--base);border:1px solid #dedee3;height:56px;margin-bottom:24px;object-fit:contain;padding:12px;width:56px}","htmlAttributes":{"src":"https://patriotpropertybuyer.com/wp-content/uploads/2025/12/budget.png","alt":"","title":"budget"},"mediaId":49952} -->
+        <img class="gb-media gb-media-eppp031" src="https://patriotpropertybuyer.com/wp-content/uploads/2025/12/budget.png" alt="" title="budget"/>
+        <!-- /wp:generateblocks/media -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp032","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 16px","textWrap":"balance","paddingBottom":"20px","borderBottom":"1px solid #dedee3"},"css":".gb-text-eppp032{border-bottom:1px solid #dedee3;color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 16px;padding-bottom:20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp032">Retirees Focused on Income Stability</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp033","tagName":"p","styles":{"margin":"0","fontSize":"14.5px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppp033{color:var(--contrast-2);font-size:14.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppp033">Support for maintaining consistent distributions while protecting principal against inflation and market volatility.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
       <!-- Profile C -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppp040","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px"},"css":".gb-element-eppp040{background-color:var(--base-3);border:1px solid #dedee3;padding:36px 32px}","className":"gb-element"} -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppp040","tagName":"article","styles":{"backgroundColor":"var(--base-3)","border":"1px solid #dedee3","padding":"36px 32px","display":"flex","flexDirection":"column"},"css":".gb-element-eppp040{background-color:var(--base-3);border:1px solid #dedee3;display:flex;flex-direction:column;padding:36px 32px}","className":"gb-element"} -->
       <article class="gb-element-eppp040 gb-element">
-        <!-- wp:generateblocks/element {"uniqueId":"eppp041","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"28px","alignItems":"baseline"},"css":".gb-element-eppp041{align-items:baseline;border-bottom:1px solid #dedee3;display:flex;justify-content:space-between;margin-bottom:28px;padding-bottom:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp041 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppp042","tagName":"span","styles":{"fontSize":"10px","letterSpacing":"0.2em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"600"},"css":".gb-text-eppp042{color:var(--contrast-2);font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppp042">Profile · C</span><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppp043","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"var(--accent)","fontSize":"14px"},"css":".gb-text-eppp043{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic}"} --><span class="gb-text gb-text-eppp043">III.</span><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp044","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 20px","textWrap":"balance"},"css":".gb-text-eppp044{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp044">Investors Seeking Diversification Beyond Markets</h3><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppp045","tagName":"p","styles":{"margin":"0 0 32px","fontSize":"14.5px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppp045{color:var(--contrast-2);font-size:14.5px;line-height:1.6;margin:0 0 32px}"} --><p class="gb-text gb-text-eppp045">Guidance for reducing reliance on traditional stock and bond exposure through disciplined access to private assets.</p><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppp046","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1fr","paddingTop":"20px","borderTop":"1px dotted #dedee3","gap":"16px"},"css":".gb-element-eppp046{border-top:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr 1fr;padding-top:20px}","className":"gb-element"} -->
-        <div class="gb-element-eppp046 gb-element">
-          <!-- wp:generateblocks/element {"uniqueId":"eppp047","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp047 gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp048","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp048{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp048">Objective</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp049","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","color":"var(--contrast-3)","marginTop":"6px","marginBottom":"0"},"css":".gb-text-eppp049{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp049">Non-Correlated</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-          <!-- wp:generateblocks/element {"uniqueId":"eppp04a","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-          <div class="gb-element-eppp04a gb-element">
-            <!-- wp:generateblocks/text {"uniqueId":"eppp04b","tagName":"p","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","margin":"0"},"css":".gb-text-eppp04b{color:var(--contrast-2);font-size:10px;font-weight:500;letter-spacing:0.14em;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppp04b">Exposure</p><!-- /wp:generateblocks/text -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppp04c","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","color":"var(--contrast-3)","marginTop":"6px","marginBottom":"0"},"css":".gb-text-eppp04c{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;margin-bottom:0;margin-top:6px}"} --><p class="gb-text gb-text-eppp04c">Real Assets</p><!-- /wp:generateblocks/text -->
-          </div>
-          <!-- /wp:generateblocks/element -->
-        </div>
-        <!-- /wp:generateblocks/element -->
+        <!-- wp:generateblocks/media {"uniqueId":"eppp041","tagName":"img","styles":{"width":"56px","height":"56px","padding":"12px","backgroundColor":"var(--base)","border":"1px solid #dedee3","marginBottom":"24px","objectFit":"contain"},"css":".gb-media-eppp041{background-color:var(--base);border:1px solid #dedee3;height:56px;margin-bottom:24px;object-fit:contain;padding:12px;width:56px}","htmlAttributes":{"src":"https://patriotpropertybuyer.com/wp-content/uploads/2025/12/search.png","alt":"","title":"search"},"mediaId":49970} -->
+        <img class="gb-media gb-media-eppp041" src="https://patriotpropertybuyer.com/wp-content/uploads/2025/12/search.png" alt="" title="search"/>
+        <!-- /wp:generateblocks/media -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp042","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"700","fontSize":"22px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0 0 16px","textWrap":"balance","paddingBottom":"20px","borderBottom":"1px solid #dedee3"},"css":".gb-text-eppp042{border-bottom:1px solid #dedee3;color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.25;margin:0 0 16px;padding-bottom:20px;text-wrap:balance}"} --><h3 class="gb-text gb-text-eppp042">Investors Seeking Diversification Beyond Markets</h3><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppp043","tagName":"p","styles":{"margin":"0","fontSize":"14.5px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppp043{color:var(--contrast-2);font-size:14.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppp043">Guidance for reducing reliance on traditional stock and bond exposure through disciplined access to private assets.</p><!-- /wp:generateblocks/text -->
       </article>
       <!-- /wp:generateblocks/element -->
 
@@ -583,31 +353,23 @@
   <!-- /wp:generateblocks/element -->
 </section>
 <!-- /wp:generateblocks/element -->
-<!-- ============================================================ END INVESTOR PROFILES -->
+<!-- ============================================================ END PROFILES -->
 
 
-<!-- ============================================================ PRESS STRIP -->
+<!-- ============================================================ FEATURED ON — original logo image restored -->
 <!-- wp:generateblocks/element {"uniqueId":"eppr001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","borderTop":"1px solid #dedee3","borderBottom":"1px solid #dedee3","paddingTop":"clamp(48px, 6vw, 80px)","paddingBottom":"clamp(48px, 6vw, 80px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppr001{background-color:var(--base-2);border-bottom:1px solid #dedee3;border-top:1px solid #dedee3;padding:clamp(48px, 6vw, 80px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppr001 gb-element alignfull gbp-section">
-  <!-- wp:generateblocks/element {"uniqueId":"eppr002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","display":"grid","gridTemplateColumns":"220px 1fr","alignItems":"center","gap":"clamp(20px, 4vw, 56px)","@media (max-width:800px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppr002{align-items:center;display:grid;gap:clamp(20px, 4vw, 56px);grid-template-columns:220px 1fr;margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}@media (max-width:800px){.gb-element-eppr002{grid-template-columns:1fr}}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
+  <!-- wp:generateblocks/element {"uniqueId":"eppr002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","textAlign":"center"},"css":".gb-element-eppr002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width);text-align:center}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppr002 gb-element gbp-section__inner">
-    <!-- wp:generateblocks/text {"uniqueId":"eppr003","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1.5","margin":"0"},"css":".gb-text-eppr003{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1.5;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-    <p class="gb-text gb-text-eppr003 gbp-section__tagline">Featured on</p>
-    <!-- /wp:generateblocks/text -->
-    <!-- wp:generateblocks/element {"uniqueId":"eppr010","tagName":"div","styles":{"display":"flex","flexWrap":"wrap","gap":"clamp(28px, 5vw, 56px)","alignItems":"center"},"css":".gb-element-eppr010{align-items:center;display:flex;flex-wrap:wrap;gap:clamp(28px, 5vw, 56px)}","className":"gb-element"} -->
-    <div class="gb-element-eppr010 gb-element">
-      <!-- wp:generateblocks/text {"uniqueId":"eppr011","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"clamp(18px, 2vw, 26px)","color":"var(--contrast-2)"},"css":".gb-text-eppr011{color:var(--contrast-2);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(18px, 2vw, 26px);font-style:italic}"} --><span class="gb-text gb-text-eppr011">Bloomberg</span><!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppr012","tagName":"span","styles":{"fontWeight":"700","fontSize":"14px","letterSpacing":"0.28em","textTransform":"uppercase","color":"var(--contrast-2)"},"css":".gb-text-eppr012{color:var(--contrast-2);font-size:14px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppr012">The Wall Street Journal</span><!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppr013","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"clamp(18px, 2vw, 26px)","color":"var(--contrast-2)"},"css":".gb-text-eppr013{color:var(--contrast-2);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(18px, 2vw, 26px);font-style:italic}"} --><span class="gb-text gb-text-eppr013">Barron's</span><!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppr014","tagName":"span","styles":{"fontWeight":"700","fontSize":"14px","letterSpacing":"0.28em","textTransform":"uppercase","color":"var(--contrast-2)"},"css":".gb-text-eppr014{color:var(--contrast-2);font-size:14px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppr014">Forbes</span><!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppr015","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"clamp(18px, 2vw, 26px)","color":"var(--contrast-2)"},"css":".gb-text-eppr015{color:var(--contrast-2);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(18px, 2vw, 26px);font-style:italic}"} --><span class="gb-text gb-text-eppr015">Reuters</span><!-- /wp:generateblocks/text -->
-    </div>
-    <!-- /wp:generateblocks/element -->
+    <!-- wp:generateblocks/text {"uniqueId":"eppr003","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0 0 28px"},"css":".gb-text-eppr003{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0 0 28px;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppr003 gbp-section__tagline">Featured on</p><!-- /wp:generateblocks/text -->
+    <!-- wp:image {"id":50012,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+    <figure class="wp-block-image aligncenter size-full"><img src="https://epplercapital.com/wp-content/uploads/2026/01/image-26.png" alt="" class="wp-image-50012"/></figure>
+    <!-- /wp:image -->
   </div>
   <!-- /wp:generateblocks/element -->
 </section>
 <!-- /wp:generateblocks/element -->
-<!-- ============================================================ END PRESS -->
+<!-- ============================================================ END FEATURED ON -->
 
 
 <!-- ============================================================ INSIGHTS -->
@@ -621,21 +383,17 @@
     <div class="gb-element-eppi003 gb-element">
       <!-- wp:generateblocks/element {"uniqueId":"eppi004","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
       <div class="gb-element-eppi004 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppi005","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppi005{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-        <p class="gb-text gb-text-eppi005 gbp-section__tagline">§ VI. Latest Insights</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppi006","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","marginTop":"20px","marginBottom":"0","maxWidth":"22ch"},"css":".gb-text-eppi006{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:20px;max-width:22ch}"} -->
-        <h2 class="gb-text gb-text-eppi006">Take a look into our latest thinking.</h2>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppi005","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppi005{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppi005 gbp-section__tagline">Latest Insights</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppi006","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","marginTop":"20px","marginBottom":"0","maxWidth":"22ch"},"css":".gb-text-eppi006{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:20px;max-width:22ch}"} --><h2 class="gb-text gb-text-eppi006">Take a look into our latest thinking.</h2><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppi007","tagName":"a","styles":{"color":"var(--accent)","fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","fontWeight":"600","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppi007{color:var(--accent);font-size:12px;font-variant-numeric:tabular-nums;font-weight:600;letter-spacing:0.14em;text-transform:uppercase}","htmlAttributes":{"href":"https://epplercapital.com/blog/"}} -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppi007","tagName":"a","styles":{"color":"var(--accent)","fontSize":"12px","letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"600"},"css":".gb-text-eppi007{color:var(--accent);font-size:12px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase}","htmlAttributes":{"href":"https://epplercapital.com/blog/"}} -->
       <a class="gb-text gb-text-eppi007" href="https://epplercapital.com/blog/">View the Archive →</a>
       <!-- /wp:generateblocks/text -->
     </div>
     <!-- /wp:generateblocks/element -->
 
-    <!-- Insights query loop — 3 latest posts -->
+    <!-- Insights query loop -->
     <!-- wp:generateblocks/query {"uniqueId":"eppi020","tagName":"div","query":{"post_type":["post"],"posts_per_page":"3"}} -->
     <div class="gb-query-eppi020">
       <!-- wp:generateblocks/looper {"uniqueId":"eppi021","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"repeat(3, 1fr)","gap":"40px","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-looper-eppi021{display:grid;gap:40px;grid-template-columns:repeat(3, 1fr)}@media (max-width:900px){.gb-looper-eppi021{grid-template-columns:1fr}}"} -->
@@ -644,19 +402,15 @@
         <article class="gb-loop-item">
           <!-- wp:generateblocks/element {"uniqueId":"eppi023","tagName":"div","styles":{"display":"flex","flexDirection":"column","gap":"16px","borderTop":"1px solid var(--contrast-3)","paddingTop":"24px"},"css":".gb-element-eppi023{border-top:1px solid var(--contrast-3);display:flex;flex-direction:column;gap:16px;padding-top:24px}","className":"gb-element"} -->
           <div class="gb-element-eppi023 gb-element">
-            <!-- cat + date -->
             <!-- wp:generateblocks/element {"uniqueId":"eppi024","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","alignItems":"center"},"css":".gb-element-eppi024{align-items:center;display:flex;justify-content:space-between}","className":"gb-element"} -->
             <div class="gb-element-eppi024 gb-element">
-              <!-- wp:generateblocks/text {"uniqueId":"eppi025","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.16em","textTransform":"uppercase","color":"var(--accent)","fontWeight":"600"},"css":".gb-text-eppi025{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppi025">Market Letter</span><!-- /wp:generateblocks/text -->
-              <!-- wp:generateblocks/text {"uniqueId":"eppi026","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontSize":"14px","color":"var(--contrast-2)","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppi026{color:var(--contrast-2);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-eppi026">{{post_date|date:'M j, Y'}}</span><!-- /wp:generateblocks/text -->
+              <!-- wp:generateblocks/text {"uniqueId":"eppi025","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","color":"var(--accent)","fontWeight":"600"},"css":".gb-text-eppi025{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppi025">Insight</span><!-- /wp:generateblocks/text -->
+              <!-- wp:generateblocks/text {"uniqueId":"eppi026","tagName":"span","styles":{"fontSize":"13px","color":"var(--contrast-2)","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppi026{color:var(--contrast-2);font-size:13px;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-eppi026">{{post_date|date:'M j, Y'}}</span><!-- /wp:generateblocks/text -->
             </div>
             <!-- /wp:generateblocks/element -->
-            <!-- title -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppi027","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"24px","lineHeight":"1.25","color":"var(--contrast-3)","margin":"0","textWrap":"balance","a":{"color":"var(--contrast-3)"},"a:hover":{"color":"var(--accent)"}},"css":".gb-text-eppi027{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:24px;font-weight:400;line-height:1.25;margin:0;text-wrap:balance}.gb-text-eppi027 a{color:var(--contrast-3)}.gb-text-eppi027 a:hover{color:var(--accent)}"} --><h3 class="gb-text gb-text-eppi027"><a href="{{post_permalink}}">{{post_title}}</a></h3><!-- /wp:generateblocks/text -->
-            <!-- excerpt -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppi028","tagName":"p","styles":{"margin":"0","fontSize":"14.5px","lineHeight":"1.6","color":"var(--contrast-2)"},"css":".gb-text-eppi028{color:var(--contrast-2);font-size:14.5px;line-height:1.6;margin:0}"} --><p class="gb-text gb-text-eppi028">{{post_excerpt|words:24}}</p><!-- /wp:generateblocks/text -->
-            <!-- read link -->
-            <!-- wp:generateblocks/text {"uniqueId":"eppi029","tagName":"a","styles":{"marginTop":"12px","fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--accent)","fontWeight":"600"},"css":".gb-text-eppi029{color:var(--accent);font-size:12px;font-weight:600;letter-spacing:0.14em;margin-top:12px;text-transform:uppercase}","htmlAttributes":{"href":"{{post_permalink}}"}} --><a class="gb-text gb-text-eppi029" href="{{post_permalink}}">Read Article ——</a><!-- /wp:generateblocks/text -->
+            <!-- wp:generateblocks/text {"uniqueId":"eppi027","tagName":"h3","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"22px","lineHeight":"1.3","color":"var(--contrast-3)","margin":"0","textWrap":"balance","a":{"color":"var(--contrast-3)"},"a:hover":{"color":"var(--accent)"}},"css":".gb-text-eppi027{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:400;line-height:1.3;margin:0;text-wrap:balance}.gb-text-eppi027 a{color:var(--contrast-3)}.gb-text-eppi027 a:hover{color:var(--accent)}"} --><h3 class="gb-text gb-text-eppi027"><a href="{{post_permalink}}">{{post_title}}</a></h3><!-- /wp:generateblocks/text -->
+            <!-- wp:generateblocks/text {"uniqueId":"eppi028","tagName":"p","styles":{"margin":"0","fontSize":"14.5px","lineHeight":"1.65","color":"var(--contrast-2)"},"css":".gb-text-eppi028{color:var(--contrast-2);font-size:14.5px;line-height:1.65;margin:0}"} --><p class="gb-text gb-text-eppi028">{{post_excerpt|words:24}}</p><!-- /wp:generateblocks/text -->
+            <!-- wp:generateblocks/text {"uniqueId":"eppi029","tagName":"a","styles":{"marginTop":"8px","fontSize":"12px","letterSpacing":"0.16em","textTransform":"uppercase","color":"var(--accent)","fontWeight":"600"},"css":".gb-text-eppi029{color:var(--accent);font-size:12px;font-weight:600;letter-spacing:0.16em;margin-top:8px;text-transform:uppercase}","htmlAttributes":{"href":"{{post_permalink}}"}} --><a class="gb-text gb-text-eppi029" href="{{post_permalink}}">Read Article ——</a><!-- /wp:generateblocks/text -->
           </div>
           <!-- /wp:generateblocks/element -->
         </article>
@@ -673,70 +427,61 @@
 <!-- ============================================================ END INSIGHTS -->
 
 
-<!-- ============================================================ FAQ -->
+<!-- ============================================================ FAQ — image27 restored in left column -->
 <!-- wp:generateblocks/element {"uniqueId":"eppf001","tagName":"section","styles":{"backgroundColor":"var(--base)","borderTop":"1px solid #dedee3","paddingTop":"clamp(64px, 8vw, 112px)","paddingBottom":"clamp(64px, 8vw, 112px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppf001{background-color:var(--base);border-top:1px solid #dedee3;padding:clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppf001 gb-element alignfull gbp-section">
   <!-- wp:generateblocks/element {"uniqueId":"eppf002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto"},"css":".gb-element-eppf002{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppf002 gb-element gbp-section__inner">
 
-    <!-- Two-col: header (left)  accordion (right) -->
     <!-- wp:generateblocks/element {"uniqueId":"eppf003","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr 1.5fr","gap":"clamp(32px, 6vw, 88px)","alignItems":"start","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppf003{align-items:start;display:grid;gap:clamp(32px, 6vw, 88px);grid-template-columns:1fr 1.5fr}@media (max-width:900px){.gb-element-eppf003{grid-template-columns:1fr}}","className":"gb-element"} -->
     <div class="gb-element-eppf003 gb-element">
 
-      <!-- LEFT: header -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppf004","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+      <!-- LEFT: header + image -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppf004","tagName":"div","styles":{"display":"flex","flexDirection":"column","gap":"32px"},"css":".gb-element-eppf004{display:flex;flex-direction:column;gap:32px}","className":"gb-element"} -->
       <div class="gb-element-eppf004 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppf005","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppf005{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} -->
-        <p class="gb-text gb-text-eppf005 gbp-section__tagline">§ VII. Investor Questions</p>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppf006","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"var(--contrast-3)","marginTop":"20px","marginBottom":"0","maxWidth":"14ch"},"css":".gb-text-eppf006{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:20px;max-width:14ch}"} -->
-        <h2 class="gb-text gb-text-eppf006">Frequently asked questions.</h2>
-        <!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/text {"uniqueId":"eppf007","tagName":"p","styles":{"fontSize":"18px","lineHeight":"1.6","color":"var(--contrast-2)","marginTop":"24px","marginBottom":"0","maxWidth":"38ch"},"css":".gb-text-eppf007{color:var(--contrast-2);font-size:18px;line-height:1.6;margin-bottom:0;margin-top:24px;max-width:38ch}"} -->
-        <p class="gb-text gb-text-eppf007">A short reference for the questions we hear most often from investors evaluating an allocation with Eppler Capital.</p>
-        <!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppf005","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+        <div class="gb-element-eppf005 gb-element">
+          <!-- wp:generateblocks/text {"uniqueId":"eppf006","tagName":"p","styles":{"color":"var(--accent)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppf006{color:var(--accent);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}","globalClasses":["gbp-section__tagline"]} --><p class="gb-text gb-text-eppf006 gbp-section__tagline">Investor Questions</p><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppf007","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"var(--contrast-3)","marginTop":"20px","marginBottom":"0","maxWidth":"14ch"},"css":".gb-text-eppf007{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:20px;max-width:14ch}"} --><h2 class="gb-text gb-text-eppf007">Frequently asked questions.</h2><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppf008","tagName":"p","styles":{"fontSize":"17px","lineHeight":"1.65","color":"var(--contrast-2)","marginTop":"24px","marginBottom":"0","maxWidth":"38ch"},"css":".gb-text-eppf008{color:var(--contrast-2);font-size:17px;line-height:1.65;margin-bottom:0;margin-top:24px;max-width:38ch}"} --><p class="gb-text gb-text-eppf008">A short reference for the questions we hear most often from investors evaluating an allocation with Eppler Capital.</p><!-- /wp:generateblocks/text -->
+        </div>
+        <!-- /wp:generateblocks/element -->
+
+        <!-- FAQ image restored -->
+        <!-- wp:image {"id":50035,"sizeSlug":"full","linkDestination":"none"} -->
+        <figure class="wp-block-image size-full"><img src="https://epplercapital.com/wp-content/uploads/2026/01/image-27.png" alt="" class="wp-image-50035" style="display:block;width:100%;height:auto;"/></figure>
+        <!-- /wp:image -->
       </div>
       <!-- /wp:generateblocks/element -->
 
-      <!-- RIGHT: FAQ list — core wp:details blocks -->
+      <!-- RIGHT: FAQ accordion -->
       <!-- wp:generateblocks/element {"uniqueId":"eppf010","tagName":"div","styles":{"borderTop":"1px solid var(--contrast-3)"},"css":".gb-element-eppf010{border-top:1px solid var(--contrast-3)}","className":"gb-element gbp-faq"} -->
       <div class="gb-element-eppf010 gb-element gbp-faq">
-
-        <!-- FAQ item 1 -->
         <!-- wp:details {"showContent":true,"className":"gbp-faq__item"} -->
-        <details class="wp-block-details gbp-faq__item" open><summary><span class="gbp-faq__q-mark">Q.</span> Who is eligible to invest with Eppler Capital Funds?</summary>
-          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a"><em>A.</em> Our offerings are private placements available to accredited investors, as defined under Regulation D of the Securities Act. Prospective investors complete a suitability review and receive full offering documents prior to any commitment.</p><!-- /wp:paragraph -->
+        <details class="wp-block-details gbp-faq__item" open><summary>Who is eligible to invest with Eppler Capital Funds?</summary>
+          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a">Our offerings are private placements available to accredited investors, as defined under Regulation D of the Securities Act. Prospective investors complete a suitability review and receive full offering documents prior to any commitment.</p><!-- /wp:paragraph -->
         </details>
         <!-- /wp:details -->
-
-        <!-- FAQ item 2 -->
         <!-- wp:details {"className":"gbp-faq__item"} -->
-        <details class="wp-block-details gbp-faq__item"><summary><span class="gbp-faq__q-mark">Q.</span> How are distributions typically paid?</summary>
-          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a"><em>A.</em> Distributions are paid monthly, direct-deposited to your bank of record. Timing and rate are outlined in each offering's private placement memorandum.</p><!-- /wp:paragraph -->
+        <details class="wp-block-details gbp-faq__item"><summary>How are distributions typically paid?</summary>
+          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a">Distributions are paid monthly, direct-deposited to your bank of record. Timing and rate are outlined in each offering's private placement memorandum.</p><!-- /wp:paragraph -->
         </details>
         <!-- /wp:details -->
-
-        <!-- FAQ item 3 -->
         <!-- wp:details {"className":"gbp-faq__item"} -->
-        <details class="wp-block-details gbp-faq__item"><summary><span class="gbp-faq__q-mark">Q.</span> What is the typical hold period?</summary>
-          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a"><em>A.</em> Most of our current strategies target a hold period of five to seven years, matched to the operating cycle of the underlying real assets and businesses. Every offering discloses its target hold and liquidity terms.</p><!-- /wp:paragraph -->
+        <details class="wp-block-details gbp-faq__item"><summary>What is the typical hold period?</summary>
+          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a">Most of our current strategies target a hold period of five to seven years, matched to the operating cycle of the underlying real assets and businesses. Every offering discloses its target hold and liquidity terms.</p><!-- /wp:paragraph -->
         </details>
         <!-- /wp:details -->
-
-        <!-- FAQ item 4 -->
         <!-- wp:details {"className":"gbp-faq__item"} -->
-        <details class="wp-block-details gbp-faq__item"><summary><span class="gbp-faq__q-mark">Q.</span> How do you conduct diligence on operators?</summary>
-          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a"><em>A.</em> Every operator we partner with is subject to a comprehensive review of financials, track record, references, and on-site visits. Fewer than five percent of the operators we evaluate meet our standard.</p><!-- /wp:paragraph -->
+        <details class="wp-block-details gbp-faq__item"><summary>How do you conduct diligence on operators?</summary>
+          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a">Every operator we partner with is subject to a comprehensive review of financials, track record, references, and on-site visits. Fewer than five percent of the operators we evaluate meet our standard.</p><!-- /wp:paragraph -->
         </details>
         <!-- /wp:details -->
-
-        <!-- FAQ item 5 -->
         <!-- wp:details {"className":"gbp-faq__item"} -->
-        <details class="wp-block-details gbp-faq__item"><summary><span class="gbp-faq__q-mark">Q.</span> How do I begin the process?</summary>
-          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a"><em>A.</em> The most useful starting point is a complimentary portfolio review. We'll walk through your current allocations, income needs, and objectives, and share whether — and where — a private allocation might fit.</p><!-- /wp:paragraph -->
+        <details class="wp-block-details gbp-faq__item"><summary>How do I begin the process?</summary>
+          <!-- wp:paragraph {"className":"gbp-faq__a"} --><p class="gbp-faq__a">The most useful starting point is a complimentary portfolio review. We'll walk through your current allocations, income needs, and objectives, and share whether — and where — a private allocation might fit.</p><!-- /wp:paragraph -->
         </details>
         <!-- /wp:details -->
-
       </div>
       <!-- /wp:generateblocks/element -->
 
@@ -750,79 +495,95 @@
 <!-- ============================================================ END FAQ -->
 
 
-<!-- ============================================================ CTA -->
-<!-- wp:generateblocks/element {"uniqueId":"eppc001","tagName":"section","styles":{"backgroundColor":"var(--accent)","color":"#eee9d9","paddingTop":"clamp(72px, 8vw, 120px)","paddingBottom":"clamp(72px, 8vw, 120px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)"},"css":".gb-element-eppc001{background-color:var(--accent);color:#eee9d9;padding:clamp(72px, 8vw, 120px) clamp(20px, 4vw, 56px)}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<!-- ============================================================ CTA + SPECIMEN -->
+<!-- wp:generateblocks/element {"uniqueId":"eppc001","tagName":"section","styles":{"backgroundColor":"var(--accent)","color":"#f2ede0","paddingTop":"clamp(72px, 8vw, 120px)","paddingBottom":"clamp(72px, 8vw, 120px)","paddingLeft":"clamp(20px, 4vw, 56px)","paddingRight":"clamp(20px, 4vw, 56px)","position":"relative"},"css":".gb-element-eppc001{background-color:var(--accent);color:#f2ede0;padding:clamp(72px, 8vw, 120px) clamp(20px, 4vw, 56px);position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gb-element-eppc001 gb-element alignfull gbp-section" id="review">
-  <!-- wp:generateblocks/element {"uniqueId":"eppc002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","display":"grid","gridTemplateColumns":"1.2fr 1fr","gap":"clamp(24px, 5vw, 80px)","alignItems":"center","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppc002{align-items:center;display:grid;gap:clamp(24px, 5vw, 80px);grid-template-columns:1.2fr 1fr;margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}@media (max-width:900px){.gb-element-eppc002{grid-template-columns:1fr}}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
+  <!-- wp:generateblocks/element {"uniqueId":"eppc002","tagName":"div","styles":{"maxWidth":"var(--gb-container-width)","marginLeft":"auto","marginRight":"auto","display":"grid","gridTemplateColumns":"1fr 1fr","gap":"clamp(32px, 5vw, 80px)","alignItems":"center","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-eppc002{align-items:center;display:grid;gap:clamp(32px, 5vw, 80px);grid-template-columns:1fr 1fr;margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}@media (max-width:900px){.gb-element-eppc002{grid-template-columns:1fr}}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
   <div class="gb-element-eppc002 gb-element gbp-section__inner">
 
-    <!-- LEFT copy -->
+    <!-- LEFT: invitation -->
     <!-- wp:generateblocks/element {"uniqueId":"eppc010","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
     <div class="gb-element-eppc010 gb-element">
-      <!-- wp:generateblocks/text {"uniqueId":"eppc011","tagName":"p","styles":{"color":"rgba(238,233,217,0.55)","fontSize":"11px","letterSpacing":"0.18em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppc011{color:rgba(238,233,217,0.55);font-size:11px;font-weight:600;letter-spacing:0.18em;line-height:1;margin:0;text-transform:uppercase}"} -->
-      <p class="gb-text gb-text-eppc011">§ VIII. Begin the Conversation</p>
-      <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppc012","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","fontWeight":"400","fontSize":"clamp(36px, 4.4vw, 58px)","lineHeight":"1.05","letterSpacing":"-0.01em","color":"#f2ede0","marginTop":"20px","marginBottom":"0","maxWidth":"14ch","textWrap":"balance"},"css":".gb-text-eppc012{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(36px, 4.4vw, 58px);font-style:italic;font-weight:400;letter-spacing:-0.01em;line-height:1.05;margin-bottom:0;margin-top:20px;max-width:14ch;text-wrap:balance}"} -->
-      <h2 class="gb-text gb-text-eppc012">Get a complimentary portfolio review.</h2>
-      <!-- /wp:generateblocks/text -->
-      <!-- wp:generateblocks/text {"uniqueId":"eppc013","tagName":"p","styles":{"color":"rgba(242,237,224,0.8)","fontSize":"18px","lineHeight":"1.6","marginTop":"20px","marginBottom":"0","maxWidth":"48ch"},"css":".gb-text-eppc013{color:rgba(242,237,224,0.8);font-size:18px;line-height:1.6;margin-bottom:0;margin-top:20px;max-width:48ch}"} -->
-      <p class="gb-text gb-text-eppc013">A thoughtful review of your portfolio, built around your income goals — private, confidential, and without obligation.</p>
-      <!-- /wp:generateblocks/text -->
-      <!-- CTA button -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppc014","tagName":"div","styles":{"marginTop":"32px"},"css":".gb-element-eppc014{margin-top:32px}","className":"gb-element"} -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppc011","tagName":"p","styles":{"color":"rgba(242,237,224,0.72)","fontSize":"11px","letterSpacing":"0.2em","textTransform":"uppercase","fontWeight":"600","lineHeight":"1","margin":"0"},"css":".gb-text-eppc011{color:rgba(242,237,224,0.72);font-size:11px;font-weight:600;letter-spacing:0.2em;line-height:1;margin:0;text-transform:uppercase}"} --><p class="gb-text gb-text-eppc011">Begin the Conversation</p><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppc012","tagName":"h2","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontWeight":"400","fontSize":"clamp(34px, 4vw, 52px)","lineHeight":"1.1","letterSpacing":"-0.005em","color":"#f2ede0","marginTop":"20px","marginBottom":"0","maxWidth":"15ch","textWrap":"balance"},"css":".gb-text-eppc012{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:clamp(34px, 4vw, 52px);font-weight:400;letter-spacing:-0.005em;line-height:1.1;margin-bottom:0;margin-top:20px;max-width:15ch;text-wrap:balance}"} --><h2 class="gb-text gb-text-eppc012">Get a complimentary portfolio review.</h2><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppc013","tagName":"p","styles":{"color":"rgba(242,237,224,0.72)","fontSize":"17px","lineHeight":"1.65","marginTop":"24px","marginBottom":"0","maxWidth":"42ch"},"css":".gb-text-eppc013{color:rgba(242,237,224,0.72);font-size:17px;line-height:1.65;margin-bottom:0;margin-top:24px;max-width:42ch}"} --><p class="gb-text gb-text-eppc013">A thoughtful review of your portfolio, built around your income goals — private, confidential, and without obligation. Roughly forty minutes with one of our principals.</p><!-- /wp:generateblocks/text -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc014","tagName":"div","styles":{"marginTop":"40px","display":"flex","gap":"16px","flexWrap":"wrap"},"css":".gb-element-eppc014{display:flex;flex-wrap:wrap;gap:16px;margin-top:40px}","className":"gb-element"} -->
       <div class="gb-element-eppc014 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppc015","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"14px 22px","fontSize":"13px","fontWeight":"500","letterSpacing":"0.12em","textTransform":"uppercase","backgroundColor":"#f2ede0","color":"var(--accent)","border":"1px solid #f2ede0","&:hover":{"backgroundColor":"var(--base-3)","borderColor":"var(--base-3)"}},"css":".gb-text-eppc015{align-items:center;background-color:#f2ede0;border:1px solid #f2ede0;color:var(--accent);display:inline-flex;font-size:13px;font-weight:500;gap:12px;letter-spacing:0.12em;padding:14px 22px;text-transform:uppercase}.gb-text-eppc015:hover{background-color:var(--base-3);border-color:var(--base-3)}","htmlAttributes":{"href":"https://epplercapital.com/go/complimentary-portfolio-review/"}} -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc015","tagName":"a","styles":{"display":"inline-flex","alignItems":"center","gap":"12px","padding":"15px 24px","fontSize":"12px","fontWeight":"600","letterSpacing":"0.14em","textTransform":"uppercase","backgroundColor":"#f2ede0","color":"var(--accent)","border":"1px solid #f2ede0","&:hover":{"backgroundColor":"var(--base-3)","borderColor":"var(--base-3)"}},"css":".gb-text-eppc015{align-items:center;background-color:#f2ede0;border:1px solid #f2ede0;color:var(--accent);display:inline-flex;font-size:12px;font-weight:600;gap:12px;letter-spacing:0.14em;padding:15px 24px;text-transform:uppercase}.gb-text-eppc015:hover{background-color:var(--base-3);border-color:var(--base-3)}","htmlAttributes":{"href":"https://epplercapital.com/go/complimentary-portfolio-review/"}} -->
         <a class="gb-text gb-text-eppc015" href="https://epplercapital.com/go/complimentary-portfolio-review/">Get Started →</a>
         <!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
+      <!-- wp:generateblocks/text {"uniqueId":"eppc016","tagName":"p","styles":{"marginTop":"24px","marginBottom":"0","fontSize":"12px","letterSpacing":"0.16em","textTransform":"uppercase","color":"rgba(242,237,224,0.45)","fontWeight":"500"},"css":".gb-text-eppc016{color:rgba(242,237,224,0.45);font-size:12px;font-weight:500;letter-spacing:0.16em;margin-bottom:0;margin-top:24px;text-transform:uppercase}"} --><p class="gb-text gb-text-eppc016">Available to accredited investors only.</p><!-- /wp:generateblocks/text -->
     </div>
     <!-- /wp:generateblocks/element -->
 
-    <!-- RIGHT — 3 step list -->
-    <!-- wp:generateblocks/element {"uniqueId":"eppc020","tagName":"div","styles":{"borderLeft":"1px solid rgba(238,233,217,0.2)","paddingLeft":"clamp(24px, 4vw, 56px)","@media (max-width:900px)":{"borderLeft":"0","paddingLeft":"0","paddingTop":"24px","borderTop":"1px solid rgba(238,233,217,0.2)"}},"css":".gb-element-eppc020{border-left:1px solid rgba(238,233,217,0.2);padding-left:clamp(24px, 4vw, 56px)}@media (max-width:900px){.gb-element-eppc020{border-left:0;border-top:1px solid rgba(238,233,217,0.2);padding-left:0;padding-top:24px}}","className":"gb-element"} -->
-    <div class="gb-element-eppc020 gb-element">
+    <!-- RIGHT: Specimen card (moved from hero) -->
+    <!-- wp:generateblocks/element {"uniqueId":"eppc020","tagName":"aside","styles":{"backgroundColor":"var(--base-3)","border":"1px solid rgba(242,237,224,0.14)","padding":"32px","color":"var(--contrast-3)","boxShadow":"0 20px 60px -20px rgba(0,0,0,0.4)"},"css":".gb-element-eppc020{background-color:var(--base-3);border:1px solid rgba(242,237,224,0.14);box-shadow:0 20px 60px -20px rgba(0,0,0,0.4);color:var(--contrast-3);padding:32px}","className":"gb-element"} -->
+    <aside class="gb-element-eppc020 gb-element">
 
-      <!-- step i -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppc021","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"auto 1fr","gap":"16px","padding":"20px 0","borderBottom":"1px solid rgba(238,233,217,0.14)"},"css":".gb-element-eppc021{border-bottom:1px solid rgba(238,233,217,0.14);display:grid;gap:16px;grid-template-columns:auto 1fr;padding:20px 0}","className":"gb-element"} -->
+      <!-- head -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc021","tagName":"div","styles":{"display":"flex","justifyContent":"space-between","alignItems":"baseline","paddingBottom":"20px","borderBottom":"1px solid #dedee3","marginBottom":"8px","gap":"16px"},"css":".gb-element-eppc021{align-items:baseline;border-bottom:1px solid #dedee3;display:flex;gap:16px;justify-content:space-between;margin-bottom:8px;padding-bottom:20px}","className":"gb-element"} -->
       <div class="gb-element-eppc021 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppc022","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"rgba(242,237,224,0.55)","fontSize":"14px","paddingTop":"3px"},"css":".gb-text-eppc022{color:rgba(242,237,224,0.55);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;padding-top:3px}"} --><span class="gb-text gb-text-eppc022">i.</span><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppc023","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-        <div class="gb-element-eppc023 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppc024","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"17px","color":"#f2ede0","lineHeight":"1.35","margin":"0"},"css":".gb-text-eppc024{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:17px;line-height:1.35;margin:0}"} --><p class="gb-text gb-text-eppc024">A confidential intake conversation.</p><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppc025","tagName":"p","styles":{"fontSize":"13px","color":"rgba(242,237,224,0.65)","marginTop":"4px","marginBottom":"0"},"css":".gb-text-eppc025{color:rgba(242,237,224,0.65);font-size:13px;margin-bottom:0;margin-top:4px}"} --><p class="gb-text gb-text-eppc025">Roughly forty minutes with one of our principals.</p><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/element {"uniqueId":"eppc022","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
+        <div class="gb-element-eppc022 gb-element">
+          <!-- wp:generateblocks/text {"uniqueId":"eppc023","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"22px","fontWeight":"700","color":"var(--contrast-3)","lineHeight":"1.2","margin":"0"},"css":".gb-text-eppc023{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:22px;font-weight:700;line-height:1.2;margin:0}"} --><p class="gb-text gb-text-eppc023">The Income Fund</p><!-- /wp:generateblocks/text -->
+          <!-- wp:generateblocks/text {"uniqueId":"eppc024","tagName":"p","styles":{"fontSize":"11px","letterSpacing":"0.16em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"500","marginTop":"4px","marginBottom":"0"},"css":".gb-text-eppc024{color:var(--contrast-2);font-size:11px;font-weight:500;letter-spacing:0.16em;margin-bottom:0;margin-top:4px;text-transform:uppercase}"} --><p class="gb-text gb-text-eppc024">Series I · Current Offering</p><!-- /wp:generateblocks/text -->
         </div>
         <!-- /wp:generateblocks/element -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc025","tagName":"span","styles":{"fontSize":"11px","letterSpacing":"0.16em","color":"var(--contrast-2)","textTransform":"uppercase","fontWeight":"600","padding":"4px 10px","border":"1px solid #dedee3"},"css":".gb-text-eppc025{border:1px solid #dedee3;color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.16em;padding:4px 10px;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc025">MMXXVI</span><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
 
-      <!-- step ii -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppc031","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"auto 1fr","gap":"16px","padding":"20px 0","borderBottom":"1px solid rgba(238,233,217,0.14)"},"css":".gb-element-eppc031{border-bottom:1px solid rgba(238,233,217,0.14);display:grid;gap:16px;grid-template-columns:auto 1fr;padding:20px 0}","className":"gb-element"} -->
-      <div class="gb-element-eppc031 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppc032","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"rgba(242,237,224,0.55)","fontSize":"14px","paddingTop":"3px"},"css":".gb-text-eppc032{color:rgba(242,237,224,0.55);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;padding-top:3px}"} --><span class="gb-text gb-text-eppc032">ii.</span><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppc033","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-        <div class="gb-element-eppc033 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppc034","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"17px","color":"#f2ede0","lineHeight":"1.35","margin":"0"},"css":".gb-text-eppc034{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:17px;line-height:1.35;margin:0}"} --><p class="gb-text gb-text-eppc034">A written review of your portfolio.</p><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppc035","tagName":"p","styles":{"fontSize":"13px","color":"rgba(242,237,224,0.65)","marginTop":"4px","marginBottom":"0"},"css":".gb-text-eppc035{color:rgba(242,237,224,0.65);font-size:13px;margin-bottom:0;margin-top:4px}"} --><p class="gb-text gb-text-eppc035">Allocation, income cadence, and concentration risks.</p><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
+      <!-- Row: Strategy -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc030","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","gap":"16px","alignItems":"baseline"},"css":".gb-element-eppc030{align-items:baseline;border-bottom:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
+      <div class="gb-element-eppc030 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc031","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-eppc031{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc031">Strategy</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc032","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","textAlign":"right"},"css":".gb-text-eppc032{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;text-align:right}"} --><span class="gb-text gb-text-eppc032">Private, Income-Focused</span><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
 
-      <!-- step iii -->
-      <!-- wp:generateblocks/element {"uniqueId":"eppc041","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"auto 1fr","gap":"16px","padding":"20px 0"},"css":".gb-element-eppc041{display:grid;gap:16px;grid-template-columns:auto 1fr;padding:20px 0}","className":"gb-element"} -->
-      <div class="gb-element-eppc041 gb-element">
-        <!-- wp:generateblocks/text {"uniqueId":"eppc042","tagName":"span","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontStyle":"italic","color":"rgba(242,237,224,0.55)","fontSize":"14px","paddingTop":"3px"},"css":".gb-text-eppc042{color:rgba(242,237,224,0.55);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:14px;font-style:italic;padding-top:3px}"} --><span class="gb-text gb-text-eppc042">iii.</span><!-- /wp:generateblocks/text -->
-        <!-- wp:generateblocks/element {"uniqueId":"eppc043","tagName":"div","styles":{},"css":"","className":"gb-element"} -->
-        <div class="gb-element-eppc043 gb-element">
-          <!-- wp:generateblocks/text {"uniqueId":"eppc044","tagName":"p","styles":{"fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"17px","color":"#f2ede0","lineHeight":"1.35","margin":"0"},"css":".gb-text-eppc044{color:#f2ede0;font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:17px;line-height:1.35;margin:0}"} --><p class="gb-text gb-text-eppc044">A tailored strategy, if it fits.</p><!-- /wp:generateblocks/text -->
-          <!-- wp:generateblocks/text {"uniqueId":"eppc045","tagName":"p","styles":{"fontSize":"13px","color":"rgba(242,237,224,0.65)","marginTop":"4px","marginBottom":"0"},"css":".gb-text-eppc045{color:rgba(242,237,224,0.65);font-size:13px;margin-bottom:0;margin-top:4px}"} --><p class="gb-text gb-text-eppc045">Only where a private allocation is genuinely additive.</p><!-- /wp:generateblocks/text -->
-        </div>
-        <!-- /wp:generateblocks/element -->
+      <!-- Row: Distribution -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc033","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","gap":"16px","alignItems":"baseline"},"css":".gb-element-eppc033{align-items:baseline;border-bottom:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
+      <div class="gb-element-eppc033 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc034","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-eppc034{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc034">Distribution</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc035","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px"},"css":".gb-text-eppc035{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px}"} --><span class="gb-text gb-text-eppc035">Monthly</span><!-- /wp:generateblocks/text -->
       </div>
       <!-- /wp:generateblocks/element -->
 
-    </div>
+      <!-- Row: Target Yield -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc036","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","gap":"16px","alignItems":"baseline"},"css":".gb-element-eppc036{align-items:baseline;border-bottom:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
+      <div class="gb-element-eppc036 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc037","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-eppc037{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc037">Target Yield</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc038","tagName":"span","styles":{"color":"var(--accent)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","fontWeight":"700","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppc038{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums;font-weight:700}"} --><span class="gb-text gb-text-eppc038">8 – 10<span style="font-size:.7em;">%</span></span><!-- /wp:generateblocks/text -->
+      </div>
+      <!-- /wp:generateblocks/element -->
+
+      <!-- Row: Hold Period -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc039","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","borderBottom":"1px dotted #dedee3","gap":"16px","alignItems":"baseline"},"css":".gb-element-eppc039{align-items:baseline;border-bottom:1px dotted #dedee3;display:grid;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
+      <div class="gb-element-eppc039 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc03a","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-eppc03a{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc03a">Hold Period</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc03b","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","fontVariantNumeric":"tabular-nums"},"css":".gb-text-eppc03b{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;font-variant-numeric:tabular-nums}"} --><span class="gb-text gb-text-eppc03b">5 – 7 yrs</span><!-- /wp:generateblocks/text -->
+      </div>
+      <!-- /wp:generateblocks/element -->
+
+      <!-- Row: Asset Classes -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc03c","tagName":"div","styles":{"display":"grid","gridTemplateColumns":"1fr auto","padding":"14px 0","gap":"16px","alignItems":"baseline"},"css":".gb-element-eppc03c{align-items:baseline;display:grid;gap:16px;grid-template-columns:1fr auto;padding:14px 0}","className":"gb-element"} -->
+      <div class="gb-element-eppc03c gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc03d","tagName":"span","styles":{"color":"var(--contrast-2)","letterSpacing":"0.06em","fontWeight":"600","textTransform":"uppercase","fontSize":"11px"},"css":".gb-text-eppc03d{color:var(--contrast-2);font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc03d">Asset Classes</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc03e","tagName":"span","styles":{"color":"var(--contrast-3)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"16px","textAlign":"right"},"css":".gb-text-eppc03e{color:var(--contrast-3);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:16px;text-align:right}"} --><span class="gb-text gb-text-eppc03e">Real Assets · Operating Businesses</span><!-- /wp:generateblocks/text -->
+      </div>
+      <!-- /wp:generateblocks/element -->
+
+      <!-- foot -->
+      <!-- wp:generateblocks/element {"uniqueId":"eppc040","tagName":"div","styles":{"marginTop":"16px","paddingTop":"16px","borderTop":"1px solid #dedee3","display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"12px","flexWrap":"wrap"},"css":".gb-element-eppc040{align-items:baseline;border-top:1px solid #dedee3;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;margin-top:16px;padding-top:16px}","className":"gb-element"} -->
+      <div class="gb-element-eppc040 gb-element">
+        <!-- wp:generateblocks/text {"uniqueId":"eppc041","tagName":"span","styles":{"fontSize":"10px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--contrast-2)","fontWeight":"600"},"css":".gb-text-eppc041{color:var(--contrast-2);font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase}"} --><span class="gb-text gb-text-eppc041">For Accredited Investors</span><!-- /wp:generateblocks/text -->
+        <!-- wp:generateblocks/text {"uniqueId":"eppc042","tagName":"span","styles":{"color":"var(--accent)","fontFamily":"'Libre Baskerville', Baskerville, Georgia, serif","fontSize":"15px","fontWeight":"700"},"css":".gb-text-eppc042{color:var(--accent);font-family:'Libre Baskerville', Baskerville, Georgia, serif;font-size:15px;font-weight:700}"} --><span class="gb-text gb-text-eppc042">Eppler &amp; Co.</span><!-- /wp:generateblocks/text -->
+      </div>
+      <!-- /wp:generateblocks/element -->
+
+    </aside>
     <!-- /wp:generateblocks/element -->
 
   </div>
@@ -834,10 +595,22 @@
 
 <!--
   ============================================================
-  Optional CSS to paste into GeneratePress > Customize > Additional CSS
-  (styles the FAQ accordion — the block markup above uses <wp:details>
-  blocks, which the theme doesn't style by default)
+  Additional CSS to paste into GeneratePress > Customize > Additional CSS
+  (styles the FAQ accordion — the block markup above uses core wp:details
+  blocks, which the theme doesn't style by default; also adds the small
+  hairline before the hero eyebrow that inline styles can't produce)
   ============================================================
+
+  .gb-text-epph010::before{
+    content:'';
+    width:32px;
+    height:1px;
+    background:#f2ede0;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:14px;
+  }
+
   .gbp-faq__item{
     border-bottom:1px solid #dedee3;
     padding:24px 0;
@@ -845,17 +618,14 @@
   .gbp-faq__item summary{
     cursor:pointer;
     list-style:none;
-    display:flex;
-    align-items:baseline;
-    gap:16px;
+    display:block;
     font-family:'Libre Baskerville', Baskerville, Georgia, serif;
     font-weight:700;
-    font-size:19px;
+    font-size:18px;
     line-height:1.35;
     color:var(--contrast-3);
-    padding:4px 0;
+    padding:4px 40px 4px 0;
     position:relative;
-    padding-right:36px;
   }
   .gbp-faq__item summary::-webkit-details-marker{display:none;}
   .gbp-faq__item summary::after{
@@ -869,31 +639,17 @@
     line-height:1;
   }
   .gbp-faq__item[open] summary::after{content:'–';}
-  .gbp-faq__q-mark{
-    font-family:'Libre Baskerville', Baskerville, Georgia, serif;
-    font-style:italic;
-    color:var(--accent);
-    font-size:20px;
-    line-height:1;
-  }
   .gbp-faq__a{
     font-size:15px;
-    line-height:1.65;
+    line-height:1.7;
     color:var(--contrast-2);
     max-width:68ch;
-    padding:16px 0 8px 40px;
+    padding:12px 0 4px;
     margin:0;
-  }
-  .gbp-faq__a em{
-    font-family:'Libre Baskerville', Baskerville, Georgia, serif;
-    font-style:italic;
-    color:var(--accent);
-    margin-right:8px;
   }
 
   ============================================================
   Also required: enable "Libre Baskerville" as a Google Font in
-  GeneratePress > Customize > Typography (weights 400, 400 italic,
-  700). The inline font-family stacks fall back to system Baskerville
-  and Georgia if it isn't loaded, but Libre Baskerville renders best.
+  GeneratePress > Customize > Typography (weights 400 and 700).
+  Baskerville, Georgia, and system serifs are used as fallbacks.
 -->
