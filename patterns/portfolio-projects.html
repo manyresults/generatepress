@@ -1,0 +1,85 @@
+<!--
+  Pattern: Portfolio / Projects Grid
+  ---------------------------------
+  A 3-column query loop that renders posts as cards with:
+    · Featured image (top)
+    · Category badges
+    · Post title (linked)
+    · Short excerpt
+    · "Read More →" link (bottom)
+
+  Defaults to `postType: "post"`. If your projects live in a custom post type
+  (e.g. `project`, `portfolio`, `cmi_project`), change the postType value in
+  the wp:query block below AND swap `term:"category"` on the post-terms
+  block for the taxonomy your CPT uses (e.g. `project_category`).
+-->
+
+<!-- wp:generateblocks/element {"uniqueId":"port101","tagName":"section","styles":{"backgroundColor":"var(--base-2)","paddingBottom":"5rem","paddingLeft":"1.5rem","paddingRight":"1.5rem","paddingTop":"5rem"},"css":".gb-element-port101{background-color:var(--base-2);padding:5rem 1.5rem}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<section class="gb-element-port101 gb-element alignfull gbp-section">
+<!-- wp:generateblocks/element {"uniqueId":"port102","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"var(--gb-container-width)"},"css":".gb-element-port102{margin-left:auto;margin-right:auto;max-width:var(--gb-container-width)}","globalClasses":["gbp-section__inner"],"className":"gb-element"} -->
+<div class="gb-element-port102 gb-element gbp-section__inner">
+
+<!-- wp:generateblocks/text {"uniqueId":"port103","tagName":"p","styles":{"color":"var(--accent)","marginBottom":"0.75rem","textAlign":"center","textTransform":"uppercase"},"css":".gb-text-port103{color:var(--accent);margin-bottom:0.75rem;text-align:center;text-transform:uppercase}","globalClasses":["gbp-section__tagline"],"className":"gb-text"} -->
+<p class="gb-text gb-text-port103 gbp-section__tagline">Portfolio</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"port104","tagName":"h2","styles":{"fontWeight":"700","marginBottom":"0.75rem","textAlign":"center"},"css":".gb-text-port104{font-weight:700;margin-bottom:0.75rem;text-align:center}"} -->
+<h2 class="gb-text gb-text-port104">Recent Projects</h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"port105","tagName":"p","styles":{"marginBottom":"3rem","maxWidth":"720px","marginLeft":"auto","marginRight":"auto","textAlign":"center"},"css":".gb-text-port105{margin:0 auto 3rem;max-width:720px;text-align:center}"} -->
+<p class="gb-text gb-text-port105">A look at kitchens, baths, and commercial spaces we've designed and installed across Bucks County and the surrounding region.</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:query {"queryId":10,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide"} -->
+<div class="wp-block-query alignwide">
+
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":3},"style":{"spacing":{"blockGap":"1.5rem"}}} -->
+
+<!-- wp:generateblocks/element {"uniqueId":"cardP01","tagName":"div","styles":{"backgroundColor":"var(--base-3)","borderTopLeftRadius":"12px","borderTopRightRadius":"12px","borderBottomLeftRadius":"12px","borderBottomRightRadius":"12px","boxShadow":"0 4px 12px rgba(0,0,0,0.08)","display":"flex","flexDirection":"column","height":"100%","overflow":"hidden","transition":"transform .2s ease, box-shadow .2s ease"},"css":".gb-element-cardP01{background-color:var(--base-3);border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;overflow:hidden;transition:transform .2s ease, box-shadow .2s ease}.gb-element-cardP01:hover{box-shadow:0 10px 24px rgba(0,0,0,0.16);transform:translateY(-4px)}","className":"gb-element"} -->
+<div class="gb-element-cardP01 gb-element">
+
+<!-- wp:post-featured-image {"isLink":true,"height":"220px","style":{"border":{"radius":"0"}}} /-->
+
+<!-- wp:generateblocks/element {"uniqueId":"cardP02","tagName":"div","styles":{"display":"flex","flexDirection":"column","gap":"0.5rem","padding":"1.5rem","flexGrow":"1"},"css":".gb-element-cardP02{display:flex;flex-direction:column;flex-grow:1;gap:0.5rem;padding:1.5rem}","className":"gb-element"} -->
+<div class="gb-element-cardP02 gb-element">
+
+<!-- wp:post-terms {"term":"category","separator":" · ","style":{"typography":{"fontSize":"0.75rem","textTransform":"uppercase","letterSpacing":"0.05em","fontWeight":"600"},"elements":{"link":{"color":{"text":"var(--accent)"}}},"spacing":{"margin":{"top":"0","bottom":"0.25rem"}}}} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontSize":"20px","fontWeight":"700","lineHeight":"1.25"},"spacing":{"margin":{"top":"0","bottom":"0.25rem"}},"elements":{"link":{"color":{"text":"var(--contrast)"}}}}} /-->
+
+<!-- wp:post-excerpt {"excerptLength":22,"showMoreOnNewLine":false,"style":{"typography":{"fontSize":"0.95rem"},"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
+
+<!-- wp:generateblocks/element {"uniqueId":"cardP03","tagName":"div","styles":{"marginTop":"auto","paddingTop":"1rem"},"css":".gb-element-cardP03{margin-top:auto;padding-top:1rem}","className":"gb-element"} -->
+<div class="gb-element-cardP03 gb-element">
+<!-- wp:read-more {"content":"Read More →","style":{"typography":{"fontWeight":"700","textDecoration":"none"},"elements":{"link":{"color":{"text":"var(--accent)"}}}}} /-->
+</div>
+<!-- /wp:generateblocks/element -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">No projects found yet &mdash; check back soon.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"3rem"}}}} -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+</div>
+<!-- /wp:query -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+</section>
+<!-- /wp:generateblocks/element -->
