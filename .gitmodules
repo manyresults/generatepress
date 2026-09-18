@@ -1,0 +1,3 @@
+[submodule "generateblocks-skills"]
+	path = generateblocks-skills
+	url = https://github.com/wpgaurav/generateblocks-skills.git
