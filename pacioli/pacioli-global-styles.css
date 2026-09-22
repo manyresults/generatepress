@@ -157,3 +157,19 @@
 .gbp--box-shadow {
 	box-shadow: 0px 0px 25px -5px rgba(8, 9, 10, 0.06);
 }
+
+.gbp-forms-link {
+	color: var(--accent-3);
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 0.2s ease;
+}
+
+.gbp-forms-link:is(:hover, :focus) {
+	text-decoration-color: var(--accent-3);
+}
+
+.gbp-forms-note {
+	color: var(--contrast-3);
+	font-style: italic;
+}
