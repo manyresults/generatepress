@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pacioli Finance — Preview</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+	<style>
+		:root{
+			--base-2:#F8F7F2;
+			--base-3:#FFFFFF;
+			--base:#E2E8F0;
+			--contrast:#231A13;
+			--contrast-2:#334155;
+			--contrast-3:#B7AEA3;
+			--accent:#1C5C88;
+		}
+		html,body{margin:0;padding:0}
+		body{background:var(--base-2);color:var(--contrast-2);font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.6}
+		a{color:var(--accent)}
+		/* everything below duplicates the WP homepage.html styles */
+		.pf-section{padding:88px 24px;overflow:hidden;position:relative}
+		@media (max-width:1024px){.pf-section{padding:72px 30px}}
+		@media (max-width:767px){.pf-section{padding:56px 20px}}
+		.pf-wrap{max-width:1120px;margin:0 auto}
+		.pf-parch{background:var(--base-2)}
+		.pf-white{background:var(--base-3);border-top:1px solid var(--base);border-bottom:1px solid var(--base)}
+		.pf-h1{font-family:"EB Garamond",Georgia,serif;font-weight:400;color:var(--contrast);font-size:clamp(2.5rem,5.2vw,3.5rem);letter-spacing:-0.02em;line-height:1.1;margin:0 0 1.5rem}
+		.pf-h2{font-family:"EB Garamond",Georgia,serif;font-weight:400;color:var(--contrast);font-size:clamp(1.875rem,3.6vw,2.5rem);letter-spacing:-0.02em;line-height:1.15;margin:0 0 1.25rem}
+		.pf-h3{font-family:"EB Garamond",Georgia,serif;font-weight:400;color:var(--contrast);font-size:1.5rem;letter-spacing:-0.01em;margin:0 0 0.625rem}
+		.pf-eyebrow{font-family:"EB Garamond",Georgia,serif;font-style:italic;color:var(--accent);font-size:1.3125rem;margin:0 0 1rem}
+		.pf-lede{color:var(--contrast-2);font-size:1.125rem;line-height:1.55;margin:0 0 1.75rem;max-width:34rem}
+		.pf-body-copy{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin:0 0 3rem;max-width:48rem}
+		.pf-note{color:var(--contrast-2);font-size:0.875rem;margin:0}
+		.pf-link{color:var(--contrast);font-size:0.9375rem;font-weight:500;text-decoration:underline;text-underline-offset:4px}
+		.pf-btns{display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:1rem}
+		.pf-btn-primary{background:var(--contrast);color:#fff;border:1px solid var(--contrast);padding:17px 22px;font-weight:600;font-size:1rem;letter-spacing:0.35px;text-decoration:none;display:inline-flex;line-height:1}
+		.pf-btn-outline{background:transparent;color:var(--contrast);border:1px solid var(--contrast);padding:17px 22px;font-weight:500;font-size:1rem;letter-spacing:0.35px;text-decoration:none;display:inline-flex;line-height:1}
+		.pf-btn-inverse{background:#fff;color:var(--contrast);border:1px solid #fff;padding:17px 22px;font-weight:600;font-size:1rem;letter-spacing:0.35px;text-decoration:none;display:inline-flex;line-height:1}
+		.pf-placeholder{align-items:center;background:linear-gradient(135deg,var(--base-3) 0%,var(--base-2) 100%);border:1px dashed var(--contrast-3);color:var(--contrast-3);display:flex;font-size:0.75rem;justify-content:center;letter-spacing:0.1em;text-align:center;text-transform:uppercase;padding:0.75rem}
+		.pf-plate{aspect-ratio:1/1;margin:0 auto;max-width:360px;width:100%;font-size:0.875rem}
+		.pf-icon{width:64px;height:64px;border-radius:50%;margin-bottom:1.125rem;font-size:0.6875rem}
+		.pf-hero{padding:88px 24px 64px;background:radial-gradient(circle at 8% 12%,rgba(255,242,205,0.85) 0%,rgba(255,242,205,0.25) 45%,rgba(255,242,205,0) 70%),var(--base-2)}
+		@media (max-width:1024px){.pf-hero{padding:64px 30px 48px}}
+		@media (max-width:767px){.pf-hero{padding:48px 20px 40px}}
+		.pf-hero-cols{display:grid;grid-template-columns:1.4fr 1fr;column-gap:3rem;row-gap:2rem;align-items:center}
+		@media (max-width:1024px){.pf-hero-cols{grid-template-columns:1fr}}
+		.pf-quote{border-left:2px solid var(--accent);padding:2px 0 2px 1rem;margin:3.5rem 0 0;max-width:36rem;font-family:"EB Garamond",Georgia,serif;font-style:italic;font-size:1.1875rem;color:var(--contrast-2)}
+		.pf-quote p{margin:0}
+		.pf-cols-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:3rem;row-gap:2.5rem}
+		@media (max-width:1024px){.pf-cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+		@media (max-width:767px){.pf-cols-3{grid-template-columns:1fr}}
+		.pf-pillar p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin:0}
+		.pf-tier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:2rem;row-gap:2rem}
+		@media (max-width:1024px){.pf-tier-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+		@media (max-width:767px){.pf-tier-grid{grid-template-columns:1fr}}
+		.pf-tier{background:var(--base-3);border:1px solid var(--base);border-top:3px solid var(--contrast);padding:1.75rem 1.75rem 1.5rem}
+		.pf-tier h3{font-family:"EB Garamond",Georgia,serif;font-weight:400;color:var(--contrast);font-size:1.625rem;letter-spacing:-0.01em;margin:0 0 0.5rem}
+		.pf-sub{color:var(--contrast-2);font-size:0.9375rem;margin:0 0 1rem}
+		.pf-tier ul{font-size:0.9375rem;margin:0 0 1.25rem 1.1em;padding:0;color:var(--contrast-2)}
+		.pf-tier ul li{margin-bottom:6px}
+		.pf-svc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));background:var(--base-3);margin-top:2.5rem;border-top:1px solid var(--base)}
+		@media (max-width:767px){.pf-svc-grid{grid-template-columns:1fr}}
+		.pf-svc-grid p{margin:0;padding:0.875rem 1.125rem;border-bottom:1px solid var(--base);color:var(--contrast);font-size:0.9375rem}
+		.pf-svc-grid p:nth-child(odd){border-right:1px solid var(--base)}
+		@media (max-width:767px){.pf-svc-grid p:nth-child(odd){border-right:0}}
+		.pf-who-cols{display:grid;grid-template-columns:1.4fr 1fr;column-gap:4rem;row-gap:2.5rem}
+		@media (max-width:1024px){.pf-who-cols{grid-template-columns:1fr}}
+		.pf-who p{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin:0 0 1rem}
+		.pf-who .pf-right p{font-size:1rem;line-height:1.6;margin:0 0 1rem}
+		.pf-pull{border-left:2px solid var(--accent);color:var(--contrast);font-family:"EB Garamond",Georgia,serif;font-size:1.5rem;font-style:italic;line-height:1.3;padding-left:1.25rem;margin:0}
+		.pf-t-cols{display:grid;grid-template-columns:1.2fr 1fr;column-gap:3rem;row-gap:2.5rem}
+		@media (max-width:1024px){.pf-t-cols{grid-template-columns:1fr}}
+		.pf-feature{color:var(--contrast);font-family:"EB Garamond",Georgia,serif;font-size:clamp(1.5rem,2.6vw,1.875rem);line-height:1.25;margin:0 0 0.875rem}
+		.pf-cite{color:var(--contrast);font-size:0.875rem;font-weight:600;margin:0}
+		.pf-t-block{border-top:1px solid var(--base);margin-bottom:1.5rem;padding-top:1.125rem}
+		.pf-t-block:first-of-type{border-top:0;padding-top:0}
+		.pf-t-small{color:var(--contrast-2);font-size:1rem;line-height:1.5;margin:0 0 0.5rem}
+		.pf-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1.5rem;row-gap:1.5rem;margin-top:2rem}
+		@media (max-width:767px){.pf-tiles{grid-template-columns:1fr}}
+		.pf-tile{background:var(--base-3);border:1px solid var(--base);padding:1.625rem}
+		.pf-tile h3{font-family:"EB Garamond",Georgia,serif;font-weight:400;color:var(--contrast);font-size:1.4375rem;letter-spacing:-0.01em;margin:0 0 0.625rem}
+		.pf-tile p{color:var(--contrast-2);font-size:0.96875rem;line-height:1.55;margin:0 0 0.875rem}
+		.pf-tile-tint{background:linear-gradient(135deg,#FFF2CD 0%,#FBF5E2 100%)}
+		.pf-cta{background:radial-gradient(circle at 100% 0%,rgba(28,92,136,0.35) 0%,rgba(28,92,136,0) 55%),linear-gradient(135deg,var(--contrast) 0%,#1a120b 100%);color:var(--base-2)}
+		.pf-cta h2{color:#fff;font-family:"EB Garamond",Georgia,serif;font-weight:400;font-size:clamp(1.875rem,3.6vw,2.5rem);letter-spacing:-0.02em;line-height:1.15;margin:0 0 1.25rem;max-width:48rem}
+		.pf-cta .pf-cta-lede{color:var(--base-2);font-size:1.0625rem;line-height:1.6;margin:0 0 1.75rem;max-width:44rem;opacity:0.9}
+		.pf-cta .pf-cta-tail{color:var(--base-2);font-size:1rem;margin:1.25rem 0 0;opacity:0.9}
+		.pf-cta .pf-tel{color:#fff;font-weight:600;text-decoration:none}
+	</style>
+</head>
+<body>
+	<section class="pf-section pf-hero">
+		<div class="pf-wrap">
+			<div class="pf-hero-cols">
+				<div>
+					<p class="pf-eyebrow">Solutions you can count on</p>
+					<h1 class="pf-h1">Your accounting department, without the hiring.</h1>
+					<p class="pf-lede">Bookkeeping, payroll, tax and controller-level oversight for growing businesses and nonprofits. We are accountants, not wealth managers, and we work remotely for clients across the country.</p>
+					<div class="pf-btns">
+						<a class="pf-btn-primary" href="#contact">Book a 20-minute call</a>
+						<a class="pf-btn-outline" href="#services">See what we handle</a>
+					</div>
+					<p class="pf-note">Flat monthly fee. No surprise invoices.</p>
+				</div>
+				<div class="pf-placeholder pf-plate">Ledger plate illustration</div>
+			</div>
+			<blockquote class="pf-quote"><p>Every entry has two sides. The truth shows up when they match.</p></blockquote>
+		</div>
+	</section>
+
+	<section class="pf-section pf-parch">
+		<div class="pf-wrap">
+			<h2 class="pf-h2">Accounting is boring. Surprises are not.</h2>
+			<p class="pf-body-copy">Most owners don't call an accountant because they love spreadsheets. They call because something slipped: the books are behind, payroll is filed wrong, the bank wants statements by Friday. We take the whole function off your desk and keep it that way.</p>
+			<div class="pf-cols-3">
+				<div class="pf-pillar"><div class="pf-placeholder pf-icon">Icon</div><h3 class="pf-h3">A team, not a person</h3><p>A senior accountant oversees the work, bookkeepers execute it, and duties stay separated the way they should be. Nothing stops when one person takes a vacation.</p></div>
+				<div class="pf-pillar"><div class="pf-placeholder pf-icon">Icon</div><h3 class="pf-h3">Numbers you can act on</h3><p>Monthly reports that explain what changed and why, not a stack of statements. The kind of file a bank or a board asks for, ready before they ask.</p></div>
+				<div class="pf-pillar"><div class="pf-placeholder pf-icon">Icon</div><h3 class="pf-h3">Controls that catch things</h3><p>Double-entry, reconciliations, and segregation of duties. The system that finds an error in week one instead of at tax time.</p></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="pf-section pf-white">
+		<div class="pf-wrap">
+			<h2 class="pf-h2">Start where you need us. Move up when it makes sense.</h2>
+			<div class="pf-tier-grid">
+				<div class="pf-tier"><h3>Core</h3><p class="pf-sub">For owners who want the books off their plate.</p><ul><li>Bookkeeping and reconciliations</li><li>Accounts payable and receivable</li><li>Payroll setup and processing</li><li>Month-end close</li></ul><a class="pf-link" href="#">What Core includes</a></div>
+				<div class="pf-tier"><h3>Controller</h3><p class="pf-sub">For companies that need someone reading the numbers, not just recording them.</p><ul><li>Everything in Core</li><li>Management reporting and variance analysis</li><li>Internal controls design and testing</li><li>Audit and lender readiness</li></ul><a class="pf-link" href="#">How oversight works</a></div>
+				<div class="pf-tier"><h3>Fractional CFO</h3><p class="pf-sub">For businesses roughly $2.5M to $5M, planning their next move.</p><ul><li>Everything in Controller</li><li>Budgeting and rolling forecasts</li><li>Cash flow planning</li><li>Financing and line-of-credit packages</li></ul><a class="pf-link" href="#">Talk it through</a></div>
+			</div>
+			<div class="pf-svc-grid">
+				<p>Accounts receivable and collections</p>
+				<p>Accounts payable and vendor management</p>
+				<p>Fixed assets and depreciation</p>
+				<p>Budgeting and forecasting</p>
+				<p>Month-end close</p>
+				<p>Financial reporting under GAAP</p>
+				<p>Internal controls and compliance</p>
+				<p>Sales and use tax, federal and state filings</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="who" class="pf-section pf-parch pf-who">
+		<div class="pf-wrap">
+			<div class="pf-who-cols">
+				<div>
+					<h2 class="pf-h2">A CMA, a senior accountant, and a small team that answers the phone.</h2>
+					<p>Pacioli Finance is led by Rachelle Beck, a Certified Management Accountant. Not a CPA firm chasing returns once a year, and not a software company with a support queue. A CMA is trained in management accounting: the reporting, controls and analysis that run a business day to day.</p>
+					<p>Every client works with a named senior accountant. Duties are split so the person recording a payment isn't the person receiving it, which is the oldest fraud control there is, and still the best one.</p>
+					<a class="pf-link" href="/about/">More about the firm and the friar it's named for</a>
+				</div>
+				<div class="pf-right">
+					<h3 class="pf-h3">Why &ldquo;Pacioli&rdquo;</h3>
+					<p>Luca Pacioli was the Franciscan friar who documented double-entry bookkeeping in 1494 and worked alongside Leonardo da Vinci. Every balanced set of books since traces back to that one chapter.</p>
+					<p>We took the name because the principle still holds: every entry has two sides, and the truth shows up when they match.</p>
+					<p class="pf-pull">A CMA is trained for the inside of a business: reporting, controls, analysis. A CPA is trained for the outside: attestation and returns. Most owners need both, at different moments.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pf-section pf-white">
+		<div class="pf-wrap">
+			<h2 class="pf-h2">What clients say when they stop worrying about it</h2>
+			<div class="pf-t-cols">
+				<div>
+					<p class="pf-feature">&ldquo;Pacioli has taken over nearly all of our financial needs, so we don't have to worry about our books or our vendors.&rdquo;</p>
+					<p class="pf-cite">Joseph A., Middle Tree (nonprofit)</p>
+				</div>
+				<div>
+					<div class="pf-t-block">
+						<p class="pf-t-small">&ldquo;I never have to worry about the numbers or invoices or taxes. I can simply run my business.&rdquo;</p>
+						<p class="pf-cite">Virginia W., Viking Law</p>
+					</div>
+					<div class="pf-t-block">
+						<p class="pf-t-small">&ldquo;This is my bookkeeping service for life.&rdquo;</p>
+						<p class="pf-cite">Donna G., Language Exploration Enrichment</p>
+					</div>
+					<a class="pf-link" href="#">See our Google reviews</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="industries" class="pf-section pf-parch">
+		<div class="pf-wrap">
+			<h2 class="pf-h2">Nonprofits, professional services, education, technology, and real estate.</h2>
+			<p class="pf-body-copy">Nonprofits get board-ready reporting without board-level fees. Law firms and agencies get clean books and a straight answer at tax time. Education and technology clients get the structure they need before an audit or a raise. If you're a growing company whose accounting has outgrown a spreadsheet, we're probably a fit.</p>
+			<a class="pf-link" href="/solutions/">See how we work with each</a>
+			<div class="pf-tiles">
+				<div class="pf-tile"><h3>Behind on your books?</h3><p>Months of unreconciled transactions, a shoebox of receipts, or a filing you already know is wrong. Clean-up is where most of our clients start.</p><a class="pf-link" href="#">Clean-up bookkeeping</a></div>
+				<div class="pf-tile"><h3>Tax and compliance</h3><p>Sales and use tax, nexus analysis, federal and state filings, exemption certificates, and IRS correspondence you'd rather not open alone.</p><a class="pf-link" href="#">Tax services</a></div>
+				<div class="pf-tile"><h3>Internal audit and controls</h3><p>Journal entry review, controls testing, fraud risk, and remediation you can hand to a board or a lender.</p><a class="pf-link" href="#">Risk and governance</a></div>
+				<div class="pf-tile pf-tile-tint"><h3>Free to download</h3><p>Our tax prep checklist and payroll tax forms, the same ones we send new clients. Take them whether we work together or not.</p><a class="pf-link" href="#">Get the checklists</a></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="pf-section pf-cta">
+		<div class="pf-wrap">
+			<h2>Tell us what's going wrong. We'll tell you what it takes to fix it.</h2>
+			<p class="pf-cta-lede">Twenty minutes, no charge, no pitch deck. You'll leave knowing whether your books need a clean-up, a monthly service, or someone at controller level looking at them.</p>
+			<div class="pf-btns"><a class="pf-btn-inverse" href="#contact">Book a 20-minute call</a></div>
+			<p class="pf-cta-tail">Or call <a class="pf-tel" href="tel:+12677224654">(267) 722-4654</a></p>
+		</div>
+	</section>
+</body>
+</html>
