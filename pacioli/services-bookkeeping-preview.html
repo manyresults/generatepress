@@ -211,7 +211,10 @@ img { max-width: 100%; }
 .gb-element-bkfam001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}
 .gb-text-bkfam-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0;max-width:36rem}
 .gb-shape-orn-bkfam{color:var(--accent);display:block;margin-bottom:1rem;margin-top:0.625rem}.gb-shape-orn-bkfam svg{height:8px;width:110px}
-.gb-text-bkfam003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1.5rem;margin-top:0}
+.gb-element-bkfamheadrow{align-items:center;column-gap:1.25rem;display:flex;margin-bottom:1.5rem}
+.gb-element-bkfamicn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;flex-shrink:0;height:56px;justify-content:center;width:56px}
+.gb-shape-bkfamicns{color:var(--base-2);display:inline-flex}.gb-shape-bkfamicns svg{height:1.75rem;width:1.75rem}
+.gb-text-bkfam003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:0;margin-top:0}
 .gb-element-bkfam004{max-width:42rem}
 .gb-element-bklistwrap005{display:flex;flex-direction:column;row-gap:0.75rem}
 .gb-element-bkli001{align-items:flex-start;column-gap:0.75rem;display:flex}
@@ -237,66 +240,73 @@ img { max-width: 100%; }
 .gb-text-bkhelp004{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:2.5rem;margin-top:0;max-width:46rem}
 .gb-element-bkhelp005{column-gap:2rem;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));row-gap:2rem}@media (max-width:1024px){.gb-element-bkhelp005{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:600px){.gb-element-bkhelp005{grid-template-columns:1fr}}
 .gb-element-bkhelp010card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);height:100%;padding:1.5rem}
-.gb-media-bkhelpimg1{aspect-ratio:4/3;border-radius:4px;height:auto;margin-bottom:1.25rem;object-fit:cover;width:100%}
+.gb-element-bkhelpimg1frame{align-items:center;aspect-ratio:4/3;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;display:flex;justify-content:center;margin-bottom:1.25rem}
+.gb-shape-bkhelpimg1shape{color:var(--accent-3);display:inline-flex}.gb-shape-bkhelpimg1shape svg{height:4.5rem;width:4.5rem}
 .gb-text-bkhelp013{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.5rem;margin-top:0}
 .gb-text-bkhelp014{color:var(--contrast-2);font-size:0.9375rem;line-height:1.55;margin-bottom:1rem;margin-top:0}
 .gb-element-bkhelp015{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.875rem;font-weight:600;padding:0.5rem 0.875rem}.gb-element-bkhelp015:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
 .gb-shape-bkhelp015s{display:inline-flex}.gb-shape-bkhelp015s svg{height:1em;stroke:currentColor;width:1em}
 .gb-element-bkhelp020card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);height:100%;padding:1.5rem}
-.gb-media-bkhelpimg2{aspect-ratio:4/3;border-radius:4px;height:auto;margin-bottom:1.25rem;object-fit:cover;width:100%}
+.gb-element-bkhelpimg2frame{align-items:center;aspect-ratio:4/3;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;display:flex;justify-content:center;margin-bottom:1.25rem}
+.gb-shape-bkhelpimg2shape{color:var(--accent-3);display:inline-flex}.gb-shape-bkhelpimg2shape svg{height:4.5rem;width:4.5rem}
 .gb-text-bkhelp023{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.5rem;margin-top:0}
 .gb-text-bkhelp024{color:var(--contrast-2);font-size:0.9375rem;line-height:1.55;margin-bottom:1rem;margin-top:0}
 .gb-element-bkhelp025{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.875rem;font-weight:600;padding:0.5rem 0.875rem}.gb-element-bkhelp025:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
 .gb-shape-bkhelp025s{display:inline-flex}.gb-shape-bkhelp025s svg{height:1em;stroke:currentColor;width:1em}
 .gb-element-bkhelp030card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);height:100%;padding:1.5rem}
-.gb-media-bkhelpimg3{aspect-ratio:4/3;border-radius:4px;height:auto;margin-bottom:1.25rem;object-fit:cover;width:100%}
+.gb-element-bkhelpimg3frame{align-items:center;aspect-ratio:4/3;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;display:flex;justify-content:center;margin-bottom:1.25rem}
+.gb-shape-bkhelpimg3shape{color:var(--accent-3);display:inline-flex}.gb-shape-bkhelpimg3shape svg{height:4.5rem;width:4.5rem}
 .gb-text-bkhelp033{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.5rem;margin-top:0}
 .gb-text-bkhelp034{color:var(--contrast-2);font-size:0.9375rem;line-height:1.55;margin-bottom:1rem;margin-top:0}
 .gb-element-bkhelp035{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.875rem;font-weight:600;padding:0.5rem 0.875rem}.gb-element-bkhelp035:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
 .gb-shape-bkhelp035s{display:inline-flex}.gb-shape-bkhelp035s svg{height:1em;stroke:currentColor;width:1em}
 .gb-element-bkhelp040card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);height:100%;padding:1.5rem}
-.gb-media-bkhelpimg4{aspect-ratio:4/3;border-radius:4px;height:auto;margin-bottom:1.25rem;object-fit:cover;width:100%}
+.gb-element-bkhelpimg4frame{align-items:center;aspect-ratio:4/3;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;display:flex;justify-content:center;margin-bottom:1.25rem}
+.gb-shape-bkhelpimg4shape{color:var(--accent-3);display:inline-flex}.gb-shape-bkhelpimg4shape svg{height:4.5rem;width:4.5rem}
 .gb-text-bkhelp043{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.5rem;margin-top:0}
 .gb-text-bkhelp044{color:var(--contrast-2);font-size:0.9375rem;line-height:1.55;margin-bottom:1rem;margin-top:0}
 .gb-element-bkhelp045{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.875rem;font-weight:600;padding:0.5rem 0.875rem}.gb-element-bkhelp045:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
 .gb-shape-bkhelp045s{display:inline-flex}.gb-shape-bkhelp045s svg{height:1em;stroke:currentColor;width:1em}
-.gb-element-bkassess001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}
-.gb-element-bkassess003{align-items:center;background-color:var(--accent-2);border:1px solid var(--base);border-radius:6px;box-shadow:0 14px 34px rgba(28,92,136,0.22);column-gap:3rem;display:grid;grid-template-columns:1.2fr 1fr;padding:2.5rem}@media (max-width:767px){.gb-element-bkassess003{grid-template-columns:1fr;row-gap:1.75rem;padding:1.75rem}}
-.gb-text-bkassess005{color:var(--base-3);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,2.6vw,1.875rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1.25rem;margin-top:0}
-.gb-element-bklistwrap009{display:flex;flex-direction:column;row-gap:0.75rem}
+.gb-element-bkassess001{background:linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}
+.gb-element-bkassess003{align-items:center;column-gap:4rem;display:grid;grid-template-columns:1.2fr 1fr;row-gap:2.5rem}@media (max-width:1024px){.gb-element-bkassess003{grid-template-columns:1fr}}
+.gb-text-bkassess005{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1rem;margin-top:0}
+.gb-text-bkassess-intro{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:1.5rem;margin-top:0}
+.gb-element-bklistwrap009{display:flex;flex-direction:column;margin-bottom:2rem;row-gap:0.75rem}
 .gb-element-bkli006{align-items:flex-start;column-gap:0.75rem;display:flex}
-.gb-shape-bkdot006{color:var(--base-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot006 svg{height:7px;width:7px}
-.gb-text-bktxt006{color:var(--base-3);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-shape-bkdot006{color:var(--accent-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot006 svg{height:7px;width:7px}
+.gb-text-bktxt006{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-element-bkli007{align-items:flex-start;column-gap:0.75rem;display:flex}
-.gb-shape-bkdot007{color:var(--base-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot007 svg{height:7px;width:7px}
-.gb-text-bktxt007{color:var(--base-3);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-shape-bkdot007{color:var(--accent-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot007 svg{height:7px;width:7px}
+.gb-text-bktxt007{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-element-bkli008{align-items:flex-start;column-gap:0.75rem;display:flex}
-.gb-shape-bkdot008{color:var(--base-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot008 svg{height:7px;width:7px}
-.gb-text-bktxt008{color:var(--base-3);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-shape-bkdot008{color:var(--accent-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot008 svg{height:7px;width:7px}
+.gb-text-bktxt008{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-element-bkli009{align-items:flex-start;column-gap:0.75rem;display:flex}
-.gb-shape-bkdot009{color:var(--base-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot009 svg{height:7px;width:7px}
-.gb-text-bktxt009{color:var(--base-3);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
-.gb-element-bkassess010{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);padding:1.75rem;text-align:center}
-.gb-text-bkassess011{color:var(--contrast);font-size:1rem;line-height:1.5;margin-bottom:1.25rem;margin-top:0}
-.gb-text-bkassess012{background-color:var(--contrast);box-shadow:0 10px 24px rgba(0,0,0,0.18);color:var(--base-3);display:inline-flex;font-size:0.9375rem;font-weight:600;letter-spacing:0.3px;padding:0.75rem 1.5rem}.gb-text-bkassess012:is(:hover,:focus){background-color:var(--accent-3)}
+.gb-shape-bkdot009{color:var(--accent-3);display:block;flex-shrink:0;margin-top:0.5rem}.gb-shape-bkdot009 svg{height:7px;width:7px}
+.gb-text-bktxt009{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-element-bkassess-btns{align-items:center;column-gap:1rem;display:flex}@media (max-width:600px){.gb-element-bkassess-btns{align-items:flex-start;flex-direction:column;row-gap:0.75rem}}
+.gb-text-bkassess012{background-color:var(--accent-2);box-shadow:0 8px 20px rgba(28,92,136,0.25);display:inline-flex;font-size:0.9375rem;letter-spacing:0.3px;padding:0.75rem 1.5rem}.gb-text-bkassess012:is(:hover,:focus){background-color:var(--accent)}
+.gb-element-bkassess013{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.9375rem;font-weight:600;padding:0.6875rem 1.25rem}.gb-element-bkassess013:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
+.gb-element-bkassess-imgwrap{align-items:center;aspect-ratio:1/1;background-color:var(--base-2);border:1px solid var(--base);border-radius:50%;box-shadow:0 24px 60px rgba(35,26,19,0.14);display:flex;justify-content:center;margin-left:auto;margin-right:auto;padding:3rem;width:100%}
+.gb-shape-bkassess-imgshape{color:var(--accent-3);display:inline-flex}.gb-shape-bkassess-imgshape svg{height:9rem;width:9rem}
 .gb-element-bktrust001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:64px;padding-top:64px;position:relative}
 .gb-text-bktrust-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0;max-width:36rem}
 .gb-shape-orn-bktrust{color:var(--accent);display:block;margin-bottom:2rem;margin-top:0.625rem}.gb-shape-orn-bktrust svg{height:8px;width:110px}
 .gb-text-bktrust003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:2.5rem;margin-top:0}
 .gb-element-bktrust004{column-gap:2.5rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:1.75rem}@media (max-width:1024px){.gb-element-bktrust004{grid-template-columns:1fr}}
 .gb-element-bktrust010{column-gap:1rem;display:flex}
-.gb-element-bktrust011{align-items:center;background-color:var(--base-3);border:1px solid var(--base);border-radius:50%;box-shadow:0 3px 10px rgba(35,26,19,0.06);display:flex;flex-shrink:0;height:40px;justify-content:center;width:40px}
-.gb-shape-bktrust012{color:var(--accent);display:inline-flex}.gb-shape-bktrust012 svg{color:var(--accent-2);fill:none;height:1.125rem;stroke:currentColor;stroke-width:1.5;width:1.125rem}
+.gb-element-bktrust011{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;flex-shrink:0;height:60px;justify-content:center;width:60px}
+.gb-shape-bktrust012{color:var(--base-2);display:inline-flex}.gb-shape-bktrust012 svg{height:1.75rem;width:1.75rem}
 .gb-text-bktrust014{color:var(--contrast);font-size:1.0625rem;font-weight:700;margin-bottom:0.25rem;margin-top:0}
 .gb-text-bktrust015{color:var(--contrast-2);font-size:0.9375rem;line-height:1.5;margin-bottom:0;margin-top:0}
 .gb-element-bktrust020{column-gap:1rem;display:flex}
-.gb-element-bktrust021{align-items:center;background-color:var(--base-3);border:1px solid var(--base);border-radius:50%;box-shadow:0 3px 10px rgba(35,26,19,0.06);display:flex;flex-shrink:0;height:40px;justify-content:center;width:40px}
-.gb-shape-bktrust022{color:var(--accent);display:inline-flex}.gb-shape-bktrust022 svg{color:var(--accent-2);fill:none;height:1.125rem;stroke:currentColor;stroke-width:1.5;width:1.125rem}
+.gb-element-bktrust021{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;flex-shrink:0;height:60px;justify-content:center;width:60px}
+.gb-shape-bktrust022{color:var(--base-2);display:inline-flex}.gb-shape-bktrust022 svg{height:1.75rem;width:1.75rem}
 .gb-text-bktrust024{color:var(--contrast);font-size:1.0625rem;font-weight:700;margin-bottom:0.25rem;margin-top:0}
 .gb-text-bktrust025{color:var(--contrast-2);font-size:0.9375rem;line-height:1.5;margin-bottom:0;margin-top:0}
 .gb-element-bktrust030{column-gap:1rem;display:flex}
-.gb-element-bktrust031{align-items:center;background-color:var(--base-3);border:1px solid var(--base);border-radius:50%;box-shadow:0 3px 10px rgba(35,26,19,0.06);display:flex;flex-shrink:0;height:40px;justify-content:center;width:40px}
-.gb-shape-bktrust032{color:var(--accent);display:inline-flex}.gb-shape-bktrust032 svg{color:var(--accent-2);fill:none;height:1.125rem;stroke:currentColor;stroke-width:1.5;width:1.125rem}
+.gb-element-bktrust031{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;flex-shrink:0;height:60px;justify-content:center;width:60px}
+.gb-shape-bktrust032{color:var(--base-2);display:inline-flex}.gb-shape-bktrust032 svg{height:1.75rem;width:1.75rem}
 .gb-text-bktrust034{color:var(--contrast);font-size:1.0625rem;font-weight:700;margin-bottom:0.25rem;margin-top:0}
 .gb-text-bktrust035{color:var(--contrast-2);font-size:0.9375rem;line-height:1.5;margin-bottom:0;margin-top:0}
 .gb-element-bkmid001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}
@@ -306,11 +316,16 @@ img { max-width: 100%; }
 .gb-element-bkmid005{align-items:center;column-gap:1rem;display:flex}@media (max-width:767px){.gb-element-bkmid005{flex-direction:column;row-gap:1rem}}
 .gb-text-bkmid006{background-color:var(--base-3);border:1px solid var(--base-3);box-shadow:0 10px 26px rgba(0,0,0,0.25);color:var(--contrast);display:inline-flex;font-size:1rem;font-weight:600;letter-spacing:0.3px;padding:0.9375rem 1.75rem}.gb-text-bkmid006:is(:hover,:focus){background-color:var(--accent-3);border-color:var(--accent-3);color:var(--contrast)}
 .gb-text-bkmid007{border:1px solid rgba(255,255,255,0.5);color:var(--base-3);display:inline-flex;font-size:1rem;font-weight:600;letter-spacing:0.3px;padding:0.9375rem 1.75rem}.gb-text-bkmid007:is(:hover,:focus){background-color:rgba(255,255,255,0.12);border-color:var(--base-3)}
-.gb-element-bkpromise001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}
-.gb-text-bkpromise-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0;max-width:36rem}
-.gb-shape-orn-bkpromise{color:var(--accent);display:block;margin-bottom:1rem;margin-top:0.625rem}.gb-shape-orn-bkpromise svg{height:8px;width:110px}
+.gb-element-bkpromise001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}
+.gb-element-bkpromise-hero{align-items:center;column-gap:4rem;display:grid;grid-template-columns:1.2fr 1fr;margin-bottom:3.5rem;row-gap:2.5rem}@media (max-width:1024px){.gb-element-bkpromise-hero{grid-template-columns:1fr}}
 .gb-text-bkpromise003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1.25rem;margin-top:0}
-.gb-text-bkpromise004{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:2.5rem;margin-top:0;max-width:46rem}
+.gb-text-bkpromise004{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:2rem;margin-top:0}
+.gb-element-bkpromise-btns{align-items:center;column-gap:1rem;display:flex}@media (max-width:600px){.gb-element-bkpromise-btns{align-items:flex-start;flex-direction:column;row-gap:0.75rem}}
+.gb-text-bkpromise-btn1{background-color:var(--accent-2);box-shadow:0 8px 20px rgba(28,92,136,0.25);display:inline-flex;font-size:0.9375rem;letter-spacing:0.3px;padding:0.75rem 1.5rem}.gb-text-bkpromise-btn1:is(:hover,:focus){background-color:var(--accent)}
+.gb-element-bkpromise-btn2{align-items:center;background-color:var(--base-2);border:1px solid var(--base);border-radius:4px;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.9375rem;font-weight:600;padding:0.6875rem 1.25rem}.gb-element-bkpromise-btn2:is(:hover,:focus){background-color:var(--accent);border-color:var(--accent);color:var(--base-3)}
+.gb-element-bkpromise-imgwrap{align-items:center;aspect-ratio:1/1;background-color:var(--base-2);border:1px solid var(--base);border-radius:50%;box-shadow:0 24px 60px rgba(35,26,19,0.14);display:flex;justify-content:center;margin-left:auto;margin-right:auto;padding:3rem;width:100%}
+.gb-shape-bkpromise-imgshape{color:var(--accent-3);display:inline-flex}.gb-shape-bkpromise-imgshape svg{height:9rem;width:9rem}
+.gb-text-bkpromise-subhead{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:1.5rem;margin-top:0}
 .gb-element-bkpromise005{column-gap:2rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:1.75rem}@media (max-width:1024px){.gb-element-bkpromise005{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:600px){.gb-element-bkpromise005{grid-template-columns:1fr}}
 .gb-text-bkpromise011{color:var(--accent-3);font-size:1.0625rem;font-weight:700;margin-bottom:0.375rem;margin-top:0}
 .gb-text-bkpromise012{color:var(--contrast-2);font-size:0.9375rem;line-height:1.5;margin-bottom:0;margin-top:0}
@@ -344,6 +359,8 @@ img { max-width: 100%; }
 .gb-shape-orn-bkbrk{color:var(--accent);display:block;margin-bottom:1rem;margin-top:0.625rem}.gb-shape-orn-bkbrk svg{height:8px;width:110px}
 .gb-text-bkbrk003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:2.5rem;margin-top:0}
 .gb-element-bkbrk01card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk01icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk01icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk01icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk01h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk01p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap015{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -367,6 +384,8 @@ img { max-width: 100%; }
 .gb-text-bktxt015{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk01r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk02card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk02icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk02icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk02icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk02h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk02p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap020{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -387,6 +406,8 @@ img { max-width: 100%; }
 .gb-text-bktxt020{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk02r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk03card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk03icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk03icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk03icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk03h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk03p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap024{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -404,6 +425,8 @@ img { max-width: 100%; }
 .gb-text-bktxt024{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk03r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk04card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk04icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk04icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk04icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk04h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk04p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap027{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -418,6 +441,8 @@ img { max-width: 100%; }
 .gb-text-bktxt027{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk04r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk05card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk05icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk05icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk05icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk05h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk05p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap031{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -435,6 +460,8 @@ img { max-width: 100%; }
 .gb-text-bktxt031{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk05r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk06card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk06icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk06icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk06icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk06h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk06p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap034{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -449,6 +476,8 @@ img { max-width: 100%; }
 .gb-text-bktxt034{color:var(--contrast-2);font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
 .gb-text-bkbrk06r{border-top:1px solid var(--base);color:var(--contrast-3);font-size:0.8125rem;line-height:1.5;margin-bottom:0;margin-top:0;padding-top:1rem}
 .gb-element-bkbrk07card{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1.5rem;padding:2rem}
+.gb-element-bkbrk07icn{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 4px 14px rgba(28,92,136,0.18);display:flex;height:68px;justify-content:center;margin-bottom:1rem;width:68px}
+.gb-shape-bkbrk07icns{color:var(--base-2);display:inline-flex}.gb-shape-bkbrk07icns svg{height:2.1rem;width:2.1rem}
 .gb-text-bkbrk07h{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:1.375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.75rem;margin-top:0}
 .gb-text-bkbrk07p{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:1rem;margin-top:0}
 .gb-element-bklistwrap039{display:flex;flex-direction:column;row-gap:0.75rem}
@@ -511,7 +540,13 @@ img { max-width: 100%; }
 
 <span class="gb-shape gb-shape-orn-bkfam"><svg viewBox="0 0 100 8" fill="none" stroke="currentColor" aria-hidden="true"><line x1="0" y1="4" x2="38" y2="4"></line><circle cx="50" cy="4" r="3" fill="currentColor" stroke="none"></circle><line x1="62" y1="4" x2="100" y2="4"></line></svg></span>
 
+<div class="gb-element-bkfamheadrow gb-element">
+<div class="gb-element-bkfamicn gb-element">
+<span class="gb-shape gb-shape-bkfamicns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Cash flow</title><ellipse cx="177" cy="329" rx="81" ry="28"></ellipse><path d="M96 329v62c4 18 39 29 81 29s77-11 81-29v-62M99 360c15 17 44 25 78 25s63-8 79-25"></path><ellipse cx="355" cy="185" rx="63" ry="23"></ellipse><path d="M292 185v48c4 15 31 24 63 24s59-9 63-24v-48"></path><path d="M223 268c43-71 90-91 145-87M340 144l32 36-43 23M290 294c-42 45-89 57-139 37M171 300l-24 32 36 23"></path><path d="M82 337l14-8M82 361l14-8M84 385l14-8" stroke-width="5"></path></svg></span>
+</div>
+
 <h2 class="gb-text gb-text-bkfam003">Sound Familiar?</h2>
+</div>
 
 <div class="gb-element-bkfam004 gb-element">
 <div class="gb-element-bklistwrap005 gb-element">
@@ -564,7 +599,9 @@ img { max-width: 100%; }
 <div class="gb-element-bkhelp005 gb-element">
 <div class="gb-element-bkhelp010 gb-element">
 <div class="gb-element-bkhelp010card gb-element">
-<img class="gb-media-bkhelpimg1" alt="" title="People Support Cross Hatch" src="https://danj19.sg-host.com/wp-content/uploads/2026/09/People-Support-Cross-Hatch.png"/>
+<div class="gb-element-bkhelpimg1frame gb-element">
+<span class="gb-shape gb-shape-bkhelpimg1shape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Cash flow</title><ellipse cx="177" cy="329" rx="81" ry="28"></ellipse><path d="M96 329v62c4 18 39 29 81 29s77-11 81-29v-62M99 360c15 17 44 25 78 25s63-8 79-25"></path><ellipse cx="355" cy="185" rx="63" ry="23"></ellipse><path d="M292 185v48c4 15 31 24 63 24s59-9 63-24v-48"></path><path d="M223 268c43-71 90-91 145-87M340 144l32 36-43 23M290 294c-42 45-89 57-139 37M171 300l-24 32 36 23"></path><path d="M82 337l14-8M82 361l14-8M84 385l14-8" stroke-width="5"></path></svg></span>
+</div>
 
 <h3 class="gb-text gb-text-bkhelp013">Accounts Receivable &amp; Payable</h3>
 
@@ -580,7 +617,9 @@ img { max-width: 100%; }
 
 <div class="gb-element-bkhelp020 gb-element">
 <div class="gb-element-bkhelp020card gb-element">
-<img class="gb-media-bkhelpimg2" alt="" title="account chart" src="https://danj19.sg-host.com/wp-content/uploads/2026/09/account-chart.png"/>
+<div class="gb-element-bkhelpimg2frame gb-element">
+<span class="gb-shape gb-shape-bkhelpimg2shape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Bank reconciliation</title><path d="M256 83v305M129 128h254M180 128l-67 128h134l-67-128zM332 128l-67 128h134l-67-128zM112 257c8 24 31 37 68 37s60-13 68-37M265 257c8 24 31 37 68 37s60-13 68-37M176 388h160M147 420h218"></path><path d="M91 150l18-10M87 179l18-10M83 209l18-10" stroke-width="5"></path></svg></span>
+</div>
 
 <h3 class="gb-text gb-text-bkhelp023">Month-End Close &amp; Financial Reporting</h3>
 
@@ -596,7 +635,9 @@ img { max-width: 100%; }
 
 <div class="gb-element-bkhelp030 gb-element">
 <div class="gb-element-bkhelp030card gb-element">
-<img class="gb-media-bkhelpimg3" alt="" title="balanced ledger" src="https://danj19.sg-host.com/wp-content/uploads/2026/09/balanced-ledger.png"/>
+<div class="gb-element-bkhelpimg3frame gb-element">
+<span class="gb-shape gb-shape-bkhelpimg3shape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Budget planning</title><path d="M103 94c70-9 137-8 202 1v318c-67 10-134 10-202 0V94zM129 137h149v68H129zM137 241h34v34h-34zM190 241h34v34h-34zM243 241h34v34h-34zM137 294h34v34h-34zM190 294h34v34h-34zM243 294h34v34h-34zM137 347h34v34h-34zM190 347h87"></path><path d="M353 151c58 0 105 47 105 105s-47 105-105 105-105-47-105-105M353 151v105h105M353 256l-75 74"></path><path d="M88 119l15-11M88 149l15-11M88 179l15-10" stroke-width="5"></path></svg></span>
+</div>
 
 <h3 class="gb-text gb-text-bkhelp033">Fixed Assets &amp; Budgeting</h3>
 
@@ -612,7 +653,9 @@ img { max-width: 100%; }
 
 <div class="gb-element-bkhelp040 gb-element">
 <div class="gb-element-bkhelp040card gb-element">
-<img class="gb-media-bkhelpimg4" alt="" title="money cycle" src="https://danj19.sg-host.com/wp-content/uploads/2026/09/money-cycle.png"/>
+<div class="gb-element-bkhelpimg4frame gb-element">
+<span class="gb-shape gb-shape-bkhelpimg4shape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Internal audit</title><path d="M256 70c55 37 112 53 166 59-2 139-51 242-166 310C141 371 92 268 90 129c55-6 111-22 166-59z"></path><circle cx="233" cy="242" r="79"></circle><path d="M290 300l68 70M198 243l24 24 48-62"></path><path d="M108 148l15-10M111 178l15-10M116 207l14-9M123 236l14-9" stroke-width="5"></path></svg></span>
+</div>
 
 <h3 class="gb-text gb-text-bkhelp043">Internal Controls</h3>
 
@@ -633,7 +676,11 @@ img { max-width: 100%; }
 <div class="gbp-section__inner gb-element-bkassess002 gb-element">
 <div class="gb-element-bkassess003 gb-element">
 <div class="gb-element-bkassess004 gb-element">
+<p class="gb-text gbp-section__tagline">Get Started</p>
+
 <h2 class="gb-text gb-text-bkassess005">Start With a Free Accounting Assessment</h2>
+
+<p class="gb-text gb-text-bkassess-intro gb-text">This is the obvious first step, not a sales pitch — a clear-eyed look at where your books stand today.</p>
 
 <div class="gb-element-bklistwrap009 gb-element">
 <div class="gb-element-bkli006 gb-element">
@@ -660,12 +707,16 @@ img { max-width: 100%; }
 <p class="gb-text gb-text-bktxt009 gb-text">A roadmap for outsourced support scoped to your budget</p>
 </div>
 </div>
+
+<div class="gb-element-bkassess-btns gb-element">
+<a class="gb-text gbp-button--primary gb-text-bkassess012 gb-text" href="/contact">Hire Your Team</a>
+
+<a class="gb-element-bkassess013 gb-element" href="#service-breakdown">See What's Included</a>
+</div>
 </div>
 
-<div class="gb-element-bkassess010 gb-element">
-<p class="gb-text gb-text-bkassess011 gb-text">This is the obvious first step, not a sales pitch.</p>
-
-<a class="gb-text gb-text-bkassess012 gb-text" href="/contact">Hire Your Team to Get Started</a>
+<div class="gb-element-bkassess-imgwrap gb-element">
+<span class="gb-shape gb-shape-bkassess-imgshape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Accountant with client</title><circle cx="159" cy="154" r="50"></circle><circle cx="351" cy="154" r="50"></circle><path d="M69 389c8-100 42-160 90-160s82 60 90 160M261 389c8-100 42-160 90-160s82 60 90 160M126 231l33 45 34-45M318 231l33 45 34-45"></path><path d="M196 314c38-17 80-17 120 0l-12 99c-32-10-64-10-96 0l-12-99zM256 314v91"></path><path d="M54 320l15-10M58 349l14-10M64 378l14-9" stroke-width="5"></path></svg></span>
 </div>
 </div>
 </div>
@@ -682,7 +733,7 @@ img { max-width: 100%; }
 <div class="gb-element-bktrust004 gb-element">
 <div class="gb-element-bktrust010 gb-element">
 <div class="gb-element-bktrust011 gb-element">
-<span class="gb-shape gb-shape-bktrust012"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.5" r="5.5"></circle><path d="M8 13.5 6.5 21l5.5-3 5.5 3-1.5-7.5"></path></svg></span>
+<span class="gb-shape gb-shape-bktrust012"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Bookkeeping ledger</title><path d="M92 122c49-17 101-10 164 26 62-36 115-43 164-25l-2 278c-51-13-105-4-162 31-58-34-111-44-163-31L92 122z"></path><path d="M256 149l1 281M113 146c43-9 82-2 121 19M113 178c38-7 75-1 111 17M113 227c37-7 73-2 108 15M113 276c38-7 74-2 108 15M113 325c37-7 73-2 108 15M278 165c40-21 78-28 119-19M286 196c36-18 72-24 109-17M287 244c35-17 70-22 106-15M287 293c35-17 70-22 106-15M287 342c35-17 70-22 106-15"></path><path d="M76 141c5-8 10-13 17-18M77 171l15-14M77 202l15-13M77 233l15-13" stroke-width="5"></path></svg></span>
 </div>
 
 <div class="gb-element-bktrust013 gb-element">
@@ -694,7 +745,7 @@ img { max-width: 100%; }
 
 <div class="gb-element-bktrust020 gb-element">
 <div class="gb-element-bktrust021 gb-element">
-<span class="gb-shape gb-shape-bktrust022"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="9" width="6" height="12"></rect><rect x="13.5" y="4" width="7" height="17"></rect><line x1="6" y1="12" x2="8" y2="12"></line><line x1="6" y1="15" x2="8" y2="15"></line><line x1="6" y1="18" x2="8" y2="18"></line><line x1="16" y1="7" x2="18" y2="7"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="16" y1="13" x2="18" y2="13"></line><line x1="16" y1="16" x2="18" y2="16"></line></svg></span>
+<span class="gb-shape gb-shape-bktrust022"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Accountant with client</title><circle cx="159" cy="154" r="50"></circle><circle cx="351" cy="154" r="50"></circle><path d="M69 389c8-100 42-160 90-160s82 60 90 160M261 389c8-100 42-160 90-160s82 60 90 160M126 231l33 45 34-45M318 231l33 45 34-45"></path><path d="M196 314c38-17 80-17 120 0l-12 99c-32-10-64-10-96 0l-12-99zM256 314v91"></path><path d="M54 320l15-10M58 349l14-10M64 378l14-9" stroke-width="5"></path></svg></span>
 </div>
 
 <div class="gb-element-bktrust023 gb-element">
@@ -706,7 +757,7 @@ img { max-width: 100%; }
 
 <div class="gb-element-bktrust030 gb-element">
 <div class="gb-element-bktrust031 gb-element">
-<span class="gb-shape gb-shape-bktrust032"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7.5" r="4"></circle><path d="M4.5 21c0-4.2 3.4-7.5 7.5-7.5"></path><path d="M14 17.5l3 3 4.5-5"></path></svg></span>
+<span class="gb-shape gb-shape-bktrust032"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Controller oversight</title><circle cx="167" cy="151" r="48"></circle><path d="M84 355c9-85 41-133 83-133s75 48 84 133M130 225l37 48 37-48M167 273v83"></path><path d="M266 126c53-8 106-6 158 5v224c-52 12-105 13-158 4V126zM290 321V244M328 321V210M366 321V176M404 321V146M287 169c43-6 83-4 120 3"></path><path d="M69 296l15-11M72 325l14-10M76 353l14-10" stroke-width="5"></path></svg></span>
 </div>
 
 <div class="gb-element-bktrust033 gb-element">
@@ -737,13 +788,27 @@ img { max-width: 100%; }
 
 <section class="gbp-section gb-element-bkpromise001 gb-element alignfull">
 <div class="gbp-section__inner gb-element-bkpromise002 gb-element">
-<h5 class="gb-text gb-text-bkpromise-eyebrow gb-text"><strong><em>Our Promise to You</em></strong></h5>
-
-<span class="gb-shape gb-shape-orn-bkpromise"><svg viewBox="0 0 100 8" fill="none" stroke="currentColor" aria-hidden="true"><line x1="0" y1="4" x2="38" y2="4"></line><circle cx="50" cy="4" r="3" fill="currentColor" stroke="none"></circle><line x1="62" y1="4" x2="100" y2="4"></line></svg></span>
+<div class="gb-element-bkpromise-hero gb-element">
+<div class="gb-element-bkpromise-content gb-element">
+<p class="gb-text gbp-section__tagline">Our Promise to You</p>
 
 <h2 class="gb-text gb-text-bkpromise003">Your Business. Your Numbers. <strong>Your Accounting Department.</strong></h2>
 
 <p class="gb-text gb-text-bkpromise004 gb-text">We don't believe you should have to build a large internal accounting department to receive professional accounting support. Our role can expand or contract as your business changes.</p>
+
+<div class="gb-element-bkpromise-btns gb-element">
+<a class="gb-text gbp-button--primary gb-text-bkpromise-btn1 gb-text" href="/contact">Request a Consultation</a>
+
+<a class="gb-element-bkpromise-btn2 gb-element" href="/#about">More About Pacioli</a>
+</div>
+</div>
+
+<div class="gb-element-bkpromise-imgwrap gb-element">
+<span class="gb-shape gb-shape-bkpromise-imgshape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Controller oversight</title><circle cx="167" cy="151" r="48"></circle><path d="M84 355c9-85 41-133 83-133s75 48 84 133M130 225l37 48 37-48M167 273v83"></path><path d="M266 126c53-8 106-6 158 5v224c-52 12-105 13-158 4V126zM290 321V244M328 321V210M366 321V176M404 321V146M287 169c43-6 83-4 120 3"></path><path d="M69 296l15-11M72 325l14-10M76 353l14-10" stroke-width="5"></path></svg></span>
+</div>
+</div>
+
+<h3 class="gb-text gb-text-bkpromise-subhead">What You Can Expect From Us</h3>
 
 <div class="gb-element-bkpromise005 gb-element">
 <div class="gb-element-bkpromise010 gb-element">
@@ -826,6 +891,10 @@ img { max-width: 100%; }
 <h2 class="gb-text gb-text-bkbrk003">Full Service Breakdown</h2>
 
 <div class="gb-element-bkbrk01card gb-element" id="ar">
+<div class="gb-element-bkbrk01icn gb-element">
+<span class="gb-shape gb-shape-bkbrk01icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Cash flow</title><ellipse cx="177" cy="329" rx="81" ry="28"></ellipse><path d="M96 329v62c4 18 39 29 81 29s77-11 81-29v-62M99 360c15 17 44 25 78 25s63-8 79-25"></path><ellipse cx="355" cy="185" rx="63" ry="23"></ellipse><path d="M292 185v48c4 15 31 24 63 24s59-9 63-24v-48"></path><path d="M223 268c43-71 90-91 145-87M340 144l32 36-43 23M290 294c-42 45-89 57-139 37M171 300l-24 32 36 23"></path><path d="M82 337l14-8M82 361l14-8M84 385l14-8" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk01h">Accounts Receivable (AR)</h3>
 
 <p class="gb-text gb-text-bkbrk01p gb-text">Pacioli manages incoming payments, ensuring timely billing, payment application, and collection to optimize cash flow.</p>
@@ -872,6 +941,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk02card gb-element" id="ap">
+<div class="gb-element-bkbrk02icn gb-element">
+<span class="gb-shape gb-shape-bkbrk02icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Invoice approval</title><path d="M111 76c74-8 148-6 222 4l53 55-2 296c-89 12-180 10-274-3l1-352zM333 81l-2 58 55-4"></path><path d="M153 172c55-6 112-4 171 3M153 217c48-5 98-3 150 3M153 262c39-4 78-3 119 2"></path><circle cx="283" cy="337" r="67"></circle><path d="M247 337l25 25 50-62"></path><path d="M95 108l15-12M95 141l15-11M95 174l15-11M95 207l15-11" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk02h">Accounts Payable (AP)</h3>
 
 <p class="gb-text gb-text-bkbrk02p gb-text">Pacioli manages short-term obligations by processing vendor invoices, verifying purchase orders, reconciling statements, and executing timely payments.</p>
@@ -912,6 +985,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk03card gb-element" id="fixed-assets">
+<div class="gb-element-bkbrk03icn gb-element">
+<span class="gb-shape gb-shape-bkbrk03icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Bookkeeping ledger</title><path d="M92 122c49-17 101-10 164 26 62-36 115-43 164-25l-2 278c-51-13-105-4-162 31-58-34-111-44-163-31L92 122z"></path><path d="M256 149l1 281M113 146c43-9 82-2 121 19M113 178c38-7 75-1 111 17M113 227c37-7 73-2 108 15M113 276c38-7 74-2 108 15M113 325c37-7 73-2 108 15M278 165c40-21 78-28 119-19M286 196c36-18 72-24 109-17M287 244c35-17 70-22 106-15M287 293c35-17 70-22 106-15M287 342c35-17 70-22 106-15"></path><path d="M76 141c5-8 10-13 17-18M77 171l15-14M77 202l15-13M77 233l15-13" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk03h">Fixed Assets &amp; Depreciation</h3>
 
 <p class="gb-text gb-text-bkbrk03p gb-text">Pacioli manages the property, plant, and equipment (PPE) lifecycle &#8212; from acquisition through disposal &#8212; ensuring GAAP/IFRS compliance.</p>
@@ -946,6 +1023,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk04card gb-element" id="budgeting">
+<div class="gb-element-bkbrk04icn gb-element">
+<span class="gb-shape gb-shape-bkbrk04icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Budget planning</title><path d="M103 94c70-9 137-8 202 1v318c-67 10-134 10-202 0V94zM129 137h149v68H129zM137 241h34v34h-34zM190 241h34v34h-34zM243 241h34v34h-34zM137 294h34v34h-34zM190 294h34v34h-34zM243 294h34v34h-34zM137 347h34v34h-34zM190 347h87"></path><path d="M353 151c58 0 105 47 105 105s-47 105-105 105-105-47-105-105M353 151v105h105M353 256l-75 74"></path><path d="M88 119l15-11M88 149l15-11M88 179l15-10" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk04h">Budgeting &amp; Forecasting</h3>
 
 <p class="gb-text gb-text-bkbrk04p gb-text">Pacioli creates, manages, and analyzes financial plans that translate strategic goals into actionable budgets.</p>
@@ -974,6 +1055,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk05card gb-element" id="close">
+<div class="gb-element-bkbrk05icn gb-element">
+<span class="gb-shape gb-shape-bkbrk05icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Bank reconciliation</title><path d="M256 83v305M129 128h254M180 128l-67 128h134l-67-128zM332 128l-67 128h134l-67-128zM112 257c8 24 31 37 68 37s60-13 68-37M265 257c8 24 31 37 68 37s60-13 68-37M176 388h160M147 420h218"></path><path d="M91 150l18-10M87 179l18-10M83 209l18-10" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk05h">Month-End Close</h3>
 
 <p class="gb-text gb-text-bkbrk05p gb-text">Pacioli reconciles bank accounts, balances the general ledger, records journal entries, and prepares financial statements every month.</p>
@@ -1008,6 +1093,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk06card gb-element" id="reporting">
+<div class="gb-element-bkbrk06icn gb-element">
+<span class="gb-shape gb-shape-bkbrk06icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Financial forecasting</title><path d="M78 407h356M105 382V302h58v80M197 382V246h58v136M289 382V183h58v199M381 382V119h53v263"></path><path d="M111 271l83-70 61 31 124-126M349 106h31v32"></path><path d="M70 383l14-11M70 353l14-11M70 323l14-11" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk06h">Financial Reporting</h3>
 
 <p class="gb-text gb-text-bkbrk06p gb-text">Pacioli prepares, analyzes, and maintains income statements, balance sheets, and cash-flow statements &#8212; accurate, GAAP-compliant, and delivered on time.</p>
@@ -1036,6 +1125,10 @@ img { max-width: 100%; }
 </div>
 
 <div class="gb-element-bkbrk07card gb-element" id="controls">
+<div class="gb-element-bkbrk07icn gb-element">
+<span class="gb-shape gb-shape-bkbrk07icns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><title>Internal audit</title><path d="M256 70c55 37 112 53 166 59-2 139-51 242-166 310C141 371 92 268 90 129c55-6 111-22 166-59z"></path><circle cx="233" cy="242" r="79"></circle><path d="M290 300l68 70M198 243l24 24 48-62"></path><path d="M108 148l15-10M111 178l15-10M116 207l14-9M123 236l14-9" stroke-width="5"></path></svg></span>
+</div>
+
 <h3 class="gb-text gb-text-bkbrk07h">Internal Controls &amp; Compliance</h3>
 
 <p class="gb-text gb-text-bkbrk07p gb-text">Pacioli segregates duties among authorization, custody, recording, and reconciliation to reduce the risk of fraud and error.</p>
