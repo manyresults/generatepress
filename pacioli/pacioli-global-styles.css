@@ -1,0 +1,159 @@
+/*
+ * Pacioli Finance — GeneratePress global styles reference
+ * Source: pacioli-global-styles.xml (WXR export from danj19.sg-host.com, "Pacioli new")
+ *
+ * Uses these CSS variables from the theme (not defined here — set in GP customizer):
+ *   --accent, --accent-2, --accent-3
+ *   --base, --base-2, --base-3
+ *   --contrast, --contrast-3
+ *   --gb-container-width
+ *
+ * Notes on duplicates in the export: the WXR contains both older (2024, from the
+ * bookkeeping template) and newer (2026-01-24, current Pacioli) versions of some
+ * classes. Only the current versions are kept below; legacy variants are recorded
+ * as comments so we know what changed.
+ */
+
+/* ---------- Section layout ---------- */
+
+.gbp-section {
+	padding: 7rem 40px;
+}
+@media (max-width: 1024px) {
+	.gbp-section { padding: 6rem 30px; }
+}
+@media (max-width: 767px) {
+	.gbp-section { padding: 4rem 20px; }
+}
+/* Legacy (bookkeeping): padding:8rem 2rem; @767px padding:6rem 1.5rem */
+
+.gbp-section__inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--gb-container-width);
+	position: relative;
+	z-index: 1;
+}
+
+/* ---------- Section typography ---------- */
+
+.gbp-section__tagline {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+}
+/* Legacy (bookkeeping): border-left 4px accent-3, uppercase, 2px letter-spacing,
+   flex-start alignment, color contrast-3, 2rem bottom margin. Kept for reference
+   only — the current Pacioli tagline is a plain small heading. */
+
+.gbp-section__headline {
+	margin-bottom: 1.5rem;
+}
+@media (max-width: 767px) {
+	.gbp-section__headline { margin-bottom: 1.25rem; }
+}
+
+.gbp-section__h1--xl {
+	color: var(--base-3);
+	font-size: clamp(3.25rem, 2.778vw + 1.917rem, 4rem);
+	font-weight: 700;
+	line-height: calc(4px + 2ex);
+}
+.gbp-section__h1--xl:is(:hover, :focus) {
+	color: var(--base-3);
+}
+
+.gbp-section__text {
+	font-size: 1.125rem;
+}
+
+.gbp-section__text--sm {
+	font-size: 1rem;
+	line-height: 1.5em;
+}
+
+.gbp-section__text--lg {
+	color: var(--contrast-3);
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 1.5em;
+}
+
+/* ---------- Card bits ---------- */
+
+.gbp-card__meta-text {
+	color: var(--contrast-3);
+	font-size: .875rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+/* ---------- Buttons ---------- */
+
+.gbp-button--primary {
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid currentColor;
+	display: inline-flex;
+	font-size: 1rem;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+}
+.gbp-button--primary:is(:hover, :focus) {
+	background-color: #000000;
+	color: #ffffff;
+}
+/* Legacy (bookkeeping): accent bg / base-3 text / 1.125rem / .25rem radius /
+   accent-2 hover / all 0.5s ease transition. The current Pacioli primary is a
+   hard black-on-white rectangle with no radius and no color shift on hover. */
+
+.gbp-button--secondary {
+	background-color: var(--base-2);
+	color: var(--contrast-3);
+	display: inline-flex;
+	font-size: 1.125rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	border-radius: .25rem;
+	padding: .75rem 1.25rem;
+}
+.gbp-button--secondary:is(:hover, :focus) {
+	background-color: var(--base);
+	color: var(--contrast-3);
+}
+
+.gbp-button--tertiary {
+	align-items: center;
+	color: var(--accent);
+	column-gap: 0.5em;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+}
+.gbp-button--tertiary .gb-shape svg {
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	color: var(--accent);
+	transition: all 0.5s ease 0s;
+}
+.gbp-button--tertiary:is(:hover, :focus) {
+	color: var(--accent);
+}
+.gbp-button--tertiary:is(:hover, :focus) .gb-shape svg {
+	color: var(--accent);
+	transform: translate3d(3px, 0px, 0px);
+	transition: transform 0.5s ease 0s;
+}
+
+/* ---------- Utilities ---------- */
+
+.gbp--border-radius {
+	border-radius: .25rem;
+}
+
+.gbp--box-shadow {
+	box-shadow: 0px 0px 25px -5px rgba(8, 9, 10, 0.06);
+}
