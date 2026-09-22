@@ -1,0 +1,37 @@
+<!--
+	Pacioli Finance — home page hero + tile-tint fixes
+	Drop-in replacements for the current hero001 and the "Free to download"
+	industry tile. Everything else stays as you have it.
+
+	Hero: warm glow radial + subtle 40px grid pattern (built from two 1px linear
+	gradients, no external PNG) + parchment base. No more background shorthand
+	fighting the longhand.
+
+	Industry tile 4: warm cream gradient restored (#FFF2CD → #FBF5E2), 1px
+	base border, 1.625rem padding — matches the pf-tint tile in the source.
+-->
+
+<!-- ==================== HERO (replace hero001 section) ==================== -->
+<!-- wp:generateblocks/element {"uniqueId":"hero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"radial-gradient(circle at 8% 12%,rgba(255,242,205,0.85) 0%,rgba(255,242,205,0.25) 45%,rgba(255,242,205,0) 70%),linear-gradient(rgba(35,26,19,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(35,26,19,0.045) 1px,transparent 1px)","backgroundPosition":"0 0,0 0,0 0","backgroundRepeat":"no-repeat,repeat,repeat","backgroundSize":"auto,40px 40px,40px 40px","overflow":"hidden","paddingBottom":"64px","paddingLeft":"24px","paddingRight":"24px","paddingTop":"88px","position":"relative"},"css":".gb-element-hero001{background-color:var(--base-2);background-image:radial-gradient(circle at 8% 12%,rgba(255,242,205,0.85) 0%,rgba(255,242,205,0.25) 45%,rgba(255,242,205,0) 70%),linear-gradient(rgba(35,26,19,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(35,26,19,0.045) 1px,transparent 1px);background-position:0 0,0 0,0 0;background-repeat:no-repeat,repeat,repeat;background-size:auto,40px 40px,40px 40px;overflow:hidden;padding-bottom:64px;padding-left:24px;padding-right:24px;padding-top:88px;position:relative}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
+<section class="gbp-section gb-element-hero001 gb-element alignfull">
+	<!-- keep the existing inner children (hero002 → hero014) exactly as they are -->
+</section>
+<!-- /wp:generateblocks/element -->
+
+
+<!-- ==================== "FREE TO DOWNLOAD" TILE (replace c58f567d block) ==================== -->
+<!-- wp:generateblocks/element {"uniqueId":"ind040","tagName":"div","styles":{"backgroundColor":"#FFF2CD","backgroundImage":"linear-gradient(135deg,#FFF2CD 0%,#FBF5E2 100%)","backgroundRepeat":"no-repeat","backgroundSize":"cover","border":"1px solid var(--base)","padding":"1.625rem"},"css":".gb-element-ind040{background-color:#FFF2CD;background-image:linear-gradient(135deg,#FFF2CD 0%,#FBF5E2 100%);background-repeat:no-repeat;background-size:cover;border:1px solid var(--base);padding:1.625rem}","className":"gb-element"} -->
+<div class="gb-element-ind040 gb-element">
+	<!-- wp:generateblocks/text {"uniqueId":"ind041","tagName":"h3","styles":{"color":"var(--contrast)","fontFamily":"'EB Garamond', Georgia, serif","fontSize":"1.4375rem","fontWeight":"400","letterSpacing":"-0.01em","marginBottom":"0.625rem","marginTop":"0"},"css":".gb-text-ind041{color:var(--contrast);font-family:'EB Garamond', Georgia, serif;font-size:1.4375rem;font-weight:400;letter-spacing:-0.01em;margin-bottom:0.625rem;margin-top:0}"} -->
+	<h3 class="gb-text gb-text-ind041">Free to download</h3>
+	<!-- /wp:generateblocks/text -->
+
+	<!-- wp:generateblocks/text {"uniqueId":"ind042","tagName":"p","styles":{"color":"var(--contrast-2)","fontSize":"0.96875rem","lineHeight":"1.55","marginBottom":"0.875rem","marginTop":"0"},"css":".gb-text-ind042{color:var(--contrast-2);font-size:0.96875rem;line-height:1.55;margin-bottom:0.875rem;margin-top:0}","className":"gb-text"} -->
+	<p class="gb-text gb-text-ind042">Our tax prep checklist and payroll tax forms, the same ones we send new clients. Take them whether we work together or not.</p>
+	<!-- /wp:generateblocks/text -->
+
+	<!-- wp:generateblocks/text {"uniqueId":"ind043","tagName":"a","styles":{"color":"var(--contrast)","fontSize":"0.9rem","fontWeight":"500","textDecoration":"underline","textUnderlineOffset":"4px"},"css":".gb-text-ind043{color:var(--contrast);font-size:0.9rem;font-weight:500;text-decoration:underline;text-underline-offset:4px}","htmlAttributes":{"href":"#"},"className":"gb-text"} -->
+	<a class="gb-text gb-text-ind043" href="#">Get the checklists</a>
+	<!-- /wp:generateblocks/text -->
+</div>
+<!-- /wp:generateblocks/element -->
