@@ -12,11 +12,17 @@
 <!--    existing user on the site or to create a new user. -->
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
-<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
 <channel>
 <title>Pacioli Finance</title>
 <link>https://danj19.sg-host.com</link>
-<description/>
+<description></description>
 <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
 <language>en-US</language>
 <wp:wxr_version>1.2</wp:wxr_version>
@@ -24,20 +30,20 @@
 <wp:base_blog_url>https://danj19.sg-host.com</wp:base_blog_url>
 <wp:author>
 <wp:author_id>3</wp:author_id>
-<wp:author_login><![CDATA[ info@manyresults.com ]]></wp:author_login>
-<wp:author_email><![CDATA[ info@manyresults.com ]]></wp:author_email>
-<wp:author_display_name><![CDATA[ Rachelle Beck ]]></wp:author_display_name>
-<wp:author_first_name><![CDATA[ Rachelle ]]></wp:author_first_name>
-<wp:author_last_name><![CDATA[ Beck ]]></wp:author_last_name>
+<wp:author_login><![CDATA[info@manyresults.com]]></wp:author_login>
+<wp:author_email><![CDATA[info@manyresults.com]]></wp:author_email>
+<wp:author_display_name><![CDATA[Rachelle Beck]]></wp:author_display_name>
+<wp:author_first_name><![CDATA[Rachelle]]></wp:author_first_name>
+<wp:author_last_name><![CDATA[Beck]]></wp:author_last_name>
 </wp:author>
 <item>
-<title><![CDATA[ 990ez ]]></title>
+<title><![CDATA[990ez]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/990ez/</link>
 <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90061</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c990hero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c990hero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c990hero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c990hero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c990hero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c990hero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c990hero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c990hero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c990hero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -309,48 +315,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90061</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:00:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:00:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:00:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:00:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ 990ez ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:00:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:00:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:00:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:00:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[990ez]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ Form 990 ]]></title>
+<title><![CDATA[Form 990]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/form-990/</link>
 <pubDate>Mon, 28 Sep 2026 19:02:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90064</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c990rhero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c990rhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c990rhero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c990rhero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c990rhero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c990rhero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c990rhero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c990rhero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c990rhero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -622,48 +628,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90064</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:02:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:02:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:02:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:02:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ form-990 ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:02:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:02:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:02:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:02:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[form-990]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ 1040 Schedule C ]]></title>
+<title><![CDATA[1040 Schedule C]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/1040-schedule-c/</link>
 <pubDate>Mon, 28 Sep 2026 19:04:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90070</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c1040hero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c1040hero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c1040hero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c1040hero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c1040hero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c1040hero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c1040hero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c1040hero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c1040hero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -917,48 +923,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90070</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:04:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:04:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:04:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:04:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ 1040-schedule-c ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:04:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:04:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:04:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:04:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[1040-schedule-c]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ 1065 ]]></title>
+<title><![CDATA[1065]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/1065/</link>
 <pubDate>Mon, 28 Sep 2026 19:06:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90071</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c1065hero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c1065hero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c1065hero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c1065hero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c1065hero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c1065hero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c1065hero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c1065hero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c1065hero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -1222,48 +1228,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90071</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:06:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:06:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:06:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:06:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ 1065 ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:06:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:06:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:06:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:06:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[1065]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ 1120 ]]></title>
+<title><![CDATA[1120]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/1120/</link>
 <pubDate>Mon, 28 Sep 2026 19:08:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90072</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c1120hero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c1120hero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c1120hero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c1120hero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c1120hero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c1120hero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c1120hero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c1120hero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c1120hero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -1507,48 +1513,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90072</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:08:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:08:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:08:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:08:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ 1120 ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:08:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:08:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:08:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:08:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[1120]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ 1120-S ]]></title>
+<title><![CDATA[1120-S]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/1120-s/</link>
 <pubDate>Mon, 28 Sep 2026 19:10:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90073</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"c1120shero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-c1120shero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-c1120shero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-c1120shero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"c1120shero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-c1120shero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-c1120shero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"c1120shero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-c1120shero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -1816,48 +1822,48 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90073</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:10:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:10:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:10:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:10:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ 1120-s ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:10:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:10:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:10:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:10:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[1120-s]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 
 <item>
-<title><![CDATA[ IRS Forms & Publications ]]></title>
+<title><![CDATA[IRS Forms & Publications]]></title>
 <link>https://danj19.sg-host.com/resources/tax-prep-checklists/irs-forms-publications/</link>
 <pubDate>Mon, 28 Sep 2026 19:12:00 +0000</pubDate>
-<dc:creator><![CDATA[ info@manyresults.com ]]></dc:creator>
+<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90074</guid>
-<description/>
-<content:encoded><![CDATA[ <!-- CHECKLIST HERO ================================================= -->
+<description></description>
+<content:encoded><![CDATA[<!-- CHECKLIST HERO ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId":"cirshero001","tagName":"section","styles":{"backgroundColor":"var(--base-2)","backgroundImage":"linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)","backgroundPosition":"0 0,center,center","backgroundRepeat":"no-repeat,no-repeat,no-repeat","backgroundSize":"auto,cover,cover","overflow":"hidden","paddingBottom":"56px","paddingTop":"80px","position":"relative","backgroundBlendMode":"normal,normal,","backgroundAttachment":"fixed,,","@media (max-width:767px)":{"paddingTop":"30px","paddingBottom":"20px"}},"css":".gb-element-cirshero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-cirshero001{padding-bottom:20px;padding-top:30px}}","globalClasses":["gbp-section"],"align":"full","className":"gb-element alignfull"} -->
 <section class="gbp-section gb-element-cirshero001 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"cirshero002","tagName":"div","globalClasses":["gbp-section__inner"],"className":"gb-element-cirshero002 gb-element"} -->
 <div class="gbp-section__inner gb-element-cirshero002 gb-element"><!-- wp:generateblocks/element {"uniqueId":"cirshero003","tagName":"div","styles":{"alignItems":"center","display":"flex","flexDirection":"column","margin":"0 auto","maxWidth":"42rem","textAlign":"center"},"css":".gb-element-cirshero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:42rem;text-align:center}"} -->
@@ -2379,37 +2385,37 @@
 <!-- /wp:generateblocks/text --></div>
 <!-- /wp:generateblocks/element --></div>
 <!-- /wp:generateblocks/element -->
-<!-- /wp:generateblocks/element --></section> ]]></content:encoded>
-<excerpt:encoded><![CDATA[  ]]></excerpt:encoded>
+<!-- /wp:generateblocks/element --></section>]]></content:encoded>
+<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 <wp:post_id>90074</wp:post_id>
-<wp:post_date><![CDATA[ 2026-09-28 19:12:00 ]]></wp:post_date>
-<wp:post_date_gmt><![CDATA[ 2026-09-28 19:12:00 ]]></wp:post_date_gmt>
-<wp:post_modified><![CDATA[ 2026-09-28 19:12:00 ]]></wp:post_modified>
-<wp:post_modified_gmt><![CDATA[ 2026-09-28 19:12:00 ]]></wp:post_modified_gmt>
-<wp:comment_status><![CDATA[ closed ]]></wp:comment_status>
-<wp:ping_status><![CDATA[ closed ]]></wp:ping_status>
-<wp:post_name><![CDATA[ irs-forms-publications ]]></wp:post_name>
-<wp:status><![CDATA[ publish ]]></wp:status>
+<wp:post_date><![CDATA[2026-09-28 19:12:00]]></wp:post_date>
+<wp:post_date_gmt><![CDATA[2026-09-28 19:12:00]]></wp:post_date_gmt>
+<wp:post_modified><![CDATA[2026-09-28 19:12:00]]></wp:post_modified>
+<wp:post_modified_gmt><![CDATA[2026-09-28 19:12:00]]></wp:post_modified_gmt>
+<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+<wp:post_name><![CDATA[irs-forms-publications]]></wp:post_name>
+<wp:status><![CDATA[publish]]></wp:status>
 <wp:post_parent>90059</wp:post_parent>
 <wp:menu_order>0</wp:menu_order>
-<wp:post_type><![CDATA[ page ]]></wp:post_type>
-<wp:post_password><![CDATA[  ]]></wp:post_password>
+<wp:post_type><![CDATA[page]]></wp:post_type>
+<wp:post_password><![CDATA[]]></wp:post_password>
 <wp:is_sticky>0</wp:is_sticky>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generateblocks_dynamic_css_version ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ 2.4.1 ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generateblocks_dynamic_css_version]]></wp:meta_key>
+<wp:meta_value><![CDATA[2.4.1]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-headline ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-headline]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-disable-post-image ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-disable-post-image]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 <wp:postmeta>
-<wp:meta_key><![CDATA[ _generate-full-width-content ]]></wp:meta_key>
-<wp:meta_value><![CDATA[ true ]]></wp:meta_value>
+<wp:meta_key><![CDATA[_generate-full-width-content]]></wp:meta_key>
+<wp:meta_value><![CDATA[true]]></wp:meta_value>
 </wp:postmeta>
 </item>
 </channel>
