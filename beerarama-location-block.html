@@ -1,41 +1,134 @@
 <!--
   SYNCED PATTERN: "Beer-A-Rama Levittown Location"
-  Create: paste into a new block in the editor > Add to patterns > Synced (Sync: on).
-  Then put its ID (wp_block post ID) in each brand page's <!-- wp:block {"ref":ID} --> line.
-  This is the ONLY place address / phone / hours / map / LiquorStore schema live.
-  Replace every [[ ... ]] placeholder.
+  Editor: paste into a page, select all top-level blocks > Options > Create pattern > Synced.
+  Note its ID (wp_block post ID) and set it in each brand page's {"ref":ID}.
+  Only place address / hours / phone / map / LiquorStore schema live.
+  Fill [[STREET_ADDRESS]] and [[ZIP]] in the schema at the bottom.
 -->
 
-<!-- wp:group {"className":"beerarama-location","layout":{"type":"constrained"}} -->
-<div class="wp-block-group beerarama-location"><!-- wp:heading -->
-<h2 class="wp-block-heading">Visit Beer-A-Rama in Levittown, PA</h2>
-<!-- /wp:heading -->
+<!-- wp:generateblocks/element {"uniqueId":"loc22","tagName":"section","styles":{"backgroundColor":"var(\u002d\u002dbase-2)","paddingTop":"5rem","paddingBottom":"5rem","paddingLeft":"1.5rem","paddingRight":"1.5rem","@media (max-width:767px)":{"paddingTop":"3rem","paddingBottom":"3rem"}},"css":".gb-element-loc22{background-color:var(\u002d\u002dbase-2);padding-top:5rem;padding-bottom:5rem;padding-left:1.5rem;padding-right:1.5rem}@media (max-width:767px){.gb-element-loc22{padding-top:3rem;padding-bottom:3rem}}","align":"full","htmlAttributes":{"id":"visit-levittown"},"className":"gb-element alignfull"} -->
+<section id="visit-levittown" class="gb-element-loc22 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"loc21","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"var(\u002d\u002dgb-container-width)"},"css":".gb-element-loc21{margin-left:auto;margin-right:auto;max-width:var(\u002d\u002dgb-container-width)}","className":"gb-element"} -->
+<div class="gb-element-loc21 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc20","tagName":"p","styles":{"color":"var(\u002d\u002dcontrast)","fontWeight":"700","marginBottom":"2.5rem","marginLeft":"auto","marginRight":"auto","maxWidth":"760px","textAlign":"center"},"css":".gb-text-loc20{color:var(\u002d\u002dcontrast);font-weight:700;margin-bottom:2.5rem;margin-left:auto;margin-right:auto;max-width:760px;text-align:center}","className":"gb-text"} -->
+<p class="gb-text gb-text-loc20 gb-text">Beer-A-Rama is conveniently located across from the Levittown Town Center at Route 13 and Levittown Pkwy.</p>
+<!-- /wp:generateblocks/text -->
 
-<!-- wp:paragraph -->
-<p><strong>Beer-A-Rama</strong><br>[[STREET_ADDRESS]]<br>Levittown, PA [[ZIP]]</p>
-<!-- /wp:paragraph -->
+<!-- wp:generateblocks/element {"uniqueId":"loc19","tagName":"div","styles":{"alignItems":"stretch","columnGap":"2.5rem","display":"grid","gridTemplateColumns":"1.2fr 0.8fr","rowGap":"2rem","@media (max-width:900px)":{"gridTemplateColumns":"1fr"}},"css":".gb-element-loc19{align-items:stretch;column-gap:2.5rem;display:grid;grid-template-columns:1.2fr 0.8fr;row-gap:2rem}@media (max-width:900px){.gb-element-loc19{grid-template-columns:1fr}}","className":"gb-element"} -->
+<div class="gb-element-loc19 gb-element"><!-- wp:generateblocks/element {"uniqueId":"loc18","tagName":"div","styles":{},"css":".gb-element-loc18{}","className":"gb-element"} -->
+<div class="gb-element-loc18 gb-element"><!-- wp:generateblocks/element {"uniqueId":"loc12","tagName":"div","styles":{"alignItems":"center","columnGap":"0.6rem","color":"var(\u002d\u002daccent)","display":"flex","marginBottom":"1rem"},"css":".gb-element-loc12{align-items:center;column-gap:0.6rem;color:var(\u002d\u002daccent);display:flex;margin-bottom:1rem}","className":"gb-element"} -->
+<div class="gb-element-loc12 gb-element"><!-- wp:generateblocks/shape {"uniqueId":"loc10","styles":{"color":"var(\u002d\u002daccent)","display":"inline-flex","svg":{"height":"1.5rem","width":"1.5rem"}},"css":".gb-shape-loc10{color:var(\u002d\u002daccent);display:inline-flex}.gb-shape-loc10 svg{height:1.5rem;width:1.5rem}"} -->
+<span class="gb-shape gb-shape-loc10"><svg aria-hidden="true" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle r="3" cy="10" cx="12"></circle></svg></span>
+<!-- /wp:generateblocks/shape -->
 
-<!-- wp:paragraph -->
-<p><strong>Phone:</strong> <a href="tel:[[PHONE_DIGITS]]">[[PHONE_DISPLAY]]</a></p>
-<!-- /wp:paragraph -->
+<!-- wp:generateblocks/text {"uniqueId":"loc11","tagName":"h2","styles":{"color":"var(\u002d\u002dcontrast)","fontWeight":"800","marginBottom":"0"},"css":".gb-text-loc11{color:var(\u002d\u002dcontrast);font-weight:800;margin-bottom:0}","className":"gb-text"} -->
+<h2 class="gb-text gb-text-loc11 gb-text">Our Levittown Location</h2>
+<!-- /wp:generateblocks/text -->
 
-<!-- wp:paragraph -->
-<p><strong>Hours:</strong><br>[[HOURS_LINE_1]]<br>[[HOURS_LINE_2]]</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="[[GOOGLE_MAPS_DIRECTIONS_URL]]">Get Directions</a></div>
-<!-- /wp:button -->
-
-<!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="tel:[[PHONE_DIGITS]]">Call the Store</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+</div>
+<!-- /wp:generateblocks/element -->
 
 <!-- wp:html -->
-<iframe title="Map of Beer-A-Rama in Levittown, PA" src="[[GOOGLE_MAPS_EMBED_URL]]" width="100%" height="320" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.880897538602!2d-74.82160414883126!3d40.14493667929643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c1505481c93eb3%3A0xd77cbeedbf653b90!2sBeer-A-Rama!5e0!3m2!1sen!2sus!4v1599666576957!5m2!1sen!2sus" width="100%" height="380" style="border:0;border-radius:16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Beer-A-Rama in Levittown, PA"></iframe>
 <!-- /wp:html -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc17","tagName":"div","styles":{"backgroundColor":"var(\u002d\u002daccent)","backgroundImage":"radial-gradient(rgba(255,255,255,0.16) 2px, transparent 2px), linear-gradient(135deg, var(\u002d\u002daccent), var(\u002d\u002daccent-2))","backgroundSize":"20px 20px, 100% 100%","borderRadius":"18px","boxShadow":"0 12px 30px rgba(0,0,0,0.12)","color":"#ffffff","display":"flex","flexDirection":"column","justifyContent":"center","padding":"2.5rem 2.25rem"},"css":".gb-element-loc17{background-color:var(\u002d\u002daccent);background-image:radial-gradient(rgba(255,255,255,0.16) 2px, transparent 2px), linear-gradient(135deg, var(\u002d\u002daccent), var(\u002d\u002daccent-2));background-size:20px 20px, 100% 100%;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,0.12);color:#ffffff;display:flex;flex-direction:column;justify-content:center;padding:2.5rem 2.25rem}","className":"gb-element"} -->
+<div class="gb-element-loc17 gb-element"><!-- wp:generateblocks/element {"uniqueId":"loc15","tagName":"div","styles":{"alignItems":"center","columnGap":"0.6rem","display":"flex","marginBottom":"1.5rem"},"css":".gb-element-loc15{align-items:center;column-gap:0.6rem;display:flex;margin-bottom:1.5rem}","className":"gb-element"} -->
+<div class="gb-element-loc15 gb-element"><!-- wp:generateblocks/shape {"uniqueId":"loc13","styles":{"color":"#ffffff","display":"inline-flex","svg":{"height":"1.5rem","width":"1.5rem"}},"css":".gb-shape-loc13{color:#ffffff;display:inline-flex}.gb-shape-loc13 svg{height:1.5rem;width:1.5rem}"} -->
+<span class="gb-shape gb-shape-loc13"><svg aria-hidden="true" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><circle r="10" cy="12" cx="12"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span>
+<!-- /wp:generateblocks/shape -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc14","tagName":"h2","styles":{"color":"#ffffff","fontWeight":"800","marginBottom":"0"},"css":".gb-text-loc14{color:#ffffff;font-weight:800;margin-bottom:0}","className":"gb-text"} -->
+<h2 class="gb-text gb-text-loc14 gb-text">Store Hours</h2>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc03","tagName":"div","styles":{"alignItems":"center","display":"flex","justifyContent":"space-between","paddingBottom":"0.75rem","paddingTop":"0.75rem","borderBottom":"1px solid rgba(255,255,255,0.25)"},"css":".gb-element-loc03{align-items:center;display:flex;justify-content:space-between;padding-bottom:0.75rem;padding-top:0.75rem;border-bottom:1px solid rgba(255,255,255,0.25)}","className":"gb-element"} -->
+<div class="gb-element-loc03 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc01","tagName":"span","styles":{"color":"#ffffff","fontWeight":"700"},"css":".gb-text-loc01{color:#ffffff;font-weight:700}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc01 gb-text">Sunday</span>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc02","tagName":"span","styles":{"color":"#ffffff"},"css":".gb-text-loc02{color:#ffffff}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc02 gb-text">10AM – 5PM</span>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc06","tagName":"div","styles":{"alignItems":"center","display":"flex","justifyContent":"space-between","paddingBottom":"0.75rem","paddingTop":"0.75rem","borderBottom":"1px solid rgba(255,255,255,0.25)"},"css":".gb-element-loc06{align-items:center;display:flex;justify-content:space-between;padding-bottom:0.75rem;padding-top:0.75rem;border-bottom:1px solid rgba(255,255,255,0.25)}","className":"gb-element"} -->
+<div class="gb-element-loc06 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc04","tagName":"span","styles":{"color":"#ffffff","fontWeight":"700"},"css":".gb-text-loc04{color:#ffffff;font-weight:700}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc04 gb-text">Monday – Thursday</span>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc05","tagName":"span","styles":{"color":"#ffffff"},"css":".gb-text-loc05{color:#ffffff}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc05 gb-text">9AM – 8PM</span>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc09","tagName":"div","styles":{"alignItems":"center","display":"flex","justifyContent":"space-between","paddingBottom":"0.75rem","paddingTop":"0.75rem"},"css":".gb-element-loc09{align-items:center;display:flex;justify-content:space-between;padding-bottom:0.75rem;padding-top:0.75rem}","className":"gb-element"} -->
+<div class="gb-element-loc09 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc07","tagName":"span","styles":{"color":"#ffffff","fontWeight":"700"},"css":".gb-text-loc07{color:#ffffff;font-weight:700}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc07 gb-text">Friday – Saturday</span>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc08","tagName":"span","styles":{"color":"#ffffff"},"css":".gb-text-loc08{color:#ffffff}","className":"gb-text"} -->
+<span class="gb-text gb-text-loc08 gb-text">9AM – 9PM</span>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc16","tagName":"p","styles":{"color":"#ffffff","fontSize":"0.85rem","fontStyle":"italic","marginBottom":"0","marginTop":"1.25rem","opacity":"0.9"},"css":".gb-text-loc16{color:#ffffff;font-size:0.85rem;font-style:italic;margin-bottom:0;margin-top:1.25rem;opacity:0.9}","className":"gb-text"} -->
+<p class="gb-text gb-text-loc16 gb-text">**Holiday hours may differ</p>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</section>
+<!-- /wp:generateblocks/element -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc30","tagName":"section","styles":{"backgroundColor":"var(\u002d\u002daccent)","backgroundImage":"radial-gradient(rgba(255,255,255,0.16) 2px, transparent 2px), linear-gradient(135deg, var(\u002d\u002daccent), var(\u002d\u002daccent-2))","backgroundSize":"22px 22px, 100% 100%","overflow":"hidden","padding":"5.5rem 1.5rem 5rem 1.5rem","position":"relative","@media (max-width:767px)":{"paddingBottom":"3.5rem","paddingTop":"4rem"}},"css":".gb-element-loc30{background-color:var(\u002d\u002daccent);background-image:radial-gradient(rgba(255,255,255,0.16) 2px, transparent 2px), linear-gradient(135deg, var(\u002d\u002daccent), var(\u002d\u002daccent-2));background-size:22px 22px, 100% 100%;overflow:hidden;padding:5.5rem 1.5rem 5rem 1.5rem;position:relative}@media (max-width:767px){.gb-element-loc30{padding-bottom:3.5rem;padding-top:4rem}}","align":"full","className":"gb-element alignfull"} -->
+<section class="gb-element-loc30 gb-element alignfull"><!-- wp:generateblocks/element {"uniqueId":"loc29","tagName":"div","styles":{"marginLeft":"auto","marginRight":"auto","maxWidth":"var(\u002d\u002dgb-container-width)","position":"relative","textAlign":"center","zIndex":"1"},"css":".gb-element-loc29{margin-left:auto;margin-right:auto;max-width:var(\u002d\u002dgb-container-width);position:relative;text-align:center;z-index:1}","className":"gb-element"} -->
+<div class="gb-element-loc29 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc23","tagName":"h2","styles":{"color":"#ffffff","fontWeight":"800","marginBottom":"1rem"},"css":".gb-text-loc23{color:#ffffff;font-weight:800;margin-bottom:1rem}","className":"gb-text"} -->
+<h2 class="gb-text gb-text-loc23 gb-text">Come See Us in Levittown</h2>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc24","tagName":"p","styles":{"color":"#ffffff","fontSize":"1.1rem","marginBottom":"0.5rem","marginLeft":"auto","marginRight":"auto","maxWidth":"640px"},"css":".gb-text-loc24{color:#ffffff;font-size:1.1rem;margin-bottom:0.5rem;margin-left:auto;margin-right:auto;max-width:640px}","className":"gb-text"} -->
+<p class="gb-text gb-text-loc24 gb-text">Across from the Levittown Town Center at Route 13 &amp; Levittown Pkwy. Stop in for cold beer, fair prices, and a huge selection — or order your keg ahead.</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc25","tagName":"p","styles":{"color":"#ffffff","fontSize":"1.6rem","fontWeight":"800","marginBottom":"2rem","marginTop":"1rem"},"css":".gb-text-loc25{color:#ffffff;font-size:1.6rem;font-weight:800;margin-bottom:2rem;margin-top:1rem}","className":"gb-text"} -->
+<p class="gb-text gb-text-loc25 gb-text">215-946-3480</p>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/element {"uniqueId":"loc28","tagName":"div","styles":{"columnGap":"1rem","display":"flex","flexWrap":"wrap","justifyContent":"center","rowGap":"1rem"},"css":".gb-element-loc28{column-gap:1rem;display:flex;flex-wrap:wrap;justify-content:center;row-gap:1rem}","className":"gb-element"} -->
+<div class="gb-element-loc28 gb-element"><!-- wp:generateblocks/text {"uniqueId":"loc26","tagName":"a","styles":{"backgroundColor":"#ffffff","borderRadius":"9999px","color":"var(\u002d\u002daccent)","display":"inline-block","fontWeight":"700","padding":"0.9rem 2.25rem","textDecoration":"none","transition":"transform 0.2s ease","\u0026:hover":{"transform":"translateY(-2px)"}},"css":".gb-text-loc26{background-color:#ffffff;border-radius:9999px;color:var(\u002d\u002daccent);display:inline-block;font-weight:700;padding:0.9rem 2.25rem;text-decoration:none;transition:transform 0.2s ease}.gb-text-loc26:hover{transform:translateY(-2px)}","htmlAttributes":{"href":"https://www.google.com/maps/dir/?api=1\u0026destination=Beer-A-Rama+Levittown+PA","target":"_blank","rel":"noopener"},"className":"gb-text"} -->
+<a class="gb-text gb-text-loc26 gb-text" href="https://www.google.com/maps/dir/?api=1&amp;destination=Beer-A-Rama+Levittown+PA" target="_blank" rel="noopener">Get Directions</a>
+<!-- /wp:generateblocks/text -->
+
+<!-- wp:generateblocks/text {"uniqueId":"loc27","tagName":"a","styles":{"backgroundColor":"transparent","color":"#ffffff","display":"inline-block","fontWeight":"700","textDecoration":"none","transition":"all 0.2s ease","border":"2px solid #ffffff","borderRadius":"9999px","padding":"0.8rem 2.1rem","\u0026:hover":{"backgroundColor":"#ffffff","color":"var(\u002d\u002daccent)"}},"css":".gb-text-loc27{background-color:transparent;color:#ffffff;display:inline-block;font-weight:700;text-decoration:none;transition:all 0.2s ease;border:2px solid #ffffff;border-radius:9999px;padding:0.8rem 2.1rem}.gb-text-loc27:hover{background-color:#ffffff;color:var(\u002d\u002daccent)}","htmlAttributes":{"href":"tel:+215-946-3480"},"className":"gb-text"} -->
+<a class="gb-text gb-text-loc27 gb-text" href="tel:+215-946-3480">Call Us</a>
+<!-- /wp:generateblocks/text -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</div>
+<!-- /wp:generateblocks/element -->
+
+</section>
+<!-- /wp:generateblocks/element -->
 
 <!-- wp:html -->
 <script type="application/ld+json">
@@ -45,7 +138,7 @@
   "@id": "https://beerarama.com/#store",
   "name": "Beer-A-Rama",
   "url": "https://beerarama.com/",
-  "telephone": "[[PHONE_E164]]",
+  "telephone": "+12159463480",
   "foundingDate": "1968",
   "address": {
     "@type": "PostalAddress",
@@ -55,21 +148,37 @@
     "postalCode": "[[ZIP]]",
     "addressCountry": "US"
   },
-  "openingHoursSpecification": [[[OPENING_HOURS_JSON]]],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  ],
   "areaServed": "Levittown, PA"
 }
 </script>
 <!-- /wp:html -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">About Beer-A-Rama</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Family owned and operated by the LaRosa family since 1968, Beer-A-Rama has been the "Low Price Leader," proudly serving the residents of Levittown and Lower Bucks County for nearly 60 years.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Two generations of neighbors serving neighbors with cold beer, fair prices, and the kind of friendly, knowledgeable service that keeps Levittowners coming back.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
