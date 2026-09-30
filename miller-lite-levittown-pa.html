@@ -7,6 +7,9 @@
     Slug:             miller-lite-levittown-pa
     Featured image:   Miller Lite pack shot. Alt: "Miller Lite case available at Beer-A-Rama in Levittown, PA"
 
+  Store details (address, phone, hours, map, LiquorStore schema, About Beer-A-Rama) live in the
+  synced pattern in beerarama-location-block.html. Set the ref ID on the wp:block line below.
+
   Replace every [[ ... ]] placeholder before publishing. Nothing in [[ ]] has been verified.
 -->
 
@@ -26,11 +29,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="[[GOOGLE_MAPS_DIRECTIONS_URL]]">Get Directions to Our Levittown Store</a></div>
-<!-- /wp:button -->
-
-<!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="tel:[[PHONE_DIGITS]]">Call [[PHONE_DISPLAY]]</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#visit-levittown">Find Us in Levittown</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -115,7 +114,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Beer-A-Rama, at [[STREET_ADDRESS]], Levittown, PA [[ZIP]]. We've served Lower Bucks County since 1968.</p>
+<p>Beer-A-Rama, our Levittown, PA store. We've served Lower Bucks County since 1968. Address, hours and directions are in the <a href="#visit-levittown">Visit Beer-A-Rama</a> section below.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -139,7 +138,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>[[HOURS]]</p>
+<p>Current Levittown store hours are listed in the <a href="#visit-levittown">Visit Beer-A-Rama</a> section below.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -150,17 +149,9 @@
 <p>Yes. Browse our other Levittown brand pages, including <a href="[[URL_BUD_LIGHT]]">Bud Light</a>, <a href="[[URL_COORS_LIGHT]]">Coors Light</a> and <a href="[[URL_MICHELOB_ULTRA]]">Michelob Ultra</a>, or see <a href="[[URL_BEER_HUB]]">all beer in Levittown, PA</a>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">About Beer-A-Rama</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Family owned and operated by the LaRosa family since 1968, Beer-A-Rama has been the "Low Price Leader," proudly serving the residents of Levittown and Lower Bucks County for nearly 60 years.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Two generations of neighbors serving neighbors with cold beer, fair prices, and the kind of friendly, knowledgeable service that keeps Levittowners coming back.</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"anchor":"visit-levittown"} -->
+<div id="visit-levittown" class="wp-block-group"><!-- wp:block {"ref":0} /--></div>
+<!-- /wp:group -->
 
 <!-- wp:html -->
 <script type="application/ld+json">
@@ -168,29 +159,13 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LiquorStore",
-      "@id": "https://beerarama.com/#store",
-      "name": "Beer-A-Rama",
-      "url": "https://beerarama.com/",
-      "telephone": "[[PHONE_E164]]",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[[STREET_ADDRESS]]",
-        "addressLocality": "Levittown",
-        "addressRegion": "PA",
-        "postalCode": "[[ZIP]]",
-        "addressCountry": "US"
-      },
-      "foundingDate": "1968",
-      "areaServed": "Levittown, PA"
-    },
-    {
       "@type": "Product",
       "name": "Miller Lite",
       "brand": { "@type": "Brand", "name": "Miller" },
       "description": "Miller Lite, the original light beer: an American light lager with 96 calories, 3.2 g carbs and 4.2% ABV, sold at Beer-A-Rama in Levittown, PA.",
       "image": "[[FEATURED_IMAGE_URL]]",
-      "category": "Beer"
+      "category": "Beer",
+      "offers": { "@type": "Offer", "seller": { "@id": "https://beerarama.com/#store" }, "areaServed": "Levittown, PA" }
     },
     {
       "@type": "FAQPage",
@@ -198,7 +173,7 @@
         {
           "@type": "Question",
           "name": "Where can I buy Miller Lite in Levittown, PA?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Beer-A-Rama, at [[STREET_ADDRESS]], Levittown, PA [[ZIP]]. We've served Lower Bucks County since 1968." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Beer-A-Rama, our Levittown, PA store. We've served Lower Bucks County since 1968." }
         },
         {
           "@type": "Question",

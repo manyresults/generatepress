@@ -1,0 +1,75 @@
+<!--
+  SYNCED PATTERN: "Beer-A-Rama Levittown Location"
+  Create: paste into a new block in the editor > Add to patterns > Synced (Sync: on).
+  Then put its ID (wp_block post ID) in each brand page's <!-- wp:block {"ref":ID} --> line.
+  This is the ONLY place address / phone / hours / map / LiquorStore schema live.
+  Replace every [[ ... ]] placeholder.
+-->
+
+<!-- wp:group {"className":"beerarama-location","layout":{"type":"constrained"}} -->
+<div class="wp-block-group beerarama-location"><!-- wp:heading -->
+<h2 class="wp-block-heading">Visit Beer-A-Rama in Levittown, PA</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Beer-A-Rama</strong><br>[[STREET_ADDRESS]]<br>Levittown, PA [[ZIP]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Phone:</strong> <a href="tel:[[PHONE_DIGITS]]">[[PHONE_DISPLAY]]</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Hours:</strong><br>[[HOURS_LINE_1]]<br>[[HOURS_LINE_2]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="[[GOOGLE_MAPS_DIRECTIONS_URL]]">Get Directions</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="tel:[[PHONE_DIGITS]]">Call the Store</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:html -->
+<iframe title="Map of Beer-A-Rama in Levittown, PA" src="[[GOOGLE_MAPS_EMBED_URL]]" width="100%" height="320" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LiquorStore",
+  "@id": "https://beerarama.com/#store",
+  "name": "Beer-A-Rama",
+  "url": "https://beerarama.com/",
+  "telephone": "[[PHONE_E164]]",
+  "foundingDate": "1968",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[[STREET_ADDRESS]]",
+    "addressLocality": "Levittown",
+    "addressRegion": "PA",
+    "postalCode": "[[ZIP]]",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [[[OPENING_HOURS_JSON]]],
+  "areaServed": "Levittown, PA"
+}
+</script>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">About Beer-A-Rama</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Family owned and operated by the LaRosa family since 1968, Beer-A-Rama has been the "Low Price Leader," proudly serving the residents of Levittown and Lower Bucks County for nearly 60 years.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Two generations of neighbors serving neighbors with cold beer, fair prices, and the kind of friendly, knowledgeable service that keeps Levittowners coming back.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
