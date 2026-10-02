@@ -1,0 +1,17 @@
+/* Additional CSS for homepage.html — paste into Appearance > Customize > Additional CSS
+   (or GenerateBlocks > Global Styles). Only needed for the small decorative spans. */
+
+/* Eyebrow: short accent line before the label */
+.pp-eyebrow-line { display:inline-block; width:2rem; height:2px; background:currentColor; }
+
+/* Hero pill: pulsing status dot */
+.pp-dot { width:.55rem; height:.55rem; border-radius:50%; background:var(--accent-3); box-shadow:0 0 0 0 rgba(0,0,0,.3); animation:pp-pulse 2s infinite; }
+@keyframes pp-pulse { 70% { box-shadow:0 0 0 .5rem rgba(0,0,0,0); } 100% { box-shadow:0 0 0 0 rgba(0,0,0,0); } }
+
+/* Hero headline: underline-style highlight on key phrases */
+.pp-hl { color:var(--accent-3); background:linear-gradient(transparent 82%,rgba(0,0,0,.12) 82%); }
+
+/* Fixed-attachment backgrounds are janky on mobile */
+@media (max-width:1024px){ .gbp-section { background-attachment:scroll !important; } }
+
+@media (prefers-reduced-motion:reduce){ .pp-dot{animation:none} }
