@@ -1,0 +1,57 @@
+/* ============================================================
+   PACIOLI — "Paper Desk" design tokens (Direction B)
+   Paste into Appearance > Customize > Additional CSS (or wherever
+   site-wide custom CSS lives).
+
+   These are new, separately-named --paper-* custom properties --
+   deliberately NOT reusing --accent/--contrast/--base/etc., since
+   those are already referenced by every page built so far. Defining
+   --paper-* here is inert until a page's own markup opts in via the
+   .pacioli-paper wrapper class below, so already-shipped pages are
+   completely unaffected. Redesigned pages wrap their content in
+   .pacioli-paper to pick up the texture, fonts and tokens.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap');
+
+:root {
+  /* colors */
+  --paper-base: #fbf6ea;
+  --paper-surface: #f3ead4;
+  --paper-ink: #22304d;
+  --paper-muted: #5d6579;
+  --paper-line: #d9cdb0;
+  --paper-accent: #d9503a;
+  --paper-accent-ink: #ffffff;
+  --paper-hi: #f6d65c;
+
+  /* fonts */
+  --paper-font-head: 'Lora', Georgia, serif;
+  --paper-font-body: 'DM Sans', system-ui, sans-serif;
+  --paper-font-hand: 'Caveat', cursive;
+  --paper-fw-head: 600;
+  --paper-ls-head: -0.015em;
+
+  /* shape language: hard offset "paper" shadows, not soft blurs */
+  --paper-radius-btn: 10px;
+  --paper-radius-card: 12px;
+  --paper-btn-border: 2px solid #22304d;
+  --paper-btn-shadow: 3px 3px 0 #22304d;
+  --paper-card-border: 1.5px solid #22304d;
+  --paper-card-shadow: 4px 4px 0 rgba(34, 48, 77, 0.9);
+}
+
+/* Opt-in wrapper -- apply as the outermost element of any page/section
+   that's been migrated to the new direction. */
+.pacioli-paper {
+  background-color: var(--paper-base);
+  background-image: radial-gradient(rgba(34, 48, 77, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+  font-family: var(--paper-font-body);
+  color: var(--paper-ink);
+}
+.pacioli-paper h1, .pacioli-paper h2, .pacioli-paper h3, .pacioli-paper h4 {
+  font-family: var(--paper-font-head);
+  font-weight: var(--paper-fw-head);
+  letter-spacing: var(--paper-ls-head);
+}
