@@ -43,8 +43,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90080</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "ihhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-ihhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-ihhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "ihhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-ihhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-ihhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-ihhero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "ihhero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-ihhero002 gb-element">
@@ -98,7 +97,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- INDUSTRY CARD GRID ================================================ -->
 <!-- wp:generateblocks/element {"uniqueId": "ihgrid001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-ihgrid001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-ihgrid001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "ihgrid002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -275,7 +273,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY INDUSTRY EXPERTISE MATTERS =================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "ihwhy001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-ihwhy001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-ihwhy001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "ihwhy002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -402,7 +399,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FAQ ================================================================ -->
 <!-- wp:generateblocks/element {"uniqueId": "ihfaq001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-ihfaq001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-ihfaq001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "ihfaq002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -454,7 +450,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "ihcta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-ihcta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-ihcta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "ihcta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -523,8 +518,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90081</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "nphero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-nphero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-nphero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "nphero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-nphero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-nphero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-nphero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "nphero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-nphero002 gb-element">
@@ -578,7 +572,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "nppain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-nppain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-nppain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "nppain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -628,7 +621,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "npfeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-npfeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-npfeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "npfeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -721,7 +713,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "nprev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-nprev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-nprev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "nprev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -770,7 +761,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "nptrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-nptrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-nptrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "nptrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -805,7 +795,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "npprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-npprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-npprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "npprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -935,7 +924,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "nptest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-nptest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-nptest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "nptest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -983,7 +971,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "npcta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-npcta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-npcta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "npcta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1052,8 +1039,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90082</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "edhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-edhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-edhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "edhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-edhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-edhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edhero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edhero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-edhero002 gb-element">
@@ -1107,7 +1093,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "edpain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-edpain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edpain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edpain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1157,7 +1142,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "edfeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-edfeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edfeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edfeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1250,7 +1234,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "edrev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-edrev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edrev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edrev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1299,7 +1282,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "edtrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-edtrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edtrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edtrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1334,7 +1316,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "edprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-edprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1464,7 +1445,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "edtest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-edtest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edtest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "edtest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1512,7 +1492,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "edcta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-edcta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-edcta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "edcta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1581,8 +1560,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90083</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "trhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-trhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-trhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "trhero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-trhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-trhero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trhero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trhero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-trhero002 gb-element">
@@ -1636,7 +1614,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "trpain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-trpain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trpain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trpain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1686,7 +1663,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "trfeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-trfeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trfeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trfeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1779,7 +1755,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "trrev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-trrev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trrev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trrev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1828,7 +1803,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "trtrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-trtrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trtrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trtrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1863,7 +1837,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "trprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-trprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -1993,7 +1966,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "trtest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-trtest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trtest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "trtest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2041,7 +2013,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "trcta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-trcta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-trcta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "trcta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2110,8 +2081,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90084</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "rehero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-rehero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-rehero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "rehero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-rehero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-rehero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-rehero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "rehero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-rehero002 gb-element">
@@ -2165,7 +2135,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "repain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-repain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-repain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "repain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2215,7 +2184,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "refeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-refeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-refeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "refeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2308,7 +2276,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "rerev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-rerev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-rerev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "rerev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2357,7 +2324,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "retrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-retrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-retrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "retrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2392,7 +2358,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "reprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-reprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-reprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "reprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2522,7 +2487,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "retest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-retest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-retest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "retest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2570,7 +2534,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "recta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-recta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-recta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "recta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2639,8 +2602,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90085</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "tehero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-tehero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-tehero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "tehero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-tehero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-tehero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tehero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "tehero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-tehero002 gb-element">
@@ -2694,7 +2656,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "tepain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-tepain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tepain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "tepain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2744,7 +2705,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "tefeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-tefeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tefeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "tefeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2837,7 +2797,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "terev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-terev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-terev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "terev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2886,7 +2845,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "tetrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-tetrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tetrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "tetrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -2921,7 +2879,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "teprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-teprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-teprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "teprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3051,7 +3008,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "tetest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-tetest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tetest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "tetest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3099,7 +3055,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "tecta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-tecta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-tecta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "tecta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3168,8 +3123,7 @@
 <dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
 <guid isPermaLink="false">https://danj19.sg-host.com/?page_id=90086</guid>
 <description></description>
-<content:encoded><![CDATA[<!-- HERO ============================================================= -->
-<!-- wp:generateblocks/element {"uniqueId": "lghero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-lghero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-lghero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
+<content:encoded><![CDATA[<!-- wp:generateblocks/element {"uniqueId": "lghero001", "tagName": "section", "styles": {"backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(308deg, rgba(255, 241, 204, 0.75) 12%, rgba(255, 255, 255, 0.36) 38%),linear-gradient(149deg, rgba(255, 241, 204, 0.82) 20%, rgba(242, 198, 51, 0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundPosition": "0 0,center,center", "backgroundRepeat": "no-repeat,no-repeat,no-repeat", "backgroundSize": "auto,cover,cover", "overflow": "hidden", "paddingBottom": "56px", "paddingTop": "80px", "position": "relative", "backgroundBlendMode": "normal,normal,", "backgroundAttachment": "fixed,,", "@media (max-width:767px)": {"paddingTop": "30px", "paddingBottom": "20px"}}, "css": ".gb-element-lghero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-lghero001{padding-bottom:20px;padding-top:30px}}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lghero001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lghero002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
 <div class="gbp-section__inner gb-element-lghero002 gb-element">
@@ -3223,7 +3177,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- PAIN POINTS ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "lgpain001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-lgpain001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgpain001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgpain002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3273,7 +3226,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- HOW PACIOLI HELPS ================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "lgfeat001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative", "backgroundImage": "linear-gradient(187deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-lgfeat001{background:linear-gradient(187deg,#ffffff 0%,rgba(255,255,255,0.8) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgfeat001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgfeat002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3366,7 +3318,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- FREE REVIEW CTA =================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "lgrev001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-lgrev001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgrev001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgrev002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3415,7 +3366,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHY THEY TRUST PACIOLI =========================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "lgtrust001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-lgtrust001{background-color:var(--base-3);border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgtrust001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgtrust002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3450,7 +3400,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- OUR PROMISE ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "lgprom001", "tagName": "section", "styles": {"overflow": "hidden", "position": "relative", "backgroundColor": "var(--base-2)", "backgroundImage": "linear-gradient(180deg, var(--base-2) 35%, rgba(255, 255, 255, 0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png)", "backgroundSize": "cover,cover", "backgroundRepeat": "no-repeat,no-repeat", "backgroundPosition": "center,center", "backgroundBlendMode": "normal,normal"}, "css": ".gb-element-lgprom001{background:linear-gradient(180deg,var(--base-2) 35%,rgba(255,255,255,0.88) 100%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal;background-color:var(--base-2);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgprom001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgprom002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3580,7 +3529,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- WHAT CLIENTS SAY ================================================== -->
 <!-- wp:generateblocks/element {"uniqueId": "lgtest001", "tagName": "section", "styles": {"backgroundColor": "var(--base-3)", "backgroundImage": "radial-gradient(circle at 50% 0%, rgba(255,241,204,0.55) 0%, rgba(255,241,204,0) 60%)", "backgroundPosition": "center top", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "borderBottom": "1px solid var(--base)", "borderTop": "1px solid var(--base)", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-lgtest001{background-color:var(--base-3);background-image:radial-gradient(circle at 50% 0%,rgba(255,241,204,0.55) 0%,rgba(255,241,204,0) 60%);background-position:center top;background-repeat:no-repeat;background-size:cover;border-bottom:1px solid var(--base);border-top:1px solid var(--base);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgtest001 gb-element alignfull">
 <!-- wp:generateblocks/element {"uniqueId": "lgtest002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
@@ -3628,7 +3576,6 @@
 <!-- /wp:generateblocks/element -->
 
 
-<!-- CLOSING CTA ======================================================= -->
 <!-- wp:generateblocks/element {"uniqueId": "lgcta001", "tagName": "section", "styles": {"backgroundColor": "var(--contrast)", "backgroundImage": "radial-gradient(circle, rgba(28,92,136,0.35) 0%, var(--accent-2) 55%),linear-gradient(135deg, var(--accent-2) 0%, var(--accent-2) 100%)", "backgroundPosition": "0 0,0 0", "backgroundRepeat": "no-repeat,no-repeat", "backgroundSize": "auto,auto", "overflow": "hidden", "position": "relative"}, "css": ".gb-element-lgcta001{background:radial-gradient(circle,rgba(28,92,136,0.35) 0%,var(--accent-2) 55%),linear-gradient(135deg,var(--accent-2) 0%,var(--accent-2) 100%);background-color:var(--contrast);overflow:hidden;position:relative}", "globalClasses": ["gbp-section"], "htmlAttributes": {"id": "contact"}, "align": "full", "className": "gb-element alignfull"} -->
 <section class="gbp-section gb-element-lgcta001 gb-element alignfull" id="contact">
 <!-- wp:generateblocks/element {"uniqueId": "lgcta002", "tagName": "div", "globalClasses": ["gbp-section__inner"], "className": "gb-element"} -->
