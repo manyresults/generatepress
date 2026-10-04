@@ -42,11 +42,13 @@
 }
 
 /* Opt-in wrapper -- apply as the outermost element of any page/section
-   that's been migrated to the new direction. */
+   that's been migrated to the new direction. Deliberately carries NO
+   background-color/background-image: every section already sets its
+   own explicit background (base/surface/accent), and since Additional
+   CSS loads last in WordPress's cascade, a background set here would
+   win the specificity tie against that per-section rule and silently
+   override it -- which is exactly what was happening before this fix. */
 .pacioli-paper {
-  background-color: var(--paper-base);
-  background-image: radial-gradient(rgba(34, 48, 77, 0.07) 1px, transparent 1px);
-  background-size: 22px 22px;
   font-family: var(--paper-font-body);
   color: var(--paper-ink);
 }
