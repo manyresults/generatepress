@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a WordPress eXtended RSS file generated for Pacioli Finance as an export of blog content. -->
+<!-- It contains information about your site's posts, categories, and other content. -->
+<!-- You may use this file to transfer that content from one site to another. -->
+<!-- This file is not intended to serve as a complete backup of your site. -->
+
+<!-- To import this information into a WordPress site follow these steps: -->
+<!-- 1. Log in to that site as an administrator. -->
+<!-- 2. Go to Tools: Import in the WordPress admin panel. -->
+<!-- 3. Install the "WordPress" importer from the list. -->
+<!-- 4. Activate & Run Importer. -->
+<!-- 5. Upload this file using the form provided on that page. -->
+<!-- 6. You will first be asked to map the authors in this export file to users -->
+<!--    on the site. For each author, you may choose to map to an -->
+<!--    existing user on the site or to create a new user. -->
+<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
+<!--    contained in this file into your site. -->
+
+	<!-- generator="WordPress/7.1.1" created="2026-09-23 14:00" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Pacioli new</title>
+	<link>https://danj19.sg-host.com</link>
+	<description></description>
+	<pubDate>Tue, 23 Sep 2026 14:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://danj19.sg-host.com</wp:base_site_url>
+	<wp:base_blog_url>https://danj19.sg-host.com</wp:base_blog_url>
+
+	<wp:author><wp:author_id>3</wp:author_id><wp:author_login><![CDATA[info@manyresults.com]]></wp:author_login><wp:author_email><![CDATA[info@manyresults.com]]></wp:author_email><wp:author_display_name><![CDATA[Marketing Agency]]></wp:author_display_name><wp:author_first_name><![CDATA[Marketing]]></wp:author_first_name><wp:author_last_name><![CDATA[Agency]]></wp:author_last_name></wp:author>
+
+	<wp:category>
+		<wp:term_id>200</wp:term_id>
+		<wp:category_nicename><![CDATA[accounting-insights]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Accounting Insights]]></wp:cat_name>
+	</wp:category>
+
+	<wp:tag>
+		<wp:term_id>300</wp:term_id>
+		<wp:tag_slug><![CDATA[bookkeeping]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[bookkeeping]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>301</wp:term_id>
+		<wp:tag_slug><![CDATA[management-accounting]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[management accounting]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>302</wp:term_id>
+		<wp:tag_slug><![CDATA[accounting-basics]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[accounting basics]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>303</wp:term_id>
+		<wp:tag_slug><![CDATA[budgeting]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[budgeting]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>304</wp:term_id>
+		<wp:tag_slug><![CDATA[forecasting]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[forecasting]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>305</wp:term_id>
+		<wp:tag_slug><![CDATA[financial-planning]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[financial planning]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>306</wp:term_id>
+		<wp:tag_slug><![CDATA[business-financing]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[business financing]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>307</wp:term_id>
+		<wp:tag_slug><![CDATA[lending]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[lending]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>308</wp:term_id>
+		<wp:tag_slug><![CDATA[cleanup-bookkeeping]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[cleanup bookkeeping]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>309</wp:term_id>
+		<wp:tag_slug><![CDATA[luca-pacioli]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[luca pacioli]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>310</wp:term_id>
+		<wp:tag_slug><![CDATA[accounting-history]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[accounting history]]></wp:tag_name>
+	</wp:tag>
+
+	<wp:tag>
+		<wp:term_id>311</wp:term_id>
+		<wp:tag_slug><![CDATA[double-entry-bookkeeping]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[double-entry bookkeeping]]></wp:tag_name>
+	</wp:tag>
+
+	<generator>https://wordpress.org/?v=7.1.1</generator>
+
+	<item>
+		<title><![CDATA[Bookkeeping vs. Management Accounting: What's the Difference (and Why It Matters)]]></title>
+		<link>https://danj19.sg-host.com/bookkeeping-vs-management-accounting/</link>
+		<pubDate>Tue, 23 Sep 2026 14:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
+		<guid isPermaLink="false">https://danj19.sg-host.com/?p=90001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>If you&#8217;ve ever wondered whether your business needs &#8220;bookkeeping&#8221; or &#8220;accounting,&#8221; you&#8217;re not alone &#8212; the terms get used interchangeably all the time, and the confusion costs business owners real money.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Here&#8217;s the short version: bookkeeping tells you what already happened. Management accounting tells you what&#8217;s happening now and what&#8217;s likely to happen next.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Bookkeeping: the foundation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Bookkeeping is the record-keeping layer of your business&#8217;s finances. It includes:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Recording transactions as they occur</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Reconciling bank and credit card accounts</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Managing accounts payable and receivable</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Closing the books each month</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Maintaining a clean general ledger</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Producing financial statements</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Done well, bookkeeping gives you accurate, current records. Done poorly &#8212; or done late &#8212; it creates a mess that eventually needs catch-up or cleanup work before anyone can trust the numbers. This is the most common way businesses end up looking for outside help: a bookkeeping mistake gets discovered, cleanup gets done, and the relationship naturally becomes ongoing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But accurate records are only the starting point. They tell you what happened last month. They don&#8217;t tell you what to do about it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Management accounting: the interpretation layer</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Management accounting takes the same financial data and turns it into decisions. Instead of just recording history, it interprets it:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Monthly management reports that highlight what matters, not just what moved</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Budgeting and forecasting so you can see around corners</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Cash-flow planning so surprises don&#8217;t become emergencies</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Profitability and margin analysis by product, service, or client</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Budget-to-actual reporting that shows where reality diverged from plan</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Controller-level oversight and internal controls</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Customized reporting built around how you actually make decisions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>This is the layer that answers questions like: Which service line is actually profitable? Can we afford to hire? Are we pricing this correctly? Should we expand, or hold steady this year?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why the distinction matters for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A lot of small and mid-sized businesses &#8212; especially those in the $2.5M&#8211;$5M range &#8212; outgrow basic bookkeeping long before they realize it. The books are technically accurate, but nobody is translating them into guidance. That&#8217;s the gap between a bookkeeper and an accounting department.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You don&#8217;t necessarily need to hire a full-time controller or build an internal finance team to close that gap. You need both layers working together: clean, current books, and someone interpreting them with your goals in mind.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>The Pacioli approach</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>At Pacioli Finance, we don&#8217;t treat bookkeeping and management accounting as separate products you have to shop for separately. We build both into a flexible engagement &#8212; a real accounting department, scaled to your business, billed on an hourly model with a monthly minimum so you&#8217;re never paying for a fixed package you don&#8217;t need.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Your business. Your numbers. Your accounting department.</strong></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Bookkeeping tells you what already happened. Management accounting tells you what's happening now and what's likely to happen next. Here's the difference, and why growing businesses need both.]]></excerpt:encoded>
+		<wp:post_id>90001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-23 14:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-23 14:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-23 14:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-23 14:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bookkeeping-vs-management-accounting]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="accounting-insights"><![CDATA[Accounting Insights]]></category>
+		<category domain="post_tag" nicename="bookkeeping"><![CDATA[bookkeeping]]></category>
+		<category domain="post_tag" nicename="management-accounting"><![CDATA[management accounting]]></category>
+		<category domain="post_tag" nicename="accounting-basics"><![CDATA[accounting basics]]></category>
+	</item>
+
+	<item>
+		<title><![CDATA[How to Build a Budget That Actually Helps You Run Your Business]]></title>
+		<link>https://danj19.sg-host.com/how-to-build-a-budget-that-helps-you-run-your-business/</link>
+		<pubDate>Tue, 23 Sep 2026 14:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
+		<guid isPermaLink="false">https://danj19.sg-host.com/?p=90002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Most business owners have a budget somewhere &#8212; a spreadsheet from two years ago, a rough number in their head, a plan that got made once and never touched again. The problem isn&#8217;t the absence of a budget. It&#8217;s that most budgets are built once and then ignored, which makes them useless as a management tool.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A good operating budget isn&#8217;t a document you file away. It&#8217;s something you check your actual results against every month, so it can actually change how you run the business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Start with a realistic baseline, not a wish list</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The biggest mistake in budgeting is building around what you hope will happen instead of what&#8217;s likely to happen. A realistic operating budget starts with your actual historical revenue and expense patterns, then adjusts for known changes &#8212; a new hire, a price increase, a seasonal shift, a piece of equipment you know you&#8217;ll need.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is also where forecasting comes in: looking ahead at future revenue and expenses so you can anticipate slow periods before they hit your bank account, not after.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Separate fixed costs from variable costs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Once you have a baseline, break your expenses into fixed (rent, salaries, software subscriptions) and variable (materials, contractor labor, shipping, ad spend that scales with revenue). This distinction matters because it&#8217;s the key to finding waste and improving margins &#8212; you manage fixed and variable costs very differently, and lumping them together hides where the actual leverage is.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Build in a monthly check-in: budget vs. actual</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A budget only earns its keep if you compare it to reality on a regular cadence. Budget-to-actual reporting each month answers a simple but powerful question: where did we diverge from plan, and why?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Sometimes the answer is good news &#8212; revenue came in ahead of plan. Sometimes it&#8217;s a warning sign &#8212; a cost category is creeping up faster than expected. Either way, you can&#8217;t manage what you don&#8217;t measure against a baseline.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Use the budget to make forward-looking decisions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A working budget isn&#8217;t just a scorecard &#8212; it&#8217;s a planning tool. It&#8217;s what lets an owner confidently answer questions like:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Can we afford to hire right now, or should we wait a quarter?</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Is this the right time to buy that equipment?</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Do we have the cash-flow runway to expand to a second location?</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Should we apply for a line of credit now, or wait until the numbers look stronger?</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>That last question matters more than most owners realize &#8212; lenders want to see budgets and forecasts too, and a business with clean, forward-looking numbers is in a much stronger position to get approved on good terms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>You don't have to build this alone</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Budgeting and forecasting is one of the areas where outside accounting support pays for itself quickly. At Pacioli Finance, we build realistic operating budgets with our clients, track budget-to-actual performance monthly, and use that information to support real decisions &#8212; not just produce a report that sits in a folder.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Clarity, accuracy, and communication aren&#8217;t just nice words to us. They&#8217;re what turns a budget from a static document into a management tool.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Most budgets get built once and ignored. Here's how to build an operating budget you actually check against reality every month — and use to make real decisions.]]></excerpt:encoded>
+		<wp:post_id>90002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-23 14:05:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-23 14:05:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-23 14:05:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-23 14:05:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-to-build-a-budget-that-helps-you-run-your-business]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="accounting-insights"><![CDATA[Accounting Insights]]></category>
+		<category domain="post_tag" nicename="budgeting"><![CDATA[budgeting]]></category>
+		<category domain="post_tag" nicename="forecasting"><![CDATA[forecasting]]></category>
+		<category domain="post_tag" nicename="financial-planning"><![CDATA[financial planning]]></category>
+	</item>
+
+	<item>
+		<title><![CDATA[Getting Your Books Lender-Ready: A Guide to Cleanup Bookkeeping Before You Apply for Financing]]></title>
+		<link>https://danj19.sg-host.com/getting-your-books-lender-ready-cleanup-bookkeeping-guide/</link>
+		<pubDate>Tue, 23 Sep 2026 14:10:00 +0000</pubDate>
+		<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
+		<guid isPermaLink="false">https://danj19.sg-host.com/?p=90003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>If you&#8217;re planning to apply for a business line of credit or a loan, your financial statements are doing more work than you might think. Lenders aren&#8217;t just checking whether you&#8217;re profitable &#8212; they&#8217;re checking whether they can trust your numbers at all. Messy, inconsistent, or out-of-date books can slow down an application or sink it entirely, even when the underlying business is healthy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The good news: this is fixable, and it&#8217;s one of the most underused ways to improve your odds of approval.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why lenders care so much about clean books</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When a lender reviews your financials, they&#8217;re looking for consistency and reliability: reconciled accounts, properly categorized transactions, accurate financial statements, and a general ledger that actually reflects what happened in the business. If your books have gaps, miscategorized expenses, or unreconciled accounts, it raises questions before the lender even gets to your numbers &#8212; and questions slow down or derail approvals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>What &#8220;catch-up and cleanup bookkeeping&#8221; actually involves</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cleanup bookkeeping is exactly what it sounds like: going back through past records to fix errors, close gaps, and bring your books current. Typically that includes:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Reconciling bank and credit card accounts that have fallen behind</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Properly categorizing transactions in the general ledger</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Catching up on accounts payable and receivable</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Correcting prior misclassifications or duplicate entries</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Producing accurate, current financial statements</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>This is often the entry point where businesses first bring in outside accounting help &#8212; a mistake gets discovered, cleanup gets done, and clean books become the new normal going forward.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>What lender-ready actually looks like</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Beyond just being accurate, lender-ready books are current (ideally closed within the last month), consistent (categorized the same way period over period), and supported by real financial statements &#8212; not just a raw transaction export. Many lenders will also want to see a budget or forecast, which is another reason ongoing management accounting (not just bookkeeping) strengthens an application.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>The financing angle most owners miss</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Owners often think of cleanup bookkeeping as something you do reactively &#8212; after a mistake is found, or before tax season. But proactively cleaning up your books ahead of a financing application is one of the highest-leverage moves available: it can be the difference between an easy approval and a stalled one, or between standard terms and better ones.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you know you&#8217;ll be seeking a loan or line of credit in the next few months, that&#8217;s the ideal time to get your books reviewed and cleaned up &#8212; not after the lender asks questions you can&#8217;t quickly answer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>How Pacioli Finance helps</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We handle catch-up and cleanup bookkeeping as a normal part of our engagements, and we know what lenders are looking for because we build the same financial statements and reporting our clients use to run their businesses day to day. Clean books shouldn&#8217;t be a one-time scramble before a big ask &#8212; they should be the ongoing state of your business.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Messy books can sink a financing application even when the business is healthy. Here's what lender-ready bookkeeping actually looks like, and why cleanup should happen before you apply.]]></excerpt:encoded>
+		<wp:post_id>90003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-23 14:10:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-23 14:10:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-23 14:10:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-23 14:10:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[getting-your-books-lender-ready-cleanup-bookkeeping-guide]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="accounting-insights"><![CDATA[Accounting Insights]]></category>
+		<category domain="post_tag" nicename="bookkeeping"><![CDATA[bookkeeping]]></category>
+		<category domain="post_tag" nicename="business-financing"><![CDATA[business financing]]></category>
+		<category domain="post_tag" nicename="lending"><![CDATA[lending]]></category>
+		<category domain="post_tag" nicename="cleanup-bookkeeping"><![CDATA[cleanup bookkeeping]]></category>
+	</item>
+
+	<item>
+		<title><![CDATA[Who Was Luca Pacioli? The Monk Who Gave Us Modern Accounting]]></title>
+		<link>https://danj19.sg-host.com/who-was-luca-pacioli/</link>
+		<pubDate>Tue, 23 Sep 2026 14:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[info@manyresults.com]]></dc:creator>
+		<guid isPermaLink="false">https://danj19.sg-host.com/?p=90004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Every business that closes its books each month, reconciles a bank account, or reads a balance sheet is using a system that traces back over 500 years to a Franciscan friar, mathematician, and friend of Leonardo da Vinci: Luca Pacioli.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>He didn&#8217;t invent bookkeeping outright &#8212; but he&#8217;s the reason it survived, spread, and became the foundation of how the world tracks money today. It&#8217;s also why our name is Pacioli Finance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>A Renaissance mind, not just a numbers person</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Born around 1447 in Sansepolcro, Italy, Luca Pacioli was a mathematician first. He taught mathematics across Italian universities, and his interests ranged far beyond arithmetic &#8212; he collaborated with Leonardo da Vinci, illustrating Pacioli&#8217;s geometry text &#8220;De Divina Proportione&#8221; (&#8220;On the Divine Proportion&#8221;) with detailed drawings of geometric solids. The two were close enough that some historians believe Pacioli may have contributed mathematical insight to da Vinci&#8217;s own work, including elements of proportion in his paintings. <sup><a href="https://en.wikipedia.org/wiki/Luca_Pacioli" target="_blank" rel="noopener noreferrer">[1]</a></sup></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This matters more than it might seem: Pacioli wasn&#8217;t a merchant writing a practical manual in isolation. He was a Renaissance scholar systematizing knowledge &#8212; the same instinct that led him to formalize something merchants in Venice had already been using informally for generations: double-entry bookkeeping.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>The book that changed accounting forever</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In 1494, Pacioli published &#8220;Summa de Arithmetica, Geometria, Proportioni et Proportionalita,&#8221; a massive mathematical encyclopedia. Buried within it was a section called &#8220;Particularis de Computis et Scripturis&#8221; (&#8220;Details of Calculation and Recording&#8221;) &#8212; roughly 27 pages describing the method Venetian merchants used to track their financial affairs. <sup><a href="https://en.wikipedia.org/wiki/Luca_Pacioli" target="_blank" rel="noopener noreferrer">[1]</a></sup></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>That section described what we now call double-entry bookkeeping: the principle that every transaction affects at least two accounts, and that debits must always equal credits. It sounds simple now because it&#8217;s been the standard for five centuries &#8212; but writing it down, systematically, and printing it for wide distribution (thanks to the relatively new printing press) is what turned a regional merchant practice into a universal standard.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pacioli was explicit that a merchant needed three things to succeed: sufficient capital, a good bookkeeper, and an orderly system to arrange information quickly. That&#8217;s a remarkably modern way to describe why accounting matters &#8212; not for its own sake, but because it lets you understand your business well enough to make good decisions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why it still matters today</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Double-entry bookkeeping is still, quite literally, the operating system underneath every general ledger, every set of financial statements, and every piece of accounting software in use today. The debits-equal-credits logic Pacioli documented in 1494 is the same logic running behind the scenes when your bookkeeper reconciles your bank account this month.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What&#8217;s easy to lose in five centuries of history is Pacioli&#8217;s actual point: the system exists to create clarity. Structure and accuracy aren&#8217;t the goal in themselves &#8212; they&#8217;re what make it possible to understand where a business actually stands.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why we carry his name</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We named our firm after Luca Pacioli because that&#8217;s exactly the standard we hold ourselves to: accuracy, structure, and financial clarity, in service of helping business owners actually understand their numbers &#8212; not just record them. Five hundred years later, that&#8217;s still the job.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Every balance sheet in use today traces back 500 years to a Renaissance friar and friend of Leonardo da Vinci. Here's the story of Luca Pacioli, and why we carry his name.]]></excerpt:encoded>
+		<wp:post_id>90004</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-23 14:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-23 14:15:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-23 14:15:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-23 14:15:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[who-was-luca-pacioli]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="accounting-insights"><![CDATA[Accounting Insights]]></category>
+		<category domain="post_tag" nicename="luca-pacioli"><![CDATA[luca pacioli]]></category>
+		<category domain="post_tag" nicename="accounting-history"><![CDATA[accounting history]]></category>
+		<category domain="post_tag" nicename="double-entry-bookkeeping"><![CDATA[double-entry bookkeeping]]></category>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Preview</title>
+<style>
+
+:root {
+  --base: #e4dccb;
+  --base-2: #faf6ec;
+  --base-3: #ffffff;
+  --contrast: #231a13;
+  --contrast-2: #5a4f42;
+  --contrast-3: #8a7d6c;
+  --accent: #c68a1f;
+  --accent-2: #a5721a;
+  --accent-3: #1c5c88;
+  --gb-container-width: 1200px;
+}
+body { margin:0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+/*
+ * Pacioli Finance — GeneratePress global styles reference
+ * Source: pacioli-global-styles.xml (WXR export from danj19.sg-host.com, "Pacioli new")
+ *
+ * Uses these CSS variables from the theme (not defined here — set in GP customizer):
+ *   --accent, --accent-2, --accent-3
+ *   --base, --base-2, --base-3
+ *   --contrast, --contrast-3
+ *   --gb-container-width
+ *
+ * Notes on duplicates in the export: the WXR contains both older (2024, from the
+ * bookkeeping template) and newer (2026-01-24, current Pacioli) versions of some
+ * classes. Only the current versions are kept below; legacy variants are recorded
+ * as comments so we know what changed.
+ */
+
+/* ---------- Section layout ---------- */
+
+.gbp-section {
+	padding: 7rem 40px;
+}
+@media (max-width: 1024px) {
+	.gbp-section { padding: 6rem 30px; }
+}
+@media (max-width: 767px) {
+	.gbp-section { padding: 4rem 20px; }
+}
+/* Legacy (bookkeeping): padding:8rem 2rem; @767px padding:6rem 1.5rem */
+
+.gbp-section__inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--gb-container-width);
+	position: relative;
+	z-index: 1;
+}
+
+/* ---------- Section typography ---------- */
+
+.gbp-section__tagline {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+}
+/* Legacy (bookkeeping): border-left 4px accent-3, uppercase, 2px letter-spacing,
+   flex-start alignment, color contrast-3, 2rem bottom margin. Kept for reference
+   only — the current Pacioli tagline is a plain small heading. */
+
+.gbp-section__headline {
+	margin-bottom: 1.5rem;
+}
+@media (max-width: 767px) {
+	.gbp-section__headline { margin-bottom: 1.25rem; }
+}
+
+.gbp-section__h1--xl {
+	color: var(--base-3);
+	font-size: clamp(3.25rem, 2.778vw + 1.917rem, 4rem);
+	font-weight: 700;
+	line-height: calc(4px + 2ex);
+}
+.gbp-section__h1--xl:is(:hover, :focus) {
+	color: var(--base-3);
+}
+
+.gbp-section__text {
+	font-size: 1.125rem;
+}
+
+.gbp-section__text--sm {
+	font-size: 1rem;
+	line-height: 1.5em;
+}
+
+.gbp-section__text--lg {
+	color: var(--contrast-3);
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 1.5em;
+}
+
+/* ---------- Card bits ---------- */
+
+.gbp-card__meta-text {
+	color: var(--contrast-3);
+	font-size: .875rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+/* ---------- Buttons ---------- */
+
+.gbp-button--primary {
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid currentColor;
+	display: inline-flex;
+	font-size: 1rem;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+}
+.gbp-button--primary:is(:hover, :focus) {
+	background-color: #000000;
+	color: #ffffff;
+}
+/* Legacy (bookkeeping): accent bg / base-3 text / 1.125rem / .25rem radius /
+   accent-2 hover / all 0.5s ease transition. The current Pacioli primary is a
+   hard black-on-white rectangle with no radius and no color shift on hover. */
+
+.gbp-button--secondary {
+	background-color: var(--base-2);
+	color: var(--contrast-3);
+	display: inline-flex;
+	font-size: 1.125rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	border-radius: .25rem;
+	padding: .75rem 1.25rem;
+}
+.gbp-button--secondary:is(:hover, :focus) {
+	background-color: var(--base);
+	color: var(--contrast-3);
+}
+
+.gbp-button--tertiary {
+	align-items: center;
+	color: var(--accent);
+	column-gap: 0.5em;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+}
+.gbp-button--tertiary .gb-shape svg {
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	color: var(--accent);
+	transition: all 0.5s ease 0s;
+}
+.gbp-button--tertiary:is(:hover, :focus) {
+	color: var(--accent);
+}
+.gbp-button--tertiary:is(:hover, :focus) .gb-shape svg {
+	color: var(--accent);
+	transform: translate3d(3px, 0px, 0px);
+	transition: transform 0.5s ease 0s;
+}
+
+/* ---------- Utilities ---------- */
+
+.gbp--border-radius {
+	border-radius: .25rem;
+}
+
+.gbp--box-shadow {
+	box-shadow: 0px 0px 25px -5px rgba(8, 9, 10, 0.06);
+}
+
+.gbp-forms-link {
+	color: var(--accent-3);
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 0.2s ease;
+}
+
+.gbp-forms-link:is(:hover, :focus) {
+	text-decoration-color: var(--accent-3);
+}
+
+.gbp-forms-note {
+	color: var(--contrast-3);
+	font-style: italic;
+}
+
+.gb-element-tyhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-tyhero001{padding-bottom:20px;padding-top:30px}}
+.gb-element-tyhero003{align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:38rem;text-align:center}
+.gb-element-tyhero-icnwrap{align-items:center;background-color:var(--accent-3);border-radius:50%;box-shadow:0 8px 22px rgba(28,92,136,0.25);display:flex;height:76px;justify-content:center;margin-bottom:1.5rem;width:76px}
+.gb-shape-tyhero-icn{color:var(--base-3);display:inline-flex}.gb-shape-tyhero-icn svg{height:2.25rem;width:2.25rem}
+.gb-text-tyhero004{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(2.25rem,4.4vw,3rem);font-weight:400;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.25rem;margin-top:0}
+.gb-text-tyhero005{color:var(--contrast-2);font-size:1.125rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-element-tybook001{background-color:var(--base-3);border-top:1px solid var(--base);overflow:hidden;position:relative}
+.gb-element-tybook003{align-items:center;display:flex;flex-direction:column;margin:0 auto 2.5rem;max-width:36rem;text-align:center}
+.gb-text-tybook-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0}
+.gb-text-tybook004{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.75rem,3.2vw,2.25rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1rem;margin-top:0}
+.gb-text-tybook005{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:1.75rem;margin-top:0}
+.gb-text-tybook006{background-color:var(--accent-2);box-shadow:0 8px 20px rgba(28,92,136,0.25);display:inline-flex;font-size:0.9375rem;letter-spacing:0.3px;padding:0.875rem 1.75rem}.gb-text-tybook006:is(:hover,:focus){background-color:var(--accent)}
+.gb-element-tybook007{background-color:var(--base-2);border:1px solid var(--base);border-radius:8px;box-shadow:0 12px 28px rgba(35,26,19,0.08);margin:0 auto;max-width:52rem;overflow:hidden;padding:0.75rem}
+.gb-text-tybook008{color:var(--contrast-3);font-size:0.875rem;line-height:1.5;margin-bottom:0;margin-top:1rem;text-align:center}
+.gb-element-tyback001{background-color:var(--base-2);border-top:1px solid var(--base);overflow:hidden;position:relative}
+.gb-element-tyback002{padding-bottom:2.5rem;padding-top:2.5rem}
+.gb-element-tyback003{text-align:center}
+.gb-text-tyback004{align-items:center;color:var(--contrast);column-gap:0.5em;display:inline-flex;font-size:0.9375rem;font-weight:600}
+.gb-shape-tyback005{display:inline-flex}.gb-shape-tyback005 svg{height:1em;stroke:currentColor;width:1em}
+
+.gb-accordion__content { display: none; }
+.gb-accordion__item.gbp-preview-open .gb-accordion__content { display: block; }
+.gb-accordion__toggle-icon-close { display: none; }
+.gbp-preview-open .gb-accordion__toggle-icon-open { display: none; }
+.gbp-preview-open .gb-accordion__toggle-icon-close { display: inline-flex; }
+
+</style>
+</head>
+<body>
+
+<section class="gbp-section gb-element-tyhero001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tyhero002 gb-element">
+<div class="gb-element-tyhero003 gb-element">
+<div class="gb-element-tyhero-icnwrap gb-element">
+<span class="gb-shape gb-shape-tyhero-icn"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12.5l2.5 2.5L16 9"></path></svg></span>
+</div>
+
+
+
+<h1 class="gb-text gb-text-tyhero004">Thank You</h1>
+
+
+
+<p class="gb-text gb-text-tyhero005 gb-text">Your message has been received. A member of the Pacioli Finance team will follow up within one business day &#8212; or, if you&#8217;d rather not wait, book a time with us right now below.</p>
+</div>
+</div>
+</section>
+
+
+
+<section class="gbp-section gb-element-tybook001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tybook002 gb-element">
+<div class="gb-element-tybook003 gb-element">
+<h5 class="gb-text gb-text-tybook-eyebrow gb-text"><strong><em>Skip the Wait</em></strong></h5>
+
+
+
+<h2 class="gb-text gb-text-tybook004">Book a Meeting With Our Team</h2>
+
+
+
+<p class="gb-text gb-text-tybook005 gb-text">Pick a time that works for you and we&#8217;ll take it from there &#8212; no need to wait on an email back and forth.</p>
+
+
+
+<a class="gb-text gbp-button--primary gb-text-tybook006 gb-text" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1UqukH_WpQ5M8lguGMZl2Teih1odWVS5Nwb-rZnA-l6r3tU0eZFwoGI4QBGFnfgfI9OV5CVy2D" target="_blank" rel="noopener">Book a Meeting</a>
+</div>
+
+
+
+<div class="gb-element-tybook007 gb-element">
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1UqukH_WpQ5M8lguGMZl2Teih1odWVS5Nwb-rZnA-l6r3tU0eZFwoGI4QBGFnfgfI9OV5CVy2D?gv=true" style="border:0" width="100%" height="600" frameborder="0" title="Book a meeting with Pacioli Finance"></iframe>
+</div>
+
+
+
+<p class="gb-text gb-text-tybook008 gb-text">Calendar not loading? <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1UqukH_WpQ5M8lguGMZl2Teih1odWVS5Nwb-rZnA-l6r3tU0eZFwoGI4QBGFnfgfI9OV5CVy2D" target="_blank" rel="noopener">Open the booking page in a new tab</a>.</p>
+</div>
+</section>
+
+
+
+<section class="gbp-section gb-element-tyback001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tyback002 gb-element">
+<div class="gb-element-tyback003 gb-element">
+<a class="gb-text gb-text-tyback004 gb-text" href="/">
+<span class="gb-shape gb-shape-tyback005"><svg aria-hidden="true" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg></span>
+ Back to Homepage</a>
+</div>
+</div>
+</section>
+
+
+
+<script>
+document.querySelectorAll('.gb-accordion__toggle').forEach(function(t){
+  t.addEventListener('click', function(){
+    var item = t.closest('.gb-accordion__item');
+    item.classList.toggle('gbp-preview-open');
+  });
+});
+</script>
+
+</body>
+</html>

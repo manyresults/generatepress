@@ -1,0 +1,2294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Preview</title>
+<style>
+
+:root {
+  --base: #e4dccb;
+  --base-2: #faf6ec;
+  --base-3: #ffffff;
+  --contrast: #231a13;
+  --contrast-2: #5a4f42;
+  --contrast-3: #8a7d6c;
+  --accent: #c68a1f;
+  --accent-2: #a5721a;
+  --accent-3: #1c5c88;
+  --gb-container-width: 1200px;
+}
+body { margin:0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+/*
+ * Pacioli Finance — GeneratePress global styles reference
+ * Source: pacioli-global-styles.xml (WXR export from danj19.sg-host.com, "Pacioli new")
+ *
+ * Uses these CSS variables from the theme (not defined here — set in GP customizer):
+ *   --accent, --accent-2, --accent-3
+ *   --base, --base-2, --base-3
+ *   --contrast, --contrast-3
+ *   --gb-container-width
+ *
+ * Notes on duplicates in the export: the WXR contains both older (2024, from the
+ * bookkeeping template) and newer (2026-01-24, current Pacioli) versions of some
+ * classes. Only the current versions are kept below; legacy variants are recorded
+ * as comments so we know what changed.
+ */
+
+/* ---------- Section layout ---------- */
+
+.gbp-section {
+	padding: 7rem 40px;
+}
+@media (max-width: 1024px) {
+	.gbp-section { padding: 6rem 30px; }
+}
+@media (max-width: 767px) {
+	.gbp-section { padding: 4rem 20px; }
+}
+/* Legacy (bookkeeping): padding:8rem 2rem; @767px padding:6rem 1.5rem */
+
+.gbp-section__inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--gb-container-width);
+	position: relative;
+	z-index: 1;
+}
+
+/* ---------- Section typography ---------- */
+
+.gbp-section__tagline {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+}
+/* Legacy (bookkeeping): border-left 4px accent-3, uppercase, 2px letter-spacing,
+   flex-start alignment, color contrast-3, 2rem bottom margin. Kept for reference
+   only — the current Pacioli tagline is a plain small heading. */
+
+.gbp-section__headline {
+	margin-bottom: 1.5rem;
+}
+@media (max-width: 767px) {
+	.gbp-section__headline { margin-bottom: 1.25rem; }
+}
+
+.gbp-section__h1--xl {
+	color: var(--base-3);
+	font-size: clamp(3.25rem, 2.778vw + 1.917rem, 4rem);
+	font-weight: 700;
+	line-height: calc(4px + 2ex);
+}
+.gbp-section__h1--xl:is(:hover, :focus) {
+	color: var(--base-3);
+}
+
+.gbp-section__text {
+	font-size: 1.125rem;
+}
+
+.gbp-section__text--sm {
+	font-size: 1rem;
+	line-height: 1.5em;
+}
+
+.gbp-section__text--lg {
+	color: var(--contrast-3);
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 1.5em;
+}
+
+/* ---------- Card bits ---------- */
+
+.gbp-card__meta-text {
+	color: var(--contrast-3);
+	font-size: .875rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+/* ---------- Buttons ---------- */
+
+.gbp-button--primary {
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid currentColor;
+	display: inline-flex;
+	font-size: 1rem;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+}
+.gbp-button--primary:is(:hover, :focus) {
+	background-color: #000000;
+	color: #ffffff;
+}
+/* Legacy (bookkeeping): accent bg / base-3 text / 1.125rem / .25rem radius /
+   accent-2 hover / all 0.5s ease transition. The current Pacioli primary is a
+   hard black-on-white rectangle with no radius and no color shift on hover. */
+
+.gbp-button--secondary {
+	background-color: var(--base-2);
+	color: var(--contrast-3);
+	display: inline-flex;
+	font-size: 1.125rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	border-radius: .25rem;
+	padding: .75rem 1.25rem;
+}
+.gbp-button--secondary:is(:hover, :focus) {
+	background-color: var(--base);
+	color: var(--contrast-3);
+}
+
+.gbp-button--tertiary {
+	align-items: center;
+	color: var(--accent);
+	column-gap: 0.5em;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+}
+.gbp-button--tertiary .gb-shape svg {
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	color: var(--accent);
+	transition: all 0.5s ease 0s;
+}
+.gbp-button--tertiary:is(:hover, :focus) {
+	color: var(--accent);
+}
+.gbp-button--tertiary:is(:hover, :focus) .gb-shape svg {
+	color: var(--accent);
+	transform: translate3d(3px, 0px, 0px);
+	transition: transform 0.5s ease 0s;
+}
+
+/* ---------- Utilities ---------- */
+
+.gbp--border-radius {
+	border-radius: .25rem;
+}
+
+.gbp--box-shadow {
+	box-shadow: 0px 0px 25px -5px rgba(8, 9, 10, 0.06);
+}
+
+.gbp-forms-link {
+	color: var(--accent-3);
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 0.2s ease;
+}
+
+.gbp-forms-link:is(:hover, :focus) {
+	text-decoration-color: var(--accent-3);
+}
+
+.gbp-forms-note {
+	color: var(--contrast-3);
+	font-style: italic;
+}
+
+.gb-element-tfhero001{background:linear-gradient(308deg,rgba(255,241,204,0.75) 12%,rgba(255,255,255,0.36) 38%),linear-gradient(149deg,rgba(255,241,204,0.82) 20%,rgba(242,198,51,0.78) 88%),url(https://danj19.sg-host.com/wp-content/uploads/2026/09/pacioli-grid-balanced-1920x1080-1.png) center /cover no-repeat;background-blend-mode:normal,normal,;background-color:var(--base-2);overflow:hidden;padding-bottom:56px;padding-top:80px;position:relative}@media (max-width:767px){.gb-element-tfhero001{padding-bottom:20px;padding-top:30px}}
+.gb-element-tfhero003{margin-left:auto;margin-right:auto;max-width:42rem;text-align:center}
+.gb-text-tfhero004{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0}
+.gb-shape-orn-tfhero{color:var(--accent);display:block;margin-bottom:1.25rem;margin-top:0.625rem;margin-left:auto;margin-right:auto}.gb-shape-orn-tfhero svg{height:8px;width:110px}
+.gb-text-tfhero005{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(2rem,4vw,2.75rem);font-weight:400;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.25rem;margin-top:0}
+.gb-text-tfhero006{color:var(--contrast-2);font-size:1.0625rem;line-height:1.6;margin-bottom:0;margin-top:0;max-width:38rem;margin-left:auto;margin-right:auto}
+.gb-element-tffed001{background-color:var(--base-3);border-bottom:1px solid var(--base);overflow:hidden;position:relative}
+.gb-text-tffed-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0}
+.gb-text-tffed003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,2.8vw,1.875rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1.5rem;margin-top:0}
+.gb-element-tffed004{background-color:var(--base-2);border:1px solid var(--base);border-radius:6px;display:flex;flex-direction:column;max-width:42rem;padding:1.75rem 2rem;row-gap:0.75rem}
+.gb-text-tffed01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tffed02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tffed03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tffed04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tffed05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tffed06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-element-tfstate001{background-color:var(--base-2);overflow:hidden;position:relative}
+.gb-text-tfstate-eyebrow{color:var(--accent-3);font-size:1.125rem;line-height:1;margin-top:0}
+.gb-text-tfstate003{color:var(--contrast);font-family:'EB Garamond',Georgia,serif;font-size:clamp(1.5rem,2.8vw,1.875rem);font-weight:400;letter-spacing:-0.02em;line-height:1.2;margin-bottom:0.75rem;margin-top:0}
+.gb-text-tfstate004{color:var(--contrast-2);font-size:1rem;line-height:1.6;margin-bottom:2rem;margin-top:0;max-width:42rem}
+.gb-accordion__item-tf01item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf01tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf01tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf01tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf01h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf01ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf01ic svg{height:1.125em;width:1.125em}
+.gb-element-tf01body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf01i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf01i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf01i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf01i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf02item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf02tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf02tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf02tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf02h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf02ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf02ic svg{height:1.125em;width:1.125em}
+.gb-element-tf02body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf02i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf03item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf03tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf03tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf03tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf03h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf03ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf03ic svg{height:1.125em;width:1.125em}
+.gb-element-tf03body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf03i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf03i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf04item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf04tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf04tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf04tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf04h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf04ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf04ic svg{height:1.125em;width:1.125em}
+.gb-element-tf04body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf04i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf04i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf04i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf04i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf05item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf05tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf05tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf05tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf05h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf05ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf05ic svg{height:1.125em;width:1.125em}
+.gb-element-tf05body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf05i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf05i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf06item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf06tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf06tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf06tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf06h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf06ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf06ic svg{height:1.125em;width:1.125em}
+.gb-element-tf06body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf06i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf06i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf06i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf06i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf06i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf06i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf07item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf07tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf07tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf07tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf07h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf07ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf07ic svg{height:1.125em;width:1.125em}
+.gb-element-tf07body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf07i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf07i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf07i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf07i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf08item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf08tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf08tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf08tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf08h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf08ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf08ic svg{height:1.125em;width:1.125em}
+.gb-element-tf08body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf08i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf08i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf08i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf09item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf09tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf09tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf09tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf09h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf09ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf09ic svg{height:1.125em;width:1.125em}
+.gb-element-tf09body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf09i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf09i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf09i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf10item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf10tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf10tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf10tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf10h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf10ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf10ic svg{height:1.125em;width:1.125em}
+.gb-element-tf10body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf10i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf10i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf10i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf11item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf11tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf11tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf11tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf11h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf11ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf11ic svg{height:1.125em;width:1.125em}
+.gb-element-tf11body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf11i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf11i07{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf12item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf12tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf12tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf12tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf12h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf12ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf12ic svg{height:1.125em;width:1.125em}
+.gb-element-tf12body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf12i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf13item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf13tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf13tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf13tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf13h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf13ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf13ic svg{height:1.125em;width:1.125em}
+.gb-element-tf13body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf13i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf14item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf14tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf14tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf14tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf14h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf14ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf14ic svg{height:1.125em;width:1.125em}
+.gb-element-tf14body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf14i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf14i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf14i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf14i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf15item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf15tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf15tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf15tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf15h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf15ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf15ic svg{height:1.125em;width:1.125em}
+.gb-element-tf15body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf15i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf15i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf16item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf16tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf16tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf16tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf16h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf16ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf16ic svg{height:1.125em;width:1.125em}
+.gb-element-tf16body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf16i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf16i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf16i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf16i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf16i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf17item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf17tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf17tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf17tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf17h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf17ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf17ic svg{height:1.125em;width:1.125em}
+.gb-element-tf17body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf17i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf17i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf17i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf17i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf18item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf18tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf18tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf18tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf18h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf18ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf18ic svg{height:1.125em;width:1.125em}
+.gb-element-tf18body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf18i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf18i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf18i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf18i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf19item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf19tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf19tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf19tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf19h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf19ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf19ic svg{height:1.125em;width:1.125em}
+.gb-element-tf19body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf19i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf19i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf19i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf19i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf20item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf20tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf20tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf20tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf20h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf20ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf20ic svg{height:1.125em;width:1.125em}
+.gb-element-tf20body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf20i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf20i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf20i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf20i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf21item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf21tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf21tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf21tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf21h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf21ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf21ic svg{height:1.125em;width:1.125em}
+.gb-element-tf21body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf21i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf21i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf21i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf21i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf21i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf21i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf22item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf22tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf22tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf22tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf22h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf22ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf22ic svg{height:1.125em;width:1.125em}
+.gb-element-tf22body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf22i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf22i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf23item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf23tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf23tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf23tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf23h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf23ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf23ic svg{height:1.125em;width:1.125em}
+.gb-element-tf23body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf23i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i07{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i08{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i09{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf23i10{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf24item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf24tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf24tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf24tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf24h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf24ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf24ic svg{height:1.125em;width:1.125em}
+.gb-element-tf24body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf24i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf24i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf24i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf25item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf25tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf25tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf25tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf25h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf25ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf25ic svg{height:1.125em;width:1.125em}
+.gb-element-tf25body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf25i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf25i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf25i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf25i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf25i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf26item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf26tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf26tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf26tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf26h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf26ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf26ic svg{height:1.125em;width:1.125em}
+.gb-element-tf26body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf26i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf26i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf26i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf26i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf27item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf27tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf27tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf27tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf27h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf27ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf27ic svg{height:1.125em;width:1.125em}
+.gb-element-tf27body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf27i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf27i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf27i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf28item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf28tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf28tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf28tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf28h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf28ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf28ic svg{height:1.125em;width:1.125em}
+.gb-element-tf28body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf28i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf28i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf29item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf29tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf29tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf29tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf29h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf29ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf29ic svg{height:1.125em;width:1.125em}
+.gb-element-tf29body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf29i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf29i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf30item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf30tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf30tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf30tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf30h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf30ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf30ic svg{height:1.125em;width:1.125em}
+.gb-element-tf30body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf30i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf31item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf31tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf31tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf31tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf31h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf31ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf31ic svg{height:1.125em;width:1.125em}
+.gb-element-tf31body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf31i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf32item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf32tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf32tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf32tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf32h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf32ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf32ic svg{height:1.125em;width:1.125em}
+.gb-element-tf32body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf32i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf32i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf32i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf32i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf33item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf33tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf33tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf33tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf33h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf33ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf33ic svg{height:1.125em;width:1.125em}
+.gb-element-tf33body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf33i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf33i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf33i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf34item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf34tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf34tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf34tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf34h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf34ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf34ic svg{height:1.125em;width:1.125em}
+.gb-element-tf34body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf34i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf34i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf35item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf35tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf35tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf35tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf35h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf35ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf35ic svg{height:1.125em;width:1.125em}
+.gb-element-tf35body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf35i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf35i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf35i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf35i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf35i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf36item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf36tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf36tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf36tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf36h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf36ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf36ic svg{height:1.125em;width:1.125em}
+.gb-element-tf36body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf36i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i07{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i08{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i09{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i10{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i11{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i12{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i13{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf36i14{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf37item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf37tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf37tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf37tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf37h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf37ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf37ic svg{height:1.125em;width:1.125em}
+.gb-element-tf37body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf37i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf37i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf38item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf38tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf38tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf38tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf38h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf38ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf38ic svg{height:1.125em;width:1.125em}
+.gb-element-tf38body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf38i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf38i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf39item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf39tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf39tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf39tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf39h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf39ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf39ic svg{height:1.125em;width:1.125em}
+.gb-element-tf39body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf39i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf39i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf39i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf39i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf39i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf39i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf40item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf40tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf40tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf40tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf40h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf40ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf40ic svg{height:1.125em;width:1.125em}
+.gb-element-tf40body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf40i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf41item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf41tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf41tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf41tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf41h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf41ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf41ic svg{height:1.125em;width:1.125em}
+.gb-element-tf41body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf41i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf42item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf42tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf42tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf42tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf42h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf42ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf42ic svg{height:1.125em;width:1.125em}
+.gb-element-tf42body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf42i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf42i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf42i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf42i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf43item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf43tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf43tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf43tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf43h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf43ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf43ic svg{height:1.125em;width:1.125em}
+.gb-element-tf43body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf43i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf44item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf44tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf44tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf44tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf44h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf44ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf44ic svg{height:1.125em;width:1.125em}
+.gb-element-tf44body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf44i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf44i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf45item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf45tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf45tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf45tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf45h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf45ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf45ic svg{height:1.125em;width:1.125em}
+.gb-element-tf45body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf45i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf45i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf45i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf46item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf46tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf46tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf46tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf46h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf46ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf46ic svg{height:1.125em;width:1.125em}
+.gb-element-tf46body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf46i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf46i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf47item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf47tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf47tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf47tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf47h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf47ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf47ic svg{height:1.125em;width:1.125em}
+.gb-element-tf47body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf47i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf47i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf47i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf48item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf48tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf48tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf48tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf48h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf48ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf48ic svg{height:1.125em;width:1.125em}
+.gb-element-tf48body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf48i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf48i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf48i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf49item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf49tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf49tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf49tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf49h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf49ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf49ic svg{height:1.125em;width:1.125em}
+.gb-element-tf49body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf49i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf49i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf49i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf49i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf49i05{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf49i06{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf50item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf50tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf50tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf50tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf50h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf50ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf50ic svg{height:1.125em;width:1.125em}
+.gb-element-tf50body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf50i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf51item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf51tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf51tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf51tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf51h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf51ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf51ic svg{height:1.125em;width:1.125em}
+.gb-element-tf51body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf51i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf51i02{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf51i03{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-text-tf51i04{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+.gb-accordion__item-tf52item{background-color:var(--base-3);border:1px solid var(--base);border-radius:6px;box-shadow:0 4px 14px rgba(35,26,19,0.06);margin-bottom:1rem}
+.gb-accordion__toggle-tf52tog{align-items:center;color:var(--contrast);column-gap:1rem;cursor:pointer;display:flex;justify-content:space-between;padding:1.125rem 1.5rem}.gb-accordion__toggle-tf52tog:is(.gb-block-is-current,.gb-block-is-current:hover,.gb-block-is-current:focus){color:var(--accent)}.gb-accordion__toggle-tf52tog:is(:hover,:focus){color:var(--accent)}
+.gb-text-tf52h{color:var(--contrast);flex-grow:1;font-size:1.0625rem;font-weight:600;margin-bottom:0;margin-top:0}
+.gb-accordion__toggle-icon-tf52ic{align-items:center;color:var(--accent);display:flex;flex-shrink:0;justify-content:center}.gb-accordion__toggle-icon-tf52ic svg{height:1.125em;width:1.125em}
+.gb-element-tf52body{display:flex;flex-direction:column;padding:0 1.5rem 1.5rem;row-gap:0.625rem}
+.gb-text-tf52i01{font-size:0.9375rem;line-height:1.6;margin-bottom:0;margin-top:0}
+
+.gb-accordion__content { display: none; }
+.gb-accordion__item.gbp-preview-open .gb-accordion__content { display: block; }
+.gb-accordion__toggle-icon-close { display: none; }
+.gbp-preview-open .gb-accordion__toggle-icon-open { display: none; }
+.gbp-preview-open .gb-accordion__toggle-icon-close { display: inline-flex; }
+
+</style>
+</head>
+<body>
+
+<section class="gbp-section gb-element-tfhero001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tfhero002 gb-element">
+<div class="gb-element-tfhero003 gb-element">
+<h5 class="gb-text gb-text-tfhero004 gb-text"><strong><em>Resources</em></strong></h5>
+
+
+
+<span class="gb-shape gb-shape-orn-tfhero"><svg aria-hidden="true" stroke="currentColor" fill="none" viewBox="0 0 100 8"><line y2="4" x2="38" y1="4" x1="0"></line><circle stroke="none" fill="currentColor" r="3" cy="4" cx="50"></circle><line y2="4" x2="100" y1="4" x1="62"></line></svg></span>
+
+
+
+<h1 class="gb-text gb-text-tfhero005">Tax &amp; Payroll Registration Forms Directory</h1>
+
+
+
+<p class="gb-text gb-text-tfhero006 gb-text">The federal and state-level tax and payroll registration forms our clients most commonly need &#8212; business registration, income tax withholding, unemployment insurance, and power-of-attorney/reporting-agent authorizations. Forms marked <em>not available for public download</em> require a request to your Pacioli Finance representative.</p>
+</div>
+</div>
+</section>
+
+
+
+<section class="gbp-section gb-element-tffed001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tffed002 gb-element">
+<h5 class="gb-text gb-text-tffed-eyebrow gb-text"><strong><em>Federal</em></strong></h5>
+
+
+
+<h2 class="gb-text gb-text-tffed003">Federal Forms</h2>
+
+
+
+<div class="gb-element-tffed004 gb-element">
+<p class="gb-text gb-text-tffed01 gb-text"><a class="gbp-forms-link" href="https://www.irs.gov/pub/irs-pdf/f8655.pdf" target="_blank" rel="noopener noreferrer">8655 - Reporting Agent Authorization</a></p>
+
+
+
+<p class="gb-text gb-text-tffed02 gb-text"><a class="gbp-forms-link" href="https://www.irs.gov/pub/irs-pdf/f8821.pdf" target="_blank" rel="noopener noreferrer">8821 - Tax Information Authorization</a></p>
+
+
+
+<p class="gb-text gb-text-tffed03 gb-text"><a class="gbp-forms-link" href="http://www.irs.gov/pub/irs-pdf/fss4.pdf" target="_blank" rel="noopener noreferrer">SS4 - Application for Identification Number</a></p>
+
+
+
+<p class="gb-text gb-text-tffed04 gb-text"><a class="gbp-forms-link" href="https://sa1.www4.irs.gov/modiein/individual/index.jsp" target="_blank" rel="noopener noreferrer">SS4 - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tffed05 gb-text"><a class="gbp-forms-link" href="https://www.irs.gov/pub/irs-pdf/f941.pdf" target="_blank" rel="noopener noreferrer">941 - Employer's QUARTERLY Federal Tax Return</a></p>
+
+
+
+<p class="gb-text gb-text-tffed06 gb-text"><a class="gbp-forms-link" href="https://www.irs.gov/pub/irs-pdf/f940.pdf" target="_blank" rel="noopener noreferrer">940 - Federal Unemployment Tax Act (FUTA) tax</a></p>
+</div>
+</div>
+</section>
+
+
+
+<section class="gbp-section gb-element-tfstate001 gb-element alignfull">
+<div class="gbp-section__inner gb-element-tfstate002 gb-element">
+<h5 class="gb-text gb-text-tfstate-eyebrow gb-text"><strong><em>State &amp; Territory</em></strong></h5>
+
+
+
+<h2 class="gb-text gb-text-tfstate003">State Forms</h2>
+
+
+
+<p class="gb-text gb-text-tfstate004 gb-text">Select a state or territory to view its registration, withholding, and unemployment insurance forms.</p>
+
+
+
+<div class="gb-accordion">
+<div class="gb-accordion__item gb-accordion__item-tf01item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf01tog" id="gb-accordion-toggle-tf01tog">
+<h3 class="gb-text gb-text-tf01h">Alabama</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf01ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf01cont">
+<div class="gb-element-tf01body">
+<p class="gb-text gb-text-tf01i01 gb-text"><a class="gbp-forms-link" href="https://revenue.alabama.gov/wp-content/uploads/2017/05/EFT-001.pdf" target="_blank" rel="noopener noreferrer">Income Tax - 001 - EFT Authorization</a></p>
+
+
+
+<p class="gb-text gb-text-tf01i02 gb-text"><a class="gbp-forms-link" href="https://myalabamataxes.alabama.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - COM101 - Business Registration Income Tax - Business Registration - Online (preferred)</a></p>
+
+
+
+<p class="gb-text gb-text-tf01i03 gb-text"><a class="gbp-forms-link" href="https://labor.alabama.gov/docs/forms/uc_sr2_application.pdf" target="_blank" rel="noopener noreferrer">Unemployment - SR2 - Application to Determine Liability</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf01i04 gb-text">Unemployment - Power of Attorney (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf02item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf02tog" id="gb-accordion-toggle-tf02tog">
+<h3 class="gb-text gb-text-tf02h">Alaska</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf02ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf02cont">
+<div class="gb-element-tf02body">
+<p class="gb-text gb-text-tf02i01 gb-text"><a class="gbp-forms-link" href="https://my.alaska.gov/NewAccount.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Employer's Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf03item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf03tog" id="gb-accordion-toggle-tf03tog">
+<h3 class="gb-text gb-text-tf03h">Arizona</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf03ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf03cont">
+<div class="gb-element-tf03body">
+<p class="gb-text gb-text-tf03i01 gb-text"><a class="gbp-forms-link" href="https://www.aztaxes.gov/Security/Register" target="_blank" rel="noopener noreferrer">Joint Tax Application - Online (preferred)</a></p>
+
+
+
+<p class="gb-text gb-text-tf03i02 gb-text"><a class="gbp-forms-link" href="https://azdor.gov/forms/tpt-forms/joint-tax-application-tpt-license" target="_blank" rel="noopener noreferrer">Joint Tax Application - JT-1/UC-001</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf04item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf04tog" id="gb-accordion-toggle-tf04tog">
+<h3 class="gb-text gb-text-tf04h">Arkansas</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf04ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf04cont">
+<div class="gb-element-tf04body">
+<p class="gb-text gb-text-tf04i01 gb-text"><a class="gbp-forms-link" href="https://www.dfa.arkansas.gov/images/uploads/exciseTaxOffice/ar1r.pdf" target="_blank" rel="noopener noreferrer">Income Tax – AR-1R Combined Business Tax Registration Form</a></p>
+
+
+
+<p class="gb-text gb-text-tf04i02 gb-text"><a class="gbp-forms-link" href="https://atap.arkansas.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online (preferred)</a></p>
+
+
+
+<p class="gb-text gb-text-tf04i03 gb-text"><a class="gbp-forms-link" href="https://www.dws.arkansas.gov/src/files/DWS-ARK-201.pdf" target="_blank" rel="noopener noreferrer">Unemployment - DWS-ARK 201 - Status Report</a></p>
+
+
+
+<p class="gb-text gb-text-tf04i04 gb-text"><a class="gbp-forms-link" href="https://www.workforce.arkansas.gov/Tax21/Login.aspx?m=T" target="_blank" rel="noopener noreferrer">Unemployment - Online Tax Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf05item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf05tog" id="gb-accordion-toggle-tf05tog">
+<h3 class="gb-text gb-text-tf05h">California</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf05ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf05cont">
+<div class="gb-element-tf05body">
+<p class="gb-text gb-text-tf05i01 gb-text"><a class="gbp-forms-link" href="http://www.edd.ca.gov/pdf_pub_ctr/de1.pdf" target="_blank" rel="noopener noreferrer">Combined Registration - DE1</a></p>
+
+
+
+<p class="gb-text gb-text-tf05i02 gb-text"><a class="gbp-forms-link" href="https://eddservices.edd.ca.gov/index.html" target="_blank" rel="noopener noreferrer">Combined Registration - eServices for Business</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf06item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf06tog" id="gb-accordion-toggle-tf06tog">
+<h3 class="gb-text gb-text-tf06h">Colorado</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf06ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf06cont">
+<div class="gb-element-tf06body">
+<p class="gb-text gb-text-tf06i01 gb-text"><a class="gbp-forms-link" href="https://www.auroragov.org/business_services/licenses___permits/business_licensing" target="_blank" rel="noopener noreferrer">City of Aurora - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf06i02 gb-text"><a class="gbp-forms-link" href="http://greenwoodvillage.com/common/modules/documentcenter2/documentview.aspx?DID=27&DL=1" target="_blank" rel="noopener noreferrer">Greenwood Village - Tax License Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf06i03 gb-text"><a class="gbp-forms-link" href="https://apps.colorado.gov/apps/jboss/cbe/file-manually.xhtml" target="_blank" rel="noopener noreferrer">Income Tax - CR 100 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf06i04 gb-text"><a class="gbp-forms-link" href="https://www.colorado.gov/apps/jboss/cbe/" target="_blank" rel="noopener noreferrer">Business Express - Online Registration</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf06i05 gb-text">Income Tax - DR 0145 - Power of Attorney (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf06i06 gb-text">Income Tax - DR 0145 - Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf07item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf07tog" id="gb-accordion-toggle-tf07tog">
+<h3 class="gb-text gb-text-tf07h">Connecticut</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf07ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf07cont">
+<div class="gb-element-tf07body">
+<p class="gb-text gb-text-tf07i01 gb-text"><a class="gbp-forms-link" href="http://www.ct.gov/drs/lib/drs/filllable_applications/reg-1.pdf" target="_blank" rel="noopener noreferrer">Income Tax - Reg 1 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf07i02 gb-text"><a class="gbp-forms-link" href="http://www.ct.gov/drs/cwp/view.asp?a=1433&q=265880" target="_blank" rel="noopener noreferrer">Income Tax - Tax Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf07i03 gb-text"><a class="gbp-forms-link" href="https://wage.ctdol.state.ct.us/cters/index.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf07i04 gb-text"><a class="gbp-forms-link" href="https://www.ctdol.state.ct.us/uitax/uc1a-onlineinst.html" target="_blank" rel="noopener noreferrer">Unemployment - UC1A - Status Report</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf08item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf08tog" id="gb-accordion-toggle-tf08tog">
+<h3 class="gb-text gb-text-tf08h">Delaware</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf08ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf08cont">
+<div class="gb-element-tf08body">
+<p class="gb-text gb-text-tf08i01 gb-text"><a class="gbp-forms-link" href="https://revenuefiles.delaware.gov/2018/TY18_CRAe.pdf" target="_blank" rel="noopener noreferrer">Income Tax - CRA - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf08i02 gb-text"><a class="gbp-forms-link" href="https://onestop.delaware.gov/osbrlpublic/Home.jsp" target="_blank" rel="noopener noreferrer">Income Tax - One Stop Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf08i03 gb-text"><a class="gbp-forms-link" href="https://labor.delaware.gov/divisions/unemployment-insurance/forms/" target="_blank" rel="noopener noreferrer">Unemployment - UC-1 - Application</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf09item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf09tog" id="gb-accordion-toggle-tf09tog">
+<h3 class="gb-text gb-text-tf09h">District of Columbia</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf09ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf09cont">
+<div class="gb-element-tf09body">
+<p class="gb-text gb-text-tf09i01 gb-text"><a class="gbp-forms-link" href="https://mytax.dc.gov/_/" target="_blank" rel="noopener noreferrer">Combined Registration - FR500</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf09i02 gb-text">Unemployment - POA (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gb-text-tf09i03 gb-text"><a class="gbp-forms-link" href="https://essp.does.dc.gov/EMPSPA/home/wfmRegister/#/spa/wfmEmployerRegistrationWizard/0" target="_blank" rel="noopener noreferrer">Unemployment - Registration Portal - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf10item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf10tog" id="gb-accordion-toggle-tf10tog">
+<h3 class="gb-text gb-text-tf10h">Florida</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf10ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf10cont">
+<div class="gb-element-tf10body">
+<p class="gb-text gbp-forms-note gb-text-tf10i01 gb-text">Unemployment - DR-835 - POA (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gb-text-tf10i02 gb-text"><a class="gbp-forms-link" href="http://dor.myflorida.com/dor/forms/2006/dr1.pdf" target="_blank" rel="noopener noreferrer">Unemployment - DR1 - Business Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf10i03 gb-text"><a class="gbp-forms-link" href="https://taxapps.floridarevenue.com/IRegistration/" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf11item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf11tog" id="gb-accordion-toggle-tf11tog">
+<h3 class="gb-text gb-text-tf11h">Georgia</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf11ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf11cont">
+<div class="gb-element-tf11body">
+<p class="gb-text gb-text-tf11i01 gb-text"><a class="gbp-forms-link" href="https://gtc.dor.ga.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf11i02 gb-text"><a class="gbp-forms-link" href="https://dor.georgia.gov/documents/crf-002" target="_blank" rel="noopener noreferrer">Income Tax - CRF-002 - Tax Registration Instructions</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf11i03 gb-text">Unemployment - Limited Power of Attorney</p>
+
+
+
+<p class="gb-text gb-text-tf11i04 gb-text"><a class="gbp-forms-link" href="http://www.dol.state.ga.us/pdf/forms/dol1a.pdf" target="_blank" rel="noopener noreferrer">Unemployment - DOL-1a - Employer Status Report</a></p>
+
+
+
+<p class="gb-text gb-text-tf11i05 gb-text"><a class="gbp-forms-link" href="https://www.dol.state.ga.us/Access/Service/LogonDOL1" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf11i06 gb-text">Income Tax – Form RD-1063 Reporting Agent Authorization (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf11i07 gb-text">Income Tax – Form RD-1063 Reporting Agent Authorization Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf12item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf12tog" id="gb-accordion-toggle-tf12tog">
+<h3 class="gb-text gb-text-tf12h">Hawaii</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf12ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf12cont">
+<div class="gb-element-tf12body">
+<p class="gb-text gb-text-tf12i01 gb-text"><a class="gbp-forms-link" href="https://lala.ehawaii.gov/lala/account/new.lala?onCompleteName=Business%20Express&onCompleteUri=https://hbe.ehawaii.gov/BizEx/account/joinBizEx.eb" target="_blank" rel="noopener noreferrer">Combined Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf13item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf13tog" id="gb-accordion-toggle-tf13tog">
+<h3 class="gb-text gb-text-tf13h">Idaho</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf13ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf13cont">
+<div class="gb-element-tf13body">
+<p class="gb-text gb-text-tf13i01 gb-text"><a class="gbp-forms-link" href="https://tax.idaho.gov/i-1159.cfm" target="_blank" rel="noopener noreferrer">Combined Tax - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf14item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf14tog" id="gb-accordion-toggle-tf14tog">
+<h3 class="gb-text gb-text-tf14h">Illinois</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf14ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf14cont">
+<div class="gb-element-tf14body">
+<p class="gb-text gb-text-tf14i01 gb-text"><a class="gbp-forms-link" href="http://www.tax.illinois.gov/TaxForms/Reg/REG-1.pdf" target="_blank" rel="noopener noreferrer">Income Tax - REG 1 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf14i02 gb-text"><a class="gbp-forms-link" href="https://mytax.illinois.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - Businesss Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf14i03 gb-text"><a class="gbp-forms-link" href="http://www.ides.illinois.gov/IDES%20Forms%20and%20Publications/UI-1.pdf" target="_blank" rel="noopener noreferrer">Unemployment - UI1 - Registration Form</a></p>
+
+
+
+<p class="gb-text gb-text-tf14i04 gb-text"><a class="gbp-forms-link" href="https://ides.illinois.gov/" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf15item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf15tog" id="gb-accordion-toggle-tf15tog">
+<h3 class="gb-text gb-text-tf15h">Indiana</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf15ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf15cont">
+<div class="gb-element-tf15body">
+<p class="gb-text gb-text-tf15i01 gb-text"><a class="gbp-forms-link" href="https://inbiz.in.gov/taxes-fees/tax-registration" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf15i02 gb-text"><a class="gbp-forms-link" href="https://forms.in.gov/download.aspx?id=4638" target="_blank" rel="noopener noreferrer">Unemployment - 2837 - Business Application</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf16item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf16tog" id="gb-accordion-toggle-tf16tog">
+<h3 class="gb-text gb-text-tf16h">Iowa</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf16ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf16cont">
+<div class="gb-element-tf16body">
+<p class="gb-text gb-text-tf16i01 gb-text"><a class="gbp-forms-link" href="https://tax.iowa.gov/sites/default/files/2023-11/IABusinessTaxRegistration%2878005%29.pdf" target="_blank" rel="noopener noreferrer">Income Tax - 78-005 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf16i02 gb-text"><a class="gbp-forms-link" href="https://www.idr.iowa.gov/CBA/start.asp" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf16i03 gb-text"><a class="gbp-forms-link" href="https://tax.iowa.gov/sites/default/files/2023-11/IA2848PowerofAttorney%2814101%29.pdf" target="_blank" rel="noopener noreferrer">Income Tax - IA Form 2848 Power of Attorney</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf16i04 gb-text">Income Tax - IA Form 2848 Power of Attorney Guidelines</p>
+
+
+
+<p class="gb-text gb-text-tf16i05 gb-text"><a class="gbp-forms-link" href="https://www.myiowaui.org/UITIPTaxWeb/" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf17item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf17tog" id="gb-accordion-toggle-tf17tog">
+<h3 class="gb-text gb-text-tf17h">Kansas</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf17ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf17cont">
+<div class="gb-element-tf17body">
+<p class="gb-text gb-text-tf17i01 gb-text"><a class="gbp-forms-link" href="http://www.ksrevenue.org/pdf/cr16.pdf" target="_blank" rel="noopener noreferrer">Income Tax - CR16 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf17i02 gb-text"><a class="gbp-forms-link" href="https://www.ksrevenue.org/busregistration.html" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf17i03 gb-text"><a class="gbp-forms-link" href="https://www.kansasemployer.gov/uitax/account/Register.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf17i04 gb-text"><a class="gbp-forms-link" href="https://www.dol.ks.gov/home/showpublisheddocument/326/638364886715430000" target="_blank" rel="noopener noreferrer">Unemployment - K-CNS 010 - Status Report</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf18item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf18tog" id="gb-accordion-toggle-tf18tog">
+<h3 class="gb-text gb-text-tf18h">Kentucky</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf18ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf18cont">
+<div class="gb-element-tf18body">
+<p class="gb-text gb-text-tf18i01 gb-text"><a class="gbp-forms-link" href="http://www.jeffersontownky.com/DocumentCenter/Home/View/114" target="_blank" rel="noopener noreferrer">City of Jeffersontown - Business License Questionnaire</a></p>
+
+
+
+<p class="gb-text gb-text-tf18i02 gb-text"><a class="gbp-forms-link" href="https://secure.kentucky.gov/sos/ftbr/welcome.aspx" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf18i03 gb-text"><a class="gbp-forms-link" href="https://kcc.ky.gov/employer/Pages/More-Information.aspx" target="_blank" rel="noopener noreferrer">Unemployment - UI-1 - Business Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf18i04 gb-text"><a class="gbp-forms-link" href="https://kewes.ky.gov/EmployerReg/empAcctIntro.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf19item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf19tog" id="gb-accordion-toggle-tf19tog">
+<h3 class="gb-text gb-text-tf19h">Louisiana</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf19ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf19cont">
+<div class="gb-element-tf19body">
+<p class="gb-text gb-text-tf19i01 gb-text"><a class="gbp-forms-link" href="http://rev.louisiana.gov/forms/taxforms/16019%285_08%29F.pdf" target="_blank" rel="noopener noreferrer">Income Tax - CR1 - Business Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf19i02 gb-text"><a class="gbp-forms-link" href="https://geauxbiz.sos.la.gov/" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf19i03 gb-text"><a class="gbp-forms-link" href="https://laors2.laworks.net/lastarsregistration" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf19i04 gb-text"><a class="gbp-forms-link" href="https://laors.laworks.net/lastatusreport/register/index.asp?LaLogin/Login" target="_blank" rel="noopener noreferrer">Unemployment - Tax Account Application</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf20item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf20tog" id="gb-accordion-toggle-tf20tog">
+<h3 class="gb-text gb-text-tf20h">Maine</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf20ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf20cont">
+<div class="gb-element-tf20body">
+<p class="gb-text gb-text-tf20i01 gb-text"><a class="gbp-forms-link" href="https://www.maine.gov/cgi-bin/online/suwtaxreg/index" target="_blank" rel="noopener noreferrer">Income Tax - Registration Service - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf20i02 gb-text"><a class="gbp-forms-link" href="https://www5.informe.org/cgi-bin/online/suwtaxreg/index" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf20i03 gb-text"><a class="gbp-forms-link" href="https://reemployme.maine.gov/accessme/faces/login/login.xhtml" target="_blank" rel="noopener noreferrer">Unemploymement - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf20i04 gb-text"><a class="gbp-forms-link" href="https://gateway.maine.gov/dol/meris/" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf21item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf21tog" id="gb-accordion-toggle-tf21tog">
+<h3 class="gb-text gb-text-tf21h">Maryland</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf21ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf21cont">
+<div class="gb-element-tf21body">
+<p class="gb-text gbp-forms-note gb-text-tf21i01 gb-text">Income Tax – 548P – Reporting Agent Authorization (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf21i02 gb-text">Income Tax – 548P – RAA Instructions (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gb-text-tf21i03 gb-text"><a class="gbp-forms-link" href="https://forms.marylandtaxes.gov/current_forms/CRA.pdf" target="_blank" rel="noopener noreferrer">Joint Tax - COM/RAD093 - Combined Registration Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf21i04 gb-text"><a class="gbp-forms-link" href="https://interactive.marylandtaxes.com/webapps/comptrollercra/entrance.asp" target="_blank" rel="noopener noreferrer">Joint Tax - Combined Registration Online Application</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf21i05 gb-text">Unemployment - Power of Attorney Authorization Form (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf21i06 gb-text">Unemployment - Power of Attorney Authorization Form Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf22item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf22tog" id="gb-accordion-toggle-tf22tog">
+<h3 class="gb-text gb-text-tf22h">Massachusetts</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf22ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf22cont">
+<div class="gb-element-tf22body">
+<p class="gb-text gb-text-tf22i01 gb-text"><a class="gbp-forms-link" href="https://mtc.dor.state.ma.us/mtc/_/" target="_blank" rel="noopener noreferrer">Income Tax - Mass Tax Connect - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf22i02 gb-text"><a class="gbp-forms-link" href="http://www.mass.gov/lwd/unemployment-insur/employers/" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf23item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf23tog" id="gb-accordion-toggle-tf23tog">
+<h3 class="gb-text gb-text-tf23h">Michigan</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf23ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf23cont">
+<div class="gb-element-tf23body">
+<p class="gb-text gbp-forms-note gb-text-tf23i01 gb-text">City of Big Rapids - Employer's Registration</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i02 gb-text">City of Grand Rapids - Employer's Withholding Registration</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i03 gb-text">City of East Lansing - Reporting Agent Authorization EL-8655 (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i04 gb-text">City of East Lansing - Reporting Agent Authorization Form</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i05 gb-text">City of East Lansing - Withholding Registration Form</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i06 gb-text">Income Tax - Authorized Representative Declaration (POA)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf23i07 gb-text">Income Tax - Authorization Representative Declaration (POA) Guidelines</p>
+
+
+
+<p class="gb-text gb-text-tf23i08 gb-text"><a class="gbp-forms-link" href="http://www.michigan.gov/taxes/0,4676,7-238-43519_43521_69027_69032-155361--,00.html" target="_blank" rel="noopener noreferrer">Income Tax - 518 - Registration Booklet</a></p>
+
+
+
+<p class="gb-text gb-text-tf23i09 gb-text"><a class="gbp-forms-link" href="https://www.michigan.gov/taxes/0,4676,7-238-43519_43521_69027_69032-155361--,00.html" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf23i10 gb-text"><a class="gbp-forms-link" href="http://www.michigan.gov/uia/0,1607,7-118-26898-143800--,00.html" target="_blank" rel="noopener noreferrer">Unemployment - Online Services for Employers</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf24item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf24tog" id="gb-accordion-toggle-tf24tog">
+<h3 class="gb-text gb-text-tf24h">Minnesota</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf24ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf24cont">
+<div class="gb-element-tf24body">
+<p class="gb-text gb-text-tf24i01 gb-text"><a class="gbp-forms-link" href="https://www.revenue.state.mn.us/sites/default/files/2020-09/abr.pdf" target="_blank" rel="noopener noreferrer">Income Tax - ABR - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf24i02 gb-text"><a class="gbp-forms-link" href="https://www.mndor.state.mn.us/tp/eservices/_/" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf24i03 gb-text"><a class="gbp-forms-link" href="https://www1.uimn.org/ui_employer/employer/login.do" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf25item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf25tog" id="gb-accordion-toggle-tf25tog">
+<h3 class="gb-text gb-text-tf25h">Mississippi</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf25ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf25cont">
+<div class="gb-element-tf25body">
+<p class="gb-text gb-text-tf25i01 gb-text"><a class="gbp-forms-link" href="https://tap.dor.ms.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf25i02 gb-text"><a class="gbp-forms-link" href="http://mdes.ms.gov/media/10342/UI_1_STATUS_REPORT.pdf" target="_blank" rel="noopener noreferrer">Unemployment - Status Registration - UI1</a></p>
+
+
+
+<p class="gb-text gb-text-tf25i03 gb-text"><a class="gbp-forms-link" href="https://mdes.ms.gov/employers/" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf25i04 gb-text">Income Tax – Form 21-002-13 Power of Attorney (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf25i05 gb-text">Income Tax – Form 21-002-13 Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf26item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf26tog" id="gb-accordion-toggle-tf26tog">
+<h3 class="gb-text gb-text-tf26h">Missouri</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf26ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf26cont">
+<div class="gb-element-tf26body">
+<p class="gb-text gb-text-tf26i01 gb-text"><a class="gbp-forms-link" href="https://www.kcmo.gov/home/showdocument?id=1015" target="_blank" rel="noopener noreferrer">City of Kansas - Registration Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf26i02 gb-text"><a class="gbp-forms-link" href="https://www.stlouis-mo.gov/government/departments/collector/earnings-tax/documents/e-9-form.cfm" target="_blank" rel="noopener noreferrer">City of St. Louis - Application for Earnings Tax Account</a></p>
+
+
+
+<p class="gb-text gb-text-tf26i03 gb-text"><a class="gbp-forms-link" href="http://dor.mo.gov/forms/2643.pdf" target="_blank" rel="noopener noreferrer">Income Tax - 2643 - Registration Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf26i04 gb-text"><a class="gbp-forms-link" href="https://dor.mo.gov/registerbusiness/" target="_blank" rel="noopener noreferrer">Combined Tax - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf27item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf27tog" id="gb-accordion-toggle-tf27tog">
+<h3 class="gb-text gb-text-tf27h">Montana</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf27ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf27cont">
+<div class="gb-element-tf27body">
+<p class="gb-text gb-text-tf27i01 gb-text"><a class="gbp-forms-link" href="https://mtrevenue.gov/publications/montana-department-of-revenue-business-registration-form-genreg/" target="_blank" rel="noopener noreferrer">Income Tax - GenReg - Registration Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf27i02 gb-text"><a class="gbp-forms-link" href="https://tap.dor.mt.gov/_/" target="_blank" rel="noopener noreferrer">Income Tax - Registration Application - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf27i03 gb-text"><a class="gbp-forms-link" href="https://uid.dli.mt.gov/_docs/forms/UI-1.pdf" target="_blank" rel="noopener noreferrer">Unemployment - UI/R1 - Employer Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf28item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf28tog" id="gb-accordion-toggle-tf28tog">
+<h3 class="gb-text gb-text-tf28h">Nebraska</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf28ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf28cont">
+<div class="gb-element-tf28body">
+<p class="gb-text gb-text-tf28i01 gb-text"><a class="gbp-forms-link" href="http://www.revenue.state.ne.us/business/bus_regist.html" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf28i02 gb-text"><a class="gbp-forms-link" href="https://neworks.nebraska.gov/vosnet/Default.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Online UI Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf29item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf29tog" id="gb-accordion-toggle-tf29tog">
+<h3 class="gb-text gb-text-tf29h">Nevada</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf29ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf29cont">
+<div class="gb-element-tf29body">
+<p class="gb-text gb-text-tf29i01 gb-text"><a class="gbp-forms-link" href="http://tax.nv.gov/uploadedFiles/taxnvgov/Content/Forms/012413%20APP-01%2000%20Nevada%20Business%20Registration%20-%20APP-01%2001%20Supplemental%20Combined%20With%20Instructions%2012-14-12.pdf" target="_blank" rel="noopener noreferrer">Unemployment - App1 -Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf29i02 gb-text"><a class="gbp-forms-link" href="https://ui.nv.gov/ess.html" target="_blank" rel="noopener noreferrer">Unemployment - Tax Services Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf30item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf30tog" id="gb-accordion-toggle-tf30tog">
+<h3 class="gb-text gb-text-tf30h">New Hampshire</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf30ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf30cont">
+<div class="gb-element-tf30body">
+<p class="gb-text gb-text-tf30i01 gb-text"><a class="gbp-forms-link" href="http://www.nhes.nh.gov/forms/documents/empstatus.pdf" target="_blank" rel="noopener noreferrer">Unemployment - DES100a - Status Report</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf31item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf31tog" id="gb-accordion-toggle-tf31tog">
+<h3 class="gb-text gb-text-tf31h">New Jersey</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf31ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf31cont">
+<div class="gb-element-tf31body">
+<p class="gb-text gb-text-tf31i01 gb-text"><a class="gbp-forms-link" href="https://www.njportal.com/DOR/BusinessRegistration/Home/FirstStep" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf32item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf32tog" id="gb-accordion-toggle-tf32tog">
+<h3 class="gb-text gb-text-tf32h">New Mexico</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf32ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf32cont">
+<div class="gb-element-tf32body">
+<p class="gb-text gb-text-tf32i01 gb-text"><a class="gbp-forms-link" href="https://tap.state.nm.us/Tap/_/" target="_blank" rel="noopener noreferrer">Income Tax - E Filing Services Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf32i02 gb-text"><a class="gbp-forms-link" href="http://www.dws.state.nm.us/Portals/0/DM/Business/ES802_A_or_0_Revised.pdf" target="_blank" rel="noopener noreferrer">Unemployment - ES802 - Status Report</a></p>
+
+
+
+<p class="gb-text gb-text-tf32i03 gb-text"><a class="gbp-forms-link" href="https://ui.dws.state.nm.us/Employer/Core/Login.ASPX" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf32i04 gb-text"><a class="gbp-forms-link" href="https://www.dws.state.nm.us/Portals/0/DM/UI/Assign_a_Third_Party_Administrator_Guide042018.pdf" target="_blank" rel="noopener noreferrer">Unemployment - Third Party Administrator Guide</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf33item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf33tog" id="gb-accordion-toggle-tf33tog">
+<h3 class="gb-text gb-text-tf33h">New York</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf33ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf33cont">
+<div class="gb-element-tf33body">
+<p class="gb-text gb-text-tf33i01 gb-text"><a class="gbp-forms-link" href="https://www8.tax.ny.gov/OSBZ/osbzStart" target="_blank" rel="noopener noreferrer">Income Tax - Online Services</a></p>
+
+
+
+<p class="gb-text gb-text-tf33i02 gb-text"><a class="gbp-forms-link" href="https://www.tax.ny.gov/pdf/current_forms/promptax/tr370n.pdf" target="_blank" rel="noopener noreferrer">Income Tax – PrompTax Overview – TR-370-N</a></p>
+
+
+
+<p class="gb-text gb-text-tf33i03 gb-text"><a class="gbp-forms-link" href="http://www.labor.ny.gov/formsdocs/ui/nys100.pdf" target="_blank" rel="noopener noreferrer">Joint Tax - Employer Registration - NYS 100</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf34item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf34tog" id="gb-accordion-toggle-tf34tog">
+<h3 class="gb-text gb-text-tf34h">North Carolina</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf34ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf34cont">
+<div class="gb-element-tf34body">
+<p class="gb-text gb-text-tf34i01 gb-text"><a class="gbp-forms-link" href="http://www.dornc.com/electronic/registration/index.html" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf34i02 gb-text"><a class="gbp-forms-link" href="https://files.nc.gov/des/documents/LEP/English/NCUI-604-Employer-Status-Report-English.pdf" target="_blank" rel="noopener noreferrer">Unemployment - Status Report - NCUI-604</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf35item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf35tog" id="gb-accordion-toggle-tf35tog">
+<h3 class="gb-text gb-text-tf35h">North Dakota</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf35ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf35cont">
+<div class="gb-element-tf35body">
+<p class="gb-text gbp-forms-note gb-text-tf35i01 gb-text">Income Tax - Form 301EF - Application for Withholding</p>
+
+
+
+<p class="gb-text gb-text-tf35i02 gb-text"><a class="gbp-forms-link" href="http://www.nd.gov/businessreg/" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf35i03 gb-text"><a class="gbp-forms-link" href="https://apps.nd.gov/tax/tap/_/" target="_blank" rel="noopener noreferrer">Income Tax - Online Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf35i04 gb-text"><a class="gbp-forms-link" href="https://www.nd.gov/businessreg/" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf35i05 gb-text"><a class="gbp-forms-link" href="http://www.jobsnd.com/unemployment-business/forms" target="_blank" rel="noopener noreferrer">Unemployment - SFN41216 - Liability Determination</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf36item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf36tog" id="gb-accordion-toggle-tf36tog">
+<h3 class="gb-text gb-text-tf36h">Ohio</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf36ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf36cont">
+<div class="gb-element-tf36body">
+<p class="gb-text gbp-forms-note gb-text-tf36i01 gb-text">CCA Municipal Income Tax</p>
+
+
+
+<p class="gb-text gb-text-tf36i02 gb-text"><a class="gbp-forms-link" href="https://www.akronohio.gov/cms/resource_library/files/busq/13_business_questionnaire.pdf" target="_blank" rel="noopener noreferrer">City of Akron - Business Questionnaire</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf36i03 gb-text">City of Canton - Information Sheet</p>
+
+
+
+<p class="gb-text gb-text-tf36i04 gb-text"><a class="gbp-forms-link" href="https://www.cincinnati-oh.gov/finance/income-taxes/new-account-application-form1/" target="_blank" rel="noopener noreferrer">City of Cincinnati - New Account Application</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf36i05 gb-text">City of Dayton - Business Registration</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf36i06 gb-text">City of Kettering - Business Registration</p>
+
+
+
+<p class="gb-text gb-text-tf36i07 gb-text"><a class="gbp-forms-link" href="https://springfieldohio.gov/wp-content/uploads/2020/02/BusQuestionnaire_2016-Forward.pdf" target="_blank" rel="noopener noreferrer">City of Springfield - Business Questionnaire</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf36i08 gb-text">City of Columbus - Business Registration</p>
+
+
+
+<p class="gb-text gb-text-tf36i09 gb-text"><a class="gbp-forms-link" href="https://www.cityofwaverly.net/Downloads/Request%20for%20Municipal%20Income%20Tax%20Account8.pdf" target="_blank" rel="noopener noreferrer">City of Waverly - Request for Municipal Income Tax Account</a></p>
+
+
+
+<p class="gb-text gb-text-tf36i10 gb-text"><a class="gbp-forms-link" href="https://www.ritaohio.com/" target="_blank" rel="noopener noreferrer">Regional Income Tax Authority (RITA)</a></p>
+
+
+
+<p class="gb-text gb-text-tf36i11 gb-text"><a class="gbp-forms-link" href="https://tax.ohio.gov/static/forms/employer_withholding/generic/wth_it1_fi.pdf" target="_blank" rel="noopener noreferrer">School Districts - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf36i12 gb-text"><a class="gbp-forms-link" href="http://www.tax.ohio.gov/portals/0/forms/employer_withholding/Generic/WTH_IT1_FI.pdf" target="_blank" rel="noopener noreferrer">Income Tax - IT-1- Application for Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf36i13 gb-text"><a class="gbp-forms-link" href="https://ohiobusinessgateway.ohio.gov/OBG/Membership/Registration.mvc/Acknowledgement" target="_blank" rel="noopener noreferrer">Income Tax - Account Setup - Online</a></p>
+
+
+
+<p class="gb-text gb-text-tf36i14 gb-text"><a class="gbp-forms-link" href="http://jfs.ohio.gov/ouc/uctax/registering_as_an_employer.stm" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf37item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf37tog" id="gb-accordion-toggle-tf37tog">
+<h3 class="gb-text gb-text-tf37h">Oklahoma</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf37ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf37cont">
+<div class="gb-element-tf37body">
+<p class="gb-text gb-text-tf37i01 gb-text"><a class="gbp-forms-link" href="https://www.ok.gov/tax/Online_Services/Online_Business_Registration.html" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration Booklet</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf37i02 gb-text">Unemployment - Form OES190T - Power of Attorney</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf38item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf38tog" id="gb-accordion-toggle-tf38tog">
+<h3 class="gb-text gb-text-tf38h">Oregon</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf38ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf38cont">
+<div class="gb-element-tf38body">
+<p class="gb-text gb-text-tf38i01 gb-text"><a class="gbp-forms-link" href="https://revenueonline.dor.oregon.gov/tap/_/" target="_blank" rel="noopener noreferrer">Income Tax - ACH Credit Form</a></p>
+
+
+
+<p class="gb-text gb-text-tf38i02 gb-text"><a class="gbp-forms-link" href="https://secure.sos.state.or.us/cbrmanager/index.action" target="_blank" rel="noopener noreferrer">Joint Taxes - Business Registration - Online</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf39item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf39tog" id="gb-accordion-toggle-tf39tog">
+<h3 class="gb-text gb-text-tf39h">Pennsylvania</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf39ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf39cont">
+<div class="gb-element-tf39body">
+<p class="gb-text gb-text-tf39i01 gb-text"><a class="gbp-forms-link" href="https://dced.pa.gov/download/employer-registration-local-earned-income-tax-withholding-pdf/?wpdmdl=57774" target="_blank" rel="noopener noreferrer">Local EIT Employer Registration Form</a></p>
+
+
+
+<p class="gb-text gb-text-tf39i02 gb-text"><a class="gbp-forms-link" href="http://www.hab-inc.com/employer-registration-form-eit/" target="_blank" rel="noopener noreferrer">Berkheimer - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf39i03 gb-text"><a class="gbp-forms-link" href="https://www.lctcb.org/?page_id=70" target="_blank" rel="noopener noreferrer">Lancaster County - Employer Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf39i04 gb-text"><a class="gbp-forms-link" href="https://pittsburghpa.gov/finance/new-bus-reg" target="_blank" rel="noopener noreferrer">City of Pittsburgh - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf39i05 gb-text"><a class="gbp-forms-link" href="http://www.pa100.state.pa.us/" target="_blank" rel="noopener noreferrer">Joint Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf39i06 gb-text"><a class="gbp-forms-link" href="https://www.pa100.state.pa.us/" target="_blank" rel="noopener noreferrer">Joint Tax - Enterprise Registration - PA - 100</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf40item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf40tog" id="gb-accordion-toggle-tf40tog">
+<h3 class="gb-text gb-text-tf40h">Puerto Rico</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf40ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf40cont">
+<div class="gb-element-tf40body">
+<p class="gb-text gb-text-tf40i01 gb-text"><a class="gbp-forms-link" href="http://www.hacienda.gobierno.pr/sites/default/files/documentos/sc_4809_1.pdf" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - Modelo SC4809</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf41item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf41tog" id="gb-accordion-toggle-tf41tog">
+<h3 class="gb-text gb-text-tf41h">Rhode Island</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf41ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf41cont">
+<div class="gb-element-tf41body">
+<p class="gb-text gb-text-tf41i01 gb-text"><a class="gbp-forms-link" href="https://www.ri.gov/taxation/BAR/" target="_blank" rel="noopener noreferrer">Combined - Business Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf42item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf42tog" id="gb-accordion-toggle-tf42tog">
+<h3 class="gb-text gb-text-tf42h">South Carolina</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf42ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf42cont">
+<div class="gb-element-tf42body">
+<p class="gb-text gbp-forms-note gb-text-tf42i01 gb-text">Enterprise Zone Act Credit</p>
+
+
+
+<p class="gb-text gb-text-tf42i02 gb-text"><a class="gbp-forms-link" href="https://dor.sc.gov/tax/registration" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf42i03 gb-text">Unemployment - UCE-1010 Written Authorization (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf42i04 gb-text">Unemployment - UCE-1010 Written Authorization Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf43item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf43tog" id="gb-accordion-toggle-tf43tog">
+<h3 class="gb-text gb-text-tf43h">South Dakota</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf43ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf43cont">
+<div class="gb-element-tf43body">
+<p class="gb-text gb-text-tf43i01 gb-text"><a class="gbp-forms-link" href="https://apps.sd.gov/LD00General/default.aspx?URL_GUID=http://apps.sd.gov/LD75UIBP20/Secure/EmpUIMenu/default.aspx?4ygsqfva4q50ri4qai2r4vwm" target="_blank" rel="noopener noreferrer">Unemployment - Business Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf44item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf44tog" id="gb-accordion-toggle-tf44tog">
+<h3 class="gb-text gb-text-tf44h">Tennessee</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf44ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf44cont">
+<div class="gb-element-tf44body">
+<p class="gb-text gb-text-tf44i01 gb-text"><a class="gbp-forms-link" href="https://www.tn.gov/revenue/for-businesses/registration-and-tax-requirements-.html" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf44i02 gb-text">Unemployment – Power of Attorney – LB-0927</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf45item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf45tog" id="gb-accordion-toggle-tf45tog">
+<h3 class="gb-text gb-text-tf45h">Texas</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf45ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf45cont">
+<div class="gb-element-tf45body">
+<p class="gb-text gb-text-tf45i01 gb-text"><a class="gbp-forms-link" href="https://twc.texas.gov/written-authorization-represent-employing-unit-form-c-42" target="_blank" rel="noopener noreferrer">Unemployment - Power of Attorney - C42</a></p>
+
+
+
+<p class="gb-text gb-text-tf45i02 gb-text"><a class="gbp-forms-link" href="http://www.texasworkforce.org/ui/tax/uitaxreg.html" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf45i03 gb-text"><a class="gbp-forms-link" href="http://www.twc.state.tx.us/ui/tax/forms/c1.pdf" target="_blank" rel="noopener noreferrer">Unemployment - Status Report - C1</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf46item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf46tog" id="gb-accordion-toggle-tf46tog">
+<h3 class="gb-text gb-text-tf46h">Utah</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf46ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf46cont">
+<div class="gb-element-tf46body">
+<p class="gb-text gb-text-tf46i01 gb-text"><a class="gbp-forms-link" href="http://tax.utah.gov/forms/current/tc-69.pdf" target="_blank" rel="noopener noreferrer">Income Tax - TC69 - Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf46i02 gb-text"><a class="gbp-forms-link" href="https://secure.utah.gov/osbr-user/user/welcome.html" target="_blank" rel="noopener noreferrer">Income Tax - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf47item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf47tog" id="gb-accordion-toggle-tf47tog">
+<h3 class="gb-text gb-text-tf47h">Vermont</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf47ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf47cont">
+<div class="gb-element-tf47body">
+<p class="gb-text gb-text-tf47i01 gb-text"><a class="gbp-forms-link" href="http://tax.vermont.gov/business-and-corp/register-renew-close-business" target="_blank" rel="noopener noreferrer">Income Tax - Online Business Registration</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf47i02 gb-text">Income Tax - PA-1 - Power of Attorney (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gb-text-tf47i03 gb-text"><a class="gbp-forms-link" href="https://uipublic.labor.vermont.gov/EmployerRegistration/VT_UI_Liability/Liabilitycheck1.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf48item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf48tog" id="gb-accordion-toggle-tf48tog">
+<h3 class="gb-text gb-text-tf48h">Virginia</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf48ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf48cont">
+<div class="gb-element-tf48body">
+<p class="gb-text gb-text-tf48i01 gb-text"><a class="gbp-forms-link" href="https://www.vec.virginia.gov/vecportal/employer/pdf/fc_27new.pdf" target="_blank" rel="noopener noreferrer">Unemployment – Report to Determine Liability (T-FC-27)</a></p>
+
+
+
+<p class="gb-text gb-text-tf48i02 gb-text"><a class="gbp-forms-link" href="https://www.ireg.tax.virginia.gov/VTOL/Login.seam?mustLogin=true" target="_blank" rel="noopener noreferrer">Combined Tax - Online Registration (preferred registration method)</a></p>
+
+
+
+<p class="gb-text gb-text-tf48i03 gb-text"><a class="gbp-forms-link" href="https://tax.virginia.gov/sites/default/files/taxforms/business-registration/any/r-1-any.pdf" target="_blank" rel="noopener noreferrer">Income Tax - Business Registration - R-1</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf49item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf49tog" id="gb-accordion-toggle-tf49tog">
+<h3 class="gb-text gb-text-tf49h">Washington</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf49ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf49cont">
+<div class="gb-element-tf49body">
+<p class="gb-text gbp-forms-note gb-text-tf49i01 gb-text">City of Seattle - Finance Confidential Tax Information Authorization</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf49i02 gb-text">City of Seattle - Finance Confidential Tax Information Authorization Guidelines</p>
+
+
+
+<p class="gb-text gb-text-tf49i03 gb-text"><a class="gbp-forms-link" href="https://dor.wa.gov/sites/default/files/legacy/Docs/forms/BLS/700028.pdf" target="_blank" rel="noopener noreferrer">Income Tax - Master Business Application - BLS-700-028</a></p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf49i04 gb-text">Labor &amp; Industries (LNI) - F242-431-000 - Authorization on Behalf of Employer</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf49i05 gb-text">Paid Family Medical Leave - Power of Attorney (not available for public download — contact your Pacioli Finance representative)</p>
+
+
+
+<p class="gb-text gbp-forms-note gb-text-tf49i06 gb-text">Paid Family Medical Leave - Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf50item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf50tog" id="gb-accordion-toggle-tf50tog">
+<h3 class="gb-text gb-text-tf50h">West Virginia</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf50ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf50cont">
+<div class="gb-element-tf50body">
+<p class="gb-text gb-text-tf50i01 gb-text"><a class="gbp-forms-link" href="http://www.business4wv.com/b4wvpublic/" target="_blank" rel="noopener noreferrer">Joint Tax - Online Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf51item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf51tog" id="gb-accordion-toggle-tf51tog">
+<h3 class="gb-text gb-text-tf51h">Wisconsin</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf51ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf51cont">
+<div class="gb-element-tf51body">
+<p class="gb-text gb-text-tf51i01 gb-text"><a class="gbp-forms-link" href="https://www.revenue.wi.gov/Pages/Businesses/home.aspx" target="_blank" rel="noopener noreferrer">Income Tax - Online Business Registration</a></p>
+
+
+
+<p class="gb-text gb-text-tf51i02 gb-text"><a class="gbp-forms-link" href="https://www.revenue.wi.gov/TaxForms2017through2019/btr-101.pdf" target="_blank" rel="noopener noreferrer">Income Tax - BTR-101 - Business Application</a></p>
+
+
+
+<p class="gb-text gb-text-tf51i03 gb-text"><a class="gbp-forms-link" href="https://dwd.wisconsin.gov/dwd/forms/ui/uct-1-e.htm" target="_blank" rel="noopener noreferrer">Unemployment - Employer Report - UCT 1</a></p>
+
+
+
+<p class="gb-text gb-text-tf51i04 gb-text"><a class="gbp-forms-link" href="https://unemployment.wisconsin.gov/SUITESPortalWelcome/EmployerPortalWelcome.aspx?target=AccountMain.aspx" target="_blank" rel="noopener noreferrer">Unemployment - Online UI Registration</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="gb-accordion__item gb-accordion__item-tf52item">
+<div class="gb-accordion__toggle gb-accordion__toggle-tf52tog" id="gb-accordion-toggle-tf52tog">
+<h3 class="gb-text gb-text-tf52h">Wyoming</h3>
+
+
+
+<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-tf52ic"><span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span><span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span></span>
+</div>
+
+
+
+<div class="gb-accordion__content" id="gb-accordion-content-tf52cont">
+<div class="gb-element-tf52body">
+<p class="gb-text gb-text-tf52i01 gb-text"><a class="gbp-forms-link" href="https://wyui.wyo.gov/benefits/home.do" target="_blank" rel="noopener noreferrer">Unemployment - Online Business Registration</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<script>
+document.querySelectorAll('.gb-accordion__toggle').forEach(function(t){
+  t.addEventListener('click', function(){
+    var item = t.closest('.gb-accordion__item');
+    item.classList.toggle('gbp-preview-open');
+  });
+});
+</script>
+
+</body>
+</html>
