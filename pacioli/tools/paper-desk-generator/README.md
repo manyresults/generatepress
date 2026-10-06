@@ -25,6 +25,8 @@ The Clean-Up Bookkeeping page body is the tail of `helpers_source.py` (after the
 - Rendering check: Playwright + /opt/pw-browsers/chromium; inject tok.css (strip the @import) + every block's `css`.
 
 ## Status (branch claude/elegant-clarke-f7jlo6)
-Done: Clean-Up Bookkeeping, Tax & Compliance, Internal Audit, Payroll, Industries hub, Non-Profit.
-Remaining: Education, Legal, Professional Services, Real Estate, Technology (sources are on
-origin/claude/epic-cori-y5x8wi: pacioli/industry-*.html).
+Done: Clean-Up Bookkeeping, Tax & Compliance, Internal Audit, Payroll, Industries hub, Non-Profit,
+Education, Legal, Professional Services, Real Estate, Technology (bodies/<slug>_body.py ->
+pacioli/industry-<slug>-paper.html). All five validate with 0 errors; rendered in headless Chromium at 1280px and 390px
+with no horizontal overflow. Not yet pasted into or checked in real WordPress.
+Remaining: none of the planned industry pages.
