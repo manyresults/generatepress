@@ -201,7 +201,7 @@ cta = section('edctasec', ACC, [
     el('edctawrap', 'div', {'alignItems': 'center', 'display': 'flex', 'flexDirection': 'column', 'margin': '0 auto',
                             'maxWidth': '36rem', 'textAlign': 'center', 'position': 'relative'}, [
         eyebrow('edctaeye', "Let's Talk", HI),
-        h2('edctah2', "Ready for financials leadership can actually use?", '#ffffff', mb='1.75rem'),
+        h2('edctah2', "Ready for financials that leadership can actually use?", '#ffffff', mb='1.75rem'),
         btn('edctabtn', 'Request a Consultation', '/contact/', 'light'),
     ]),
 ], pad=72, hattrs={'id': 'contact'})
