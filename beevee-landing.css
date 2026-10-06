@@ -17,17 +17,14 @@ body.admin-bar .bv-section { scroll-margin-top: 104px; }
 /* sticky header (hide the theme header on this page if you use this one) */
 .bv-header { position: sticky; top: 0; z-index: 100; background: rgba(20,31,51,.94); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,.12); }
 body.admin-bar .bv-header { top: 32px; }
+.bv-header__cta { white-space: nowrap; }
 .bv-header__inner { max-width: var(--gb-container-width, 1200px); margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); min-height: 64px; display: flex; align-items: center; gap: 2rem; }
-.bv-header__brand { color: var(--base-3); font-size: 1.25rem; font-weight: 900; letter-spacing: .02em; }
 .bv-nav { display: flex; gap: 1.75rem; margin-left: auto; }
-.bv-nav__link { color: rgba(255,255,255,.8); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 4px 0; border-bottom: 2px solid transparent; }
-.bv-nav__link:hover { color: var(--accent-3); border-bottom-color: var(--accent-3); }
-.bv-header__cta { display: inline-block; white-space: nowrap; }
 @media (max-width: 900px) {
   .bv-header__inner { gap: 1rem; }
   .bv-nav { gap: 1.25rem; overflow-x: auto; scrollbar-width: none; margin-left: 0; flex: 1; }
   .bv-nav::-webkit-scrollbar { display: none; }
-  .bv-nav__link { white-space: nowrap; }
+  body .entry-content a.bv-nav__link { white-space: nowrap; }
 }
 @media (max-width: 782px) { body.admin-bar .bv-header { top: 46px; } }
 
@@ -52,8 +49,6 @@ body.admin-bar .bv-header { top: 32px; }
 .bv-lead { max-width: 56ch; margin-bottom: 2rem; }
 .bv-footnote { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.55) !important; margin: 2rem 0 0; }
 .bv-quote { border-left: 4px solid var(--accent); font-size: 1.2rem; font-style: italic; margin: 2rem 0; padding-left: 1.25rem; }
-.bv-btn { display: inline-block; margin: 0 1rem .5rem 0; }
-.bv-center .bv-btn { margin: 0 .5rem .5rem; }
 .bv-actions { margin-top: 2.5rem; }
 
 /* hero meta bar + at-a-glance strip */
@@ -65,8 +60,80 @@ body.admin-bar .bv-header { top: 32px; }
 .bv-path__label { color: var(--accent-3) !important; font-size: 1.75rem; font-weight: 900; line-height: 1.25; margin-bottom: .5rem !important; }
 .bv-path__text { color: rgba(255,255,255,.78) !important; margin-bottom: 1rem !important; }
 .bv-path__links { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
-.bv-path__link { color: var(--base-3); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-bottom: 1px solid var(--accent-3); padding-bottom: 2px; }
-.bv-path__link:hover { color: var(--accent-3); }
+
+
+/* ---- LINKS & BUTTONS ----
+   GeneratePress colors every .entry-content link with --contrast (near-black) and
+   --accent-2 on hover, which beat single-class rules and made links unreadable on
+   the dark header/hero/band. Every link below is scoped to  body .entry-content a.*
+   and sets color for :link, :visited and :hover explicitly. */
+
+/* header */
+body .entry-content a.bv-header__brand,
+body .entry-content a.bv-header__brand:visited { color: var(--base-3); font-size: 1.25rem; font-weight: 900; letter-spacing: .02em; text-decoration: none; }
+body .entry-content a.bv-header__brand:hover { color: var(--accent-3); }
+
+body .entry-content a.bv-nav__link,
+body .entry-content a.bv-nav__link:visited { color: var(--base-3); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
+body .entry-content a.bv-nav__link:hover,
+body .entry-content a.bv-nav__link:focus-visible { color: var(--accent-3); border-bottom-color: var(--accent-3); }
+
+/* in-hero path links */
+body .entry-content a.bv-path__link,
+body .entry-content a.bv-path__link:visited { color: var(--base-3); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid var(--accent-3); padding-bottom: 2px; }
+body .entry-content a.bv-path__link:hover,
+body .entry-content a.bv-path__link:focus-visible { color: var(--accent-3); }
+
+/* buttons: solid by default */
+body .entry-content a.bv-btn,
+body .entry-content a.bv-btn:visited { display: inline-block; margin: 0 1rem .5rem 0; text-decoration: none; border: 2px solid transparent; }
+.bv-center a.bv-btn { margin: 0 .5rem .5rem; }
+/* on light/white sections: navy button, white text (14.9:1) */
+body .entry-content .bv-section--light a.bv-btn,
+body .entry-content .bv-section--white a.bv-btn,
+body .entry-content .bv-section--light a.bv-btn:visited,
+body .entry-content .bv-section--white a.bv-btn:visited { background: var(--contrast-2); border-color: var(--contrast-2); color: var(--base-3); }
+body .entry-content .bv-section--light a.bv-btn:hover,
+body .entry-content .bv-section--white a.bv-btn:hover,
+body .entry-content .bv-section--light a.bv-btn:focus-visible,
+body .entry-content .bv-section--white a.bv-btn:focus-visible { background: var(--accent); border-color: var(--accent); color: var(--base-3); }
+/* on dark/hero/band + header: yellow button, navy text (13:1) */
+body .entry-content .bv-section--hero a.bv-btn,
+body .entry-content .bv-section--dark a.bv-btn,
+body .entry-content .bv-section--band a.bv-btn,
+body .entry-content .bv-header a.bv-btn,
+body .entry-content .bv-section--hero a.bv-btn:visited,
+body .entry-content .bv-section--dark a.bv-btn:visited,
+body .entry-content .bv-section--band a.bv-btn:visited,
+body .entry-content .bv-header a.bv-btn:visited { background: var(--accent-3); border-color: var(--accent-3); color: var(--contrast-2); }
+body .entry-content .bv-section--hero a.bv-btn:hover,
+body .entry-content .bv-section--dark a.bv-btn:hover,
+body .entry-content .bv-section--band a.bv-btn:hover,
+body .entry-content .bv-header a.bv-btn:hover,
+body .entry-content .bv-section--hero a.bv-btn:focus-visible,
+body .entry-content .bv-section--dark a.bv-btn:focus-visible,
+body .entry-content .bv-section--band a.bv-btn:focus-visible,
+body .entry-content .bv-header a.bv-btn:focus-visible { background: var(--base-3); border-color: var(--base-3); color: var(--contrast-2); }
+/* ghost (outline) button */
+body .entry-content a.bv-btn.bv-btn--ghost,
+body .entry-content a.bv-btn.bv-btn--ghost:visited { background: transparent; border-color: var(--base-3); color: var(--base-3); }
+body .entry-content a.bv-btn.bv-btn--ghost:hover,
+body .entry-content a.bv-btn.bv-btn--ghost:focus-visible { background: var(--base-3); border-color: var(--base-3); color: var(--contrast-2); }
+
+/* keyboard focus ring */
+body .entry-content .bv-header a:focus-visible,
+body .entry-content .bv-section--hero a:focus-visible,
+body .entry-content .bv-section--dark a:focus-visible,
+body .entry-content .bv-section--band a:focus-visible { outline: 2px solid var(--accent-3); outline-offset: 3px; }
+body .entry-content .bv-section--light a:focus-visible,
+body .entry-content .bv-section--white a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Gravity Form inside the dark contact section */
+.bv-form, .bv-form p, .bv-form label, .bv-form legend, .bv-form .gfield_description, .bv-form .gform-field-label { color: var(--contrast); }
+.bv-form .gfield_required, .bv-form .gfield_required_text { color: #a11; }
+.bv-form a, .bv-form a:visited { color: var(--accent); text-decoration: underline; }
+.bv-form .gform_button, .bv-form input[type=submit] { background: var(--accent); border: 2px solid var(--accent); color: var(--base-3); }
+.bv-form .gform_button:hover, .bv-form .gform_button:focus-visible { background: var(--contrast-2); border-color: var(--contrast-2); color: var(--base-3); }
 
 /* split layouts */
 .bv-split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
