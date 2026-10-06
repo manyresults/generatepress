@@ -8,6 +8,29 @@
 .bv-center { text-align: center; }
 .bv-center .bv-lead { margin-left: auto; margin-right: auto; }
 
+/* smooth anchor jumps, clear of the sticky header */
+html { scroll-behavior: smooth; }
+.bv-section { scroll-margin-top: 72px; }
+body.admin-bar .bv-section { scroll-margin-top: 104px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* sticky header (hide the theme header on this page if you use this one) */
+.bv-header { position: sticky; top: 0; z-index: 100; background: rgba(20,31,51,.94); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,.12); }
+body.admin-bar .bv-header { top: 32px; }
+.bv-header__inner { max-width: var(--gb-container-width, 1200px); margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); min-height: 64px; display: flex; align-items: center; gap: 2rem; }
+.bv-header__brand { color: var(--base-3); font-size: 1.25rem; font-weight: 900; letter-spacing: .02em; }
+.bv-nav { display: flex; gap: 1.75rem; margin-left: auto; }
+.bv-nav__link { color: rgba(255,255,255,.8); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 4px 0; border-bottom: 2px solid transparent; }
+.bv-nav__link:hover { color: var(--accent-3); border-bottom-color: var(--accent-3); }
+.bv-header__cta { display: inline-block; white-space: nowrap; }
+@media (max-width: 900px) {
+  .bv-header__inner { gap: 1rem; }
+  .bv-nav { gap: 1.25rem; overflow-x: auto; scrollbar-width: none; margin-left: 0; flex: 1; }
+  .bv-nav::-webkit-scrollbar { display: none; }
+  .bv-nav__link { white-space: nowrap; }
+}
+@media (max-width: 782px) { body.admin-bar .bv-header { top: 46px; } }
+
 /* backgrounds */
 .bv-section--light { background: var(--base-2); }
 .bv-section--white { background: var(--base-3); }
@@ -21,7 +44,7 @@
 .bv-section--band h1, .bv-section--band h2, .bv-section--band h3, .bv-section--band p { color: var(--base-3); }
 .bv-section--hero .bv-lead, .bv-section--dark .bv-lead, .bv-section--band .bv-lead { color: rgba(255,255,255,.78); }
 .bv-section--hero .bv-tagline, .bv-section--dark .bv-tagline, .bv-section--band .bv-tagline,
-.bv-section--hero em, .bv-stat__num { color: var(--accent-3); }
+.bv-section--hero em { color: var(--accent-3); }
 .bv-section--hero em { font-style: normal; }
 
 /* type helpers */
@@ -38,9 +61,12 @@
 .bv-meta__name { color: var(--base-3); font-size: 15px; letter-spacing: 0; text-transform: none; font-weight: 900; }
 .bv-section--hero h1 { max-width: 20ch; text-wrap: balance; }
 .bv-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: clamp(64px, 8vw, 96px); padding-top: 28px; border-top: 1px solid rgba(255,255,255,.18); }
-.bv-stat p { margin: 0; }
-.bv-stat p:last-child { color: rgba(255,255,255,.72); }
-.bv-stat__num { font-size: 1.75rem; font-weight: 900; line-height: 1.25; margin-bottom: .25rem !important; }
+.bv-path p { margin: 0; }
+.bv-path__label { color: var(--accent-3) !important; font-size: 1.75rem; font-weight: 900; line-height: 1.25; margin-bottom: .5rem !important; }
+.bv-path__text { color: rgba(255,255,255,.78) !important; margin-bottom: 1rem !important; }
+.bv-path__links { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+.bv-path__link { color: var(--base-3); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-bottom: 1px solid var(--accent-3); padding-bottom: 2px; }
+.bv-path__link:hover { color: var(--accent-3); }
 
 /* split layouts */
 .bv-split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
@@ -107,7 +133,7 @@
   .bv-split, .bv-split--head, .bv-steps, .bv-grid--3 { grid-template-columns: 1fr; }
   .bv-split--flip .bv-split__a, .bv-split--flip .bv-split__b { order: initial; }
   .bv-step, .bv-step:first-child, .bv-step:last-child { padding: 32px 0; border-right: 0; border-bottom: 1px solid #dedee3; }
-  .bv-strip { grid-template-columns: 1fr; gap: 24px; }
+  .bv-strip { grid-template-columns: 1fr; gap: 32px; }
   .bv-rows { padding: 12px 24px; }
   .bv-spec__row { grid-template-columns: 1fr; gap: 4px; }
   .bv-spec__v { text-align: left; }
