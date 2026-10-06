@@ -10,4 +10,4 @@ s = open(__file__.replace('build.py', 'helpers_source.py')).read()
 head = s[:s.index('# =====================================================================\n# 1. HERO')]
 acc = s[s.index('def acc_item'):s.index('\ncore = [')]
 body = open(sys.argv[1]).read()
-sys.stdout.write(head + '\n' + acc + '\n' + body)
+exec(compile(head + '\n' + acc + '\n' + body, 'paper_desk_page', 'exec'), {'__name__': 'paper_desk'})
