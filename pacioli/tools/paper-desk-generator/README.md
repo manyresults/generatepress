@@ -30,3 +30,8 @@ Education, Legal, Professional Services, Real Estate, Technology (bodies/<slug>_
 pacioli/industry-<slug>-paper.html). All five validate with 0 errors; rendered in headless Chromium at 1280px and 390px
 with no horizontal overflow. Not yet pasted into or checked in real WordPress.
 Remaining: none of the planned industry pages.
+
+Tax checklists (added): bodies/checklists_hub_body.py -> pacioli/tax-checklists-hub-paper.html;
+bodies/checklist_body.py (CL=<slug>, reads copy from pacioli/tax-checklist-<slug>.html) ->
+pacioli/tax-checklist-<slug>-paper.html for 1040-schedule-c, 1065, 1120-s, 1120, 990-ez, 990.
+Branch note: claude/epic-cori-y5x8wi was merged into this branch; this branch is canonical.
