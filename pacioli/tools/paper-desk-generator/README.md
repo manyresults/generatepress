@@ -40,3 +40,4 @@ Tax & Payroll Registration Forms Directory: bodies/forms_dir_body.py + bodies/fo
 Footer: bodies/footer_body.py -> pacioli/footer-paper.html (copy changes: established businesses, /contact/, Clean-Up Bookkeeping + Internal Audit added to Solutions)
 About page: bodies/about_body.py (rebuilt from live markup) -> pacioli/about-page-paper.html (copy fixes: no small businesses/owner/Souderton, /contact/ links, consultation image -> small badge)
 Solutions page: bodies/solutions_body.py (rebuilt from live markup) -> pacioli/solutions-page-paper.html
+Thank-you page: bodies/thankyou_body.py -> pacioli/thank-you-page-paper.html (booking links/iframe unchanged: Google Calendar)
