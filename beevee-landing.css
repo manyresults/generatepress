@@ -85,6 +85,11 @@ body.admin-bar .bv-header { top: 32px; }
 .bv-step h3 { margin: 0 0 14px; }
 .bv-step p { margin: 0; }
 
+/* image placeholders + stacked media column */
+.bv-stack { display: grid; gap: 24px; }
+.bv-img { margin: 0; }
+.bv-img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid #dedee3; }
+
 /* spec sheet card */
 .bv-spec { background: var(--base-3); border: 1px solid #dedee3; box-shadow: 0 20px 60px -30px rgba(20,31,51,.35); padding: 32px; }
 .bv-section--white .bv-spec { background: var(--base-2); }
