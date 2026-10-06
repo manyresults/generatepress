@@ -70,7 +70,8 @@ def tx(u, tag, content, styles=None, hattrs=None, extra_css='', cls='gb-text'):
     if cls:
         a['className'] = cls
     attr_html = ''.join(' %s="%s"' % (k, v) for k, v in (hattrs or {}).items())
-    return blk('generateblocks/text', a, '<%s class="gb-text gb-text-%s"%s>' % (tag, u, attr_html),
+    extra_cls = ''.join(' ' + c for c in (cls or '').split() if c != 'gb-text')
+    return blk('generateblocks/text', a, '<%s class="gb-text gb-text-%s%s"%s>' % (tag, u, extra_cls, attr_html),
                content, '</%s>' % tag)
 
 def sh(u, svg, styles=None):

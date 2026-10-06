@@ -36,3 +36,4 @@ bodies/checklist_body.py (CL=<slug>, reads copy from pacioli/tax-checklist-<slug
 pacioli/tax-checklist-<slug>-paper.html for 1040-schedule-c, 1065, 1120-s, 1120, 990-ez, 990.
 Note: the epic-branch merge was reverted; the checklist sources (tax-checklist-<slug>.html, tax-checklists-hub.html) live on claude/epic-cori-y5x8wi only.
 IRS Forms & Publications: bodies/irs_body.py + bodies/irs_data.json (list data bundled) -> pacioli/irs-forms-publications-paper.html
+Tax & Payroll Registration Forms Directory: bodies/forms_dir_body.py + bodies/forms_dir_data.json -> pacioli/tax-forms-directory-paper.html (helpers: tx() now emits extra cls into the html class attr)

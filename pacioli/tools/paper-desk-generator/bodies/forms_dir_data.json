@@ -1,0 +1,1004 @@
+{
+"intro": "The federal and state-level tax and payroll registration forms our clients most commonly need — business registration, income tax withholding, unemployment insurance, and power-of-attorney/reporting-agent authorizations. Forms marked <em>not available for public download</em> require a request to your Pacioli Finance representative.",
+"select": "Select a state or territory to view its registration, withholding, and unemployment insurance forms.",
+"federal": [
+{
+"href": "https://www.irs.gov/pub/irs-pdf/f8655.pdf",
+"text": "8655 - Reporting Agent Authorization"
+},
+{
+"href": "https://www.irs.gov/pub/irs-pdf/f8821.pdf",
+"text": "8821 - Tax Information Authorization"
+},
+{
+"href": "http://www.irs.gov/pub/irs-pdf/fss4.pdf",
+"text": "SS4 - Application for Identification Number"
+},
+{
+"href": "https://sa1.www4.irs.gov/modiein/individual/index.jsp",
+"text": "SS4 - Online Registration"
+},
+{
+"href": "https://www.irs.gov/pub/irs-pdf/f941.pdf",
+"text": "941 - Employer's QUARTERLY Federal Tax Return"
+},
+{
+"href": "https://www.irs.gov/pub/irs-pdf/f940.pdf",
+"text": "940 - Federal Unemployment Tax Act (FUTA) tax"
+},
+{
+"href": null,
+"text": "Select a state or territory to view its registration, withholding, and unemployment insurance forms."
+}
+],
+"states": [
+{
+"name": "Alabama",
+"items": [
+{
+"href": "https://revenue.alabama.gov/wp-content/uploads/2017/05/EFT-001.pdf",
+"text": "Income Tax - 001 - EFT Authorization"
+},
+{
+"href": "https://myalabamataxes.alabama.gov/_/",
+"text": "Income Tax - COM101 - Business Registration Income Tax - Business Registration - Online (preferred)"
+},
+{
+"href": "https://labor.alabama.gov/docs/forms/uc_sr2_application.pdf",
+"text": "Unemployment - SR2 - Application to Determine Liability"
+},
+{
+"href": null,
+"text": "Unemployment - Power of Attorney (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "Alaska",
+"items": [
+{
+"href": "https://my.alaska.gov/NewAccount.aspx",
+"text": "Unemployment - Employer's Registration - Online"
+}
+]
+},
+{
+"name": "Arizona",
+"items": [
+{
+"href": "https://www.aztaxes.gov/Security/Register",
+"text": "Joint Tax Application - Online (preferred)"
+},
+{
+"href": "https://azdor.gov/forms/tpt-forms/joint-tax-application-tpt-license",
+"text": "Joint Tax Application - JT-1/UC-001"
+}
+]
+},
+{
+"name": "Arkansas",
+"items": [
+{
+"href": "https://www.dfa.arkansas.gov/images/uploads/exciseTaxOffice/ar1r.pdf",
+"text": "Income Tax – AR-1R Combined Business Tax Registration Form"
+},
+{
+"href": "https://atap.arkansas.gov/_/",
+"text": "Income Tax - Business Registration - Online (preferred)"
+},
+{
+"href": "https://www.dws.arkansas.gov/src/files/DWS-ARK-201.pdf",
+"text": "Unemployment - DWS-ARK 201 - Status Report"
+},
+{
+"href": "https://www.workforce.arkansas.gov/Tax21/Login.aspx?m=T",
+"text": "Unemployment - Online Tax Registration"
+}
+]
+},
+{
+"name": "California",
+"items": [
+{
+"href": "http://www.edd.ca.gov/pdf_pub_ctr/de1.pdf",
+"text": "Combined Registration - DE1"
+},
+{
+"href": "https://eddservices.edd.ca.gov/index.html",
+"text": "Combined Registration - eServices for Business"
+}
+]
+},
+{
+"name": "Colorado",
+"items": [
+{
+"href": "https://www.auroragov.org/business_services/licenses___permits/business_licensing",
+"text": "City of Aurora - Business Registration"
+},
+{
+"href": "http://greenwoodvillage.com/common/modules/documentcenter2/documentview.aspx?DID=27&DL=1",
+"text": "Greenwood Village - Tax License Application"
+},
+{
+"href": "https://apps.colorado.gov/apps/jboss/cbe/file-manually.xhtml",
+"text": "Income Tax - CR 100 - Business Registration"
+},
+{
+"href": "https://www.colorado.gov/apps/jboss/cbe/",
+"text": "Business Express - Online Registration"
+},
+{
+"href": null,
+"text": "Income Tax - DR 0145 - Power of Attorney (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Income Tax - DR 0145 - Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "Connecticut",
+"items": [
+{
+"href": "http://www.ct.gov/drs/lib/drs/filllable_applications/reg-1.pdf",
+"text": "Income Tax - Reg 1 - Business Registration"
+},
+{
+"href": "http://www.ct.gov/drs/cwp/view.asp?a=1433&q=265880",
+"text": "Income Tax - Tax Online Registration"
+},
+{
+"href": "https://wage.ctdol.state.ct.us/cters/index.aspx",
+"text": "Unemployment - Online Registration"
+},
+{
+"href": "https://www.ctdol.state.ct.us/uitax/uc1a-onlineinst.html",
+"text": "Unemployment - UC1A - Status Report"
+}
+]
+},
+{
+"name": "Delaware",
+"items": [
+{
+"href": "https://revenuefiles.delaware.gov/2018/TY18_CRAe.pdf",
+"text": "Income Tax - CRA - Business Registration"
+},
+{
+"href": "https://onestop.delaware.gov/osbrlpublic/Home.jsp",
+"text": "Income Tax - One Stop Business Registration"
+},
+{
+"href": "https://labor.delaware.gov/divisions/unemployment-insurance/forms/",
+"text": "Unemployment - UC-1 - Application"
+}
+]
+},
+{
+"name": "District of Columbia",
+"items": [
+{
+"href": "https://mytax.dc.gov/_/",
+"text": "Combined Registration - FR500"
+},
+{
+"href": null,
+"text": "Unemployment - POA (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": "https://essp.does.dc.gov/EMPSPA/home/wfmRegister/#/spa/wfmEmployerRegistrationWizard/0",
+"text": "Unemployment - Registration Portal - Online"
+}
+]
+},
+{
+"name": "Florida",
+"items": [
+{
+"href": null,
+"text": "Unemployment - DR-835 - POA (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": "http://dor.myflorida.com/dor/forms/2006/dr1.pdf",
+"text": "Unemployment - DR1 - Business Application"
+},
+{
+"href": "https://taxapps.floridarevenue.com/IRegistration/",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Georgia",
+"items": [
+{
+"href": "https://gtc.dor.ga.gov/_/",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://dor.georgia.gov/documents/crf-002",
+"text": "Income Tax - CRF-002 - Tax Registration Instructions"
+},
+{
+"href": null,
+"text": "Unemployment - Limited Power of Attorney"
+},
+{
+"href": "http://www.dol.state.ga.us/pdf/forms/dol1a.pdf",
+"text": "Unemployment - DOL-1a - Employer Status Report"
+},
+{
+"href": "https://www.dol.state.ga.us/Access/Service/LogonDOL1",
+"text": "Unemployment - Business Registration - Online"
+},
+{
+"href": null,
+"text": "Income Tax – Form RD-1063 Reporting Agent Authorization (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Income Tax – Form RD-1063 Reporting Agent Authorization Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "Hawaii",
+"items": [
+{
+"href": "https://lala.ehawaii.gov/lala/account/new.lala?onCompleteName=Business%20Express&onCompleteUri=https://hbe.ehawaii.gov/BizEx/account/joinBizEx.eb",
+"text": "Combined Registration - Online"
+}
+]
+},
+{
+"name": "Idaho",
+"items": [
+{
+"href": "https://tax.idaho.gov/i-1159.cfm",
+"text": "Combined Tax - Online Registration"
+}
+]
+},
+{
+"name": "Illinois",
+"items": [
+{
+"href": "http://www.tax.illinois.gov/TaxForms/Reg/REG-1.pdf",
+"text": "Income Tax - REG 1 - Business Registration"
+},
+{
+"href": "https://mytax.illinois.gov/_/",
+"text": "Income Tax - Businesss Registration - Online"
+},
+{
+"href": "http://www.ides.illinois.gov/IDES%20Forms%20and%20Publications/UI-1.pdf",
+"text": "Unemployment - UI1 - Registration Form"
+},
+{
+"href": "https://ides.illinois.gov/",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Indiana",
+"items": [
+{
+"href": "https://inbiz.in.gov/taxes-fees/tax-registration",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://forms.in.gov/download.aspx?id=4638",
+"text": "Unemployment - 2837 - Business Application"
+}
+]
+},
+{
+"name": "Iowa",
+"items": [
+{
+"href": "https://tax.iowa.gov/sites/default/files/2023-11/IABusinessTaxRegistration%2878005%29.pdf",
+"text": "Income Tax - 78-005 - Business Registration"
+},
+{
+"href": "https://www.idr.iowa.gov/CBA/start.asp",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://tax.iowa.gov/sites/default/files/2023-11/IA2848PowerofAttorney%2814101%29.pdf",
+"text": "Income Tax - IA Form 2848 Power of Attorney"
+},
+{
+"href": null,
+"text": "Income Tax - IA Form 2848 Power of Attorney Guidelines"
+},
+{
+"href": "https://www.myiowaui.org/UITIPTaxWeb/",
+"text": "Unemployment - Business Registration - Online"
+}
+]
+},
+{
+"name": "Kansas",
+"items": [
+{
+"href": "http://www.ksrevenue.org/pdf/cr16.pdf",
+"text": "Income Tax - CR16 - Business Registration"
+},
+{
+"href": "https://www.ksrevenue.org/busregistration.html",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "https://www.kansasemployer.gov/uitax/account/Register.aspx",
+"text": "Unemployment - Online Registration"
+},
+{
+"href": "https://www.dol.ks.gov/home/showpublisheddocument/326/638364886715430000",
+"text": "Unemployment - K-CNS 010 - Status Report"
+}
+]
+},
+{
+"name": "Kentucky",
+"items": [
+{
+"href": "http://www.jeffersontownky.com/DocumentCenter/Home/View/114",
+"text": "City of Jeffersontown - Business License Questionnaire"
+},
+{
+"href": "https://secure.kentucky.gov/sos/ftbr/welcome.aspx",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://kcc.ky.gov/employer/Pages/More-Information.aspx",
+"text": "Unemployment - UI-1 - Business Application"
+},
+{
+"href": "https://kewes.ky.gov/EmployerReg/empAcctIntro.aspx",
+"text": "Unemployment - Business Registration - Online"
+}
+]
+},
+{
+"name": "Louisiana",
+"items": [
+{
+"href": "http://rev.louisiana.gov/forms/taxforms/16019%285_08%29F.pdf",
+"text": "Income Tax - CR1 - Business Application"
+},
+{
+"href": "https://geauxbiz.sos.la.gov/",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "https://laors2.laworks.net/lastarsregistration",
+"text": "Unemployment - Business Registration - Online"
+},
+{
+"href": "https://laors.laworks.net/lastatusreport/register/index.asp?LaLogin/Login",
+"text": "Unemployment - Tax Account Application"
+}
+]
+},
+{
+"name": "Maine",
+"items": [
+{
+"href": "https://www.maine.gov/cgi-bin/online/suwtaxreg/index",
+"text": "Income Tax - Registration Service - Online"
+},
+{
+"href": "https://www5.informe.org/cgi-bin/online/suwtaxreg/index",
+"text": "Income Tax - Business Registration"
+},
+{
+"href": "https://reemployme.maine.gov/accessme/faces/login/login.xhtml",
+"text": "Unemploymement - Business Registration"
+},
+{
+"href": "https://gateway.maine.gov/dol/meris/",
+"text": "Unemployment - Business Registration - Online"
+}
+]
+},
+{
+"name": "Maryland",
+"items": [
+{
+"href": null,
+"text": "Income Tax – 548P – Reporting Agent Authorization (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Income Tax – 548P – RAA Instructions (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": "https://forms.marylandtaxes.gov/current_forms/CRA.pdf",
+"text": "Joint Tax - COM/RAD093 - Combined Registration Application"
+},
+{
+"href": "https://interactive.marylandtaxes.com/webapps/comptrollercra/entrance.asp",
+"text": "Joint Tax - Combined Registration Online Application"
+},
+{
+"href": null,
+"text": "Unemployment - Power of Attorney Authorization Form (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Unemployment - Power of Attorney Authorization Form Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "Massachusetts",
+"items": [
+{
+"href": "https://mtc.dor.state.ma.us/mtc/_/",
+"text": "Income Tax - Mass Tax Connect - Online"
+},
+{
+"href": "http://www.mass.gov/lwd/unemployment-insur/employers/",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Michigan",
+"items": [
+{
+"href": null,
+"text": "City of Big Rapids - Employer's Registration"
+},
+{
+"href": null,
+"text": "City of Grand Rapids - Employer's Withholding Registration"
+},
+{
+"href": null,
+"text": "City of East Lansing - Reporting Agent Authorization EL-8655 (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "City of East Lansing - Reporting Agent Authorization Form"
+},
+{
+"href": null,
+"text": "City of East Lansing - Withholding Registration Form"
+},
+{
+"href": null,
+"text": "Income Tax - Authorized Representative Declaration (POA)"
+},
+{
+"href": null,
+"text": "Income Tax - Authorization Representative Declaration (POA) Guidelines"
+},
+{
+"href": "http://www.michigan.gov/taxes/0,4676,7-238-43519_43521_69027_69032-155361--,00.html",
+"text": "Income Tax - 518 - Registration Booklet"
+},
+{
+"href": "https://www.michigan.gov/taxes/0,4676,7-238-43519_43521_69027_69032-155361--,00.html",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "http://www.michigan.gov/uia/0,1607,7-118-26898-143800--,00.html",
+"text": "Unemployment - Online Services for Employers"
+}
+]
+},
+{
+"name": "Minnesota",
+"items": [
+{
+"href": "https://www.revenue.state.mn.us/sites/default/files/2020-09/abr.pdf",
+"text": "Income Tax - ABR - Business Registration"
+},
+{
+"href": "https://www.mndor.state.mn.us/tp/eservices/_/",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "https://www1.uimn.org/ui_employer/employer/login.do",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Mississippi",
+"items": [
+{
+"href": "https://tap.dor.ms.gov/_/",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "http://mdes.ms.gov/media/10342/UI_1_STATUS_REPORT.pdf",
+"text": "Unemployment - Status Registration - UI1"
+},
+{
+"href": "https://mdes.ms.gov/employers/",
+"text": "Unemployment - Online Registration"
+},
+{
+"href": null,
+"text": "Income Tax – Form 21-002-13 Power of Attorney (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Income Tax – Form 21-002-13 Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "Missouri",
+"items": [
+{
+"href": "https://www.kcmo.gov/home/showdocument?id=1015",
+"text": "City of Kansas - Registration Application"
+},
+{
+"href": "https://www.stlouis-mo.gov/government/departments/collector/earnings-tax/documents/e-9-form.cfm",
+"text": "City of St. Louis - Application for Earnings Tax Account"
+},
+{
+"href": "http://dor.mo.gov/forms/2643.pdf",
+"text": "Income Tax - 2643 - Registration Application"
+},
+{
+"href": "https://dor.mo.gov/registerbusiness/",
+"text": "Combined Tax - Online Registration"
+}
+]
+},
+{
+"name": "Montana",
+"items": [
+{
+"href": "https://mtrevenue.gov/publications/montana-department-of-revenue-business-registration-form-genreg/",
+"text": "Income Tax - GenReg - Registration Application"
+},
+{
+"href": "https://tap.dor.mt.gov/_/",
+"text": "Income Tax - Registration Application - Online"
+},
+{
+"href": "https://uid.dli.mt.gov/_docs/forms/UI-1.pdf",
+"text": "Unemployment - UI/R1 - Employer Registration"
+}
+]
+},
+{
+"name": "Nebraska",
+"items": [
+{
+"href": "http://www.revenue.state.ne.us/business/bus_regist.html",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://neworks.nebraska.gov/vosnet/Default.aspx",
+"text": "Unemployment - Online UI Registration"
+}
+]
+},
+{
+"name": "Nevada",
+"items": [
+{
+"href": "http://tax.nv.gov/uploadedFiles/taxnvgov/Content/Forms/012413%20APP-01%2000%20Nevada%20Business%20Registration%20-%20APP-01%2001%20Supplemental%20Combined%20With%20Instructions%2012-14-12.pdf",
+"text": "Unemployment - App1 -Business Registration"
+},
+{
+"href": "https://ui.nv.gov/ess.html",
+"text": "Unemployment - Tax Services Online Registration"
+}
+]
+},
+{
+"name": "New Hampshire",
+"items": [
+{
+"href": "http://www.nhes.nh.gov/forms/documents/empstatus.pdf",
+"text": "Unemployment - DES100a - Status Report"
+}
+]
+},
+{
+"name": "New Jersey",
+"items": [
+{
+"href": "https://www.njportal.com/DOR/BusinessRegistration/Home/FirstStep",
+"text": "Income Tax - Business Registration - Online"
+}
+]
+},
+{
+"name": "New Mexico",
+"items": [
+{
+"href": "https://tap.state.nm.us/Tap/_/",
+"text": "Income Tax - E Filing Services Online Registration"
+},
+{
+"href": "http://www.dws.state.nm.us/Portals/0/DM/Business/ES802_A_or_0_Revised.pdf",
+"text": "Unemployment - ES802 - Status Report"
+},
+{
+"href": "https://ui.dws.state.nm.us/Employer/Core/Login.ASPX",
+"text": "Unemployment - Business Registration - Online"
+},
+{
+"href": "https://www.dws.state.nm.us/Portals/0/DM/UI/Assign_a_Third_Party_Administrator_Guide042018.pdf",
+"text": "Unemployment - Third Party Administrator Guide"
+}
+]
+},
+{
+"name": "New York",
+"items": [
+{
+"href": "https://www8.tax.ny.gov/OSBZ/osbzStart",
+"text": "Income Tax - Online Services"
+},
+{
+"href": "https://www.tax.ny.gov/pdf/current_forms/promptax/tr370n.pdf",
+"text": "Income Tax – PrompTax Overview – TR-370-N"
+},
+{
+"href": "http://www.labor.ny.gov/formsdocs/ui/nys100.pdf",
+"text": "Joint Tax - Employer Registration - NYS 100"
+}
+]
+},
+{
+"name": "North Carolina",
+"items": [
+{
+"href": "http://www.dornc.com/electronic/registration/index.html",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "https://files.nc.gov/des/documents/LEP/English/NCUI-604-Employer-Status-Report-English.pdf",
+"text": "Unemployment - Status Report - NCUI-604"
+}
+]
+},
+{
+"name": "North Dakota",
+"items": [
+{
+"href": null,
+"text": "Income Tax - Form 301EF - Application for Withholding"
+},
+{
+"href": "http://www.nd.gov/businessreg/",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": "https://apps.nd.gov/tax/tap/_/",
+"text": "Income Tax - Online Application"
+},
+{
+"href": "https://www.nd.gov/businessreg/",
+"text": "Income Tax - Business Registration - Online"
+},
+{
+"href": "http://www.jobsnd.com/unemployment-business/forms",
+"text": "Unemployment - SFN41216 - Liability Determination"
+}
+]
+},
+{
+"name": "Ohio",
+"items": [
+{
+"href": null,
+"text": "CCA Municipal Income Tax"
+},
+{
+"href": "https://www.akronohio.gov/cms/resource_library/files/busq/13_business_questionnaire.pdf",
+"text": "City of Akron - Business Questionnaire"
+},
+{
+"href": null,
+"text": "City of Canton - Information Sheet"
+},
+{
+"href": "https://www.cincinnati-oh.gov/finance/income-taxes/new-account-application-form1/",
+"text": "City of Cincinnati - New Account Application"
+},
+{
+"href": null,
+"text": "City of Dayton - Business Registration"
+},
+{
+"href": null,
+"text": "City of Kettering - Business Registration"
+},
+{
+"href": "https://springfieldohio.gov/wp-content/uploads/2020/02/BusQuestionnaire_2016-Forward.pdf",
+"text": "City of Springfield - Business Questionnaire"
+},
+{
+"href": null,
+"text": "City of Columbus - Business Registration"
+},
+{
+"href": "https://www.cityofwaverly.net/Downloads/Request%20for%20Municipal%20Income%20Tax%20Account8.pdf",
+"text": "City of Waverly - Request for Municipal Income Tax Account"
+},
+{
+"href": "https://www.ritaohio.com/",
+"text": "Regional Income Tax Authority (RITA)"
+},
+{
+"href": "https://tax.ohio.gov/static/forms/employer_withholding/generic/wth_it1_fi.pdf",
+"text": "School Districts - Business Registration"
+},
+{
+"href": "http://www.tax.ohio.gov/portals/0/forms/employer_withholding/Generic/WTH_IT1_FI.pdf",
+"text": "Income Tax - IT-1- Application for Registration"
+},
+{
+"href": "https://ohiobusinessgateway.ohio.gov/OBG/Membership/Registration.mvc/Acknowledgement",
+"text": "Income Tax - Account Setup - Online"
+},
+{
+"href": "http://jfs.ohio.gov/ouc/uctax/registering_as_an_employer.stm",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Oklahoma",
+"items": [
+{
+"href": "https://www.ok.gov/tax/Online_Services/Online_Business_Registration.html",
+"text": "Income Tax - Business Registration Booklet"
+},
+{
+"href": null,
+"text": "Unemployment - Form OES190T - Power of Attorney"
+}
+]
+},
+{
+"name": "Oregon",
+"items": [
+{
+"href": "https://revenueonline.dor.oregon.gov/tap/_/",
+"text": "Income Tax - ACH Credit Form"
+},
+{
+"href": "https://secure.sos.state.or.us/cbrmanager/index.action",
+"text": "Joint Taxes - Business Registration - Online"
+}
+]
+},
+{
+"name": "Pennsylvania",
+"items": [
+{
+"href": "https://dced.pa.gov/download/employer-registration-local-earned-income-tax-withholding-pdf/?wpdmdl=57774",
+"text": "Local EIT Employer Registration Form"
+},
+{
+"href": "http://www.hab-inc.com/employer-registration-form-eit/",
+"text": "Berkheimer - Online Registration"
+},
+{
+"href": "https://www.lctcb.org/?page_id=70",
+"text": "Lancaster County - Employer Registration"
+},
+{
+"href": "https://pittsburghpa.gov/finance/new-bus-reg",
+"text": "City of Pittsburgh - Business Registration"
+},
+{
+"href": "http://www.pa100.state.pa.us/",
+"text": "Joint Tax - Online Registration"
+},
+{
+"href": "https://www.pa100.state.pa.us/",
+"text": "Joint Tax - Enterprise Registration - PA - 100"
+}
+]
+},
+{
+"name": "Puerto Rico",
+"items": [
+{
+"href": "http://www.hacienda.gobierno.pr/sites/default/files/documentos/sc_4809_1.pdf",
+"text": "Income Tax - Business Registration - Modelo SC4809"
+}
+]
+},
+{
+"name": "Rhode Island",
+"items": [
+{
+"href": "https://www.ri.gov/taxation/BAR/",
+"text": "Combined - Business Registration"
+}
+]
+},
+{
+"name": "South Carolina",
+"items": [
+{
+"href": null,
+"text": "Enterprise Zone Act Credit"
+},
+{
+"href": "https://dor.sc.gov/tax/registration",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": null,
+"text": "Unemployment - UCE-1010 Written Authorization (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Unemployment - UCE-1010 Written Authorization Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "South Dakota",
+"items": [
+{
+"href": "https://apps.sd.gov/LD00General/default.aspx?URL_GUID=http://apps.sd.gov/LD75UIBP20/Secure/EmpUIMenu/default.aspx?4ygsqfva4q50ri4qai2r4vwm",
+"text": "Unemployment - Business Registration"
+}
+]
+},
+{
+"name": "Tennessee",
+"items": [
+{
+"href": "https://www.tn.gov/revenue/for-businesses/registration-and-tax-requirements-.html",
+"text": "Income Tax - Online Registration"
+},
+{
+"href": null,
+"text": "Unemployment – Power of Attorney – LB-0927"
+}
+]
+},
+{
+"name": "Texas",
+"items": [
+{
+"href": "https://twc.texas.gov/written-authorization-represent-employing-unit-form-c-42",
+"text": "Unemployment - Power of Attorney - C42"
+},
+{
+"href": "http://www.texasworkforce.org/ui/tax/uitaxreg.html",
+"text": "Unemployment - Online Registration"
+},
+{
+"href": "http://www.twc.state.tx.us/ui/tax/forms/c1.pdf",
+"text": "Unemployment - Status Report - C1"
+}
+]
+},
+{
+"name": "Utah",
+"items": [
+{
+"href": "http://tax.utah.gov/forms/current/tc-69.pdf",
+"text": "Income Tax - TC69 - Business Registration"
+},
+{
+"href": "https://secure.utah.gov/osbr-user/user/welcome.html",
+"text": "Income Tax - Online Registration"
+}
+]
+},
+{
+"name": "Vermont",
+"items": [
+{
+"href": "http://tax.vermont.gov/business-and-corp/register-renew-close-business",
+"text": "Income Tax - Online Business Registration"
+},
+{
+"href": null,
+"text": "Income Tax - PA-1 - Power of Attorney (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": "https://uipublic.labor.vermont.gov/EmployerRegistration/VT_UI_Liability/Liabilitycheck1.aspx",
+"text": "Unemployment - Online Registration"
+}
+]
+},
+{
+"name": "Virginia",
+"items": [
+{
+"href": "https://www.vec.virginia.gov/vecportal/employer/pdf/fc_27new.pdf",
+"text": "Unemployment – Report to Determine Liability (T-FC-27)"
+},
+{
+"href": "https://www.ireg.tax.virginia.gov/VTOL/Login.seam?mustLogin=true",
+"text": "Combined Tax - Online Registration (preferred registration method)"
+},
+{
+"href": "https://tax.virginia.gov/sites/default/files/taxforms/business-registration/any/r-1-any.pdf",
+"text": "Income Tax - Business Registration - R-1"
+}
+]
+},
+{
+"name": "Washington",
+"items": [
+{
+"href": null,
+"text": "City of Seattle - Finance Confidential Tax Information Authorization"
+},
+{
+"href": null,
+"text": "City of Seattle - Finance Confidential Tax Information Authorization Guidelines"
+},
+{
+"href": "https://dor.wa.gov/sites/default/files/legacy/Docs/forms/BLS/700028.pdf",
+"text": "Income Tax - Master Business Application - BLS-700-028"
+},
+{
+"href": null,
+"text": "Labor & Industries (LNI) - F242-431-000 - Authorization on Behalf of Employer"
+},
+{
+"href": null,
+"text": "Paid Family Medical Leave - Power of Attorney (not available for public download — contact your Pacioli Finance representative)"
+},
+{
+"href": null,
+"text": "Paid Family Medical Leave - Power of Attorney Guidelines (not available for public download — contact your Pacioli Finance representative)"
+}
+]
+},
+{
+"name": "West Virginia",
+"items": [
+{
+"href": "http://www.business4wv.com/b4wvpublic/",
+"text": "Joint Tax - Online Registration"
+}
+]
+},
+{
+"name": "Wisconsin",
+"items": [
+{
+"href": "https://www.revenue.wi.gov/Pages/Businesses/home.aspx",
+"text": "Income Tax - Online Business Registration"
+},
+{
+"href": "https://www.revenue.wi.gov/TaxForms2017through2019/btr-101.pdf",
+"text": "Income Tax - BTR-101 - Business Application"
+},
+{
+"href": "https://dwd.wisconsin.gov/dwd/forms/ui/uct-1-e.htm",
+"text": "Unemployment - Employer Report - UCT 1"
+},
+{
+"href": "https://unemployment.wisconsin.gov/SUITESPortalWelcome/EmployerPortalWelcome.aspx?target=AccountMain.aspx",
+"text": "Unemployment - Online UI Registration"
+}
+]
+},
+{
+"name": "Wyoming",
+"items": [
+{
+"href": "https://wyui.wyo.gov/benefits/home.do",
+"text": "Unemployment - Online Business Registration"
+}
+]
+}
+]
+}
