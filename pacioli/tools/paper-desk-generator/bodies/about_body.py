@@ -48,6 +48,9 @@ def card_icon_svg(inner, vb='0 0 512 512', sw='24'):
 
 ICON['phone'] = '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>'
 ICON['calendar'] = '<rect x="3.5" y="5" width="17" height="15" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path>'
+PLANE_TRAIL = ('<svg aria-hidden="true" viewBox="0 0 64 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">'
+    '<path d="M2 21C12 22 16 10 27 14S42 19 49 13" stroke-width="1.3" stroke-dasharray="1.5 3.2" opacity="0.75"></path>'
+    '<g transform="translate(40 0)" stroke-width="1.8"><path d="M3 11L21 3l-7 18-3-8zM11 13L21 3"></path></g></svg>')
 CHECK = svg('<path d="M5 12l5 5 9-10"></path>', sw='2')
 
 # ---------- 1. HERO (story) ----------
@@ -74,12 +77,15 @@ pains = ['You' + AP + 've outgrown DIY bookkeeping, but a full-time in-house hir
 pain_rows = [el('abpain_i%d' % i, 'div', {'alignItems': 'flex-start', 'columnGap': '0.6rem', 'display': 'flex'}, [
     sh('abpain_i%ds' % i, CHECK, {'color': INK, 'display': 'block', 'flexShrink': '0', 'marginTop': '0.2em', 'svg': {'width': '1.1em', 'height': '1.1em'}}),
     tx('abpain_i%dt' % i, 'span', t, {'color': INK, 'fontSize': '1.0625rem', 'lineHeight': '1.5'})]) for i, t in enumerate(pains)]
+TAPE = ('<svg aria-hidden="true" viewBox="0 0 64 22"><rect x="0.5" y="0.5" width="63" height="21" fill="rgba(255, 255, 255, 0.62)" stroke="rgba(34, 48, 77, 0.28)" stroke-width="1"></rect>'
+        '<path d="M12 0.5v21M52 0.5v21" stroke="rgba(34, 48, 77, 0.07)" stroke-width="1"></path></svg>')
 pain_card = el('abpain_card', 'div', {'backgroundColor': HI, 'border': CARD_BD, 'borderRadius': '8px', 'boxShadow': '4px 4px 0 var(--paper-ink)',
                                       'padding': '2rem 2.25rem', 'maxWidth': '40rem', 'marginLeft': 'auto', 'marginRight': 'auto', 'marginTop': '2rem',
                                       'transform': 'rotate(-0.5deg)', 'position': 'relative'}, [
-    sh('abpain_tape', '<svg viewBox="0 0 70 22" fill="none" aria-hidden="true"><rect width="70" height="22" fill="currentColor" opacity="0.8"></rect></svg>',
-       {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '70px', 'height': '22px'}, 'transform': 'rotate(-3deg)',
-        'pointerEvents': 'none', 'top': '-14px', 'left': '50%', 'color': HI}),
+    sh('abpain_tape_l', TAPE, {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '64px', 'height': '22px'}, 'transform': 'rotate(-38deg)',
+                               'pointerEvents': 'none', 'zIndex': '2', 'top': '-10px', 'left': '-18px'}),
+    sh('abpain_tape_r', TAPE, {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '64px', 'height': '22px'}, 'transform': 'rotate(38deg)',
+                               'pointerEvents': 'none', 'zIndex': '2', 'top': '-10px', 'right': '-18px'}),
     col('abpain_list', pain_rows, gap='0.85rem', extra={'textAlign': 'left'}),
 ])
 pain = section('abpain', BASE, [
@@ -259,8 +265,11 @@ promise = section('abpromise', SURF, [
 
 # ---------- 8. CLOSING CTA ----------
 close = section('abclose', ACC, [
-    doodle('abclose_plane', 'plane', '70px', '70px', '0', {'top': '24px', 'left': '8%'}, BASE),
-    doodle('abclose_clip', 'doc', '40px', '58px', '16', {'bottom': '24px', 'right': '10%'}, BASE),
+    sh('abclose_plane', PLANE_TRAIL, {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '100px', 'height': '100px'}, 'transform': 'rotate(0deg)',
+                                      'pointerEvents': 'none', '@media (max-width:1100px)': {'display': 'none'}, 'top': '24px', 'left': '8%', 'color': BASE}),
+    sh('abclose_clip', svg('<path d="M7 3h8l4 4v14H7zM15 3v4h4M10 12h6M10 16h6"></path>'),
+       {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '40px', 'height': '58px'}, 'transform': 'rotate(16deg)', 'pointerEvents': 'none',
+        '@media (max-width:1100px)': {'display': 'none'}, 'bottom': '24px', 'right': '10%', 'color': BASE}),
     doodle('abclose_star', 'star', '26px', '26px', '0', {'top': '30px', 'right': '6%'}),
     el('abclose_wrap', 'div', {'alignItems': 'center', 'display': 'flex', 'flexDirection': 'column', 'margin': '0 auto', 'maxWidth': '38rem', 'textAlign': 'center',
                                'position': 'relative'}, [
