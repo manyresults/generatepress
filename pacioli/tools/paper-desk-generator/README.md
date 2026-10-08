@@ -41,3 +41,4 @@ Footer: bodies/footer_body.py -> pacioli/footer-paper.html (copy changes: establ
 About page: bodies/about_body.py (rebuilt from live markup) -> pacioli/about-page-paper.html (copy fixes: no small businesses/owner/Souderton, /contact/ links, consultation image -> small badge)
 Solutions page: bodies/solutions_body.py (rebuilt from live markup) -> pacioli/solutions-page-paper.html
 Thank-you page: bodies/thankyou_body.py -> pacioli/thank-you-page-paper.html (booking links/iframe unchanged: Google Calendar)
+Home page: bodies/home_body.py (rebuilt from live markup; In-House Advantage icons -> orange line badges; hero plane has a dashed flight trail) -> pacioli/homepage-paper.html. pacioli/cta-block-paper-trail.html = reusable CTA block (ref 51507) with the trailed plane.
