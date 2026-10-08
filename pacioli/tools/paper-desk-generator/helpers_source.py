@@ -96,7 +96,7 @@ def svg(inner, fill='none', stroke='currentColor', sw='1.8', extra=''):
 
 ICON = {
     'plane': '<path d="M3 11L21 3l-7 18-3-8zM11 13L21 3"></path>',
-    'clip': '<path d="M16 8L7 18a3.5 3.5 0 0 0 5 5l10-11a6 6 0 0 0-8.5-8.5L4 14a8.5 8.5 0 0 0 12 12l7-7"></path>',
+    'clip': '<path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>',
     'briefcase': '<rect x="3" y="7" width="18" height="12" rx="2"></rect><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="3" y1="12" x2="21" y2="12"></line>',
     'calc': '<rect x="5" y="2" width="14" height="20" rx="2"></rect><rect x="8" y="5" width="8" height="4"></rect><path d="M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01M16 17h.01"></path>',
     'pencil': '<path d="M4 20l1-5L16 4l4 4L9 19zM14 6l4 4"></path>',
