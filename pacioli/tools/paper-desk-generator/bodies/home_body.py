@@ -5,7 +5,7 @@
 # =====================================================================
 AMPSEMI = AMP + 'amp;'
 DASH = AMP + '#8212;'
-LINK = lambda p: 'https://danj19.sg-host.com' + p     # links kept exactly as in the live page (see notes)
+LINK = lambda p: p     # relative links, so they work on any domain
 
 # plane + dashed trail: plane on the right of a 64x24 box, trail curving in from the lower left
 PLANE_TRAIL = ('<svg viewBox="0 0 64 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
@@ -89,7 +89,7 @@ hero = section('phhero', BASE, [
             tx('phhero_h1', 'h1', '<em>Controller-Level</em> Support at Affordable Pricing',
                {'fontFamily': HEAD, 'fontWeight': '700', 'fontSize': 'clamp(2.25rem,4.6vw,3.25rem)', 'color': INK, 'letterSpacing': '-0.02em', 'lineHeight': '1.15',
                 'marginTop': '0.25rem', 'marginBottom': '1.25rem'}, extra_css=hi_css('phhero_h1')),
-            tx('phhero_lead', 'p', 'The leading remote in-house accounting solutions provider with access to department-level services. We help small businesses get real bookkeeping, management accounting, tax support, and payroll compliance oversight ' + DASH + ' without building a full internal finance team.',
+            tx('phhero_lead', 'p', 'The leading remote in-house accounting solutions provider with access to department-level services. We help established businesses get real bookkeeping, management accounting, tax support, and payroll compliance oversight ' + DASH + ' without building a full internal finance team.',
                {'color': MUTED, 'fontFamily': BODY, 'fontSize': '1.125rem', 'lineHeight': '1.6', 'marginTop': '0', 'marginBottom': '2rem', 'maxWidth': '34rem'}),
             btn('phhero_cta', 'Request a Consultation', LINK('/contact/')),
             tx('phhero_note', 'p', 'Flexible hourly pricing ' + DASH + ' no unnecessary packages.',
@@ -183,7 +183,7 @@ sol = section('phsol', BASE, [
 
 # ---------- 5. TRUST ----------
 TR = [('QuickBooks Certified', 'Every Pacioli accountant is a QuickBooks Online Certified Pro Advisor.', '-0.5', '<circle r="5.5" cy="8.5" cx="12"></circle><path d="M8 13.5 6.5 21l5.5-3 5.5 3-1.5-7.5"></path>'),
-      ('CMA-Led Team', 'Led by a CMA (Certified Management Accountant), with a senior accountant supervising a team of bookkeepers and admin.', '0.5',
+      ('CMA-Led Team', 'Overseen by a Certified Management Accountant (CMA), with a senior accountant supervising a team of bookkeepers and admin.', '0.5',
        '<circle r="4" cy="7.5" cx="12"></circle><path d="M4.5 21c0-4.2 3.4-7.5 7.5-7.5"></path><path d="M14 17.5l3 3 4.5-5"></path>'),
       ('A Small, Hands-On Team', 'Gives every client close attention while still handling controller-level work.', '-0.4',
        '<circle r="3" cy="8" cx="8.5"></circle><path d="M2.5 20c0-3.6 2.7-6.5 6-6.5s6 2.9 6 6.5"></path><circle r="2.3" cy="9" cx="16.5"></circle><path d="M15 13.2c2.8.5 5 3 5 6.3"></path>'),
