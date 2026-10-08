@@ -137,6 +137,17 @@ def doodle(u, kind, w, h, rot, pos, color=None, hide_mobile=True):
     inner = STAR if kind == 'star' else svg(ICON[kind])
     return sh(u, inner, st)
 
+# Standard CTA airplane (bottom-of-page CTA sections): plane + dotted trail, 100px x 100px. Use cta_plane() for every new CTA.
+CTA_PLANE_SVG = ('<svg stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none" viewBox="0 0 64 24" aria-hidden="true">'
+                 '<path opacity="0.75" stroke-dasharray="1.5 3.2" stroke-width="1.3" d="M2 21C12 22 16 10 27 14S42 19 49 13"></path>'
+                 '<g stroke-width="1.8" transform="translate(40 0)"><path d="M3 11L21 3l-7 18-3-8zM11 13L21 3"></path></g></svg>')
+def cta_plane(u, pos=None, color='var(--paper-base)'):
+    st = {'display': 'inline-flex', 'position': 'absolute', 'svg': {'width': '100px', 'height': '100px'}, 'transform': 'rotate(0deg)',
+          'pointerEvents': 'none', '@media (max-width:1100px)': {'display': 'none'}, 'top': '24px', 'left': '8%', 'color': color}
+    if pos:
+        st.update(pos)
+    return sh(u, CTA_PLANE_SVG, st)
+
 # ---------- shared pieces ----------
 def section(u, bg, kids, pad=80, extra_bg=None, hattrs=None, dashed=False):
     st = {'position': 'relative', 'overflow': 'hidden', 'paddingTop': '%spx' % pad, 'paddingBottom': '%spx' % pad,

@@ -42,3 +42,7 @@ About page: bodies/about_body.py (rebuilt from live markup) -> pacioli/about-pag
 Solutions page: bodies/solutions_body.py (rebuilt from live markup) -> pacioli/solutions-page-paper.html
 Thank-you page: bodies/thankyou_body.py -> pacioli/thank-you-page-paper.html (booking links/iframe unchanged: Google Calendar)
 Home page: bodies/home_body.py (rebuilt from live markup; In-House Advantage icons -> orange line badges; hero plane has a dashed flight trail) -> pacioli/homepage-paper.html. pacioli/cta-block-paper-trail.html = reusable CTA block (ref 51507) with the trailed plane.
+
+CONVENTION - CTA airplane: every new bottom-of-page CTA uses `cta_plane(...)` (helpers_source.py): the plane with the dotted trail
+(viewBox 0 0 64 24, dasharray 1.5 3.2), set to width 100px and height 100px, hidden below 1100px. Do not use the plain plane doodle in CTAs.
+Existing pages built earlier still have the old plain plane in their CTA sections until regenerated.
