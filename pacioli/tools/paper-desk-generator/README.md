@@ -46,3 +46,5 @@ Home page: bodies/home_body.py (rebuilt from live markup; In-House Advantage ico
 CONVENTION - CTA airplane: every new bottom-of-page CTA uses `cta_plane(...)` (helpers_source.py): the plane with the dotted trail
 (viewBox 0 0 64 24, dasharray 1.5 3.2), set to width 100px and height 100px, hidden below 1100px. Do not use the plain plane doodle in CTAs.
 Existing pages built earlier still have the old plain plane in their CTA sections until regenerated.
+
+CONVENTION - Industry pages: the "Our Promise to You" section is NOT used on industry pages (removed by the client). Only the Industries hub keeps it. Industry bodies build 7 sections: hero, pain, helps, assess, trust, testimonials, cta.

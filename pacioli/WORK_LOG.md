@@ -5,3 +5,4 @@
 
 ## Conventions
 - CTA airplane: all new bottom-of-page CTAs use the plane with the dotted trail, width and height 100px (see `cta_plane()` in `tools/paper-desk-generator/helpers_source.py`).
+- Industry pages: the "Our Promise to You" section is removed on every industry page; only the Industries hub keeps its own.
