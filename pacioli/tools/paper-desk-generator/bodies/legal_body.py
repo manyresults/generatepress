@@ -206,5 +206,5 @@ cta = section('lectasec', ACC, [
     ]),
 ], pad=72, hattrs={'id': 'contact'})
 
-page = '\n\n'.join([hero, pain, helps, assess, trust, testi, cta]  # "Our Promise to You" section removed from industry pages (hub keeps its own)) + '\n'
+page = '\n\n'.join([hero, pain, helps, assess, trust, testi, cta]) + '\n'  # "Our Promise to You" removed from industry pages (hub keeps its own)
 sys.stdout.write(page)
