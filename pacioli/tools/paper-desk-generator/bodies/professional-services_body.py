@@ -196,7 +196,7 @@ testi = section('pstestsec', SURF, [
 
 # ---- 8. CLOSING CTA (solid accent)
 cta = section('psctasec', ACC, [
-    doodle('pscta_plane', 'plane', '52px', '52px', '10', {'top': '10px', 'left': '8%'}, '#ffffff'),
+    cta_plane('pscta_plane', {'top': '16px', 'left': '6%'}, '#ffffff'),
     doodle('pscta_star', 'star', '30px', '30px', '-6', {'bottom': '12px', 'right': '9%'}),
     el('psctawrap', 'div', {'alignItems': 'center', 'display': 'flex', 'flexDirection': 'column', 'margin': '0 auto',
                             'maxWidth': '36rem', 'textAlign': 'center', 'position': 'relative'}, [
