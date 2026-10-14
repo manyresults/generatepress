@@ -105,14 +105,29 @@ faqs = [('Does Pacioli Finance only work with businesses in these six industries
          'No. Pacioli uses one flexible hourly model with a monthly minimum that scales with your needs, regardless of industry.', '0.4'),
         ('Can you support a business that spans more than one of these industries?',
          "Yes. Many clients don't fit neatly into one category, and our engagements are scoped around your actual needs, not a fixed package.", '-0.3')]
-faq_els = []
-for i, (q, a, rot) in enumerate(faqs, 1):
-    u = 'cufaq%d' % i
-    faq_els.append(el(u, 'div', {'backgroundColor': '#ffffff', 'border': CARD_BD, 'borderRadius': '12px', 'boxShadow': CARD_SH,
-                                 'padding': '1.5rem 1.75rem', 'transform': 'rotate(%sdeg)' % rot}, [
-        tx(u + 'q', 'h3', q, {'fontFamily': HEAD, 'fontWeight': '600', 'fontSize': '1.1875rem', 'color': INK, 'margin': '0 0 0.5rem', 'lineHeight': '1.3'}),
-        para(u + 'a', a, size='1rem', mb='0', extra={'lineHeight': '1.6'}),
-    ]))
+def faq_item(n, q, a):
+    p_ = 'cufaq%d' % n
+    item_st = {'backgroundColor': '#fff', 'border': CARD_BD, 'borderRadius': '10px', 'boxShadow': CARD_SH, 'marginBottom': '1rem'}
+    item_a = {'uniqueId': uid(p_ + 'item'), 'tagName': 'div', 'styles': item_st, 'css': make_css('gb-accordion__item-' + p_ + 'item', item_st)}
+    tog_st = {'alignItems': 'center', 'color': INK, 'columnGap': '1rem', 'cursor': 'pointer', 'display': 'flex', 'justifyContent': 'space-between', 'padding': '1.25rem 1.5rem',
+              '&:is(:hover, :focus)': {'color': ACC},
+              '&:is(.gb-block-is-current, .gb-block-is-current:hover, .gb-block-is-current:focus)': {'color': ACC}}
+    tog_a = {'uniqueId': uid(p_ + 'tog'), 'tagName': 'div', 'styles': tog_st, 'css': make_css('gb-accordion__toggle-' + p_ + 'tog', tog_st),
+             'htmlAttributes': {'id': 'gb-accordion-toggle-' + p_ + 'tog'}}
+    ic_st = {'alignItems': 'center', 'color': ACC, 'display': 'flex', 'flexShrink': '0', 'justifyContent': 'center', 'svg': {'height': '1.125em', 'width': '1.125em'}}
+    ic_a = {'uniqueId': uid(p_ + 'ic'), 'tagName': 'span', 'styles': ic_st, 'css': make_css('gb-accordion__toggle-icon-' + p_ + 'ic', ic_st)}
+    ic_inner = ('<span class="gb-accordion__toggle-icon-open"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>'
+                '<span class="gb-accordion__toggle-icon-close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>')
+    toggle_icon = blk('generateblocks-pro/accordion-toggle-icon', ic_a, '<span class="gb-accordion__toggle-icon gb-accordion__toggle-icon-%sic">' % p_, ic_inner, '</span>')
+    title = tx(p_ + 'q', 'h3', q, {'fontFamily': HEAD, 'fontSize': '1.1875rem', 'fontWeight': '400', 'lineHeight': '1.4', 'marginBottom': '0'})
+    toggle = blk('generateblocks-pro/accordion-toggle', tog_a, '<div class="gb-accordion__toggle gb-accordion__toggle-%stog" id="gb-accordion-toggle-%stog">' % (p_, p_),
+                 '\n\n'.join([title, toggle_icon]), '</div>')
+    body = el(p_ + 'body', 'div', {'padding': '0 1.5rem 1.375rem'}, [para(p_ + 'a', a, size='1rem', mb='0', extra={'lineHeight': '1.6'})], cls=None)
+    cont_a = {'uniqueId': uid(p_ + 'cont'), 'tagName': 'div', 'htmlAttributes': {'id': 'gb-accordion-content-' + p_ + 'cont'}}
+    content = blk('generateblocks-pro/accordion-content', cont_a, '<div class="gb-accordion__content" id="gb-accordion-content-%scont">' % p_, body, '</div>')
+    return blk('generateblocks-pro/accordion-item', item_a, '<div class="gb-accordion__item gb-accordion__item-%sitem">' % p_, toggle + '\n\n' + content, '</div>')
+faq_acc = blk('generateblocks-pro/accordion', {'uniqueId': uid('cufaqAccordion'), 'tagName': 'div'}, '<div class="gb-accordion">',
+              '\n\n'.join(faq_item(i, q, a) for i, (q, a, rot) in enumerate(faqs, 1)), '</div>')
 faq = section('cufaqsec', BASE, [
     doodle('cufaq_coffee', 'coffee', '38px', '38px', '8', {'top': '14px', 'left': '7%'}, ACC),
     el('cufaqwrap', 'div', {'margin': '0 auto', 'maxWidth': '44rem', 'position': 'relative'}, [
@@ -120,7 +135,7 @@ faq = section('cufaqsec', BASE, [
             eyebrow('cufaqeye', 'Good to Know'),
             h2('cufaqh2', 'Frequently Asked Questions', mb='0'),
         ]),
-        col('cufaqlist', faq_els, gap='1.75rem'),
+        faq_acc,
     ]),
 ], extra_bg=DOTGRID)
 
