@@ -10,6 +10,7 @@ def css_for(cls,styles):
     for k,v in styles.items():
         if k.startswith('@media'): media.append((k,v))
         elif k.startswith('&'): extra.append((k[1:],v))
+        elif k.startswith('.'): extra.append((' '+k,v))
         else: base.append(f"{kebab(k)}:{v}")
     out=f".{cls}{{{';'.join(base)}}}" if base else ""
     for suf,v in extra: out+=f".{cls}{suf}{{{';'.join(f'{kebab(a)}:{b}' for a,b in v.items())}}}"
