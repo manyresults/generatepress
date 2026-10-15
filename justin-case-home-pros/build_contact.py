@@ -26,8 +26,11 @@ left=el("div",{"display":"flex","justifyContent":"flex-end","alignItems":"center
 form_col=el("div",{"display":"flex","flexGrow":"1","flexShrink":"1","flexBasis":"50%","backgroundColor":"var(--base-2)","paddingLeft":"5rem","paddingRight":"5rem","paddingTop":"6rem","paddingBottom":"6rem","@media (max-width:1024px)":{"paddingLeft":"2rem","paddingRight":"2rem","paddingTop":"4rem","paddingBottom":"4rem"},"flexDirection":"column","justifyContent":"center"},[
   tx("h2",{"color":"var(--accent)"},"Send Us a Message"),
   tx("p",{"color":"#2c4a46"},"Fill out the form and we'll get back to you. Message and data rates may apply."),
-  el("div",{"backgroundColor":"#fffaf0","border":"3px solid var(--accent)","borderRadius":"20px","boxShadow":"6px 6px 0 #123b38","padding":"1.8rem"},[
-    '<!-- wp:shortcode -->\n[gravityforms id="1" title="false" description="false"]\n<!-- /wp:shortcode -->'])])
+  el("div",{"backgroundColor":"#fffaf0","border":"3px solid var(--accent)","borderRadius":"20px","boxShadow":"6px 6px 0 #123b38","padding":"1.2rem"},[
+    """<!-- wp:html -->
+<iframe src="https://api.manyresults.com/widget/form/7UdAeBIF9M5iTJulQCte" style="width:100%;height:1129px;border:none;border-radius:3px" id="inline-7UdAeBIF9M5iTJulQCte" data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value="" data-activation-type="alwaysActivated" data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="Contact Us" data-height="1129" data-layout-iframe-id="inline-7UdAeBIF9M5iTJulQCte" data-form-id="7UdAeBIF9M5iTJulQCte" data-cookie-consent="true" data-cookie-consent-provider="auto" title="Contact Us"></iframe>
+<script src="https://api.manyresults.com/js/form_embed.js"></script>
+<!-- /wp:html -->"""])])
 section_row=el("div",{"display":"flex","@media (max-width:1024px)":{"display":"block"},"minHeight":"100vh","borderBottomWidth":"1px","borderBottomStyle":"solid","borderBottomColor":"var(--base)"},[left,form_col],extra_cls="jchp-contact")
 style='''<!-- wp:html -->
 <style>
@@ -54,7 +57,7 @@ head='''<!--
   Slug: /contact
   SEO Title: Contact Justin Case Home Pros | Lower Bucks County, PA
   Meta Description: Contact Justin Case Home Pros in Levittown, PA. Call 215-935-4524 or send a message — launching January 1, 2027.
-  Form: uses your existing Gravity Forms form 1 via shortcode — change the id if you want a different form.
+  Form: Many Results 'Contact Us' embed (form id 7UdAeBIF9M5iTJulQCte).
 -->
 '''
 open('contact.html','w').write(head+style+"\n\n"+header+"\n\n"+section_row+"\n\n"+foot+"\n")
