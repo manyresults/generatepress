@@ -8,7 +8,7 @@ def obtn(label,href,p,col,hbg,hcol):
     bd={f"border{s}{w}":v for s in ("Top","Right","Bottom","Left") for w,v in (("Width","3px"),("Style","solid"),("Color",col))}
     return tx(label,'a',{"display":"inline-flex","alignItems":"center","justifyContent":"center","backgroundColor":"transparent","color":col,"fontWeight":"700","borderTopLeftRadius":"9999px","borderTopRightRadius":"9999px","borderBottomLeftRadius":"9999px","borderBottomRightRadius":"9999px","paddingTop":"0.875rem","paddingRight":"1.9rem","paddingBottom":"0.875rem","paddingLeft":"1.9rem","textDecoration":"none","transition":"transform 0.2s ease, background-color 0.2s ease, color 0.2s ease",**bd,"&:is(:hover, :focus)":{"backgroundColor":hbg,"color":hcol,"transform":"translateY(-3px)"}},p=p,ha={"href":href})
 def red(t): return f'<span style="color:var(--global-color-8)">{t}</span>'
-def imgn(url,alt,st): return f'<!-- wp:image {{"sizeSlug":"full","linkDestination":"none"}} -->\n<figure class="wp-block-image size-full"><img src="{url}" alt="{alt}" style="{st}"/></figure>\n<!-- /wp:image -->'
+def imgn(url,alt,st): return f'<!-- wp:image {{"sizeSlug":"full","linkDestination":"none"}} -->\n<figure class="wp-block-image size-full"><img src="{url}" alt="{alt}" style="margin:0;{st}"/></figure>\n<!-- /wp:image -->'
 parts=[]
 # 1 HERO
 photo=el(imgn('https://3p-allies.com/wp-content/uploads/2025/05/hs-5.jpg','Heather Shafter in her office','width:100%;height:auto;display:block;border-radius:12px;box-shadow:18px 18px 0 var(--accent)'),{"paddingRight":"18px","paddingBottom":"18px"},p='hero')
