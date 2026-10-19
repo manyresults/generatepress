@@ -31,3 +31,7 @@ Headings Montserrat 700; body Inter 1.125rem / 1.5em. Container width 1200 (`--g
 
 Section padding: 100px desktop / 70px 20px tablet / 50px 20px mobile.
 Phone: (856) 644-3030 (`tel:+1856443030`). Buttons: 30px radius, 15px 30px padding, 16px/600.
+
+## Senior safety landing page
+`senior-safety-landing.html` — paste-ready block markup built from the trifold + flyer copy.
+Placeholders: logo image URL (`REPLACE-fix-it-buddy-logo.png`, appears in hero). All CTAs anchor to `#quote` (Gravity Forms id 4).
