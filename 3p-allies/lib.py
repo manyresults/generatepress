@@ -53,8 +53,8 @@ def bar(p,center=True,mb="2.5rem"):
 def section(p,inner,bg,extra=None,div=None,top_pad=None,anchor=None):
     st={"position":"relative","overflow":"hidden"}
     st.update(bg if isinstance(bg,dict) else {"backgroundColor":bg})
-    if extra: st.update(extra)
     if div: st["paddingTop"]="calc(7rem + 2rem)"
+    if extra: st.update(extra)
     inn=el(inner,{"marginLeft":"auto","marginRight":"auto","maxWidth":"var(--gb-container-width)","position":"relative","zIndex":"1"},p=p,gc=["gbp-section__inner"])
     return el((divider(div,p)+'\n' if div else '')+inn,st,tag='section',p=p,gc=["gbp-section"],align=True,ha=({"id":anchor} if anchor else None))
 RED="var(--global-color-8)"; NAVY="var(--contrast)"; TEAL="var(--accent)"; CREAM="var(--base)"; WHITE="var(--base-4)"; OFF="var(--base-3)"
