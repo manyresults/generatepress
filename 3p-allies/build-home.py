@@ -103,7 +103,7 @@ parts.append(section('fam',inner,CREAM,div=OFF))
 # 3 METHOD
 steps=[("01","Purpose","We name the pain and what it’s costing you, then I interview the people doing the work.",TEAL),("02","Process","We co-design the new way of working with your team. I document it, set up the tools and build the triggers so nobody has to remember.",RED),("03","Progress","I train the team, we go live, and I check back 30 days later to make sure it held.",NAVY)]
 def mcard(num,t,b,col):
-    st={"backgroundColor":OFF,"position":"relative","overflow":"hidden","height":"100%",**R12,"borderTopWidth":"6px","borderTopStyle":"solid","borderTopColor":col,"boxShadow":"0 4px 12px rgba(0,0,0,0.06)","paddingTop":"3rem","paddingRight":"2rem","paddingBottom":"2.25rem","paddingLeft":"2rem",**LIFT}
+    st={"backgroundColor":OFF,"position":"relative","overflow":"hidden",**R12,"borderTopWidth":"6px","borderTopStyle":"solid","borderTopColor":col,"boxShadow":"0 4px 12px rgba(0,0,0,0.06)","paddingTop":"3rem","paddingRight":"2rem","paddingBottom":"2.25rem","paddingLeft":"2rem",**LIFT}
     n=tx(num,'span',{"position":"absolute","top":"0.5rem","right":"1.25rem","fontFamily":"Lora, serif","fontSize":"6.5rem","fontWeight":"700","lineHeight":"1","color":col,"opacity":"0.12","pointerEvents":"none"},p='meth')
     return el(n+'\n'+tx(t,'h3',{"color":col,"marginBottom":"0.75rem","position":"relative"},p='meth')+'\n'+tx(b,'p',{"margin":"0","position":"relative"},p='meth'),st,p='meth')
 def arrow(): return el(shape(ARROW,{"color":RED,"display":"inline-flex","svg":{"fill":"none","height":"2.5rem","width":"2.5rem"}},p='meth'),{"display":"flex","alignItems":"center","justifyContent":"center",M1024:{"display":"none"}},p='meth')
