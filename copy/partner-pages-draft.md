@@ -1,221 +1,206 @@
-# Patriot Property Buyer: Partner Page Copy (Draft 1)
+# Patriot Property Buyer: Partner Page Copy (Draft 2, compliance-first)
 
-Two pages, one goal: build a referral network (COI), not just collect leads.
-Anchored form on each page (`#send-property`). Every CTA scrolls to it.
+Two pages. Every CTA scrolls to the anchored form.
 
-**Open items for Joe / Murph / Dan (not on-page):**
-- Where does the form post? (Source of truth: GHL vs Revamp vs Monday.) Placeholder: GHL, tag `partner-agent` / `partner-attorney`.
-- Stories in [brackets] are placeholders from Joe's examples. Confirm facts and get permission before publishing; anonymize addresses and names.
-- Referral compensation is deliberately NOT promised on either page. Fee-sharing with agents (RESPA / NJ real estate rules) and with attorneys (NJ RPC 1.5(e) and 7.2) is restricted. Have counsel review before any "referral fee" language goes live. Page copy leans on reciprocity and goodwill, which is safe.
-- Add real photos and testimonials from Joe when they arrive.
+## Drafting rules used in this version
+- **No invented facts.** No stories, testimonials, results, timelines, or numbers beyond what's already on the live site (veteran-owned, 17+ years, New Jersey, cash offers, no commissions/repairs/showings).
+- **No referral compensation language** (offered, asked, or denied). Fee-sharing is restricted for agents (RESPA, NJ real estate rules) and attorneys (NJ RPC 1.5(e), 7.2). Counsel to decide before any is added.
+- **No legal, tax, or real estate advice.** We are a buyer, not a law firm or brokerage.
+- **No guarantees.** Offers are subject to review of the property, title, and circumstances.
+- Items marked **[CONFIRM]** are business commitments Joe/Murph must verify are true and sustainable before publishing.
+- Story slots are left empty on purpose. Add only real, permissioned, anonymized examples later.
 
 ---
 
 # PAGE 1: REAL ESTATE AGENTS
-**URL:** /real-estate-agents/  **SEO title:** Partner With a Cash Buyer for Hard-to-Sell Properties in NJ | Patriot Property Buyer
+**URL:** /real-estate-agents/
+**SEO title:** Cash Buyer for Hard-to-Sell Properties in NJ | Patriot Property Buyer
 
 ## Hero
 **Eyebrow:** For New Jersey Real Estate Agents
-**H1:** The Listing You Can't Sell Doesn't Have to Be a Dead End
-**Sub:** Send us your tricky properties. We make a fair cash offer, close on your client's timeline, and keep you in the loop from first call to closing.
-**CTA button:** Send Us a Property
-**Secondary line:** Veteran-owned · 17+ years · Confidential · No obligation
+**H1:** A Cash Buyer for the Properties That Don't Fit a Traditional Sale
+**Sub:** If you have a client with a property that is difficult to list or sell, send it to us. We'll review it and let you know whether a cash purchase could be a good option for your client.
+**CTA:** Send Us a Property
+**Trust line:** Veteran-Owned · 17+ Years · New Jersey
 
-## Section: Sound familiar?
-**H2:** The Properties That Eat Your Time
-Every agent has them. The listing that:
-- Needs more work than the seller can afford or stomach
-- Has water in the basement, fire damage, or a failed inspection
-- Fell out of contract and is now stale on the market
-- Belongs to heirs who can't agree, or can't clear the house
-- Is vacant, behind on taxes, or has tenants who won't leave
-- Isn't going to appraise, or won't qualify for financing
+## Section: Properties we're glad to hear about
+**H2:** Not Every Property Fits the MLS
+Some properties are harder to sell the traditional way, for example:
+- Properties needing significant repairs
+- Properties with water, fire, or structural issues
+- Listings that expired or fell out of contract
+- Estate or inherited properties
+- Vacant or tenant-occupied properties
+- Properties with back taxes or other complications
+- Small commercial properties, including office, retail, and strip centers
 
-These deals burn weeks of your time, and they often end with an unhappy client and no commission. We take the ones that don't fit a traditional sale.
-
+If your client's situation is on this list, or just doesn't fit the usual mold, we're happy to take a look.
 **CTA:** Send Us a Property
 
-## Section: How the partnership works
-**H2:** Simple for You. Better for Your Client.
-1. **Send us the details.** Address, a few photos, and what's going on. Two minutes on the form below.
-2. **We respond fast.** You'll hear back from a real person. We review the numbers and give you a straight answer, even when that answer is "this isn't a fit for us."
-3. **Your client chooses.** A fair cash offer, a creative structure, or a referral to someone better suited. No pressure and no obligation.
-4. **We close and keep you informed.** Flexible closing date, no repairs, no financing contingencies. You stay in the loop the whole way.
+## Section: How it works
+**H2:** A Simple Process
+1. **Send us the details.** Share the property and a few notes about the situation using the form below.
+2. **We review it.** We'll look at the property and circumstances and follow up with you.
+3. **Your client decides.** If we can make an offer, your client is free to review it, compare it with other options, and take their own advice. There is no obligation.
+4. **If it moves forward,** we'll coordinate the details with you and the closing team.
 
-## Section: What you can count on
-**H2:** How We Treat the Agents and Clients We Work With
-- **Your client comes first.** We'd rather lose a deal than leave your client with a bad experience.
-- **Your relationship stays yours.** We don't go around you. When your client is ready to buy or list again, they come back to you.
-- **Straight answers, fast.** No runaround and no re-trading at the last minute.
-- **Certainty to close.** Cash, as-is, no financing contingency, no appraisal worries.
-- **Confidential.** Nothing gets marketed publicly and nothing is shared without permission.
+## Section: What to expect from us
+**H2:** How We Aim to Work With Agents
+- **Respect for your client relationship.** [CONFIRM: we communicate through the referring agent unless the agent asks otherwise.]
+- **Clear communication.** We'll tell you when a property isn't a fit for us.
+- **Confidentiality.** We don't market your client's property publicly.
+- **A different option.** A cash sale can mean no commissions, no repairs, and no showings for your client. [Existing site claims; keep consistent.]
 
-## Section: Real situations
-**H2:** The Kind of Properties We Take On
-*(Placeholder stories. Replace with Joe's real examples, anonymized.)*
+*A cash sale is not the right choice for every seller. Your client may net a different amount than they would on the open market, and you should help them compare options.*
 
-**[The basement with 9 inches of water]**
-[An agent brought us a home with a flooded basement, a frustrated seller, and buyers who kept walking. We made an offer, handled the cleanup, and the seller closed on the date they needed. The agent kept the relationship, and the seller referred a neighbor.]
-
-**[The house that burned while under contract]**
-[Two weeks before closing, the property was damaged by fire and the buyer's financing disappeared. We stepped in with a cash offer so the seller could move forward without relisting a damaged home.]
-
-**CTA:** Have One Like This? Send It Over
-
-## Section: It goes both ways
-**H2:** Referrals Are a Two-Way Street
-We're not just looking for properties. We're looking for partners.
-- Not every lead we get is right for us. Some sellers want to list and get top dollar on the market. When that's the better path for them, **we introduce them to you.**
-- When we meet people who need an agent, we send them to agents we trust.
-- We stay in touch, share what we're seeing in the market, and help you look good with your clients.
-
-If we're a fit for your client, great. If you're a fit for ours, even better.
+## Section: Working together
+**H2:** Building a Two-Way Relationship
+We're looking to build lasting relationships with local agents. Not every seller we talk to is a fit for a cash purchase. When someone would be better served by listing with an agent, we'd like to be able to point them to a licensed professional. If you'd like to be considered, tell us on the form.
+*[No compensation language. Add only after counsel review.]*
 
 ## Section: FAQ
-**Will you work around me and contact my client directly?**
-No. We work through you, and you stay involved throughout.
+**What types of properties do you consider?**
+Residential and small commercial properties in New Jersey, in a range of conditions. Send us the details and we'll let you know.
 
-**What if my client would be better off listing?**
-We'll tell you. If listing is the best route, we'll say so and, where we can, send you leads in return.
+**Is there a cost or obligation to send a property?**
+No. Sending a property to us does not obligate you or your client.
 
-**What types of properties do you buy?**
-Single-family, multi-family and investment properties, plus commercial: office, retail, and strip centers. Condition and situation don't have to be perfect. Vacant, occupied, damaged, or dated are all fine.
+**Will my client have to accept an offer?**
+No. Any offer is optional, and your client can compare it with other options.
 
-**How fast can we close?**
-On your client's timeline. Fast if they need it, slower if they need time.
+**Will you contact my client directly?**
+[CONFIRM policy.] We'll coordinate with you first.
 
-**Is there a cost to refer a property?**
-No. Sending a property costs nothing and carries no obligation.
+**What happens to the information I send?**
+It's used to evaluate the property and follow up with you. [Link to privacy policy.]
 
 **Can we talk about working together long-term?**
-Yes. Mention it on the form and we'll reach out.
+Yes. Check the box on the form and we'll follow up.
 
 ## Section: Form (anchor `#send-property`)
-**H2:** Send Us Your Tricky Property
-**Sub:** Two minutes. Confidential. You'll hear back from a person, not a robot.
+**H2:** Send Us a Property
+**Sub:** Share a few details and we'll follow up. No obligation.
 **Fields:**
-- Your name / brokerage
+- Your name and brokerage
 - Phone / email
 - Property address
-- What's the situation? (dropdown: Needs major repairs · Water/fire/structural damage · Fell out of contract · Heirs/estate · Tenants/vacant · Back taxes/liens · Commercial · Other)
-- Tell us more (textarea)
-- Photos (optional upload)
-- Is the seller aware you're reaching out? (Yes / Not yet)
-- Interested in an ongoing referral partnership? (checkbox)
-**Button:** Send Property
-**Trust line:** Veteran-owned · Confidential · No obligation
+- Type of situation (dropdown: Needs repairs · Damage · Fell out of contract / expired · Estate · Tenants / vacant · Back taxes / liens · Commercial · Other)
+- Additional details (textarea)
+- Does the owner know you're reaching out? (Yes / No)
+- ☐ I'm interested in an ongoing referral relationship
+- ☐ Consent: I agree Patriot Property Buyer may contact me about this submission. *(Required; add TCPA-compliant language and privacy link.)*
+**Button:** Submit
 
 ## Closing CTA band
-**H2:** Let's Turn Your Hardest Listings Into Closed Deals
+**H2:** Have a Property That's Hard to Sell?
 **Button:** Send Us a Property
+
+## Footer disclaimer (both pages)
+Patriot Property Buyer is a real estate buyer and is not a law firm, brokerage, or financial advisor. Nothing on this page is legal, tax, or real estate advice. Offers, if any, are subject to review of the property, title, and individual circumstances. Sellers should consult their own licensed professionals.
 
 ---
 
 # PAGE 2: ESTATE & PROBATE ATTORNEYS
-**URL:** /estate-attorneys/  **SEO title:** Probate & Estate Property Buyer in NJ for Attorneys | Patriot Property Buyer
+**URL:** /estate-attorneys/
+**SEO title:** Property Buyer for Estate & Probate Matters in NJ | Patriot Property Buyer
 
 ## Hero
 **Eyebrow:** For New Jersey Estate, Probate & Elder Law Attorneys
-**H1:** A Discreet Buyer for the Properties Your Clients Can't Easily Sell
-**Sub:** When an estate includes a house nobody wants, can't maintain, or can't agree on, we offer a straightforward, confidential cash solution and work around your timeline and your process.
-**CTA button:** Refer a Property
-**Secondary line:** Veteran-owned · 17+ years · Confidential · You stay in control
+**H1:** A Cash Buyer for Properties in Estate Matters
+**Sub:** When real estate is part of an estate or other legal matter, a direct cash sale may be one option for your client. Send us the details and we'll let you know whether we can help.
+**CTA:** Refer a Property
+**Trust line:** Veteran-Owned · 17+ Years · New Jersey
 
-## Section: The problem
-**H2:** The Real Estate Is Often the Hardest Part of the Estate
-You can resolve the legal questions and still be stuck with the house. Common complications:
-- Multiple heirs with different goals, or out-of-state beneficiaries
-- A property that's cluttered, deteriorating, or vacant
-- Back taxes, liens, or unpaid utilities accumulating while the estate is open
-- Carrying costs and insurance exposure for the fiduciary
-- A traditional listing that would require repairs, staging, and months of showings
-- Tenants in place, or code and condition issues
+## Section: Where we may be able to help
+**H2:** Real Estate Can Complicate a Matter
+Properties in estate and related matters can present challenges, such as:
+- Multiple heirs or beneficiaries
+- Vacant, deteriorating, or hard-to-maintain properties
+- Carrying costs, taxes, or liens while a matter is pending
+- Properties needing repairs before a conventional sale
+- Tenant-occupied properties
+- Out-of-state beneficiaries
 
-Your clients are grieving or overwhelmed, and the property drags the matter on. We help it move.
-
+For some clients, a direct sale as-is may be worth considering alongside other options. Whether it's appropriate is for you and your client to decide.
 **CTA:** Refer a Property
 
-## Section: How we work with you
-**H2:** Built Around Your Process
-1. **You or your client reach out.** Share the basics through the form below. We sign an NDA if you'd like one.
-2. **We evaluate quickly.** Condition, title considerations, and estate status. We give you a clear, honest read, even if we're not the right fit.
-3. **A fair offer, presented to you.** Your client reviews it with your counsel. No pressure, no deadlines we impose.
-4. **Closing on the estate's timeline.** We can wait for letters testamentary or administration, court approvals, and heir sign-offs. Your title company and closing process stay in place.
+## Section: How it works
+**H2:** Designed to Fit Your Process
+1. **Send us the details.** Use the form below. Share only what you're authorized and comfortable sharing.
+2. **We review.** We'll evaluate the property and circumstances and follow up with you.
+3. **Any offer goes through you.** Your client can review it with counsel and compare it with other options. There is no obligation.
+4. **Timing is coordinated with you.** If a sale moves forward, closing is subject to the legal authority and approvals required for the matter.
 
-## Section: What you can count on
-**H2:** What Attorneys Tell Us They Need From a Buyer
-- **Respect for your role.** We work through you. We don't pressure your client or go around you.
-- **Fiduciary-friendly.** As-is purchase, no repairs or cleanout required, and no listing process that adds risk and expense.
-- **Flexible timing.** We close when the estate is ready, not before.
-- **Discretion.** No public marketing, no signs, no open houses.
-- **Honesty.** If a different route (listing, a different buyer, a cure for a title problem) is better for your client, we'll tell you.
+## Section: What to expect from us
+**H2:** How We Aim to Work With Attorneys
+- **Respect for your role.** [CONFIRM: we communicate through counsel unless asked otherwise.]
+- **Discretion.** No public marketing of your client's property.
+- **No pressure.** Your client decides what's right for them.
+- **Clear communication.** We'll tell you when a property isn't a fit for us.
+- **Simple sale terms.** A cash sale can mean no commissions, repairs, or showings. [Existing site claims; keep consistent.]
 
-## Section: Real situations
-**H2:** Properties That Came to Us Through Attorneys
-*(Placeholder stories. Replace with real, anonymized examples and confirm permission.)*
+*A cash sale is not the right choice for every matter. Your client may net a different amount than on the open market.*
 
-**[Five heirs, one house, no agreement]**
-[Siblings in three states couldn't agree on how to handle their parents' home. The attorney introduced us; we gave each heir a clear, fair offer, and the estate closed without a listing or a single showing.]
-
-**[The estate with a flooded basement]**
-[Water damage turned a straightforward sale into a problem. Instead of a repair project for the executor, we bought as-is and closed when the estate was ready.]
-
-**CTA:** Have a Property Like This? Refer It
-
-## Section: Relationships, not transactions
-**H2:** When We Can't Help, We Send Someone Who Can
-We talk to many property owners who aren't ready for a cash sale. Some need a probate attorney, an estate planner, or help clearing title first.
-- When someone needs legal help, **we introduce them to attorneys we trust.**
-- When your clients need to sell a property quickly or quietly, **you can bring them to us.**
-- We keep it professional, ethical, and respectful of how you serve your clients.
+## Section: Working together
+**H2:** A Professional Network, Built on Trust
+Not every property owner we speak with is ready or able to sell, and some may need legal guidance first. We'd like to be able to direct people who need legal help to qualified attorneys, and we welcome the chance to be a resource for yours. If you'd like to be part of that network, tell us on the form.
+*[No compensation language. NJ RPC 5.4, 7.2 and 1.5(e) make this a counsel decision.]*
 
 ## Section: FAQ
-**Do you pay referral fees?**
-We don't offer or ask for referral fees for legal referrals. We value the relationship and return the favor where we can by introducing people who need an attorney.
+**Is there a cost or obligation to refer a property?**
+No. Sending information doesn't obligate you or your client.
+
+**Does Patriot provide legal advice?**
+No. We're a buyer, not a law firm. Clients should rely on their own counsel.
 
 **Will you contact my client directly?**
-Only if you ask us to. Otherwise we work through you.
+[CONFIRM policy.] We'll coordinate with you first.
 
-**Can you close while the estate is still open?**
-Yes, with proper authority in place. We coordinate timing with you and the title company.
+**Can a sale happen while a matter is still open?**
+That depends on the facts and on the authority and approvals required. We'll defer to you and the title company.
 
-**Will you buy a property with liens, back taxes, or title issues?**
-Often, yes. Send us the details and we'll tell you what's workable.
+**Do you consider properties with liens, back taxes, or title issues?**
+It depends on the specifics. Send us the details and we'll tell you whether we can help.
 
 **Do you sign NDAs?**
-Yes, on request.
+[CONFIRM before publishing.]
 
-**What does it cost to refer a property?**
-Nothing. There is no obligation to your client.
-
-**Can we set up a call to discuss working together?**
-Absolutely. Check the box on the form.
+**What happens to the information I send?**
+It's used to evaluate the property and follow up with you. [Link to privacy policy.] Please don't include privileged or sensitive client information beyond what's needed.
 
 ## Section: Form (anchor `#refer-property`)
 **H2:** Refer a Property
-**Sub:** Confidential. No obligation to you or your client.
+**Sub:** Share a few details and we'll follow up. No obligation to you or your client.
 **Fields:**
-- Your name / firm
+- Your name and firm
 - Phone / email
 - Property address
-- Estate status (dropdown: Probate not yet opened · Letters issued · Heirs disagree · Sale authorized · Not sure)
-- Property condition / issues (dropdown + textarea)
-- Occupancy (vacant / occupied / tenants)
-- Timeline (ASAP · 30–60 days · Flexible)
-- Anything else we should know (textarea)
-- Would you like an NDA? (checkbox)
-- Interested in ongoing referral partnership? (checkbox)
+- General status (dropdown: Matter not yet opened · Matter open · Authority in place · Not sure)
+- Occupancy (Vacant / Occupied / Tenants)
+- General condition and issues (textarea)
+- Desired timeframe (dropdown: As soon as possible · Within a few months · Flexible)
+- Additional details (textarea, with the note: "Please do not include privileged information.")
+- ☐ I'm interested in an ongoing professional relationship
+- ☐ Consent: I agree Patriot Property Buyer may contact me about this submission. *(Required; add TCPA-compliant language and privacy link.)*
 **Button:** Submit Referral
-**Trust line:** Veteran-owned · Confidential · You stay in control
 
 ## Closing CTA band
-**H2:** Give Your Clients a Clean Way Out of the Property
+**H2:** Have a Property in an Estate Matter?
 **Button:** Refer a Property
+
+## Footer disclaimer
+Same as the agent page, plus: *This page is not attorney advertising or a solicitation of legal services, and does not create an attorney-client relationship.*
 
 ---
 
-## Internal COI notes (for the funnel map, not for the page)
-- Add a **"Not a fit today"** path in the CRM: warm-intro to a vetted attorney or agent, tagged `coi-introduced`, with a follow-up task at 30/90 days.
-- Track `referred-by` on every lead so reciprocity can be measured.
-- Keep a short "friends of Patriot" roster of attorneys and agents who receive our intros.
-- Monetized referrals: park for later and get counsel to review structure first.
+## Before publishing
+1. Counsel review of both pages and any future referral-compensation arrangement.
+2. Joe/Murph confirm every [CONFIRM] item.
+3. Privacy policy link and TCPA consent wording on the forms.
+4. Decide form destination and tags (source-of-truth discussion with Dan). Suggested: `partner-agent` / `partner-attorney`, plus a `referred-by` field.
+5. Stories and testimonials: add only real, permissioned, anonymized ones once Joe sends them.
+
+## Internal COI notes (not page copy)
+- Add a "not a fit today" status in the CRM with a follow-up task.
+- Log every intro made and received so reciprocity can be tracked.
+- Keep a roster of vetted agents and attorneys, and get their agreement before sending leads to them.
