@@ -1,6 +1,8 @@
 # =====================================================================
 # BLOG ARCHIVE BODY  (replaces the old GP archive header; keeps {{archive_title}})
-# Build:  python3 -I build.py bodies/blog_body.py > ../../blog-archive-paper.html
+# Build (set BLOG_PART to split for the two GP Elements):
+#   BLOG_PART=hero python3 -I build.py bodies/blog_body.py > ../../blog-page-hero-paper.html    (Page Hero - Blog)
+#   BLOG_PART=loop python3 -I build.py bodies/blog_body.py > ../../blog-loop-template-paper.html (Loop - Blog and Archives)
 # =====================================================================
 def link_el(u, href, text):
     st = {'display': 'inline-flex', 'alignItems': 'center', 'columnGap': '0.5em', 'color': ACC, 'fontFamily': BODY, 'fontWeight': '600', 'fontSize': '0.9375rem',
@@ -61,4 +63,7 @@ posts = section('blgposts', SURF, [
     query,
 ], pad=72, extra_bg=GRIDPAPER, dashed=True)
 
-sys.stdout.write('\n\n'.join([hero, posts, '<!-- wp:block {"ref":51507} /-->']) + '\n')
+import os
+PART = os.environ.get('BLOG_PART', 'all')
+PARTS = {'hero': [hero], 'loop': [posts, '<!-- wp:block {"ref":51507} /-->'], 'all': [hero, posts, '<!-- wp:block {"ref":51507} /-->']}
+sys.stdout.write('\n\n'.join(PARTS[PART]) + '\n')

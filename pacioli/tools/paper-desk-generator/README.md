@@ -48,4 +48,4 @@ CONVENTION - CTA airplane: every new bottom-of-page CTA uses `cta_plane(...)` (h
 Existing pages built earlier still have the old plain plane in their CTA sections until regenerated.
 
 CONVENTION - Industry pages: the "Our Promise to You" section is NOT used on industry pages (removed by the client). Only the Industries hub keeps it. Industry bodies build 7 sections: hero, pain, helps, assess, trust, testimonials, cta.
-Blog archive: bodies/blog_body.py -> pacioli/blog-archive-paper.html (hero keeps {{archive_title}}; inherited query, 3-col post cards; pagination block not included, add Page Numbers in the editor)
+Blog (two GP Elements): bodies/blog_body.py. BLOG_PART=hero -> pacioli/blog-page-hero-paper.html (Page Hero - Blog, keeps {{archive_title}}); BLOG_PART=loop -> pacioli/blog-loop-template-paper.html (Loop - Blog and Archives: inherited query, 3-col cards + shared CTA). Pagination block not included, add Page Numbers in the editor.
